@@ -6,4 +6,3 @@ cd path/to/your/app
 php -S localhost:8000
 
 http://localhost:8000/main.html
->>>>>>> 5dd22ade761f565598ec38b4b59161532f3a0423
