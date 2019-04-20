@@ -3,7 +3,7 @@
 This first bit sets the email address that you want the form to be submitted to.
 You will need to change this value to a valid email address that you can access.
 */
-$webmaster_email = "pier.py@hotmail.it";
+$webmaster_email = "emailtoreceivemessage@todo.com";
 
 /*
 This bit sets the URLs of the supporting pages.
