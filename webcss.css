@@ -39,6 +39,13 @@ body {
   text-align: left;
 }
 
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .homemain {
   padding: 20px;
   /* background: DodgerBlue; */
