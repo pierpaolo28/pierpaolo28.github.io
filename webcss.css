@@ -137,3 +137,7 @@ input[type=submit]:hover {
     width:100%;
     position:absolute;
 }
+
+.wrapper{
+    clear:both;
+}
