@@ -3,9 +3,9 @@
 ## Made by Pier Paolo Ippolito
 
 Resumé style website created using: <br>
-HTML5 <br>
-CSS3 <br>
-Sass <br>
-NPM Package Manager <br>
-JavaScript <br>
-Git
+1) HTML5 <br>
+2) CSS3 <br>
+3) Sass <br>
+4) NPM Package Manager <br>
+5) JavaScript <br>
+6) Git
