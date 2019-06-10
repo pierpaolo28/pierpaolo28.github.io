@@ -8,29 +8,9 @@
 
 
 <url>
-  <loc>https://pierpaolo28.github.io./</loc>
-  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
   <loc>https://pierpaolo28.github.io/</loc>
   <lastmod>2019-04-20T17:05:28+00:00</lastmod>
   <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io./index.html</loc>
-  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io./aboutme.html</loc>
-  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io./projects.html</loc>
-  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pierpaolo28.github.io/index.html</loc>
@@ -38,12 +18,42 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://pierpaolo28.github.io/aboutme.html</loc>
+  <loc>https://pierpaolo28.github.io/about.html</loc>
   <lastmod>2019-04-20T17:05:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://pierpaolo28.github.io/projects.html</loc>
+  <loc>https://pierpaolo28.github.io/work.html</loc>
+  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierpaolo28.github.io/project1.html</loc>
+  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierpaolo28.github.io/project2.html</loc>
+  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierpaolo28.github.io/project3.html</loc>
+  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierpaolo28.github.io/project4.html</loc>
+  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierpaolo28.github.io/project5.html</loc>
+  <lastmod>2019-04-20T17:05:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierpaolo28.github.io/contact.html</loc>
   <lastmod>2019-04-20T17:05:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
