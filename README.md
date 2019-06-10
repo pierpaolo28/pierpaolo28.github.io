@@ -1,6 +1,8 @@
 # Personal Website
 
-Resumé style website created using:
+## Made by Pier Paolo Ippolito
+
+Resumé style website created using: <br>
 HTML5 <br>
 CSS3 <br>
 Sass <br>
