@@ -163,9 +163,17 @@
               margin-left: 80px;
             }
 
-        ul.json{
-          display:inline-block;
-          white-space: nowrap;
+        /* Show in default resolution screen*/
+        ul.json {
+        width: 960px;
+        position: relative;
+        margin:0 auto;
+        line-height: 1.4em;
+        }
+
+        /* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+        @media only screen and (max-width: 479px){
+          ul.json { width: 90%; }
         }
 
         </style>   
