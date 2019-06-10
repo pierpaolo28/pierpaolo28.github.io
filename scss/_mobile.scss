@@ -67,11 +67,6 @@
     width: 100%;
   }
 
-  li.json {
-    white-space: nowrap;
-    display: block;
-  }
-
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -98,6 +93,14 @@
   li.json {
     white-space: nowrap;
     display: block;
+  }
+
+  div.tit4 {
+    max-width: 500px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
   }
 
   .projects {
