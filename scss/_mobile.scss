@@ -46,7 +46,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/profile.jpg");
+      background: url("../dist/img/profile.jpg");
       width: 150px;
       height: 150px;
     }
@@ -61,6 +61,10 @@
       "job3";
 
     grid-template-columns: 1fr;
+  }
+
+  .vidio {
+    width: 100%;
   }
 
   .projects {
