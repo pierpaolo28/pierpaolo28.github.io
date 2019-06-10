@@ -44,6 +44,12 @@
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      background: url("../dist/img/profile.jpg");
+      width: 150px;
+      height: 150px;
+    }
   }
 
   .about-info {
