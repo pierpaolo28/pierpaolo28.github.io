@@ -3,9 +3,34 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
+  <meta
+  name="google-site-verification"
+  content="Zkrpcge71CkhGPEkXP2eq2Bqe4Glh5q_uvpt2Ond624"
+/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-138942304-1"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-138942304-1");
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+  crossorigin="anonymous"
+/>
 
-
-<title>interactivewidgets</title>
+<title>Interactive Widgets</title>
+<link rel="shortcut icon" href="dist/img/Profile.ico" type="image/x-icon" />
 
 <style type="text/css">
     /*!
@@ -9127,15 +9152,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12517,7 +12542,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13016,7 +13041,7 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -13139,9 +13164,44 @@ div#notebook {
         }
     </style></head>
 <body>
+  <header>
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+          <div class="menu-branding">
+            <div class="portrait"></div>
+          </div>
+          <ul class="menu-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                About Me
+              </a>
+            </li>
+            <li class="nav-item current">
+              <a href="work.html" class="nav-link">
+                My Work
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                How To Reach Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container">
-      
+
 
 
 
@@ -13160,7 +13220,7 @@ div#notebook {
 </div>
 </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13181,7 +13241,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13199,7 +13259,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13220,7 +13280,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13237,7 +13297,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13258,7 +13318,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13275,7 +13335,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13299,7 +13359,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13316,7 +13376,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13334,7 +13394,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13355,7 +13415,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13372,7 +13432,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13392,7 +13452,7 @@ div#notebook {
 
 <span class="k">def</span> <span class="nf">plotting_func</span><span class="p">(</span><span class="n">num_rolls</span><span class="p">):</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_vals</span><span class="p">(</span><span class="n">num_rolls</span><span class="p">),</span> <span class="n">y_vals</span><span class="p">(</span><span class="n">x_vals</span><span class="p">(</span><span class="n">num_rolls</span><span class="p">)))</span>
-    
+
 <span class="n">interact</span><span class="p">(</span><span class="n">plotting_func</span><span class="p">,</span> <span class="n">num_rolls</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">));</span>
 </pre></div>
 
@@ -13406,7 +13466,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13423,7 +13483,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13452,7 +13512,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13469,7 +13529,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="nbinteract-right
       cell border-box-sizing code_cell rendered">
@@ -13482,7 +13542,7 @@ div#notebook {
 <span class="nd">@interact</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
 <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
-    
+
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -13496,7 +13556,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13513,7 +13573,7 @@ div#notebook {
 
   </div>
 
-  
+
 
   <div class="nbinteract-left
       cell border-box-sizing code_cell rendered">
@@ -13537,7 +13597,7 @@ div#notebook {
 
 <div class="output_area">
 
-    
+
 
 
 
@@ -13578,4 +13638,9 @@ div#notebook {
 </script>
     </div>
   </div>
+  <footer id="main-footer">
+    Copyright &copy; 2019
+  </footer>
+
+  <script src="dist/js/main.js"></script>
 </body>
