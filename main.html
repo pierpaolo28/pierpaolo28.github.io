@@ -1,6 +1,5 @@
-<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
-<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<!DOCTYPE html>
+<html>
 <head>
     <title>J. Schwartz in 3D</title>
     <meta name="description" content="Textures - A-Frame School">
@@ -29,7 +28,6 @@
         checkExist;
     </script>
 </head>
-
 <body style="margin : 0px; overflow: hidden;">
     <main class="main">
         <div id="splashScreen" class="AR-tip" style="display:none">
@@ -64,7 +62,11 @@
             <img crossorigin="anonymous" id="headshotTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostPostHeadshot.png?1528821994851">
         </a-assets>
 
-        <a-marker-camera preset="hiro">
+        <a-marker camera="active:false" type="pattern" url="pattern-Picture.patt" visible="false" material="" arjs-anchor="" arjs-hit-testing="">
+
+            <a-entity id="stars" particle-system="preset: default; color: #515; particleCount: 30; maxAge: 2; randomize: false; blending: 1; opacity: .5; velocityValue:'50 10 0'" position="0 0 0" rotation="-90 0 0" direction="-1"></a-entity>
+
+
 
             <a-entity position="-2 .5 2" rotation="-65.98 -4.56 5.28" scale="0.3 0.39 0.1" text-geometry="bevelEnabled:true;bevelSize:0.05;bevelThickness:0.05;font:https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2FdawningOfANewDayRegular.typeface.json?1490305922844;height:0;size:1;value:Think Outside the Box" material="color:lavenderblush;metalness:1;roughness:0;sphericalEnvMap:https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FneonGreeni.png?1528781747193"></a-entity>
             <a-entity position="-2 .5 -1.4" rotation="-45.98 -4.56 5.28" scale="0.1 .25 .2" text-geometry="bevelEnabled:true;bevelSize:0.1;bevelThickness:0.1;curveSegments:1;font:https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2Black.typeface.json?1490305922150;height:0.5;size:2;value:J O N A T H A N    S C H W A R T Z" material="color:pink;metalness:0.9;roughness:0.05;sphericalEnvMap:https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FTextureMap.png?1528781398531"></a-entity>
@@ -120,7 +122,7 @@
                     <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="0 360 0" ease="linear"></a-animation>
                 </a-box>
             </a-link>
-        </a-marker-camera>
+        </a-marker>
 
         <a-entity camera="" position="" rotation="" scale="" visible=""></a-entity>
         <a-entity cursor="fuse: true; fuseTimeout: 2000" raycaster="objects: .clickable" position="0 0 -1" scale="0.01 0.01 0.01" geometry="primitive: ring" material="color: white; shader: flat" rotation="" visible="">
@@ -130,7 +132,7 @@
     </a-scene>
 
     <script type="text/javascript">
-        var gotitBtn = $(".gotit");
+    var gotitBtn = $(".gotit");
         gotitBtn.click(function () {
             gotitBtn.parent().css({
                 display: "none"
@@ -152,3 +154,5 @@
     </script>
 
 </body>
+
+</html>
