@@ -32,15 +32,15 @@
     <main class="main">
         <div id="splashScreen" class="AR-tip" style="display:none">
             <p>
-                <strong>Hello!</strong> <br> Once the camera loads, click "Start" and aim your device camera to the marker.
+                <strong>Hello!</strong> <br> Once the camera is loaded, click "Start" and aim your device camera to the business card marker.
                 <div class="instructions">
-                    <a><img src="https://cdn.glitch.com/5a8c2940-8667-40d7-9b93-b9e8050d72d1%2FNewInstruction.png?1528856565282" /></a>
+                    <a><img src="https://www.legorides.fr/img/cms/Icones/InstructionsRED.png" /></a>
                 </div>
 
             </p>
             <div class="gotit btn custom-button">Start</div>
             <p>
-                <br><cite>*If your load takes longer than 30 seconds or you see black 3D images, try Chrome on desktop ;)</cite>
+                <br><cite>*In case of any problem, try on desktop</cite>
             </p>
         </div>
         <div class="AR-tip" id="noMedia" style="display:none">
@@ -51,24 +51,24 @@
         <canvas class="a-canvas" data-aframe-canvas="true" width="300" height="150"></canvas>
 
         <a-assets>
-            <img crossorigin="anonymous" id="kaggleTexture" src="https://yt3.ggpht.com/a/AGF-l7-g-0qRAiR9KtPx199kFrUwG6rDuaWIs6AkmQ=s900-mo-c-c0xffffffff-rj-k-no">
-            <img crossorigin="anonymous" id="phoneTexture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCnY3tLbzqKVNUw81Kd8LE3xa2EJqr-MtjpSNWLa4lNepliuoxw">
-            <img crossorigin="anonymous" id="webTexture" src="https://blogcdn1.secureserver.net/wp-content/uploads/start-a-website-get-started-min.jpg">
-            <img crossorigin="anonymous" id="emailTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostEmail.png?1528821333360">
+            <img crossorigin="anonymous" id="profileTexture" src="https://avatars1.githubusercontent.com/u/40637715?s=460&v=4">
             <img crossorigin="anonymous" id="linkedinTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostLinkedin.png?1528821333139">
+            <img crossorigin="anonymous" id="phoneTexture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCnY3tLbzqKVNUw81Kd8LE3xa2EJqr-MtjpSNWLa4lNepliuoxw">
+            <img crossorigin="anonymous" id="emailTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostEmail.png?1528821333360">
             <img crossorigin="anonymous" id="githubTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostGithub.png?1528821333564">
+            <img crossorigin="anonymous" id="webTexture" src="https://blogcdn1.secureserver.net/wp-content/uploads/start-a-website-get-started-min.jpg">
             <img crossorigin="anonymous" id="blogTexture" src="https://www.teachertoolkit.co.uk/wp-content/uploads/2016/08/shutterstock_93782158.jpg">
+            <img crossorigin="anonymous" id="kaggleTexture" src="https://yt3.ggpht.com/a/AGF-l7-g-0qRAiR9KtPx199kFrUwG6rDuaWIs6AkmQ=s900-mo-c-c0xffffffff-rj-k-no">
             <img crossorigin="anonymous" id="mediumTexture" src="https://cdn-images-1.medium.com/max/1600/1*emiGsBgJu2KHWyjluhKXQw.png">
-            <img crossorigin="anonymous" id="headshotTexture" src="https://avatars1.githubusercontent.com/u/40637715?s=460&v=4">
         </a-assets>
 
         <a-marker camera="active:false" type="pattern" url="pattern-Picture.patt" visible="false" material="" arjs-anchor="" arjs-hit-testing="">
 
 
           
-            <a-entity position="-2 .5 -1.4" rotation="-65.98 -4.56 5.28" scale="0.1 .25 .2" text-geometry="bevelEnabled:true;bevelSize:0.1;bevelThickness:0.1;curveSegments:1;height:0.5;size:2;value: PIER PAOLO IPPOLITO" material="color:blue;sphericalEnvMap:https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FTextureMap.png?1528781398531"></a-entity>
+            <a-entity position="-2 .5 -1.4" rotation="-65.98 -4.56 5.28" scale="0.1 .25 .2" text-geometry="bevelEnabled:true;bevelSize:0.1;bevelThickness:0.1;curveSegments:1;height:0.5;size:2;value: PIER PAOLO IPPOLITO" material="color:white;sphericalEnvMap:https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FTextureMap.png?1528781398531"></a-entity>
 
-            <a-box scale="1 1 1" material="src: #headshotTexture" position="0 0 0" radius="2"
+            <a-box scale="1 1 1" material="src: #profileTexture" position="0 0 0" radius="2"
                    segments-height="84">
             </a-box>
 
