@@ -2,7 +2,7 @@
 
 Creation of my personal Augmented Reality (AR) Business Card.  <br>
 
-TODO link to marker + pdf version of business card and add video demonstration <br>
+The marker used to activate the AR card can be found [here](https://github.com/pierpaolo28/pierpaolo28.github.io/blob/master/Projects/ARCard/pattern-Picture.png). My business card with the marker can instead be found [there](https://github.com/pierpaolo28/pierpaolo28.github.io/blob/master/Projects/ARCard/ARBusinessCard.pdf) <br>
 
 To use my card in Augmented reality version, just go to this 
 [link](https://pierpaolo28.github.io/Projects/ARCard/arcard.html) and point your phone camera to the marker. <br> 
