@@ -126,6 +126,64 @@
           </span>
           </div>
       </div>
+
+      <style>
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #373737;
+          color: white;
+          padding: 12px 20px;
+          border: 3px #fff solid;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #1a87ee;
+        }
+        
+        .form {
+          border-radius: 5px;
+          background: rgba(73, 73, 73, 0.5); 
+          padding: 20px;
+        }
+        </style>
+
+      <div class="form">
+        <h2 class="sm-heading"> If you wish to get in touch with me, just fill this form: </h2>
+  
+        <form action="http://formspree.io/pierpaoloippolito28@gmail.com" method="post">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="First Name" placeholder="Your name..">
+  
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="Last Name" placeholder="Your last name..">
+  
+          <label for="em">Email Address</label>
+          <input type="text" id="em" name="Email" placeholder="Your email address..">
+  
+          <label for="sbg">Message Subject</label>
+          <input type="text" id="sbg" name="Subject" placeholder="Message Subject..">
+  
+          <label for="msg">Your message</label>
+          <textarea name="Message" style="height:200px"> </textarea>
+  
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
     </main>
 
     <footer id="main-footer">
