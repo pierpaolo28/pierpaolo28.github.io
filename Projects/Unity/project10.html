@@ -4,14 +4,18 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Solve the Puzzle!</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <link
+      rel="shortcut icon"
+      href="../../dist/img/Profile.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="TemplateData/style.css" />
     <script src="TemplateData/UnityProgress.javascript"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate(
         "gameContainer",
-        "Build/Game.json",
+        "Build/UnityGame.json",
         { onProgress: UnityProgress }
       );
     </script>
@@ -22,4 +26,10 @@
     </div>
     <script src="TemplateData/responsive.javascript"></script>
   </body>
+  <div class="simmer">
+    Made by:
+    <a href="https://pierpaolo28.github.io/" target="_blank"
+      >Pier Paolo Ippolito</a
+    >
+  </div>
 </html>
