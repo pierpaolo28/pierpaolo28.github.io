@@ -121,8 +121,8 @@ async function trainModel(model, inputs, labels) {
     metrics: ["acc", "mse"]
   });
 
-  const batchSize = 32;
-  const epochs = 3;
+  const batchSize = 512;
+  const epochs = 5;
   const cont2 = { name: "Training Progresses", tab: "Model Training" };
   return await model.fit(inputs, labels, {
     batchSize,
@@ -226,9 +226,9 @@ function createModel() {
   const model = tf.sequential();
 
   // Add 3 hidden layers
-  model.add(tf.layers.dense({ inputShape: [12], units: 12, useBias: true }));
-  model.add(tf.layers.dense({ units: 20, useBias: true }));
-  model.add(tf.layers.dense({ units: 8, useBias: true }));
+  model.add(tf.layers.dense({ inputShape: [12], units: 8, useBias: true }));
+  model.add(tf.layers.dense({ units: 50, useBias: true }));
+  model.add(tf.layers.dense({ units: 10, useBias: true }));
   // Add an output layer
   model.add(tf.layers.dense({ units: 2, useBias: true }));
 
