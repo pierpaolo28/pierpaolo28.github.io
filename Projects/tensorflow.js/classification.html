@@ -6,6 +6,13 @@
       name="google-site-verification"
       content="Zkrpcge71CkhGPEkXP2eq2Bqe4Glh5q_uvpt2Ond624"
     />
+    <!-- Import TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <!-- Import tfjs-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+
+    <!-- Import the main script file -->
+    <script src="script2.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -87,12 +94,56 @@
         Programming <span class="text-secondary"> Projects</span>
       </h1>
       <h2 class="sm-heading" style="text-align:center; color: #fff;">
-        TensorFlow.js Guide
+        TensorFlow.js Classification
       </h2>
       <p style="color: #fff;">
-        In this project I created a suite of interactive Machine Learning online
-        models using tensorflow.js. Use the buttons below to test any of the
-        available models. Let's the magic begin!
+        The dataset used is for this example is the "Wine Data Set" dataset.
+        <br />
+        The features contained in this dataset are: <br />
+        1) Fixed acidity <br />
+        2) Volatile acidity<br />
+        3) Citric acid<br />
+        4) Residual sugar<br />
+        5) Chlorides<br />
+        6) Free sulfur dioxide<br />
+        7) Total sulfur dioxide<br />
+        8) Density<br />
+        9) PH<br />
+        10) Sulphates<br />
+        11) Alcohol<br />
+        12) Quality<br />
+        And the label column (called style) identifies if a certain wine is
+        white (1) or red (0). This dataset is available to download
+        <a
+          href="https://www.kaggle.com/sgus1318/winedata"
+          style="color: #1a87ee;"
+          target="_blank"
+          >here.</a
+        >
+        <br />
+        <br />
+        If you are interested in a dataset analysis using Python instead of
+        TensorFlow.js, this is available
+        <a
+          href="https://github.com/pierpaolo28/Artificial-Intelligence-Projects/blob/master/Google%20AI%20tools/tensorflow.js/Classfication.ipynb"
+          style="color: #1a87ee;"
+          target="_blank"
+          >here.</a
+        >
+        <br />
+        <br />
+        For additional informations on how to create visor animations, the
+        <a
+          href="https://js.tensorflow.org/api_vis/latest/#visor"
+          style="color: #1a87ee;"
+          target="_blank"
+          >visor documentation</a
+        >
+        is a great place where to start.
+        <br />
+        <br />
+        You can use the buttons below to open or close the online Machine
+        Learning model window as you wish.
       </p>
 
       <style>
@@ -113,19 +164,21 @@
         }
       </style>
       <div id="container">
-        <button
-          onclick="location.href='/Projects/tensorflow.js/regression.html'"
-          class="button"
-        >
-          Regression
+        <button class="button" id="show-visor2">
+          Display Visor
+        </button>
+      </div>
+      <div id="container">
+        <button class="button" id="hide-visor2">
+          Hide Visor
         </button>
       </div>
       <div id="container">
         <button
-          onclick="location.href='/Projects/tensorflow.js/classification.html'"
+          onclick="location.href='/Projects/tensorflow.js/tensorjs.html'"
           class="button"
         >
-          Classification
+          Previous Page
         </button>
       </div>
       <!-- Adding comments section -->

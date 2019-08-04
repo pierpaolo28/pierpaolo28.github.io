@@ -15,6 +15,7 @@ async function getData() {
     }))
     .filter(insurance => insurance.claims != null && insurance.payment != null);
 
+  console.log(cleaned);
   return cleaned;
 }
 

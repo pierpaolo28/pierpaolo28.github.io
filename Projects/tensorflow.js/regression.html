@@ -6,6 +6,13 @@
       name="google-site-verification"
       content="Zkrpcge71CkhGPEkXP2eq2Bqe4Glh5q_uvpt2Ond624"
     />
+    <!-- Import TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <!-- Import tfjs-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+
+    <!-- Import the main script file -->
+    <script src="script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -87,12 +94,46 @@
         Programming <span class="text-secondary"> Projects</span>
       </h1>
       <h2 class="sm-heading" style="text-align:center; color: #fff;">
-        TensorFlow.js Guide
+        TensorFlow.js Regression
       </h2>
       <p style="color: #fff;">
-        In this project I created a suite of interactive Machine Learning online
-        models using tensorflow.js. Use the buttons below to test any of the
-        available models. Let's the magic begin!
+        The dataset used is for this example is the "Swedish Committee on
+        Analysis of Risk Premium in Motor Insurance" dataset. <br />
+        In this data-set, X = number of claims and Y = total payment for all the
+        claims in thousands of Swedish Kronor for geographical zones in Sweden.
+        <br />
+        <br />
+        If you are interested in a dataset analysis using Python instead of
+        TensorFlow.js, this is available
+        <a
+          href="https://github.com/pierpaolo28/Artificial-Intelligence-Projects/blob/master/Google%20AI%20tools/tensorflow.js/Regression.ipynb"
+          style="color: #1a87ee;"
+          target="_blank"
+          >here.</a
+        >
+        <br />
+        <br />
+        This dataset is available to download
+        <a
+          href="https://college.cengage.com/mathematics/brase/understandable_statistics/7e/students/datasets/slr/frames/frame.html"
+          style="color: #1a87ee;"
+          target="_blank"
+          >here.</a
+        >
+        <br />
+        <br />
+        For additional informations, the
+        <a
+          href="https://github.com/tensorflow/tfjs-examples"
+          style="color: #1a87ee;"
+          target="_blank"
+          >tensorflow.js documentation</a
+        >
+        is a great place where to start.
+        <br />
+        <br />
+        You can use the buttons below to open or close the online Machine
+        Learning model window as you wish.
       </p>
 
       <style>
@@ -113,19 +154,21 @@
         }
       </style>
       <div id="container">
-        <button
-          onclick="location.href='/Projects/tensorflow.js/regression.html'"
-          class="button"
-        >
-          Regression
+        <button class="button" id="show-visor">
+          Display Visor
+        </button>
+      </div>
+      <div id="container">
+        <button class="button" id="hide-visor">
+          Hide Visor
         </button>
       </div>
       <div id="container">
         <button
-          onclick="location.href='/Projects/tensorflow.js/classification.html'"
+          onclick="location.href='/Projects/tensorflow.js/tensorjs.html'"
           class="button"
         >
-          Classification
+          Previous Page
         </button>
       </div>
       <!-- Adding comments section -->
