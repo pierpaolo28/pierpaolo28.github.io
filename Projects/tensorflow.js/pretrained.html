@@ -6,6 +6,13 @@
       name="google-site-verification"
       content="Zkrpcge71CkhGPEkXP2eq2Bqe4Glh5q_uvpt2Ond624"
     />
+    <!-- Import TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <!-- Import tfjs-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+
+    <!-- Import the main script file -->
+    <script src="script3.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -35,7 +42,7 @@
       href="../../dist/img/Profile.ico"
       type="image/x-icon"
     />
-    <title>TensorFlow.js</title>
+    <title>TensorFlow.js Pretrained model</title>
   </head>
 
   <style>
@@ -87,12 +94,50 @@
         Programming <span class="text-secondary"> Projects</span>
       </h1>
       <h2 class="sm-heading" style="text-align:center; color: #fff;">
-        TensorFlow.js Guide
+        TensorFlow.js using a Pre-Trained model
       </h2>
       <p style="color: #fff;">
-        In this project I created a suite of interactive Machine Learning online
-        models using tensorflow.js. Use the buttons below to test any of the
-        available models. Let the magic begin!
+        The dataset used is for this example is the "Pima Indians Diabetes
+        Database" dataset.
+        <br />
+        The features contained in this dataset are: <br />
+        1) PregnanciesNumber of times pregnant <br />
+        2) GlucosePlasma glucose concentration a 2 hours in an oral glucose
+        tolerance test<br />
+        3) BloodPressureDiastolic blood pressure (mm Hg)<br />
+        4) SkinThicknessTriceps skin fold thickness (mm)<br />
+        5) Insulin2-Hour serum insulin (mu U/ml)<br />
+        6) BMIBody mass index (weight in kg/(height in m)^2)<br />
+        7) DiabetesPedigreeFunctionDiabetes pedigree function<br />
+        8) AgeAge (years)<br />
+        And the label column (called Outcome) identifies if someone suffers or
+        not of Diabetes (268 of 768 cases are 1, the others are 0). This dataset
+        is available to download
+        <a
+          href="https://www.kaggle.com/uciml/pima-indians-diabetes-database"
+          style="color: #1a87ee;"
+          target="_blank"
+          >here.</a
+        >
+        <br />
+        <br />
+        For this example, I first trained a model using Tensorflow Eager
+        Execution (executes operations immediately, without building graphs:
+        operations return concrete values instead of constructing a
+        computational graph to run later) to create a Multi Layer Perceptron in
+        Python. Finally, I saved this trained model and deploy it online at this
+        page ready to make predictions. The Python script I used to create this
+        model is available
+        <a
+          href="https://github.com/pierpaolo28/Artificial-Intelligence-Projects/blob/master/Google%20AI%20tools/tensorflow.js/PreTrainedModel.ipynb"
+          style="color: #1a87ee;"
+          target="_blank"
+          >here.</a
+        >
+        <br />
+        <br />
+        You can use the buttons below to open or close the online Machine
+        Learning model window as you wish.
       </p>
 
       <style>
@@ -113,27 +158,21 @@
         }
       </style>
       <div id="container">
-        <button
-          onclick="location.href='/Projects/tensorflow.js/regression.html'"
-          class="button"
-        >
-          Regression
+        <button class="button" id="show-visor">
+          Display Visor
+        </button>
+      </div>
+      <div id="container">
+        <button class="button" id="hide-visor">
+          Hide Visor
         </button>
       </div>
       <div id="container">
         <button
-          onclick="location.href='/Projects/tensorflow.js/classification.html'"
+          onclick="location.href='/Projects/tensorflow.js/tensorjs.html'"
           class="button"
         >
-          Classification
-        </button>
-      </div>
-      <div id="container">
-        <button
-          onclick="location.href='/Projects/tensorflow.js/pretrained.html'"
-          class="button"
-        >
-          Pre-Trained Keras Model
+          Previous Page
         </button>
       </div>
       <!-- Adding comments section -->
