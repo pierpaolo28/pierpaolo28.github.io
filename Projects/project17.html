@@ -36,7 +36,7 @@
       href="../dist/img/Profile.ico"
       type="image/x-icon"
     />
-    <title>Extended Kalman and Particle Filters</title>
+    <title>Linear/Extended Kalman and Particle Filters</title>
   </head>
 
   <body>
@@ -82,17 +82,13 @@
           Programming <span class="text-secondary"> Projects</span>
         </h1>
         <h2 class="sm-heading" style="text-align:center;">
-          Extended Kalman and Particle Filters
+          Linear/Extended Kalman and Particle Filters
         </h2>
         <p>
-          A practical Demonstration of Extended Kalman and Particle Filters in
-          actions in order to solve first a regression and then a classification
-          problem.
+          A practical Demonstration of Linear/Extended Kalman and Particle
+          Filters in actions in order to solve first a regression and then a
+          classification problem.
         </p>
-
-        <h2 class="sm-heading" style="text-align:center;">
-          Autoregressive Time Series with slowly changing parameters
-        </h2>
         <style>
                       img {
                         width: 70%;
@@ -107,6 +103,34 @@
                         margin: 0 auto;
           ````````````}
         </style>
+
+        <h2 class="sm-heading" style="text-align:center;">
+          Third Order Autoregressive Time Series with constant parameters
+        </h2>
+        <p>
+          In this section, a Linear Kalman filter will be implemented in order
+          to estimate the coefficients (1.2, -0.4 and 0.1) of a synthetic third
+          order Autoregressive (AR) Process.
+        </p>
+
+        <img
+          src="../dist/img/projects/17/Linear Kalman/ARprocess_stat3.svg"
+          width="460"
+          height="345"
+        />
+        <p>
+          Overall 1.137, -0.367 and 0.0562 have been the final estimated
+          parameters using the Linear Kalman Filter.
+        </p>
+        <img
+          src="../dist/img/projects/17/Linear Kalman/tree_par.svg"
+          width="460"
+          height="345"
+        />
+
+        <h2 class="sm-heading" style="text-align:center;">
+          Autoregressive Time Series with slowly changing parameters
+        </h2>
         <img
           src="../dist/img/projects/17/Particle Filter/ARprocess.svg"
           width="460"
