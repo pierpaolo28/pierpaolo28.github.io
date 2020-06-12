@@ -1,165 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
-<url>
-  <loc>https://pierpaolo28.github.io/</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/index.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/about.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/work.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/contact.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/diss.html</loc>
-  <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/ARCard/arcard.html</loc>
-  <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project7.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project1.html</loc>
-  <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project2.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project5.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project6.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project9.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project11.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/interactivewidgets.html</loc>
-  <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project8.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/Unity/project10.html</loc>
-  <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project3.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project4.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/ml5.js/ml5intro.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/tensorjs.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/regression.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/classification.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/pretrained.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project12.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project13.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project14.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project15.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project16.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project17.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://pierpaolo28.github.io/Projects/project18.html</loc>
-  <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <url>
+    <loc>https://pierpaolo28.github.io/</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/index.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/about.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/work.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/contact.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/diss.html</loc>
+    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ARCard/arcard.html</loc>
+    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project7.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project1.html</loc>
+    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project2.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project5.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project6.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project9.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project11.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/interactivewidgets.html</loc>
+    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project8.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/Unity/project10.html</loc>
+    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project3.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project4.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ml5.js/ml5intro.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/tensorjs.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/regression.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/classification.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/pretrained.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project12.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project13.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project14.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project15.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project16.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project17.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project18.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project19.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project20.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ONNX/home.html</loc>
+    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 </urlset>
