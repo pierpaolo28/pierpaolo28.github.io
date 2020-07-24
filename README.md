@@ -1,3 +1,4 @@
+![Jekyll site CI](https://github.com/pierpaolo28/pierpaolo28.github.io/workflows/Jekyll%20site%20CI/badge.svg)
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
