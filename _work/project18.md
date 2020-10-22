@@ -4,7 +4,7 @@ date: 2020-05-14
 title: Portable Image Classifier (Tkinter Machine Learning)
 tags: [Machine Learning]
 featured-img: demo
-img-type: png
+img-type: jpg
 github: https://github.com/pierpaolo28/Data-Visualization/tree/master/Tkinter%20ML
 ---
 
