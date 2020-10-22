@@ -16,6 +16,8 @@ If you have any question, please do not hesitate to contact me. I am currently l
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="pierpaolo28"><a class="LI-simple-link" href='https://uk.linkedin.com/in/pierpaolo28?trk=profile-badge'>Pier Paolo Ippolito</a></div>
 <p></p>
 <a href="\assets\dist\Pier_Paolo_Ippolito_CV.pdf" class="btn">Resumé Download</a>
+<br>
+<br>
 <a href="\assets\dist\pierpaolo.apk" class="btn">Android Application</a>
 
 <style>
