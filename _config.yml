@@ -19,7 +19,7 @@ social:
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'Projects', link: '/work.html'}
-  - {name: 'Blog', link: '/blog/index.html'}
+  - {name: 'Blog', link: '/blog'}
   - {name: 'Tips', link: '/blog/tips'}
   - {name: 'Books', link: '/blog/publications'}
   - {name: 'About', link: '/about'}
