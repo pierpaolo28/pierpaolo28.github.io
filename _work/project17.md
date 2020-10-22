@@ -4,7 +4,7 @@ date: 2020-04-28
 title: Linear/Extended Kalman and Particle Filters
 tags: [Reinforcement Learning]
 featured-img: bound
-img-type: PNG
+img-type: png
 github: https://github.com/pierpaolo28/Artificial-Intelligence-Projects/tree/master/Online%20Learning
 ---
 
