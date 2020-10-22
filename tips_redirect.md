@@ -4,4 +4,4 @@ title: Tips
 permalink: /blog/tips/
 ---
 
-<meta http-equiv="refresh" content="0; url=/blog/tips" />
+<meta http-equiv="refresh" content="0; url=/blog/tips.html" />

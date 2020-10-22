@@ -22,4 +22,7 @@ and Applied Behaviour Analysis (ABA) can be used to aid improvements. Using both
 software and hardware solutions can enhance progresses increasing children’s level of
 engagement.
 
+<a href="https://scholar.google.com/citations?user=QgG-lgwAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DQgG-lgwAAAAJ%26citation_for_view%3DQgG-lgwAAAAJ%3A9yKSN-GCB0IC%26tzom%3D-60" class="btn">Google Scholar</a>
+<br>
+<br>
 <a href="\assets\dist\Research_Submission.pdf" class="btn">Publication Download</a>

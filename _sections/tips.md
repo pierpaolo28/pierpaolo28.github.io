@@ -6,4 +6,4 @@ img-type: jpg
 summary: Freely available Computer Science cheat sheets and workflow summaries for various processes.
 ---
 
-<meta http-equiv="refresh" content="0; url=/blog/tips" />
+<meta http-equiv="refresh" content="0; url=/blog/tips.html" />

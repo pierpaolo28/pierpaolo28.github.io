@@ -20,7 +20,7 @@ navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'Projects', link: '/work.html'}
   - {name: 'Blog', link: '/blog/index.html'}
-  - {name: 'Tips', link: '/blog/tips'}
+  - {name: 'Tips', link: '/blog/tips.html'}
   - {name: 'Books', link: '/blog/publications'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
