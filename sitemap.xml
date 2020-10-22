@@ -1,181 +1,504 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pierpaolo28.github.io/</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>1.00</priority>
+    <loc>https://pierpaolo28.github.io/blog/books/Factfulness/</loc>
+    <lastmod>2019-10-12T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/index.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://pierpaolo28.github.io/blog/books/The-Book-of-Why/</loc>
+    <lastmod>2020-10-12T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/about.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog1/</loc>
+    <lastmod>2019-04-18T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/work.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog2/</loc>
+    <lastmod>2019-04-26T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/contact.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog3/</loc>
+    <lastmod>2019-05-04T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/diss.html</loc>
-    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog4/</loc>
+    <lastmod>2019-05-16T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/ARCard/arcard.html</loc>
-    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog5/</loc>
+    <lastmod>2019-05-21T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/project7.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog6/</loc>
+    <lastmod>2019-06-01T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/project1.html</loc>
-    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog7/</loc>
+    <lastmod>2019-06-17T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/project2.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/blog/blog8/</loc>
+    <lastmod>2019-06-27T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog9/</loc>
+    <lastmod>2019-06-30T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog10/</loc>
+    <lastmod>2019-07-12T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog11/</loc>
+    <lastmod>2019-07-16T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog12/</loc>
+    <lastmod>2019-07-24T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog13/</loc>
+    <lastmod>2019-07-30T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog14/</loc>
+    <lastmod>2019-08-07T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog15/</loc>
+    <lastmod>2019-08-08T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog16/</loc>
+    <lastmod>2019-08-13T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog17/</loc>
+    <lastmod>2019-08-15T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog18/</loc>
+    <lastmod>2019-08-19T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog19/</loc>
+    <lastmod>2019-08-22T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog20/</loc>
+    <lastmod>2019-08-27T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog21/</loc>
+    <lastmod>2019-08-28T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog22/</loc>
+    <lastmod>2019-09-01T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog23/</loc>
+    <lastmod>2019-09-12T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog24/</loc>
+    <lastmod>2019-09-19T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog25/</loc>
+    <lastmod>2019-09-25T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog26/</loc>
+    <lastmod>2019-10-02T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog27/</loc>
+    <lastmod>2019-10-03T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog28/</loc>
+    <lastmod>2019-10-04T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog29/</loc>
+    <lastmod>2019-10-10T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog30/</loc>
+    <lastmod>2019-10-18T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog31/</loc>
+    <lastmod>2019-10-24T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog32/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog33/</loc>
+    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog34/</loc>
+    <lastmod>2019-12-14T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog35/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog36/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog37/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog38/</loc>
+    <lastmod>2020-03-10T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog39/</loc>
+    <lastmod>2020-04-02T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog40/</loc>
+    <lastmod>2020-05-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog41/</loc>
+    <lastmod>2020-05-27T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog42/</loc>
+    <lastmod>2020-06-04T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog43/</loc>
+    <lastmod>2020-06-24T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog44/</loc>
+    <lastmod>2020-07-15T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog45/</loc>
+    <lastmod>2020-08-06T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog46/</loc>
+    <lastmod>2020-08-19T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog47/</loc>
+    <lastmod>2020-09-15T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog48/</loc>
+    <lastmod>2020-09-24T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog49/</loc>
+    <lastmod>2020-10-09T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/publications/Alleviate-Childrens-Health-Issues-through-Games-and-Machine-Learning/</loc>
+    <lastmod>2019-05-30T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/publications/Causal-Reasoning-in-Machine-Learning/</loc>
+    <lastmod>2020-10-17T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/publications/Honorable-Mentions/</loc>
+    <lastmod>2020-10-20T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/sections/contactme.html</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/sections/aboutme.html</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/sections/books.html</loc>
+    <lastmod>2019-07-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/sections/tips.html</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/sections/posts.html</loc>
+    <lastmod>2020-04-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/sections/projects.html</loc>
+    <lastmod>2020-07-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Basic-Git-Workflow/</loc>
+    <lastmod>2016-06-02T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Jekyll-on-Windows-Localhost-management/</loc>
+    <lastmod>2020-06-02T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Overleaf-Git-Control/</loc>
+    <lastmod>2020-06-02T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Python-Environments-Management/</loc>
+    <lastmod>2020-06-02T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Julia-For-Jupyter-Lab/</loc>
+    <lastmod>2020-06-08T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Anaconda-Management/</loc>
+    <lastmod>2020-06-09T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/EC2-Amazon-Web-Services-Set-up/</loc>
+    <lastmod>2020-06-09T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Windows-Linux-Subsystem/</loc>
+    <lastmod>2020-06-09T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Latex-Useful-Snippets/</loc>
+    <lastmod>2020-06-11T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Plotly-Embeds/</loc>
+    <lastmod>2020-06-11T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Docker-Commands/</loc>
+    <lastmod>2020-10-04T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/Kubernetes-Commands/</loc>
+    <lastmod>2020-10-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips/PostgreSQL-Commands/</loc>
+    <lastmod>2020-10-10T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project5.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/project6.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/project9.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/project11.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/interactivewidgets.html</loc>
-    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/project8.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/Unity/project10.html</loc>
-    <lastmod>2019-07-15T20:45:30+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2017-04-25T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project3.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2018-04-22T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project4.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2018-08-15T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project2.html</loc>
+    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project6.html</loc>
+    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project1.html</loc>
+    <lastmod>2019-04-22T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project7.html</loc>
+    <lastmod>2019-06-25T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project8.html</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/flask.html</loc>
+    <lastmod>2019-07-05T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project9.html</loc>
+    <lastmod>2019-07-15T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/interactivewidgets.html</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/Unity/project10.html</loc>
+    <lastmod>2019-07-29T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/dash_dashboard.html</loc>
+    <lastmod>2019-08-18T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/ml5.js/ml5intro.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2019-08-24T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/tensorjs.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2019-08-29T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/regression.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/classification.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/pretrained.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/Projects/project11.html</loc>
+    <lastmod>2019-09-02T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project12.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2019-09-14T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project13.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2019-09-22T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project14.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2019-09-30T00:00:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://pierpaolo28.github.io/Projects/project15.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://pierpaolo28.github.io/Projects/r_shiny.html</loc>
+    <lastmod>2019-10-08T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project16.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2019-10-14T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/recommendation.html</loc>
+    <lastmod>2019-10-18T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/streamlit.html</loc>
+    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/diss.html</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/th_book.html</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project17.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2020-04-28T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project18.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2020-05-14T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project19.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://pierpaolo28.github.io/Projects/project20.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2020-05-27T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/ONNX/home.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2020-06-07T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project20.html</loc>
+    <lastmod>2020-07-17T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>https://pierpaolo28.github.io/Projects/project21.html</loc>
-    <lastmod>2019-07-15T20:45:31+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2020-10-17T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ar_card.html</loc>
+    <lastmod>2020-10-18T00:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/about/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/books.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/categories/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/classification.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/contact/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/pretrained.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/publications.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/tensorflow.js/regression.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/tags/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/tips.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/work.html</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog/page2/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog/page3/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog/page4/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog/page5/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog/page6/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/blog/blog/page7/</loc>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ARCard/ARBusinessCard.pdf</loc>
+    <lastmod>2019-06-19T14:08:57+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ARCard/arcard.html</loc>
+    <lastmod>2020-10-21T19:40:31+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/ONNX/test.html</loc>
+    <lastmod>2020-05-26T02:17:18+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/Projects/project15.html</loc>
+    <lastmod>2020-10-18T12:01:18+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/assets/dist/Pier_Paolo_Ippolito_CV.pdf</loc>
+    <lastmod>2020-10-20T23:19:22+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://pierpaolo28.github.io/assets/dist/Research_Submission.pdf</loc>
+    <lastmod>2019-04-28T15:17:21+01:00</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,35 @@
+<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+  {% if post.tags %}
+  {% assign tags = post.tags %}
+  <span class="post-card__label">
+    {% for category in tags %}
+    <a href="{{site.baseurl}}/tags/#{{category|slugize}}" class="label"> {{ category }} </a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+  </span>
+  {% endif %}
+  <a href="{{ post.url | relative_url }}">
+    {% if post.featured-img %}
+    <figure class="post-card__thumb">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_placehold.{{post.img-type}}"
+        data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.{{post.img-type}}, {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb@2x.{{post.img-type}} 2x" class="lazyload blur"
+        alt="{{post.title}}" />
+      <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.{{post.img-type}}" alt="{{ post.title }}"></noscript>
+    </figure>
+    {% else %}
+    <figure class="post-card__thumb">
+      <div class="dark-bg"></div>
+    </figure>
+    {% endif %}
+  </a>
+  <a class="post-card__inner" href="{{ post.url | relative_url }}">
+    <div class="post-card__header">
+      <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
+    </div>
+    {% if post.summary %}
+    <p>{{ post.summary | strip_html | truncatewords:30 }}</p>
+    {% else %}
+    <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+    {% endif %}
+  </a>
+</div>

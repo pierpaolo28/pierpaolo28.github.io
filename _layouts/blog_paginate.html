@@ -1,0 +1,45 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+
+{% include head.html %}
+
+<body class="site">
+
+  {% if site.google_tag_manager %}
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  {% endif %}
+
+  {% include header.html %}
+
+  <div class="hero--small">
+    <div class="hero__wrap">
+      <h1 class="hero__title">{{ page.title }}</h1>
+      <a href="https://open.spotify.com/show/3wYET5Pa8u95zxiEl3I42K" class="btn">Podcast</a>
+      <a href="{{ site.baseurl }}{% link blog/categories.md %}" class="btn">Search by Category</a>
+      <a href="{{ site.baseurl }}{% link blog/feed.xml %}" class="btn">RSS Feed</a>
+    </div>
+  </div>
+  <main class="site__content">
+    <div class="container">
+      <article class="post-content" itemprop="articleBody">
+
+        {{ content }}
+
+      </article>
+    </div>
+
+
+  </main>
+
+  {% include footer.html %}
+  {% include mathjax.html %}
+</body>
+
+</html>

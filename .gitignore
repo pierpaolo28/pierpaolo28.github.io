@@ -1,1 +1,4 @@
-node_modules
+.sass-cache/
+_site/
+Gemfile
+Gemfile.lock

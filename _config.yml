@@ -1,0 +1,91 @@
+# SITE CONFIGURATION
+title: Pier Paolo Ippolito
+name: Pier Paolo Ippolito
+author: pierpaolo28
+description: >
+  Hi I am Pier Paolo, and this is my website! Here you can find some of my published works and blogs. If you have any question, feel free to get in touch.
+url: https://pierpaolo28.github.io
+
+# SEO PLUGIN
+social:
+  name: Pier Paolo Ippolito
+  links:
+    - https://www.linkedin.com/in/pierpaolo28/
+    - https://www.kaggle.com/pierpaolo28
+    - https://medium.com/@pierpaoloippolito28
+    - https://twitter.com/Pier_Paolo_28
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'Projects', link: '/work.html'}
+  - {name: 'Blog', link: '/blog'}
+  - {name: 'Tips', link: '/blog/tips'}
+  - {name: 'Books', link: '/blog/publications'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
+
+tagline: >
+  Hi I am Pier Paolo, and this is my website! Here you can find some of my published works and blogs. If you have any question, feel free to get in touch.
+
+hero_img: posts/intro.jpg
+
+twitter_username: Pier_Paolo_28
+github_username:  pierpaolo28
+medium_username: pierpaoloippolito28
+
+disqus:
+  shortname: pier-paolo-website
+
+google_tag_manager: UA-138942304-1
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+
+compress_html:
+  clippings: all
+
+collections:
+  tips:
+    sort_by: date
+    output: true
+    permalink: blog/:collection/:title/
+  books:
+      sort_by: date
+      output: true
+      permalink: blog/:collection/:title/
+  work:
+      sort_by: date
+      output: true
+      permalink: Projects/:title.html
+  sections:
+      sort_by: date
+      output: true
+  publications:
+      sort_by: date
+      output: true
+      permalink: blog/:collection/:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 7
+paginate_path: "/blog/blog/page:num/"
