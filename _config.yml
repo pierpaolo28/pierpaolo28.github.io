@@ -21,9 +21,9 @@ navigation: # Navigation links
   - {name: 'Projects', link: '/work.html'}
   - {name: 'Blog', link: '/blog/index.html'}
   - {name: 'Tips', link: '/blog/tips.html'}
-  - {name: 'Books', link: '/blog/publications'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  - {name: 'Books', link: '/blog/publications.html'}
+  - {name: 'About', link: '/about/'}
+  - {name: 'Contact', link: '/contact/'}
 
 tagline: >
   Hi I am Pier Paolo, and this is my website! Here you can find some of my published works and blogs. If you have any question, feel free to get in touch.
