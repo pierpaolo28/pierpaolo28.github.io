@@ -8,6 +8,8 @@ categories: [Extra]
 <span class="figcaption_hack">(Source:
 [https://www.iwsinc.com/events/2019/mobile-world-congress-americas-in-los-angeles-october-22-29-2019/](https://www.iwsinc.com/events/2019/mobile-world-congress-americas-in-los-angeles-october-22-29-2019/))</span>
 
+<!--end_excerpt-->
+
 # Mobile World Congress 2019: The Latest AI Advancements
 
 ## A review of some of the latest AI advancements from the 2019 Los Angeles Mobile World Congress.

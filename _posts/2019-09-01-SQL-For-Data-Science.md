@@ -8,6 +8,8 @@ categories: [Data Science]
 <span class="figcaption_hack">(Source:
 [https://wallpapercave.com/database-wallpapers](https://wallpapercave.com/database-wallpapers))</span>
 
+<!--end_excerpt-->
+
 # SQL For Data Science
 
 ## SQL is one of the most requested skills in Data Science. Let’s find out how it can be used in Data processing and Machine Learning using BigQuery.

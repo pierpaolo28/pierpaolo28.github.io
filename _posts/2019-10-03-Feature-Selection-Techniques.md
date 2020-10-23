@@ -9,6 +9,8 @@ categories: [Data Science]
 Onojeghuo](https://unsplash.com/@clemono2?utm_source=medium&utm_medium=referral)
 on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)</span>
 
+<!--end_excerpt-->
+
 # Feature Selection Techniques
 
 ## An end to end guide on how to reduce the number of Features in a Dataset with practical examples in Python.

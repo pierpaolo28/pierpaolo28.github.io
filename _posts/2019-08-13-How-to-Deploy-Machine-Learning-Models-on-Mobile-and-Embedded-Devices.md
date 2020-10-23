@@ -6,6 +6,8 @@ categories: [Deployment]
 
 ![How to Deploy Machine Learning Models on Mobile and Embedded Devices](https://www.freecodecamp.org/news/content/images/size/w2000/2019/08/1_D3HyTjQ_zA2uKTwTZgd0Pg.png)(Source: https://tipsmake.com/google-launched-tensorflow-lite-10-for-mobile-devices-and-embedded-devices)
 
+<!--end_excerpt-->
+
 # How to Deploy Machine Learning Models on Mobile and Embedded Devices
 
 ## Introduction

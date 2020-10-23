@@ -6,6 +6,8 @@ categories: [Artificial Intelligence]
 
 ![Photo by [Philipp Berndt](https://unsplash.com/@philberndt?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10400/0*zF1BaisV1GhtHdbJ)Photo by [Philipp Berndt](https://unsplash.com/@philberndt?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
+<!--end_excerpt-->
+
 # Getting started in AI Research
 
 ## A guide on how to contribute to confirming the reproducibility of some of the most recent papers and join open-search research.

@@ -7,6 +7,8 @@ categories: [Extra]
 ![](https://cdn-images-1.medium.com/max/2560/1*FeSc_WWKBHW1JJ9WlC94JQ.jpeg)
 <span class="figcaption_hack">(Source: <https://fsmedia.imgix.net/7b/5e/73/1d/0b6f/4146/9e58/67b0faf61bf5/ready-player-one-tech-might-already-be-here.jpeg?rect=0%2C0%2C2632%2C1314&auto=format%2Ccompress&dpr=2&w=650>) </span>
 
+<!--end_excerpt-->
+
 # Getting Started with Augmented and Virtual Reality
 
 ## An introduction to the different types of Augmented and Virtual Reality with practical examples.
