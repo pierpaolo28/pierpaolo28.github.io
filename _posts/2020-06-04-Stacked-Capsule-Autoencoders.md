@@ -6,8 +6,6 @@ categories: [Extra, Deep Learning]
 
 ![Photo by [Will B](https://unsplash.com/@willbro?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/12000/0*XfosbY2xJCLpQlCC) Photo by [Will B](https://unsplash.com/@willbro?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # Stacked Capsule Autoencoders
 
 ## A look into the future of object detection in images and videos using Unsupervised Learning and a limited amount of training data.

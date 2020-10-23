@@ -8,8 +8,6 @@ categories: [Medicine]
 <span class="figcaption_hack">  <br> (Source:
 [http://epscicon.vidyaacademy.ac.in/wp-content/uploads/2017/12/eeg.jpg](http://epscicon.vidyaacademy.ac.in/wp-content/uploads/2017/12/eeg.jpg))</span>
 
-<!--end_excerpt-->
-
 # Disability diagnostic using EEG Time Series Analysis
 
 ## A research approach on how to identify if a child is affected or not by autism analyzing electroencephalogram (EEG) records using Convolutional Neural Networks (CNN).

@@ -6,8 +6,6 @@ categories: [Data Science]
 
 ![Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/11136/0*x2fhqjKco9CZsfeK)Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # Roadmap to Natural Language Processing (NLP)
 
 ## An introduction to some of the most common technique and models used in Natural Language Processing (NLP)

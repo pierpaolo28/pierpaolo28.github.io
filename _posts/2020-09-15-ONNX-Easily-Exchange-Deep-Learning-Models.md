@@ -6,8 +6,6 @@ categories: [Deep Learning]
 
 ![Photo by [noodle kimm](https://unsplash.com/@noodlekim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/7300/0*inljZli6_6SNIVKX)Photo by [noodle kimm](https://unsplash.com/@noodlekim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # ONNX: Easily Exchange Deep Learning Models
 
 ## A practical walkthrough on ONNX (Open Neural Network Exchange Format) and its potential applications

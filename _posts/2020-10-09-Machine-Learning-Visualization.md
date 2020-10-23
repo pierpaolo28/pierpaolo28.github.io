@@ -6,8 +6,6 @@ categories: [Machine Learning, Data Science, Deep Learning]
 
 ![](https://cdn-images-1.medium.com/max/4000/1*T0bkLLop2jOj4V3zzD17BQ.gif)
 
-<!--end_excerpt-->
-
 ## Machine Learning Visualization
 
 ### A collection of a few interesting techniques which can be used in order to visualise different aspects of the Machine Learning pipeline.

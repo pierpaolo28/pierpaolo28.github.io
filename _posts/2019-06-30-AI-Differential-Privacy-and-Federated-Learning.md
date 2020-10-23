@@ -8,8 +8,6 @@ categories: [Artificial Intelligence]
 <span class="figcaption_hack">(Source:
 [https://ai.googleblog.com/2017/04/federated-learning-collaborative.html](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html))</span>
 
-<!--end_excerpt-->
-
 # AI Differential Privacy and Federated Learning
 
 ## Use of Artificial Intelligence on users sensitive data has recently raised numerous concerns. Differential Privacy and Federated Learning is the solution now proposed to this problem by companies such as Google and Apple.

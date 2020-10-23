@@ -6,8 +6,6 @@ categories: [Data Science, Machine Learning]
 
 ![](https://cdn-images-1.medium.com/max/800/1*UMtPi1QBHpfE4iF_egJ8sQ.gif)
 
-<!--end_excerpt-->
-
 # Hyperparameters Optimization
 
 ## An introduction on how to fine-tune Machine and Deep Learning models using techniques such as: Random Search, Automated Hyperparameter Tuning and Artificial Neural Networks Tuning.

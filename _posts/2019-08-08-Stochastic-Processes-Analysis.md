@@ -8,8 +8,6 @@ categories: [Data Science]
 <span class="figcaption_hack">(Source:
 [https://www.europeanwomeninmaths.org/etfd/](https://www.europeanwomeninmaths.org/etfd/))</span>
 
-<!--end_excerpt-->
-
 # Stochastic Processes Analysis
 
 ## An introduction to Stochastic processes and how they are applied every day in Data Science and Machine Learning.

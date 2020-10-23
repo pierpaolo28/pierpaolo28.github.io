@@ -8,8 +8,6 @@ categories: [Machine Learning, Deployment]
 <span class="figcaption_hack">(Source =
 [https://image.slidesharecdn.com/slides-170512093121/95/deploying-machine-learning-models-to-production-8-638.jpg?cb=1507239367](https://image.slidesharecdn.com/slides-170512093121/95/deploying-machine-learning-models-to-production-8-638.jpg?cb=1507239367))</span>
 
-<!--end_excerpt-->
-
 # Flask and Heroku for online Machine Learning deployment
 
 ## Introduction

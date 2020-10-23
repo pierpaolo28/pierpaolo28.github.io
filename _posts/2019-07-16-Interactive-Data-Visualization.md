@@ -6,8 +6,6 @@ categories: [Data Science]
 
 ![](https://cdn-images-1.medium.com/max/800/1*i_Q34RRfcGUsniN6RIxnuQ.gif)
 
-<!--end_excerpt-->
-
 # Interactive Data Visualization
 
 ## Creating interactive plots and widgets for Data Visualization using Python libraries such as: Plotly, Bokeh, nbinteract, etc...

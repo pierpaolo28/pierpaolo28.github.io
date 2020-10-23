@@ -7,8 +7,6 @@ categories: [Data Science, Deployment]
 ![](https://cdn-images-1.medium.com/max/1200/1*PnO6VgeNnVquirfLfZLdEA.gif)
 [Facebook Data Analysis Dashboard](https://salty-tor-65518.herokuapp.com/)
 
-<!--end_excerpt-->
-
 # Interactive Dashboards for Data Science
 
 ## Creating an online dashboard in Python to analyse Facebook Stock Market Prices and Performance Metrics.

@@ -7,8 +7,6 @@ categories: [Machine Learning]
 ![Weka Tutorial -- GUI-based Machine Learning with Java](https://www.freecodecamp.org/news/content/images/size/w2000/2020/05/weka-1.png)
 (Source: https://www.techiexpert.com/list-of-data-mining-tools/)
 
-<!--end_excerpt-->
-
 # Weka Tutorial – GUI-based Machine Learning with Java
 
 ## Introduction

@@ -8,8 +8,6 @@ categories: [Data Science]
 <span class="figcaption_hack">(Source:
 [https://blog.datasciencedojo.com/curse-of-dimensionality-python/](https://blog.datasciencedojo.com/curse-of-dimensionality-python/))</span>
 
-<!--end_excerpt-->
-
 # Feature Extraction Techniques
 
 ## An end to end guide on how to reduce a dataset dimensionality using Feature Extraction Techniques such as: PCA, ICA, LDA, LLE, t-SNE and AE.

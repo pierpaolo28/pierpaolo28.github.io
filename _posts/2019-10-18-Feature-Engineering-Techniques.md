@@ -9,8 +9,6 @@ categories: [Data Science]
 Lens"](https://unsplash.com/@bamagal?utm_source=medium&utm_medium=referral) on
 [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)</span>
 
-<!--end_excerpt-->
-
 # Feature Engineering Techniques
 
 ## An introduction to some of the main techniques which can be used in order to prepare raw features for Machine Learning analysis.

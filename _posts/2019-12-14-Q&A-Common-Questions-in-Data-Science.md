@@ -9,8 +9,6 @@ categories: [Data Science]
 Schneider](https://unsplash.com/@goian?utm_source=medium&utm_medium=referral) on
 [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)</span>
 
-<!--end_excerpt-->
-
 # Q&A: Common Questions in Data Science
 
 ## Answering some of the most common questions asked at the Towards Data Science Team.

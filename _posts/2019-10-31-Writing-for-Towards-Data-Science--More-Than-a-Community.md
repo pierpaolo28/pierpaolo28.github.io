@@ -9,8 +9,6 @@ categories: [Extra]
 Fore](https://unsplash.com/@patrickian4?utm_source=medium&utm_medium=referral)
 on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)</span>
 
-<!--end_excerpt-->
-
 # Writing for Towards Data Science: More Than a Community
 
 ## An intro on how to get started writing for Towards Data Science and my journey so far.

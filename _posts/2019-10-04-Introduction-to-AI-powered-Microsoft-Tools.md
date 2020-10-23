@@ -7,8 +7,6 @@ categories: [Artificial Intelligence]
 ![](https://www.freecodecamp.org/news/content/images/size/w2000/2019/10/Microsoft-Ai-1.jpeg)
 <span class="figcaption_hack">[(Source: https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/MS-Research-AI.png)](https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/MS-Research-AI.png)</span>
 
-<!--end_excerpt-->
-
 # Introduction to AI-powered Microsoft Tools
 ## A summary of some of the best AI tools provided by Microsoft and their future reseach advancements
 

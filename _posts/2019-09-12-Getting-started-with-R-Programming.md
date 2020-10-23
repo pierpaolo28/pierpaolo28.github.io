@@ -8,8 +8,6 @@ categories: [Data Science]
 <span class="figcaption_hack">(Source:
 [https://hackernoon.com/5-free-r-programming-courses-for-data-scientists-and-ml-programmers-5732cb9e10](https://hackernoon.com/5-free-r-programming-courses-for-data-scientists-and-ml-programmers-5732cb9e10))</span>
 
-<!--end_excerpt-->
-
 # Getting started with R Programming
 
 ## An end to end Data Analysis using R, the second most requested programming language in Data Science.

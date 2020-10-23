@@ -7,8 +7,6 @@ categories: [Machine Learning, Deployment]
 ![Photo by [R Mo](https://unsplash.com/@mooo3721?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10150/0*KhRA4Qyf8mV5QmtR)
 Photo by [R Mo](https://unsplash.com/@mooo3721?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # Deploying Machine Learning projects using Tkinter
 
 ## A complete guide towards deploying for free Machine Learning projects as applications in executable file format.

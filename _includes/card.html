@@ -11,10 +11,10 @@
   <a href="{{ post.url | relative_url }}">
     {% if post.featured-img %}
     <figure class="post-card__thumb">
-      <img src="http://localhost:4000/assets/img/posts/{{post.featured-img}}_placehold.{{post.img-type}}"
-        data-srcset="http://localhost:4000/assets/img/posts/{{post.featured-img}}_thumb.{{post.img-type}}, http://localhost:4000/assets/img/posts/{{post.featured-img}}_thumb@2x.{{post.img-type}} 2x" class="lazyload blur"
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_placehold.{{post.img-type}}"
+        data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.{{post.img-type}}, {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb@2x.{{post.img-type}} 2x" class="lazyload blur"
         alt="{{post.title}}" />
-      <noscript><img src="http://localhost:4000/assets/img/posts/{{post.featured-img}}_thumb.{{post.img-type}}" alt="{{ post.title }}"></noscript>
+      <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.{{post.img-type}}" alt="{{ post.title }}"></noscript>
     </figure>
     {% else %}
     <figure class="post-card__thumb">

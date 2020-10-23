@@ -8,8 +8,6 @@ categories: [Data Science, Machine Learning]
 <span class="figcaption_hack">(Source:
 [https://res.infoq.com/news/2018/10/Nvidia-keynote-gtc/en/resources/1BFA0900F-5083-497B-8275-B80D87C9CFF8-1539179054604.jpeg](https://res.infoq.com/news/2018/10/Nvidia-keynote-gtc/en/resources/1BFA0900F-5083-497B-8275-B80D87C9CFF8-1539179054604.jpeg))</span>
 
-<!--end_excerpt-->
-
 # GPU Accelerated Data Analytics & Machine Learning
 
 ## The future is here! Speed up your Machine Learning workflow using Python RAPIDS libraries support.

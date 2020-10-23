@@ -8,8 +8,6 @@ categories: [Machine Learning]
 <span class="figcaption_hack">(Source
 =[https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f](https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f))</span>
 
-<!--end_excerpt-->
-
 # SVM: Feature Selection and Kernels
 
 > A Support Vector Machine (SVM) is a supervised machine learning algorithm that can be employed for both classification and regression purposes. - Noel Bambrick.

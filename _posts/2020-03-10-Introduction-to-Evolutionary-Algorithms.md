@@ -6,8 +6,6 @@ categories: [Data Science]
 
 ![Photo by [Johannes Plenio](https://unsplash.com/@jplenio?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/8082/0*wa2QlNPMnFHr6y9l)Photo by [Johannes Plenio](https://unsplash.com/@jplenio?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # Introduction to Evolutionary Algorithms
 
 ## A practical introduction on how to program Evolutionary Algorithms in Python to solve optimization tasks.

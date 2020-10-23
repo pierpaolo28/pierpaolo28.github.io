@@ -7,8 +7,6 @@ categories: [Data Science]
 ![](https://cdn-images-1.medium.com/max/1200/1*YVL0hT1qsR8KPpkFDV2-wA.jpeg)
 (Source: <https://luminousmen.com/media/data-science-probability_1.jpg>)
 
-<!--end_excerpt-->
-
 # Probability Distributions in Data Science
 
 ## An introduction to some of the most commonly used Probability Distributions in Data Science with real-life examples.

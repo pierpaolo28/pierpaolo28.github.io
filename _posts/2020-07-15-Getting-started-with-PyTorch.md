@@ -6,8 +6,6 @@ categories: [Deep Learning]
 
 ![Photo by [Ihor Malytskyi](https://unsplash.com/@ihor_malytskyi?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/9386/0*Nm9G7o_5_46OYF0O)Photo by [Ihor Malytskyi](https://unsplash.com/@ihor_malytskyi?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # Getting started with PyTorch
 
 ## A practical walkthrough on how to use PyTorch for data analysis and inference.

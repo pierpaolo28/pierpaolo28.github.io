@@ -8,8 +8,6 @@ categories: [Medicine]
 <span class="figcaption_hack">(Image reproduced from:
 [https://blog.f1000.com/2017/02/01/f1000prime-f1000prime-faculty-launch-bioinformatics-biomedical-informatics-computational-biology/](https://blog.f1000.com/2017/02/01/f1000prime-f1000prime-faculty-launch-bioinformatics-biomedical-informatics-computational-biology/))</span>
 
-<!--end_excerpt-->
-
 # Computational Biology
 
 > Computational biology is the combined application of math, statistics and

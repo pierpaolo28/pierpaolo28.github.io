@@ -8,8 +8,6 @@ categories: [Finance, Machine Learning]
 <span class="figcaption_hack">(Source:
 [https://ei.marketwatch.com/Multimedia/2018/03/30/Photos/ZH/MW-GG561_DJI_20_20180330105510_ZH.jpg?uuid=57e356ee-342a-11e8-978d-ac162d7bc1f7](https://ei.marketwatch.com/Multimedia/2018/03/30/Photos/ZH/MW-GG561_DJI_20_20180330105510_ZH.jpg?uuid=57e356ee-342a-11e8-978d-ac162d7bc1f7))</span>
 
-<!--end_excerpt-->
-
 # Stock Market Analysis Using ARIMA
 
 > *The four most dangerous words in investing are: “This time it’s different”*,

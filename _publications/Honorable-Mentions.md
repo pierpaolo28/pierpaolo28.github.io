@@ -5,8 +5,6 @@ date: 2020-10-20
 
 In this article are available a list of links where my work has been republished or acknowledged in different areas (e.g. different languages, publications, companies and universities).
 
-<!--end_excerpt-->
-
 List of published articles which have then been republished in different languages:
 
 - [Intelligenza artificiale, sì ma cosa si intende per intelligenza? (Italian)](https://tech4future.info/intelligenza-cosa-significa/)

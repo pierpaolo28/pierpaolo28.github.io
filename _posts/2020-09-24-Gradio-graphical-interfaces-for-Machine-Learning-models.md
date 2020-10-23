@@ -6,8 +6,6 @@ categories: [Machine Learning, Deep Learning]
 
 ![](https://cdn-images-1.medium.com/max/2048/1*iJArJfAGlqMj7Uz7OU-Hdw.gif)
 
-<!--end_excerpt-->
-
 ## Gradio: graphical interfaces for Machine Learning models
 
 ### Introducing Gradio, an open-source Python package for creating Machine Learning models user interfaces.

@@ -7,8 +7,6 @@ categories: [Data Science]
 ![Photo by [Ennio Dybeli](https://unsplash.com/@ennio5?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/8000/0*5nVls8Bei4qXn47E)
 <br> Photo by [Ennio Dybeli](https://unsplash.com/@ennio5?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
-<!--end_excerpt-->
-
 # Roadmap to Computer Vision
 
 ## An introduction to the main steps which compose a computer vision system. Starting from how images are pre-processed, features extracted and predictions are made.

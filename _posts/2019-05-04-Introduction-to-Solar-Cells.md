@@ -8,8 +8,6 @@ categories: [Extra]
 <span class="figcaption_hack">(Reproduced from:
 [https://www.vox.com/energy-and-environment/2016/10/28/13427822/americans-overestimate-renewable-energy](https://www.vox.com/energy-and-environment/2016/10/28/13427822/americans-overestimate-renewable-energy))</span>
 
-<!--end_excerpt-->
-
 # Introduction to Solar Cells
 
 ## The Importance of Renewable Energy

@@ -8,8 +8,6 @@ categories: [Extra]
 <span class="figcaption_hack">(Source:
 [https://cdn.vox-cdn.com/thumbor/7MrpKqpFquP1pqslq3nyZO9ECWs=/0x0:6144x4099/1200x800/filters:focal(2581x1559:3563x2541)/cdn.vox-cdn.com/uploads/chorus_image/image/64798397/GM_Cruise_AV.0.jpeg](https://cdn.vox-cdn.com/thumbor/7MrpKqpFquP1pqslq3nyZO9ECWs=/0x0:6144x4099/1200x800/filters:focal(2581x1559:3563x2541)/cdn.vox-cdn.com/uploads/chorus_image/image/64798397/GM_Cruise_AV.0.jpeg))</span>
 
-<!--end_excerpt-->
-
 # Future of Cyber Security for Connected and Autonomous Vehicles
 
 ## An introduction to the different security challenges faced by autonomous vehicles and a Machine Learning approach to tackle them.

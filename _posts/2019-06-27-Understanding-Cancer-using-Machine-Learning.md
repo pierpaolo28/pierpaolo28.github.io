@@ -8,8 +8,6 @@ categories: [Medicine, Machine Learning]
 <span class="figcaption_hack">(Source:
 [https://news.developer.nvidia.com/wp-content/uploads/2016/06/DL-Breast-Cancer-Detection-Image.png](https://news.developer.nvidia.com/wp-content/uploads/2016/06/DL-Breast-Cancer-Detection-Image.png))</span>
 
-<!--end_excerpt-->
-
 # Understanding Cancer using Machine Learning
 
 ## Use of Machine Learning (ML) in Medicine is becoming more and more important. One application example can be Cancer Detection and Analysis.
