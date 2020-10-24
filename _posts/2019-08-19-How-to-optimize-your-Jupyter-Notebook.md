@@ -7,6 +7,8 @@ categories: [Data Science]
 ![How to optimize your Jupyter Notebook](https://www.freecodecamp.org/news/content/images/size/w2000/2019/08/1_m87_Htb_9Pstq0UcvNJ49w.png)
 (Source: https://gdcoder.com/how-to-create-and-add-a-conda-environment-as-jupyter-kernel/)
 
+<!--end_excerpt-->
+
 # How to optimize your Jupyter Notebook
 
 ### Introduction

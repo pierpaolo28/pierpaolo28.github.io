@@ -9,6 +9,8 @@ categories: [Data Science]
 Jerez](https://unsplash.com/@danieljerez?utm_source=medium&utm_medium=referral)
 on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)</span>
 
+<!--end_excerpt-->
+
 # Optimal Estimation Algorithms: Kalman and Particle Filters
 
 ## An introduction to the Kalman and Particle Filters and their applications in fields such as Robotics and Reinforcement Learning.

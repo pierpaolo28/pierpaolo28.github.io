@@ -7,6 +7,8 @@ categories: [Extra]
 ![Introduction to IoT (Internet of Things)](https://www.freecodecamp.org/news/content/images/size/w2000/2019/08/internet_of_things_iot.jpg)
 (Source: https://foreignpolicyi.org/blockchain-and-cryptocrypto-solution/)
 
+<!--end_excerpt-->
+
 Introduction to IoT (Internet of Things)
 ========================================
 

@@ -7,6 +7,8 @@ categories: [Robotics]
 <span class="figcaption_hack">(Source
 =[https://www.laserfiche.com/wp-content/uploads/2018/01/RPA_Graphics_Infographic_F.png](https://www.laserfiche.com/wp-content/uploads/2018/01/RPA_Graphics_Infographic_F.png))</span>
 
+<!--end_excerpt-->
+
 # Robotic Process Automation (RPA) Using UIPath
 
 > “We’re fascinated with robots because they are reflections of ourselves.”

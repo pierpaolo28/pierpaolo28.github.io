@@ -6,6 +6,8 @@ categories: [Artificial Intelligence]
 
 ![Photo by [Jean-Louis Paulin](https://unsplash.com/@jlxp?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/7500/0*JJ_pG31OapiVdlBC) Photo by [Jean-Louis Paulin](https://unsplash.com/@jlxp?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
+<!--end_excerpt-->
+
 # What do we mean by intelligence?
 
 ## Questioning our understanding of intelligence and how “intelligent” like system can be created using Artificial Intelligence.

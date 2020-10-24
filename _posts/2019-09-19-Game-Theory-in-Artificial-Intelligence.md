@@ -8,6 +8,8 @@ categories: [Artificial Intelligence]
 <span class="figcaption_hack"> (Source:
 [https://www.thegreatcourses.com/](https://www.thegreatcourses.com/))</span>
 
+<!--end_excerpt-->
+
 # Game Theory in Artificial Intelligence
 
 ## An Introduction to Game Theory and how it can be applied to the different ambit of Artificial Intelligence.

@@ -7,6 +7,8 @@ categories: [Machine Learning]
 ![](https://www.freecodecamp.org/news/content/images/size/w2000/2019/11/gpu.jpg)
 (Source: https://hardzone.es/noticias/tarjetas-graficas/nvidia-hopper-arquitectura-mcm/)
 
+<!--end_excerpt-->
+
 # Benchmarking Machine Learning Execution Speed
 
 ## Introduction
