@@ -5,49 +5,49 @@ date: 2020-06-09
 
 # Anaconda Management
 
-### Create environment with specific Python version
+## Create environment with specific Python version
 
 ```
 conda create --name {environment name} python={python version}
 ```
-### List Environments
+## List Environments
 
 ```
 conda env list
 ```
 
-### List Packages installed in an environment
+## List Packages installed in an environment
 
 ```
 conda list
 ```
 
-### Copy all Packages from one environment to create a new environment
+## Copy all Packages from one environment to create a new environment
 
 ```
 conda create --clone {name of env to copy} --name {name of env to create}
 ```
 
-### Delete environment
+## Delete environment
 
 ```
 conda env remove --name {name of env to delete}
 ```
 
-### Update Anaconda
+## Update Anaconda
 
 ```
 conda update conda
 ```
 
-### Check conflicts between Packages
+## Check conflicts between Packages
 
 ```
 pip install pip-conflict-checker
 pipconflictchecker
 ```
 
-### Extras
+## Extras
 Some additional features which can be added to Jupyter Lab and Jupyter Notebook in Anaconda are the addition of extensions and Kernels for coding in other programming languages apart from Python (eg. R, Julia, Scala).
 
 - [Jupyter Lab Extensions Documentation](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)
