@@ -8,6 +8,8 @@ summary: Online interactive widgets examples created using ipywidgets and nbinte
 github: https://github.com/pierpaolo28/Data-Visualization
 ---
 
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 <link
 rel="shortcut icon"
 href="../assets/img/icons/favicon.ico"
