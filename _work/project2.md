@@ -43,3 +43,6 @@ parts were tailored for the task specifications.
   >
   </iframe>
 </div>
+
+
+![](/assets/img/posts/hack_robot.jpg)
