@@ -17,12 +17,14 @@ Nowadays Machine Learning models, makes use of correlations between the differen
 
 ## Quotes
 
-> Causality has been mathematized.
+> "Causality has been mathematized."
 
-> Virgil first proclaimed, "Lucky is he who has been able to understand the causes of things (29 BC.)"
+> "Virgil first proclaimed: Lucky is he who has been able to understand the causes of things (29 BC.)"
 
-> My emphasis on language also comes from a deep conviction that language shapes our thoughts. You cannot answer a question that you cannot ask, and you cannot ask a question that you have no words for.
+> "My emphasis on language also comes from a deep conviction that language shapes our thoughts. You cannot answer a question that you cannot ask, and you cannot ask a question that you have no words for."
 
-> That's all that a deep-learning program can do: fit a function to data.
+> "That's all that a deep-learning program can do: fit a function to data."
 
-> If I could sum up the message of this book in one tiny phrase, it would be that you are smarter than your data. Data do not understand causes and effects; humans do.
+> "If I could sum up the message of this book in one tiny phrase, it would be that you are smarter than your data. Data do not understand causes and effects; humans do."
+
+Authors: Judea Pearl and Dana Mackenzie
