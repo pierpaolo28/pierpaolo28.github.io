@@ -24,6 +24,7 @@ KDNuggets Silver and Gold posts:
 - [How to Optimize Your Jupyter Notebook](https://www.kdnuggets.com/2020/01/optimize-jupyter-notebook.html)
 - [Probability Distributions in Data Science](https://www.kdnuggets.com/2020/02/probability-distributions-data-science.html)
 - [Understanding Cancer using Machine Learning](https://www.kdnuggets.com/2019/08/understanding-cancer-machine-learning.html)
+- [Roadmap to Natural Language Processing (NLP)](https://www.kdnuggets.com/2020/10/roadmap-natural-language-processing-nlp.html)
 
 Python Open Source Contributions and mentions:
 - [NVIDIA RAPIDS: GPU Accelerated Data Analytics & Machine Learning Tutorial](https://github.com/rapidsai-community/notebooks-contrib/blob/branch-0.12/multimedia_links.md)
