@@ -23,6 +23,9 @@ Sample of mentions from publications, companies and universities:
 - [Cornell University Recommended Reading: Game Theory in Artificial Intelligence](http://blogs.cornell.edu/info2040/2019/09/23/game-theory-in-artificial-intelligence/)
 
 KDNuggets Silver and Gold posts:
+
+<a href="https://www.kdnuggets.com/2020/10/top-news-week-1019-1025.html" target="_blank" rel="noopener"><img src="https://www.kdnuggets.com/images/tkb-2010-s.png" width=95 alt="Top KDnuggets Blogger for Oct 2020" align="right"></a>
+
 - [How to Optimize Your Jupyter Notebook](https://www.kdnuggets.com/2020/01/optimize-jupyter-notebook.html)
 - [Probability Distributions in Data Science](https://www.kdnuggets.com/2020/02/probability-distributions-data-science.html)
 - [Understanding Cancer using Machine Learning](https://www.kdnuggets.com/2019/08/understanding-cancer-machine-learning.html)
