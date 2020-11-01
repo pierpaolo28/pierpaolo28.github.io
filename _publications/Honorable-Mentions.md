@@ -7,7 +7,7 @@ In this article are available a list of links where my work has been republished
 
 <!--end_excerpt-->
 
-List of published articles which have then been republished in different languages:
+Sample list of published articles which have then been republished in different languages:
 
 - [Contribuire alla ricerca in ambito AI: come farlo e come rimanere aggiornati (Italian)](https://tech4future.info/ricerca-ambito-ai-come-contribuire/)
 - [Intelligenza artificiale, sì ma cosa si intende per intelligenza? (Italian)](https://tech4future.info/intelligenza-cosa-significa/)
@@ -21,6 +21,7 @@ Sample of mentions from publications, companies and universities:
 - [Towards Data Science YouTube Tutorial: GPU Accelerated Data Analytics & Machine Learning](https://www.youtube.com/watch?v=9Wey2c5Lx18&t=1s&ab_channel=TowardsDataScience)
 - [DeployPlace: Top 3 DevOps trends of 2020 in the eyes of real engineers](https://deployplace.com/blog/top-3-devops-trends-2020/)
 - [Cornell University Recommended Reading: Game Theory in Artificial Intelligence](http://blogs.cornell.edu/info2040/2019/09/23/game-theory-in-artificial-intelligence/)
+- [Experfy: Harvard Innovation Lab](https://www.experfy.com/blog/author/pier-paolo-ippolito/)
 
 KDNuggets Silver and Gold posts:
 
