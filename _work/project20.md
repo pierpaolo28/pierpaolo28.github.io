@@ -19,8 +19,6 @@ audio format completely for free.
   img {
     width: 70%;
     height: auto;
-    display: block;
-    margin: 0 auto;
     cursor: pointer;
   }
 </style>
