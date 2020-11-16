@@ -64,8 +64,7 @@ jQuery(document).ready(function($){
 ![](/assets/img/posts/timeline.gif)
 
 ## Biography
-I am a SAS Data Scientist and MSc in Artificial Intelligence student at the University of Southampton. I have a strong interest in AI advancements and machine learning applications (such as finance and medicine). Outside my degree course, I
-am a writer for Towards Data Science and a Kaggle Contributor.
+I am a SAS Data Scientist and MSc in Artificial Intelligence graduate from the University of Southampton. I have a strong interest in AI advancements and machine learning applications (such as finance and medicine). Outside my work activities, I am a writer for Towards Data Science and a Kaggle Contributor.
 
 <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
@@ -80,7 +79,7 @@ am a writer for Towards Data Science and a Kaggle Contributor.
 
                         <dt class="timeline-event" id="event02"><a>MSc Artificial Intelligence (University of Southampton)</a></dt>
                         <dd class="timeline-event-content" id="event02EX">
-                                <p>On course for first class honours degree. Artificial Intelligence Society Committee member and Microsoft Student Partner.</p>
+                                <p>Distinction (86%). Artificial Intelligence Society Committee member and Microsoft Student Partner.</p>
                         </dd>
 
                         <dt class="timeline-event" id="event03"><a>Digital-Dandelion (Research Data Scientist)</a></dt>
