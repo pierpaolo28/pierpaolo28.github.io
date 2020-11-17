@@ -3,7 +3,7 @@ layout: post_book
 date: 2020-10-17
 ---
 
-Nowadays Machine Learning technologies rely just on correlations between the different features. Although, this approach can possibly lead to wrong conclusions since correlation does not necessarily imply causation. As part of this research study, I created and deployed a suite of Agent-Based and Compartmental Models in order to simulate epidemic diseases developments in different types of communities.
+Nowadays Machine Learning technologies rely just on correlations between the different features. Although, this approach can possibly lead to wrong conclusions since correlation does not necessarily imply causation. As part of this research study, I created and deployed a suite of Agent-Based and Compartmental Models in order to simulate epidemic diseases developments in different types of communities. All the code used as part of this project is available on [my Github account](https://github.com/pierpaolo28/Epidemics-Modelling/tree/master) and some extras are additionally available at [this link.](https://pierpaolo28.github.io/Epidemics-Modelling/)
 
 <!--end_excerpt-->
 
@@ -16,7 +16,7 @@ Nowadays Machine Learning models, are able to learn from data by identifying pat
 <br>
 <a href="\assets\dist\Causal_Reasoning_in_Machine_Learning.pdf" class="btn">Publication Download</a>
 
-## Demonstration
+## Video Demonstration
 
 <div style="text-align:center">
   <iframe
