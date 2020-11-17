@@ -53,6 +53,11 @@ tmux attach -t stream
 
 Additional information about tmux is available at [this link.](https://danielmiessler.com/study/tmux/#:~:text=Show%20existing%20sessions,shortcut%20ctrl%E2%80%93b%E2%80%93s.)
 
+To automatically restart a Streamlit app if something fails, the following command can be used in the command line:
+```
+while true; do streamlit run src/main.py; done
+```
+
 ## Additional References
 
 [1] [Deploying Streamlit app to EC2 instance](https://medium.com/@pokepim/deploying-streamlit-app-to-ec2-instance-7a7edeffbb54)

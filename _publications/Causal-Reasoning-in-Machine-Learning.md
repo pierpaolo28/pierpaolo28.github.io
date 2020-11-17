@@ -7,4 +7,25 @@ Nowadays Machine Learning technologies rely just on correlations between the dif
 
 <!--end_excerpt-->
 
-## This publication, will soon become freely available.
+## Abstract
+
+Nowadays Machine Learning models, are able to learn from data by identifying patterns in large datasets. Although, humans might be able to perform a same task after just examining a few examples. This is possible thanks to the inherit humans ability to understand causal relationships and use inductive inference in order to assimilate new information about the world. Creating models able to demonstrate causal reasoning would therefore open a whole new world of opportunities in Artificial Intelligence research. Causality arises naturally in our daily life every time we ask ourselves any type of interventional or retrospective question (eg. What if I take this action? What if I acted differently?). Causality has been researched and used for many years in statistics but not in great depth in Artificial Intelligence. Identifying useful connections between these two different ambit could therefore play a vital role in making a breakthrough towards creating intelligent systems. Enabling Machine Learning models to be more easily examinable to gain insights of their decision making processes could in fact facilitate adoption of these kind of technologies in fields such as medicine, surveillance and recruitment.
+
+<a href="https://scholar.google.com/citations?user=QgG-lgwAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DQgG-lgwAAAAJ%26citation_for_view%3DQgG-lgwAAAAJ%3A2osOgNQ5qMEC%26tzom%3D0" class="btn">Google Scholar</a>
+<br>
+<br>
+<a href="\assets\dist\Causal_Reasoning_in_Machine_Learning.pdf" class="btn">Publication Download</a>
+
+## Demonstration
+
+<div style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/ecsuCo9R4gs"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
