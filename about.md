@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
 ![](/assets/img/posts/timeline.gif)
 
 ## Biography
-I am a SAS Data Scientist and MSc in Artificial Intelligence graduate from the University of Southampton. I have a strong interest in AI advancements and machine learning applications (such as finance and medicine). Outside my work activities, I am a writer for Towards Data Science and a Kaggle Contributor.
+I am a SAS Data Scientist and MSc in Artificial Intelligence graduate from the University of Southampton. I have a strong interest in AI advancements and machine learning applications (such as finance and medicine). Outside my work activities, I am a writer for Towards Data Science and Freelancer.
 
 <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
@@ -82,18 +82,18 @@ I am a SAS Data Scientist and MSc in Artificial Intelligence graduate from the U
                                 <p>Distinction (86%). Artificial Intelligence Society Committee member and Microsoft Student Partner.</p>
                         </dd>
 
-                        <dt class="timeline-event" id="event03"><a>Digital-Dandelion (Research Data Scientist)</a></dt>
-                        <dd class="timeline-event-content" id="event03EX">
-                                <p>As a freelance Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce. In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked  on was on analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how can these be predicted. To do so, different techniques such as Feature Selection/Engineering
-                                and Ensemble Learning have been employed. The role has developed my ability to work to a deadline to produce an excellent product, utilising A/B testing and version control tools such as Git.</p>
-                        </dd>
-
                 </dl>
         </div>
         <div class="timeline-wrapper">
                 <h2 class="timeline-time">2019</h2>
 
                 <dl class="timeline-series">
+
+                 <dt class="timeline-event" id="event03"><a>Digital-Dandelion (Research Data Scientist)</a></dt>
+                 <dd class="timeline-event-content" id="event03EX">
+                        <p>As a freelance Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce. In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked  on was on analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how can these be predicted. To do so, different techniques such as Feature Selection/Engineering
+                        and Ensemble Learning have been employed. The role has developed my ability to work to a deadline to produce an excellent product, utilising A/B testing and version control tools such as Git.</p>
+                  </dd>
 
                   <dt class="timeline-event" id="event04"><a>Fidessa (Service Delivery Summer Intern)</a></dt>
                   <dd class="timeline-event-content" id="event04EX">
@@ -143,8 +143,8 @@ I am a SAS Data Scientist and MSc in Artificial Intelligence graduate from the U
 </div>
 
 ## Technical Writing
-- Towards Data Science Associate Editor and Top Writer in Artificial Intelligence
-- freeCodeCamp and KDNuggets Contributor
+- Towards Data Science Associate Editor and Writer.
+- freeCodeCamp, KDNuggets and Tech4future Contributor.
 
 ## Conferences
 - Open Data Science Conference 2020 (Europe): Took part at the 2020 Open Data Science Conference as a team member of the SAS UK booth, in order to showcase the latest advancements of the SAS Viya data analytics platform.
@@ -156,16 +156,15 @@ technologies can be used to enhance AI powered applications.
 - Electronics and Computer Prize Excellence Scholarship 2016 - monetary award for exceeding university entry requirements.
 
 ## Hackathons & Certifications
-- Google BGN 2019 London Hackathon
-- Facebook London Hack 2019: First Challenge Winner
-- Hack The South 2019: Best Hardware Prize Winner
-- Facebook Analytic Academy 2018
-- J.P. Morgan: Introduction to Big Data Analytic using Spark and Python 2018 (Spark
-data-set challenge winner)
+- Google BGN 2019 London Hackathon.
+- Facebook London Hack 2019: First Challenge Winner.
+- Hack The South 2019: Best Hardware Prize Winner.
+- Facebook Analytic Academy 2018.
+- J.P. Morgan: Introduction to Big Data Analytic using Spark and Python 2018 (Spark data-set challenge winner).
 - Microsoft: Deep Learning Data Analysis in Azure Workshop.
-- Maquaire Technology Spotlight 2017
-- Intel Buzz Workshop London 2017
-- BMC (Bloomberg Markets Concepts)
+- Maquaire Technology Spotlight 2017.
+- Intel Buzz Workshop London 2017.
+- BMC (Bloomberg Markets Concepts).
 
 ## Skills
 - Python
