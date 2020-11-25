@@ -1,6 +1,7 @@
 ---
 layout: post_book
 date: 2020-10-20
+sticky: true
 ---
 
 In this article are available a list of links where my work has been republished or acknowledged in different areas (e.g. different languages, publications, companies and universities).

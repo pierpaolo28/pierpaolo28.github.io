@@ -38,11 +38,13 @@ layout: compress
 				</div>
 				{% endif %}
 				<h1 class="hero__title">{{ page.title }}</h1>
+				{% unless page.sticky %}
 				<p class="hero__meta">
 					<span>
 						<time>{{ page.date | date_to_string }}</time>
 					</span>
 				</p>
+				{% endunless %}
 				{% if page.github %}
 				<a href="{{ page.github }}" class="btn" target="_blank">GitHub Repository</a>
 				{% endif %}

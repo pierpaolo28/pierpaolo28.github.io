@@ -1,6 +1,6 @@
 ---
 layout: publications_header
-title: Publications
+title: Publications & Talks
 ---
 
 <!DOCTYPE html>
@@ -24,7 +24,7 @@ title: Publications
 
     <!-- Search Bar -->
     <div id="search-container">
-      <input style="padding:5px;border: 4px solid #313237;" type="text" id="search-input" placeholder="Publications Search...">
+      <input style="padding:5px;border: 4px solid #313237;" type="text" id="search-input" placeholder="Publication & Talk Search...">
       <ul style="list-style-type:none;" id="results-container"></ul>
     </div>
 
@@ -42,10 +42,22 @@ title: Publications
 
       {% assign sorted = site.publications | reverse %}
       {% for item in sorted %}
+      {% if item.sticky %}
       <article class="post">
         <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
         <p>{{ item.excerpt }}</p>
       </article>
+      {% endif %}
+      {% endfor %}
+
+      {% assign sorted = site.publications | reverse %}
+      {% for item in sorted %}
+      {% unless item.sticky %}
+      <article class="post">
+        <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
+        <p>{{ item.excerpt }}</p>
+      </article>
+      {% endunless %}
       {% endfor %}
     </div>
 
