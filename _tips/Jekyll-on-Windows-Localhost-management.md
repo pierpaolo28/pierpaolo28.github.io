@@ -26,6 +26,8 @@ bundle install
 
 Finally, using `bundle exec jekyll serve` we can instantiate our local server which will be available at this link: [http://127.0.0.1:4000](http://127.0.0.1:4000).
 
+In order to make sure that the **sitemap.xml** file is updated once added a new page on the website, before running `bundle exec jekyll serve`, delete the _site folder and the sitemap.xml file in the root repository. Once run `bundle exec jekyll serve`, go to the newly created _site folder and find all the localhost base-urls and replace them with the deployed website base-url. Finally, copy and paste the sitemap.xml file in the _site folder to the root folder of the website.
+
 Once made the necessary changes locally, we can then push our results live on the web using the basic git workflow.
 
 P.S. When running our blog locally some functionalities that appears online might not appear locally if the Github address is used to reference them (this might not be specified locally which leads to this type of error). In order to fix that, it can be possible to use references to the website base URL (instead of GitHub) making the website behave the same both on local and online.

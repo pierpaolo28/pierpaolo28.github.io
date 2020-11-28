@@ -1,5 +1,5 @@
 ---
-date: 2020-10-18
+date: 2020-11-28
 title: Augmented Reality Business Card (Live)
 tags: [Artificial Intelligence, Extra]
 featured-img: ar
