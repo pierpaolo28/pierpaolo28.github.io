@@ -7,4 +7,4 @@ img-type: jpg
 summary: Embedding SAS Viya Cloud Platform on a web interface, while fetching and processing data in real time.
 ---
 
-<meta http-equiv="refresh" content="0; url=https://whispering-eyrie-34312.herokuapp.com/" />
+<meta http-equiv="refresh" content="0; url=https://embedded-viya.herokuapp.com/" />
