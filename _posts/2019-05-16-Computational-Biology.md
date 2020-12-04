@@ -124,12 +124,16 @@ provided by UCSC Xena, University of California Santa Cruz.
 
 [3] Of BATs and APEs: An interactive tabletop game for natural history museums.
 Michael S. Horn et al. Accessed at:
-[https://www.researchgate.net/publication/254004984_Of_BATs_and_APEs_An_interactive_tabletop_game_for_natural_history_museums/figures?lo=1](https://www.researchgate.net/publication/254004984_Of_BATs_and_APEs_An_interactive_tabletop_game_for_natural_history_museums/figures?lo=1),
+[https://www.researchgate.net/publication/254004984_Of_BATs_and_APEs_An_interactive
+_tabletop_game_for_natural_history_
+museums/figures?lo=1](https://www.researchgate.net/publication/254004984_Of_BATs_and_APEs_An_interactive_tabletop_game_for_natural_history_museums/figures?lo=1),
 May 2019.
 
 [4] Chemistry LibreTexts. 4.1: Chemical Reaction Equations. Accessed at:
-https://chem.libretexts.org/Courses/Bellarmine_University/BU%3A_Chem_103_(Christianson)/
-Phase_1%3A_Chemistry_Essentials/4%3A_Simple_Chemical_Reactions/4.1%3A_Chemical_Reaction_Equations
+[https://chem.libretexts.org/Courses/Bellarmine_University/BU%3A_Chem_103_(Christianson)/
+Phase_1%3A_Chemistry_Essentials/4%3A_Simple_
+Chemical_Reactions/4.1%3A_Chemical_
+Reaction_Equations](https://chem.libretexts.org/Courses/Bellarmine_University/BU%3A_Chem_103_(Christianson)/Phase_1%3A_Chemistry_Essentials/4%3A_Simple_Chemical_Reactions/4.1%3A_Chemical_Reaction_Equations)
 ,May 2019.
 
 [5] EMBOpress. Deep learning for computational biology. Christof Angermueller,
