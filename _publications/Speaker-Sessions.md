@@ -12,7 +12,7 @@ Collection of some freely available talks in which I have been involved as a spe
 
 Intro to Viya demo session at the 2020 SAS UK&I Virtual Forum. More information about this event is available at [this link.](https://pierpaolo28.github.io/blog/blog50/)
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="750"

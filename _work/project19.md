@@ -29,7 +29,7 @@ amount of steps as possible.
 
 <video class="center" controls>
   <source
-    src="/assets/img/posts/mountain-car.mp4"
+    src="/assets/img/posts/mountain-car.webm"
     type="video/mp4"
   />
   Your browser does not support the video tag.

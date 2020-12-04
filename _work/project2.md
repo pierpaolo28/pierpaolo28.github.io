@@ -32,7 +32,7 @@ the servo motors and serial communications. Although the main base
 of the robot was built using the "inventor fit" for RedBot, 3D printed
 parts were tailored for the task specifications.
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"
@@ -43,6 +43,6 @@ parts were tailored for the task specifications.
   >
   </iframe>
 </div>
-
+<br>
 
 ![](/assets/img/posts/hack_robot.jpg)

@@ -9,7 +9,7 @@ img-type: jpg
 
 Online Personal Resumé presentation made using Prezi. This presentation summarises my personal work experiences and competences up to my last year of Master Course in Artificial Intelligence at the University of Southampton.
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"

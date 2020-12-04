@@ -140,14 +140,18 @@ animations using
 [Plotly](https://towardsdatascience.com/interactive-data-visualization-167ae26016e8)
 (feel free to interact with the animation below!).
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/17.embed"></iframe>
+</div>
 
 While using PCA, we can also explore how much of the original data variance was
 preserved using the **explained_variance_ratio_** Scikit-learn function. Once
 calculated the variance ratio, we can then go on creating fancy visualization
 graphs.
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/19.embed"></iframe>
+</div>
 
 Running again a Random Forest Classifier using the set of 3 features constructed
 by PCA (instead of the whole dataset) led to 98% classification accuracy while
@@ -212,7 +216,9 @@ From the animation below we can see that even though PCA and ICA led to the same
 accuracy results, they constructed two different 3-Dimensional space
 distribution.
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/23.embed"></iframe>
+</div>
 
 #### Linear Discriminant Analysis (LDA)
 
@@ -322,7 +328,9 @@ dimensions, test the overall accuracy and plot the results.
        macro avg       0.76      0.51      0.36      2438
     weighted avg       0.75      0.53      0.38      2438
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/25.embed"></iframe>
+</div>
 
 #### t-distributed Stochastic Neighbor Embedding (t-SNE)
 
@@ -368,7 +376,9 @@ Visualizing the distribution of the resulting features we can clearly see how
 our data has been nicely separated even though being transformed in a reduced
 space.
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/21.embed"></iframe>
+</div>
 
 Testing our Random Forest accuracy using the t-SNE reduced subset confirms that
 now our classes can be easily separated.
@@ -433,7 +443,9 @@ similar to if we would have used PCA).
 We can now repeat a similar workflow as in the previous examples, this time
 using a simple Autoencoder as our Feature Extraction Technique.
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/27.embed"></iframe>
+</div>
 
 <script src="https://gist.github.com/pierpaolo28/85b9a5e9c59ab42e3ed3bcf4f2f45d17.js"></script>
 
@@ -462,7 +474,9 @@ ResearchGate. Accessed at:
 [https://www.researchgate.net/publication/220270207_Iterative_Non-linear_Dimensionality_Reduction_with_Manifold_Sculpting](https://www.researchgate.net/publication/220270207_Iterative_Non-linear_Dimensionality_Reduction_with_Manifold_Sculpting)
 
 [3] Manifold learning, Scikit-learn documentation. Accessed at:
-[https://scikit-learn.org/stable/modules/manifold.html#targetText=Manifold%20learning%20is%20an%20approach,sets%20is%20only%20artificially%20high.](https://scikit-learn.org/stable/modules/manifold.html#targetText=Manifold%20learning%20is%20an%20approach,sets%20is%20only%20artificially%20high.)
+[https://scikit-learn.org/stable/modules/manifold.html
+#targetText=Manifold%20learning%20is%20an%20approach,
+sets%20is%20only%20artificially%20high.](https://scikit-learn.org/stable/modules/manifold.html#targetText=Manifold%20learning%20is%20an%20approach,sets%20is%20only%20artificially%20high.)
 
 [4] Variational Autoencoders are Beautiful, Comp Three Inc. Steven Flores.
 Accessed at:

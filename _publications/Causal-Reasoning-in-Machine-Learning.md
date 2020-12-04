@@ -19,7 +19,7 @@ Nowadays Machine Learning models, are able to learn from data by identifying pat
 
 ## Video Demonstration
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"

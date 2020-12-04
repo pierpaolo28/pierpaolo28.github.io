@@ -10,7 +10,7 @@ github: https://github.com/pierpaolo28/pierpaolo28.github.io/tree/master/Project
 
 Video demonstration of the Augmented Reality (AR) Personal Business Card created in HTML using the AR.js library.
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"

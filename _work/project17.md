@@ -69,7 +69,7 @@ class distributions values have been tried (eg. -3, 3)
 
 <video class="center" controls>
   <source
-    src="/assets/img/posts/Boundary_anim2.mp4"
+    src="/assets/img/posts/Boundary_anim2.webm"
     type="video/mp4"
   />
   Your browser does not support the video tag.

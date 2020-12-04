@@ -116,7 +116,7 @@ In particular, Virtualitics can also be integrated with Jupyter Notebooks using
 their Python API (as shown in the video below), making possible for everyone to
 create AR Data Visualization charts.
 
-<div>
+<div class="wrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hf6TlLfjZRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <span class="figcaption_hack">Video 1: Virtualitics Python API [2] </span>

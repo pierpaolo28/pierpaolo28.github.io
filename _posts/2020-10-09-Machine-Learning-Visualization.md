@@ -43,7 +43,9 @@ In Figure 1, is available a practical example created using Plotly.
 
     fig.show()
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~pierpaolo28/71.embed"></iframe>
+</div>
 Figure 1: Parallel Coordinates Hyperparameter Optimization Plot.
 
 Different techniques can be used in order to create Parallel Coordinates plots in Python such as using Pandas, Yellowbrick, Matplotlib or Plotly. Step by step examples using all these different methods are available in this my notebook at [this link.](https://www.kaggle.com/pierpaolo28/parallel-coordinates-plots?scriptVersionId=35973765)
@@ -146,7 +148,9 @@ Calling this function would then result in the following output (feel free to te
 
     Error Importance 3 reported in  53 cases
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~pierpaolo28/73.embed"></iframe>
+</div>
 Figure 3: Prediction Table
 
 ### Decision Trees

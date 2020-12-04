@@ -176,7 +176,9 @@ Feel free to play with the graph below by changing the *n_estimators*
 parameters, zooming in and out of the graph, changing it’s orientation and
 hovering over the single data points to get additional information about them!
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/13.embed"></iframe><span class="figcaption_hack">Figure 2: Interactive Data Visualization</span>
+</div>
 
 If you are looking for a bit of context on how I created these two animations,
 more information is available in my [Interactive Data

@@ -11,7 +11,7 @@ In this group project, a smart lamp called Jarvis has been created. One of the k
 brightness intensity according to how much light is detected in the
 environment around. Additionally, it can be turned on and off just by clapping your hands and it can be integrated with Alexa.
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"

@@ -13,7 +13,7 @@ Amazon pages of a chosen category. In this way, it can then be stored, for each 
 is then possible to analyse this file (using python ML algorithms) to
 see how prices changes with time and compare with different suppliers.
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"

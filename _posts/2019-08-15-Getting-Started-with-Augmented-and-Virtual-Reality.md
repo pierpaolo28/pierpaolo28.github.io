@@ -44,7 +44,7 @@ There are different types of Augmented Reality applications, these are [4]:
 
 Augmented reality can be used in many different contexts and applications. For example, this summer I decided to create a personal AR Business Card since this is going to be my last year of studies at the University of Southampton. 
 
-<div>
+<div class="wrapper">
   <iframe align="middle" width="650" height="500" src="https://www.youtube.com/embed/-vswyZpXOtE?rel=0"
           frameborder="0" allowfullscreen>
   </iframe>
@@ -100,7 +100,7 @@ To do so, I divided the code below in 5 main sections:
 
 As a result, the following animation has been created:
 
-<div>
+<div class="wrapper">
   <iframe align="middle" width="650" height="500" src="https://www.youtube.com/embed/DFpKcR7n6VA?rel=0"
           frameborder="0" allowfullscreen>
   </iframe>

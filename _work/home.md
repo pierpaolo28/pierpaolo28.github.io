@@ -9,7 +9,7 @@ permalink: Projects/ONNX/home.html
 github: https://github.com/pierpaolo28/Artificial-Intelligence-Projects/tree/master/Online%20Learning/ONNX
 ---
 
-Online VAE trained on 3 different versions of the MNIST dataset (Standard, Rotated, Rotated and Translated) and deployed using ONNX.
+Online VAE trained on 3 different versions of the MNIST dataset (Standard, Rotated, Rotated and Translated) and deployed using ONNX. Currently this model is supported just on desktop devices (no touchscreen input allowed).
 
 <link rel="stylesheet" href="style.css" />
 

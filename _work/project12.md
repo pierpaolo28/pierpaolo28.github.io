@@ -22,7 +22,7 @@ Deep Learning Analysis Using Large Model Support:
 - [Article](https://towardsdatascience.com/deep-learning-analysis-using-large-model-support-3a67a919255)
 - [Notebook](https://drive.google.com/open?id=1_y81JZWOh4nWUxiY3eaO4FVpxBCB1uN1)
 
-<div style="text-align:center">
+<div class="wrapper" style="text-align:center">
   <iframe
     class="vidio"
     width="650"

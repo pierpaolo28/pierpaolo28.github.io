@@ -80,7 +80,7 @@ Figure 3: Stacked Capsule Networks General Workflow [3]
 
 If you are interested in finding out more about Stacked Capsule Networks, additional information about the topic is provided in the following video presentation by Geoff Hinton at the AAAI 2020 Turing Awards from around minute 3 till minute 34.
 
-<div>
+<div class="wrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UX8OubxsY8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

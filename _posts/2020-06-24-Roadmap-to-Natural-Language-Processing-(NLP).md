@@ -20,7 +20,7 @@ Natural Language Processing (NLP) is the area of research in Artificial Intellig
 
 One of nowadays most interesting NLP application is creating machines able to discuss with humans about complex topics. [IBM Project Debater](https://www.research.ibm.com/artificial-intelligence/project-debater/) represents so far one of the most successful approaches in this area.
 
- <div>
+ <div class="wrapper">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/naQujxmg9gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  </div>
  <span class="figcaption_hack">Video 1: IBM Project Debater</span>

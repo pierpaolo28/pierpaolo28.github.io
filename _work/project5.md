@@ -15,7 +15,7 @@ involved implementing a suitable GUI for the send and receive windows,
 devising a protocol to exchange drawings and physically communicating
 using the GPIO pins.
 
-<div style="text-align: center;">
+<div class="wrapper" style="text-align: center;">
   <iframe
     class="vidio"
     width="650"

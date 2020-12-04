@@ -191,7 +191,9 @@ Feel free to play with the graph below by changing the n_estimators parameters,
 zooming in and out of the graph, changing it’s orientation and hovering over the
 single data points to get additional information about them!
 
+<div class="wrapper">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pierpaolo28/13.embed"></iframe>
+</div>
 
 If you are interested in finding out more about how to create these animations
 using
