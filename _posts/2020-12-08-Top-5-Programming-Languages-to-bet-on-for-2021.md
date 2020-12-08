@@ -118,8 +118,8 @@ Overall Python and Javascript are certainty two of the most popular programming 
 
 ## Bibliography
 
-\[1\] How Many Computer Programming Languages Are There? — Career Karma, TRENT FOWLER. Accessed at: [https://careerkarma.com/blog/how-many-coding-languages-are-there/#:~:text=According%20to%20Wikipedia%2C%20there%20are,to%20an%20
-impressive%20245%20languages](https://medium.com/r/?url=https%3A%2F%2Fcareerkarma.com%2Fblog%2Fhow-many-coding-languages-are-there%2F%23%3A~%3Atext%3DAccording%2520to%2520Wikipedia%252C%2520there%2520are%2Cto%2520an%2520impressive%2520245%2520languages).
+\[1\] How Many Computer Programming Languages Are There? — Career Karma, TRENT FOWLER. Accessed at: [https://careerkarma.com/blog/how-many-coding-languages-are-there/#:~:text=According%20to%20Wikipedia%2C%20there%20are,to
+%20an%20impressive%20245%20languages](https://medium.com/r/?url=https%3A%2F%2Fcareerkarma.com%2Fblog%2Fhow-many-coding-languages-are-there%2F%23%3A~%3Atext%3DAccording%2520to%2520Wikipedia%252C%2520there%2520are%2Cto%2520an%2520impressive%2520245%2520languages).
 
 \[2\] 2020 Developer Survey — Stack Overflow. Accessed at: [https://insights.stackoverflow.com/survey/2020](https://medium.com/r/?url=https%3A%2F%2Finsights.stackoverflow.com%2Fsurvey%2F2020)
 
