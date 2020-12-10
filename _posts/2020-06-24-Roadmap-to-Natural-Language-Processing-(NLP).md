@@ -113,7 +113,8 @@ An example notebook which you can run in order to generate your own text is avai
 
 [1] Extract Custom Keywords using NLTK POS tagger in python, Thinkinfi, Anindya Naskar. Accessed at: [https://www.thinkinfi.com/2018/10/extract-custom-entity-using-nltk-pos.html](https://www.thinkinfi.com/2018/10/extract-custom-entity-using-nltk-pos.html)
 
-[2] Comparison of word bag model BoW and word set model SoW, ProgrammerSought. Accessed at: [http://www.programmersought.com/article/4304366575/;jsessionid=0187F8E68A22612555B437068028C012](http://www.programmersought.com/article/4304366575/;jsessionid=0187F8E68A22612555B437068028C012)
+[2] Comparison of word bag model BoW and word set model SoW, ProgrammerSought. Accessed at: [http://www.programmersought.com/article/4304366575/
+;jsessionid=0187F8E68A22612555B437068028C012](http://www.programmersought.com/article/4304366575/;jsessionid=0187F8E68A22612555B437068028C012)
 
 [3] Topic Modeling: Art of Storytelling in NLP,
 TechnovativeThinker. Accessed at: [https://medium.com/@MageshDominator/topic-modeling-art-of-storytelling-in-nlp-4dc83e96a987](https://medium.com/@MageshDominator/topic-modeling-art-of-storytelling-in-nlp-4dc83e96a987)

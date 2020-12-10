@@ -379,7 +379,9 @@ Accessed at:
 
 [3] Integrated Chemometrics and Statistics to Drive Successful Proteomics
 Biomarker Discovery, ResearchGate. Accessed at:
-[https://www.researchgate.net/publication/324800823_Integrated_Chemometrics_and_Statistics_to_Drive_Successful_Proteomics_Biomarker_Discovery](https://www.researchgate.net/publication/324800823_Integrated_Chemometrics_and_Statistics_to_Drive_Successful_Proteomics_Biomarker_Discovery)
+[https://www.researchgate.net/publication/324800823_Integrated_Chemometrics_and_
+Statistics_to_Drive_Successful_Proteomics_
+Biomarker_Discovery](https://www.researchgate.net/publication/324800823_Integrated_Chemometrics_and_Statistics_to_Drive_Successful_Proteomics_Biomarker_Discovery)
 
 [4] Chi-squared test, Life in Freshwater. Accessed at:
 [https://www.lifeinfreshwater.org.uk/Stats%20for%20twits/Chi-Squared.html](https://www.lifeinfreshwater.org.uk/Stats%20for%20twits/Chi-Squared.html)

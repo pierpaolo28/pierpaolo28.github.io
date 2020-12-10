@@ -203,7 +203,9 @@ functions.
 
 [2] Quantum Probabilistic Models Revisited: The Case of Disjunction Effects in
 Cognition. Catarina Moreira, et al. Researchgate. Accessed at:
-[https://www.researchgate.net/publication/304577699_Quantum_Probabilistic_Models_Revisited_The_Case_of_Disjunction_Effects_in_Cognition/figures?lo=1](https://www.researchgate.net/publication/304577699_Quantum_Probabilistic_Models_Revisited_The_Case_of_Disjunction_Effects_in_Cognition/figures?lo=1)
+[https://www.researchgate.net/publication/304577699_Quantum_Probabilistic_Models_Revisited_
+The_Case_of_Disjunction_Effects_in_
+Cognition/figures?lo=1](https://www.researchgate.net/publication/304577699_Quantum_Probabilistic_Models_Revisited_The_Case_of_Disjunction_Effects_in_Cognition/figures?lo=1)
 
 [3] GAN Deep Learning Architectures — review, Sigmoidal. Accessed at:
 [https://sigmoidal.io/beginners-review-of-gan-architectures/](https://sigmoidal.io/beginners-review-of-gan-architectures/)
