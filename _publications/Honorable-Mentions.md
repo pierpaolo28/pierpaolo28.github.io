@@ -10,6 +10,7 @@ In this article are available a list of links where my work has been republished
 
 Sample list of published articles which have then been republished in different languages:
 
+- [Tech4Future Profile (Italian)](https://tech4future.info/author/pier-paolo-ippolito/)
 - [Natural Language Processing (NLP), i modelli per l’elaborazione del linguaggio naturale (Italian)](https://tech4future.info/modelli-nlp-natural-language-processing/)
 - [Contribuire alla ricerca in ambito AI: come farlo e come rimanere aggiornati (Italian)](https://tech4future.info/ricerca-ambito-ai-come-contribuire/)
 - [Intelligenza artificiale, sì ma cosa si intende per intelligenza? (Italian)](https://tech4future.info/intelligenza-cosa-significa/)
@@ -29,6 +30,7 @@ KDNuggets Silver and Gold posts:
 
 <a href="https://www.kdnuggets.com/2020/10/top-news-week-1019-1025.html" target="_blank" rel="noopener"><img src="https://www.kdnuggets.com/images/tkb-2010-s.png" width=95 alt="Top KDnuggets Blogger for Oct 2020" align="right"></a>
 
+- [KDNuggets Profile](https://www.kdnuggets.com/author/pierpaolo-ippolito)
 - [How to Optimize Your Jupyter Notebook](https://www.kdnuggets.com/2020/01/optimize-jupyter-notebook.html)
 - [Probability Distributions in Data Science](https://www.kdnuggets.com/2020/02/probability-distributions-data-science.html)
 - [Understanding Cancer using Machine Learning](https://www.kdnuggets.com/2019/08/understanding-cancer-machine-learning.html)
