@@ -11,12 +11,12 @@ Atomic Habits are a series of small practices which if applied in the medium/lon
 
 ### Creating good habits
 
-![](/assets/img/habits1.png) <br>
+![](/assets/img/habits1.PNG) <br>
 [Figure 1: James Clear CheatSheets](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habits+Cheat+Sheet.pdf)
 
 ### Breaking bad habits
 
-![](/assets/img/habits2.png) <br>
+![](/assets/img/habits2.PNG) <br>
 [Figure 2: James Clear CheatSheets](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habits+Cheat+Sheet.pdf)
 
 ## Quotes
