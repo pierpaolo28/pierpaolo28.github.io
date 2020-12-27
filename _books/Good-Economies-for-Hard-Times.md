@@ -20,4 +20,4 @@ In "Good economics for hard times" Abhijit Banerjee and Esther Duflo try to appr
 > “Economics is too important to be left to economists.”
 
 
-Authors: Abhijit Banerjee and Esther Duflo
+Book Authors: Abhijit Banerjee and Esther Duflo

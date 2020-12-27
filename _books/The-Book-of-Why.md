@@ -27,4 +27,4 @@ Nowadays Machine Learning models, makes use of correlations between the differen
 
 > "If I could sum up the message of this book in one tiny phrase, it would be that you are smarter than your data. Data do not understand causes and effects; humans do."
 
-Authors: Judea Pearl and Dana Mackenzie
+Book Authors: Judea Pearl and Dana Mackenzie

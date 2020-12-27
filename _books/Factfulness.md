@@ -36,4 +36,4 @@ In this book, Hans Rosling points out how a large number of people has an inaccu
 
 > “Cultures, nations, religions, and people are not rocks. They are in constant transformation.”
 
-Authors: Anna Rosling Rönnlund, Hans Rosling, and Ola Rosling
+Book Authors: Anna Rosling Rönnlund, Hans Rosling, and Ola Rosling
