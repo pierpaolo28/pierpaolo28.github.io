@@ -40,6 +40,8 @@ Python Open Source Contributions and mentions:
 - [NVIDIA RAPIDS: GPU Accelerated Data Analytics & Machine Learning Tutorial](https://github.com/rapidsai-community/notebooks-contrib/blob/branch-0.12/multimedia_links.md)
 - [Awesome Streamlit: Kaggle Mushrooms Dashboard](https://github.com/MarcSkovMadsen/awesome-streamlit)
 
-FreeCodeCamp Top Contributor 2019:
-
+FreeCodeCamp Top Contributor (2019/2020):
+- [The Top freeCodeCamp Contributors of 2020](https://www.freecodecamp.org/news/2020-top-contributors/)
+<br>
+<br>
 <img src="/assets/img/posts/freecamp.jpg" alt="drawing" style="width:250px;"/>
