@@ -3,7 +3,7 @@ layout: post_book
 date: 2019-10-12
 ---
 
-In this book, Hans Rosling points out how a large number of people has an inaccurate view of our world and some key trends that are now taking action (e.g. politics, immigration, life-expectancy). Therefore, in this book Hans tries to help us to update our perception about things and make it instead rely on actual facts and statistics. In order to help us to build a fact-based view of our world, Hans proposes 10 fundamental mental filters to use before coming to any conclusion.
+In this book, Hans Rosling points out how a large number of people has an inaccurate view of our world and some key trends that are now taking action (e.g. politics, immigration, life-expectancy). Therefore, in [Factfulness](https://amzn.to/3obO2Di) Hans tries to help us to update our perception about things and make it instead rely on actual facts and statistics. In order to help us to build a fact-based view of our world, Hans proposes 10 fundamental mental filters to use before coming to any conclusion.
 
 <!--end_excerpt-->
 
