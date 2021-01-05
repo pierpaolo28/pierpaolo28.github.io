@@ -8,6 +8,12 @@ date: 2021-01-04
 > "Computer Science is no more about **computers** than astronomy is about **telescopes**"
 > --Edgar W.Dijkstra
 
+## What are data structures and algorithms?
+- **Data Structure**: a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationship between them and the functions or operations which can be applied to the data (e.g. stack of books on top of each other).
+- **Algorithm**: a sequence of instructions, constructed to solve a class of problems or perform a computation. Algorithms are unambiguous specifications for performing calculations and data processing (e.g. the process of taking a series of books from a stack of books until we find the book we are looking for).
+
+In short, a data structure is a way to organize information while an algorithm is a way to process information to reach an end goal.
+
 ## Object Oriented Programming
 
 - **Object**: **Instance** of a class.
@@ -37,7 +43,21 @@ Time complexities examples:
 - **O(nlog(n))**: typically seen in sorting and divide and conquer style Algorithms (e.g. running something O(n), log(n) times or  O(log(n)), n times).
 - **O(n<sup>2</sup>)**: is slower than linear time and often occurs when working with 2 nested loops.
 
+| Classes of Running Times      | Big O Notation     |
+| ------------- |:-------------:|
+| Constant      | O(1)          |
+| Logarithmic   | O(logN)       |
+| Linear        | O(N)          |
+| Linearithmic  | O(NlogN)      |
+| Polynomial    | O(N<sup>2</sup>), O(N<sup>3</sup>), etc.. |
+| Exponential   | O(2<sup>N</sup>), O(3<sup>N</sup>), etc.. |
+
 This same type of reasoning can be applied not just to time complexity (how fast an algorithm runs), but as well to space complexity (how much memory it needs to run).
+
+### How to identify the running time of an algorithm?
+1. Understand how the algorithm works (What is the purpose of the algorithm? What are the inputs/outputs?)
+2. Identify a basic unit of the algorithm to count (e.g. print/iterations/assignment statements, recursive calls). The focus is on the worst case scenario.
+3. Map the growth of count from step 2 to an appropriate Big O class (e.g. is the growth constant/exponential/linear/logarithmic?).
 
 ## Recursion
 In the world of problem solving, recursion is about taking a big problem and then breaking it down into smaller and smaller components until we reach a base case (e.g. factorial computation).
