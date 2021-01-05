@@ -471,7 +471,9 @@ using a simple Autoencoder as our Feature Extraction Technique.
 
 [2] Iterative Non-linear Dimensionality Reduction with Manifold Sculpting,
 ResearchGate. Accessed at:
-[https://www.researchgate.net/publication/220270207_Iterative_Non-linear_Dimensionality_Reduction_
+[https://www.researchgate.net/publication/
+220270207_Iterative_Non-linear_
+Dimensionality_Reduction_
 with_Manifold_Sculpting](https://www.researchgate.net/publication/220270207_Iterative_Non-linear_Dimensionality_Reduction_with_Manifold_Sculpting)
 
 [3] Manifold learning, Scikit-learn documentation. Accessed at:
