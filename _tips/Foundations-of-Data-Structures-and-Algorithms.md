@@ -59,10 +59,20 @@ This same type of reasoning can be applied not just to time complexity (how fast
 2. Identify a basic unit of the algorithm to count (e.g. print/iterations/assignment statements, recursive calls). The focus is on the worst case scenario.
 3. Map the growth of count from step 2 to an appropriate Big O class (e.g. is the growth constant/exponential/linear/logarithmic?).
 
+## Dynamic Arrays
+Dynamic Arrays are a fundamental data structure. The key feature of dynamic arrays is that they allow for efficient (fast) insertion/access/remove operations. This is a remarkable feature considering that computers under the hood works by using fixed length arrays (every time we need to resize our array we need to copy all the elements across and change the original memory size). In programming languages like Python and Java, an insertion/remove operation can run in O(N) (worst case, otherwise O(1) on average).
+
 ## Recursion
 In the world of problem solving, recursion is about taking a big problem and then breaking it down into smaller and smaller components until we reach a base case (e.g. factorial computation).
 
 Therefore, a recursive function refers back to itself until reaching a base case (this generates a recursive trace, in which at each call information is stored about the computed result waited to be used once reached the base condition). One problem with using recursion is that each function call is stored on the stack trace (making too many calls to the recursive function could therefore potentially lead to memory issues in the long run).
+
+### 5 steps to solve any recursive problem
+1. What's the simplest possible input? (The simplest case, often becomes our base case for the problem. The base case of a recursive function is the only input, for which we provide an explicit answer. All the other solutions to the problem will then build upon the base case.)
+2. Play around creating different examples and try to visualize them.
+3. Relate hard cases to simpler cases.
+4. Generalize any underlying pattern we managed to undercover.
+5. Write code by combining recursive patterns with the base case.
 
 ## Resources and References
 - [Reducible](https://www.youtube.com/channel/UCK8XIGR5kRidIw2fWqwyHRA/videos)
