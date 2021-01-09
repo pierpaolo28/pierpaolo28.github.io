@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
 ![](/assets/img/posts/timeline.gif)
 
 ## Biography
-I am a SAS Data Scientist and MSc in Artificial Intelligence graduate from the University of Southampton. I have a strong interest in AI advancements and machine learning applications (such as finance and medicine). Outside my work activities, I am a writer for Towards Data Science and Freelancer.
+SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers).
 
 <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
