@@ -44,7 +44,7 @@ Time complexities examples:
 - **O(n<sup>2</sup>)**: is slower than linear time and often occurs when working with 2 nested loops.
 
 | Classes of Running Times      | Big O Notation     |
-| ------------- |:-------------:|
+|:-------------:|:-------------:|
 | Constant      | O(1)          |
 | Logarithmic   | O(logN)       |
 | Linear        | O(N)          |
