@@ -74,6 +74,32 @@ Therefore, a recursive function refers back to itself until reaching a base case
 4. Generalize any underlying pattern we managed to undercover.
 5. Write code by combining recursive patterns with the base case.
 
+## Graph Theory
+A graph is a network which can help us to define and visualize relationships between various components (Figure 2). Components are commonly referred in graph theory as **vertices/nodes**, while relationships are commonly referred as **edges**. Graph theory aims therefore to help in better understanding these type of networks and how they can be used in order to solve various problems (e.g. navigation, social networks, sudoku). Different nodes are considered to be **neighbours** if they are connected together by an edge. Each node can additionally be defined by its **degree** (number of neighbours).
+
+![](/assets/img/posts/g1.PNG)<br>
+Figure 2: Connected Graph
+
+Another key characteristic of graphs are **paths**. A path can be defined as a sequence of vertices connected by edges and the **path length** is instead defined as the number of edges in a path. A special case of path is a **cycle** (a path that starts and ends at the same vertex). All cycles are paths but not all paths are necessarily cycles.
+
+Graphs can be connected or not (Figure 3). A graph is connected if all vertices are connected (a path exists between all pair of vertices). Not connected graphs, can although still have connected components (a subset of vertices in a graph that is connected).
+
+![](/assets/img/posts/g2.PNG)<br>
+Figure 3: Not connected Graph
+
+### Types of Graphs
+1. **Undirected Graphs** = edges are bidirectional.
+2. **Directed (Cyclic) Graphs** = edges are unidirectional and there is a cycle.
+3. **Directed (Acyclic) Graphs** = edges are unidirectional and there are no cycles.
+4. **Weighted Graphs** = the edges of the graph are not treated equally and some edges might have an higher weight than others.
+5. **Trees** = are a type of connected and acyclic graph. Removing an edge in a tree would disconnect the graph and adding an edge would create a cycle.
+
+### Graph representations
+Graphs can be constructed in different ways when coding, some possible approaches are:
+1. Map the different vertices into an **adjacency matrix**. If an edge exists between a row-column pair, this is represented as a 1, otherwise a 0 is stored in the matrix.
+2. An **edge set** can be constructed in order to store the different connections (e.g. {(0, 1) (0, 2), (1, 2)}).
+3. In an **adjacency list**, for each of the nodes in the graph is stored a list of all their neighbours. This is currently the most common way in order to represent a graph while coding.
+
 ## Resources and References
 - [Reducible](https://www.youtube.com/channel/UCK8XIGR5kRidIw2fWqwyHRA/videos)
 - [Zeved](https://www.youtube.com/channel/UC0dnuYW1-BKqBLBBC3E_diA)
