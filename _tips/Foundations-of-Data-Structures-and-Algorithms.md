@@ -100,6 +100,18 @@ Graphs can be constructed in different ways when coding, some possible approache
 2. An **edge set** can be constructed in order to store the different connections (e.g. {(0, 1) (0, 2), (1, 2)}).
 3. In an **adjacency list**, for each of the nodes in the graph is stored a list of all their neighbours. This is currently the most common way in order to represent a graph while coding.
 
+### Graph Algorithms
+Depth First Search (DFS) and Breath First Search (BFS) are two types of Graph Traversal techniques (algorithms that visit every vertex of a graph). Graph Traversal techniques can either be Preorder (we mark a node as visited as soon as we encounter it) or Postorder (we mark a node as visited once we explored all his neighbours). Some example applications of DFS are: Cycle Detection, Finding Connected Components and Topological Sorting.
+
+## Dynamic Programming
+
+Dynamic programming is one of the most powerful algorithmic programming techniques in computer science. The key idea behind dynamic programming is to try to solve a problem by first identifying and solving its related subproblems. Bringing together all the subproblems it would then be possible to solve the bigger problem. In order to try to solve dynamic programming problems, 5 key steps can be usually followed:
+1. Visualize the problem through examples (e.g. using which data structure it can be solved?)
+2. Find an appropriate subproblem
+3. Find relationships among subproblems
+4. Generalize the relationship
+5. Implement by solving subproblems in order
+
 ## Resources and References
 - [Reducible](https://www.youtube.com/channel/UCK8XIGR5kRidIw2fWqwyHRA/videos)
 - [Zeved](https://www.youtube.com/channel/UC0dnuYW1-BKqBLBBC3E_diA)
