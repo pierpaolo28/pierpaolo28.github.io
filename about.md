@@ -152,6 +152,7 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 technologies can be used to enhance AI powered applications.
 
 ## Awards & Scholarships
+- Awarded various technical cloud certifications on platforms such as [Acclaim](https://www.youracclaim.com/users/pier-paolo-ippolito/badges) and [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/).
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
 - Electronics and Computer Prize Excellence Scholarship 2016 - monetary award for exceeding university entry requirements.
 
