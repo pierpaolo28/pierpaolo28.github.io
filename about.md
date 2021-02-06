@@ -156,7 +156,8 @@ technologies can be used to enhance AI powered applications.
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
 - Electronics and Computer Prize Excellence Scholarship 2016 - monetary award for exceeding university entry requirements.
 
-## Hackathons & Certifications
+## Hackathons & Events
+- TEDxLondon Volunteer 2021.
 - Google BGN 2019 London Hackathon.
 - Facebook London Hack 2019: First Challenge Winner.
 - Hack The South 2019: Best Hardware Prize Winner.
