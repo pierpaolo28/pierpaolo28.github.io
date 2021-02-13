@@ -8,7 +8,7 @@ permalink: /contact/
 
 <img src="https://avatars1.githubusercontent.com/u/40637715?s=460&v=4" width="200">
 
-If you have any question, please do not hesitate to contact me. I am currently looking for freelancing and research publication opportunities.
+If you have any question, please do not hesitate to contact me. I am currently open for freelancing and research publication opportunities.
 
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

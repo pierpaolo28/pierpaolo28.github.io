@@ -7,10 +7,6 @@ featured-img: intro2
 img-type: jpg
 ---
 
-Designed the chip and board layout for a monolithic quantum
-dot-enhanced micro‐display demonstrator device. This project was
-carried out in collaboration with a University in Hong Kong to
-research how to improve the efficiency of next generation Micro-LED
-displays.
+Designed the chip and board layout for a monolithic quantum dot enhanced micro‐display demonstrator device (Micro-LED). This project was carried out in collaboration with a University in Hong Kong to research how to improve the efficiency of next-generation Micro-LED displays.
 
 ![](/assets/img/posts/0001.jpg)

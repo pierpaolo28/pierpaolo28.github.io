@@ -91,13 +91,12 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 
                  <dt class="timeline-event" id="event03"><a>Digital-Dandelion (Research Data Scientist)</a></dt>
                  <dd class="timeline-event-content" id="event03EX">
-                        <p>As a freelance Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce. In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked  on was on analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how can these be predicted. To do so, different techniques such as Feature Selection/Engineering
-                        and Ensemble Learning have been employed. The role has developed my ability to work to a deadline to produce an excellent product, utilising A/B testing and version control tools such as Git.</p>
+                        <p>As a Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce.  In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked on was on analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how these can be predicted. To do so, different techniques such as Feature Selection/Engineering and Ensemble Learning have been employed. This role has developed my ability to work to a deadline to produce an excellent product, utilising technologies such as Google Cloud APIs, A/B testing and version control tools (e.g. Git).</p>
                   </dd>
 
-                  <dt class="timeline-event" id="event04"><a>Fidessa (Service Delivery Summer Intern)</a></dt>
+                  <dt class="timeline-event" id="event04"><a>ION Group (Service Delivery Developer Intern)</a></dt>
                   <dd class="timeline-event-content" id="event04EX">
-                          <p>Fidessa is a financial services company with offices all around the world. Every year $26 trillion worth of transactions flows across Fidessa global network. As part of my experience, I improved the Fidessa online tools framework working in the Financial Derivatives Automation Team. This role involved working on the client-side using HTML/CSS/Javascript, and on the server-side using SQL.</p>
+                          <p>Improved ION’s Fidessa online framework working in the Financial Derivatives Automation Team. This role involved working on the client-side using Javascript, and on the server-side using SQL. Throughout this experience, I attended daily Scrum meetings with the rest of the team in order to ensure the best division of workloads and punctual delivery.</p>
                   </dd>
 
                   <dt class="timeline-event" id="event05"><a>BEng Electronic Engineering (University of Southampton)</a></dt>
@@ -107,12 +106,7 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 
                   <dt class="timeline-event" id="event06"><a>Documation Software LTD (Software Developer Intern)</a></dt>
                   <dd class="timeline-event-content" id="event06EX">
-                          <p>Using UIPath Robotics Process Automation (RPA) platform, I designed
-                            and implemented two programs to automate supplier’s registration and
-                            creation of invoices into financial systems (Sage 50). The two
-                            programs I developed are currently used by Documation and its
-                            customers. Their application has been proved to speed up these
-                            processes up to three times.</p>
+                          <p>Created and implemented two programs using UIPath as a Robotic Process Automation tool to automate supplier’s registration and creation of invoices into financial systems (Sage 50). The two programs I developed are currently used by Documation and its customers. Their application has been proved to speed up these processes up to three times.</p>
                   </dd>
 
                 </dl>
@@ -125,15 +119,11 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 
                   <dt class="timeline-event" id="event07"><a>University of Southampton (ECS Research Intern)</a></dt>
                   <dd class="timeline-event-content" id="event07EX">
-                          <p>Designed the chip and board layout for a monolithic quantum
-                            dot-enhanced micro‐display demonstrator device. This project was
-                            carried out in collaboration with a University in Hong Kong to
-                            research how to improve the efficiency of next generation Micro-LED
-                            displays.</p>
+                          <p>Designed the chip and board layout for a monolithic quantum dot enhanced micro‐display demonstrator device (Micro-LED). This project was carried out in collaboration with a University in Hong Kong to research how to improve the efficiency of next-generation Micro-LED displays.</p>
                   </dd>
                   <dt class="timeline-event" id="event08"><a>Barclays (Technology Spring Intern)</a></dt>
                   <dd class="timeline-event-content" id="event08EX">
-                          <p>Attended an Insight Program for Barclays in Glasgow during which I had shadowing sessions for both roles of Developer and Business Analyst. Thanks to this experience I gained a greater understanding of the financial market and of the increasing impact technology is going to have in this environment (ex. AI, Open Banking, API, Big Data and Cybersecurity).</p>
+                          <p>Attended an Insight Program for Barclays in Glasgow during which I had shadowing sessions for both roles of Developer and Business Analyst. Thanks to this experience I gained a greater understanding of the financial market and of the increasing impact technology is going to have in this environment (e.g. AI, Big Data and APIs).</p>
                   </dd>
 
                 </dl>
@@ -185,7 +175,7 @@ technologies can be used to enhance AI powered applications.
 <div id="myProgress">
   <div id="myBar4">80%</div>
 </div>
-- UIPath
+- Robotic Process Automation (e.g. UIPath)
 <div id="myProgress">
   <div id="myBar2">70%</div>
 </div>
@@ -193,7 +183,7 @@ technologies can be used to enhance AI powered applications.
 <div id="myProgress">
   <div id="myBar2">70%</div>
 </div>
-- Web Development (HTML, CSS, Javascript, Vue.js)
+- Web Development (HTML, CSS, Javascript)
 <div id="myProgress">
   <div id="myBar2">70%</div>
 </div>
