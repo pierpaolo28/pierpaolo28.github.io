@@ -158,6 +158,14 @@ technologies can be used to enhance AI powered applications.
 - Intel Buzz Workshop London 2017.
 - BMC (Bloomberg Markets Concepts).
 
+## Key Badges
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bca2f766-dca5-42b1-a6d0-15805e137065" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1571f896-7f27-41da-9bea-01cda289c043" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="913d8a2a-b018-460b-b6b8-38cf22158ec6" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8a121f6f-3269-44a4-80cb-d7a0774f3314" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="313d54ba-11d0-4fb6-8ee6-9c89c845f6eb" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+
 ## Skills
 - Python
 <div id="myProgress">

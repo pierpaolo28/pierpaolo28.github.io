@@ -25,6 +25,7 @@ Sample of mentions from publications, companies and universities:
 - [DeployPlace: Top 3 DevOps trends of 2020 in the eyes of real engineers](https://deployplace.com/blog/top-3-devops-trends-2020/)
 - [Cornell University Recommended Reading: Game Theory in Artificial Intelligence](http://blogs.cornell.edu/info2040/2019/09/23/game-theory-in-artificial-intelligence/)
 - [Experfy: Harvard Innovation Lab](https://www.experfy.com/blog/author/pier-paolo-ippolito/)
+- [Datacast: Building Data Science Projects](https://medium.com/cracking-the-data-science-interview/datacast-episode-57-building-data-science-projects-with-pier-paolo-ippolito-ceb30f416baf)
 
 KDNuggets Silver and Gold posts:
 

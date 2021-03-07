@@ -8,6 +8,10 @@ Collection of some freely available talks in which I have been involved as a spe
 
 <!--end_excerpt-->
 
+## Datacast Interview: Building Data Science Projects
+
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/505bc82a-6c30-471c-9793-3745578b3ec0?dark=false"></iframe>
+<br>
 ## 2020 SAS UK&I Forum
 
 Intro to Viya demo session at the 2020 SAS UK&I Virtual Forum. More information about this event is available at [this link.](https://pierpaolo28.github.io/blog/blog50/)
