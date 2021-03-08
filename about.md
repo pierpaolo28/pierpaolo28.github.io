@@ -91,7 +91,7 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 
                  <dt class="timeline-event" id="event03"><a>Digital-Dandelion (Research Data Scientist)</a></dt>
                  <dd class="timeline-event-content" id="event03EX">
-                        <p>As a Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce.  In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked on was on analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how these can be predicted. To do so, different techniques such as Feature Selection/Engineering and Ensemble Learning have been employed. This role has developed my ability to work to a deadline to produce an excellent product, utilising technologies such as Google Cloud APIs, A/B testing and version control tools (e.g. Git).</p>
+                        <p>As a Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce.  In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked on was analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how these can be predicted. To do so, different techniques such as Feature Selection/Engineering and Ensemble Learning have been employed. This role has developed my ability to work to a deadline to produce an excellent product, utilising technologies such as Google Cloud APIs, A/B testing and version control tools (e.g. Git).</p>
                   </dd>
 
                   <dt class="timeline-event" id="event04"><a>ION Group (Service Delivery Developer Intern)</a></dt>
@@ -106,7 +106,7 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 
                   <dt class="timeline-event" id="event06"><a>Documation Software LTD (Software Developer Intern)</a></dt>
                   <dd class="timeline-event-content" id="event06EX">
-                          <p>Created and implemented two programs using UIPath as a Robotic Process Automation tool to automate supplier’s registration and creation of invoices into financial systems (Sage 50). The two programs I developed are currently used by Documation and its customers. Their application has been proved to speed up these processes up to three times.</p>
+                          <p>Created and implemented two programs using UIPath as a Robotic Process Automation tool to automate supplier’s registration and creation of invoices into financial systems (Sage 50). The two developed programs have then been successfully deployed to production and used by Documation and its customers. Their application has been proved to speed up processes up to three times.</p>
                   </dd>
 
                 </dl>
@@ -151,8 +151,8 @@ technologies can be used to enhance AI powered applications.
 - Google BGN 2019 London Hackathon.
 - Facebook London Hack 2019: First Challenge Winner.
 - Hack The South 2019: Best Hardware Prize Winner.
-- Facebook Analytic Academy 2018.
-- J.P. Morgan: Introduction to Big Data Analytic using Spark and Python 2018 (Spark data-set challenge winner).
+- Facebook Analytics Academy 2018.
+- J.P. Morgan: Introduction to Big Data Analytics using Spark and Python 2018 (Spark data-set challenge winner).
 - Microsoft: Deep Learning Data Analysis in Azure Workshop.
 - Maquaire Technology Spotlight 2017.
 - Intel Buzz Workshop London 2017.
