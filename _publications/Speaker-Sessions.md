@@ -39,3 +39,23 @@ Al giorno d’oggi le tecnologie di Machine Learning si basano solo sulle correl
   >
   </iframe>
 </div>
+<br>
+## Towards Data Science: GPU Accelerated Data Analytics & Machine Learning
+
+GPU acceleration is nowadays becoming more and more important. The main two drivers for this shift are:
+1. The world’s amount of data is doubling every year.
+2. Moore’s law is now coming to an end because of limitations imposed by the quantum realm.
+
+As a demonstration for this shift, an increasing number of online data science platforms is now adding GPU enabled solutions. Some examples are: Kaggle, Google Colaboratory, Microsoft Azure and Amazon Web Services (AWS).
+
+<div class="wrapper" style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/9Wey2c5Lx18?rel=0"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
