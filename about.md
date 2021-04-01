@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
 ![](/assets/img/posts/timeline.gif)
 
 ## Biography
-SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers).
+Data Scientist at SAS and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers).
 
 <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
@@ -142,7 +142,7 @@ SAS Data Scientist and MSc in Artificial Intelligence graduate with an interest 
 technologies can be used to enhance AI powered applications.
 
 ## Awards & Scholarships
-- Awarded various technical cloud certifications on platforms such as [Acclaim](https://www.youracclaim.com/users/pier-paolo-ippolito/badges), [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/) and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a).
+- Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges), [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/) and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a).
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
 - Electronics and Computer Prize Excellence Scholarship 2016 - monetary award for exceeding university entry requirements.
 
@@ -161,6 +161,7 @@ technologies can be used to enhance AI powered applications.
 ## Key Badges
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bca2f766-dca5-42b1-a6d0-15805e137065" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="33138ba7-b65c-41e3-a119-a03a33b1b99f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1571f896-7f27-41da-9bea-01cda289c043" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="913d8a2a-b018-460b-b6b8-38cf22158ec6" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8a121f6f-3269-44a4-80cb-d7a0774f3314" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
