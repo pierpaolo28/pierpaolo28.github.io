@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-## Programmer, Data Scientist, ML Engineer & Web Developer
+## Programmer, Data Scientist & ML Engineer
 
 <img src="https://avatars1.githubusercontent.com/u/40637715?s=460&v=4" width="200">
 
@@ -13,9 +13,9 @@ If you have any question, please do not hesitate to contact me. I am currently o
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="pierpaolo28" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/pierpaolo28?trk=profile-badge">Pier Paolo Ippolito</a></div>
+<!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="pierpaolo28" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/pierpaolo28?trk=profile-badge">Pier Paolo Ippolito</a></div>
 
-<p></p>
+<p></p> -->
 <a href="\assets\dist\Pier_Paolo_Ippolito_CV.pdf" class="btn">Resumé Download</a>
 <br>
 <br>

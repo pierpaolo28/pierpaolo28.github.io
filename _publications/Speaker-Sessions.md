@@ -11,6 +11,12 @@ Collection of some freely available talks in which I have been involved as a spe
 ## Datacast Interview: Building Data Science Projects
 
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/505bc82a-6c30-471c-9793-3745578b3ec0?dark=false"></iframe>
+
+<br>
+## Data Driven People Interview (Italian)
+
+<iframe src="https://open.spotify.com/embed-podcast/episode/4ZD3EdDbP2pcheVBQ7swvc" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 <br>
 ## 2020 SAS UK&I Forum
 
