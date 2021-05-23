@@ -144,7 +144,15 @@ technologies can be used to enhance AI powered applications.
 ## Awards & Scholarships
 - Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges), [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/) and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a).
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
-- Electronics and Computer Prize Excellence Scholarship 2016 - monetary award for exceeding university entry requirements.
+- Electronics and Computer Science 2016 Excellence Scholarship - monetary award for exceeding university requirements.
+
+## Communities & Open Source
+- **AWS Community Builder (2021-Present):**
+<br>
+![](/assets/img/AWScommbuild.png)
+- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 250 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects).
+- **Microsoft Student Ambassador (2019-2020):** As part of my Master Degree, I have been a Microsoft ambassador at the University of Southampton. Thanks to this role, I had the opportunity to organise and present Workshops and Hackathons events using Microsoft Azure technologies.
+- **Artificial Intelligence Society (2019-2020):** I have been a founding committee member of the University of Southampton Artificial Intelligence Society for which I organised workshops covering topics such as Machine Learning deployment and Natural Language Processing.
 
 ## Hackathons & Events
 - TEDxLondon Volunteer 2021.
