@@ -13,6 +13,26 @@ github: https://github.com/pierpaolo28/Companies-Data-Science-Challenges/blob/ma
  href="../assets/img/icons/favicon.ico"
  type="image/x-icon"
 />
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta
+name="google-site-verification"
+content="Zkrpcge71CkhGPEkXP2eq2Bqe4Glh5q_uvpt2Ond624"
+/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+async
+src="https://www.googletagmanager.com/gtag/js?id=UA-138942304-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+gtag("config", "UA-138942304-1");
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Online Jupyter Notebook | Pier Paolo Ippolito</title>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <div>
