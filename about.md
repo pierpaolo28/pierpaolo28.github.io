@@ -134,7 +134,7 @@ Data Scientist at SAS and MSc in Artificial Intelligence graduate with an intere
 
 ## Technical Writing
 - Towards Data Science Associate Editor and Writer.
-- freeCodeCamp, KDNuggets and Tech4future Contributor.
+- freeCodeCamp, KDNuggets, Changes Unipol and Tech4future Contributor.
 
 ## Conferences
 - Open Data Science Conference 2020 (Europe): Took part at the 2020 Open Data Science Conference as a team member of the SAS UK booth, in order to showcase the latest advancements of the SAS Viya data analytics platform.
