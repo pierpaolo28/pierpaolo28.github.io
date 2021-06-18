@@ -29,6 +29,24 @@ Intro to Viya demo session at the 2020 SAS UK&I Virtual Forum. More information 
   />
   Your browser does not support the video tag.
 </video>
+
+<br>
+## Global AI On Tour: Causal Reasoning In Machine Learning
+
+Nowadays Machine Learning models, are able to learn from data by identifying patterns in large datasets. Although, humans might be able to perform a same task after just examining a few examples. This is possible thanks to the inherit humans ability to understand causal relationships and use inductive inference in order to assimilate new information about the world. In this demonstration given at the [Global AI On Tour](https://tour.globalai.live/) conference, we are going to find out more about how to embed Causal Reasoning in Machine Learning.
+
+<div class="wrapper" style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/hVCRG9wiMwY?rel=0"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+
 <br>
 ## DataScienceSeed: Causal Reasoning in ML: Spiegare “perché” (Italian)
 
