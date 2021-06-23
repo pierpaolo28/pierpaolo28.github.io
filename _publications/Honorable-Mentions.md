@@ -28,6 +28,8 @@ Sample of mentions from publications, companies and universities:
 - [Cornell University Recommended Reading: Game Theory in Artificial Intelligence](http://blogs.cornell.edu/info2040/2019/09/23/game-theory-in-artificial-intelligence/)
 - [Experfy: Harvard Innovation Lab](https://www.experfy.com/blog/author/pier-paolo-ippolito/)
 - [Datacast: Building Data Science Projects](https://medium.com/cracking-the-data-science-interview/datacast-episode-57-building-data-science-projects-with-pier-paolo-ippolito-ceb30f416baf)
+- [Global AI on Tour Conference Speaker](https://tour.globalai.live/speakers/pier-paolo-ippolito/)
+- [Microsoft Learn Student Ambassador](https://studentambassadors.microsoft.com/en-US/profile/3827)
 
 KDNuggets Silver and Gold posts:
 
