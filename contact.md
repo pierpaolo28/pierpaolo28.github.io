@@ -13,10 +13,9 @@ If you have any question, please do not hesitate to contact me. I am currently o
 
 <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="pierpaolo28" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/pierpaolo28?trk=profile-badge">Pier Paolo Ippolito</a></div> -->
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="pierpaolo28" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/pierpaolo28?trk=profile-badge">Pier Paolo Ippolito</a></div>
+<p></p>-->
 
-
-<p></p> -->
 <a href="\assets\dist\Pier_Paolo_Ippolito_CV.pdf" class="btn">Resumé Download</a>
 <br>
 <br>
