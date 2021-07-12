@@ -167,6 +167,7 @@ technologies can be used to enhance AI powered applications.
 - BMC (Bloomberg Markets Concepts).
 
 ## Key Badges
+A more comprehensive list of the different professional certifications I achieved is available at [this link.](/certifications/)
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e0b35d11-71d6-4bc5-8817-5c06b3ebbda5" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bca2f766-dca5-42b1-a6d0-15805e137065" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
