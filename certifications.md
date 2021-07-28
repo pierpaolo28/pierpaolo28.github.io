@@ -14,6 +14,6 @@ Sample list of professional certifications achieved:
 - [Towards Data Science - Associate Editor](/assets/certifications/TDS.pdf)
 - [Bloomberg Market Concepts](/assets/certifications/certificate_of_completion.pdf)
 - [LinkedIn Learning - Product Management First Steps](/assets/certifications/CertificateOfCompletion_Product Management First Steps.pdf)
-- [Microsoft Learn Student Ambassador - Beta](/assets/certifications/MSP Certificate.pdf)
+- [Microsoft Learn Student Ambassador - Gold](/assets/certifications/MSP Certificate.pdf)
 - [UiPath - RPA Awareness Training](/assets/certifications/RPA Awareness - Completion Diploma.pdf)
 - [Kaggle - SQL Summer Camp](/assets/certifications/sql_summer_camp_certificate.pdf)
