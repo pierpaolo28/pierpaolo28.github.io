@@ -34,6 +34,7 @@ Sample of mentions from publications, companies and universities:
 - [Datacast: Building Data Science Projects](https://medium.com/cracking-the-data-science-interview/datacast-episode-57-building-data-science-projects-with-pier-paolo-ippolito-ceb30f416baf)
 - [Global AI on Tour Conference Speaker](https://tour.globalai.live/speakers/pier-paolo-ippolito/)
 - [Microsoft Learn Student Ambassador](https://studentambassadors.microsoft.com/en-US/profile/3827)
+- [Microsoft Tech Community Blog](https://techcommunity.microsoft.com/t5/student-developer-blog/meet-a-recent-microsoft-learn-student-ambassador-graduate-pier/ba-p/2638369)
 
 KDNuggets Silver and Gold posts:
 
@@ -59,7 +60,7 @@ Python Open Source Contributions and mentions:
 
 ## Tweets
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SQL is one of the most requested skills in Data Science. @Pier_Paolo_28 walks us through how it can be used in Data processing and Machine Learning using BigQuery. READ 👉 <a href="https://t.co/QzH9eYzu8r">https://t.co/QzH9eYzu8r</a> via Towards Data Science</p>&mdash; Kaggle (@kaggle) <a href="https://twitter.com/kaggle/status/1168922401050157060?ref_src=twsrc%5Etfw">September 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SQL is one of the most requested skills in Data Science. @Pier_Paolo_28 walks us through how it can be used in Data processing and Machine Learning using BigQuery. READ 👉 <a href="https://t.co/QzH9eYzu8r">https://t.co/QzH9eYzu8r</a> via Towards Data Science</p>&mdash; Kaggle (@kaggle) <a href="https://twitter.com/kaggle/status/1168922401050157060?ref_src=twsrc%5Etfw">September 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Explore different approaches to <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> projects in Python and learn how to benchmark their execution speeds in <a href="https://twitter.com/Pier_Paolo_28?ref_src=twsrc%5Etfw">@Pier_Paolo_28</a>&#39;s latest blog post, which features <a href="https://twitter.com/hashtag/TITANRTX?src=hash&amp;ref_src=twsrc%5Etfw">#TITANRTX</a> and <a href="https://twitter.com/RAPIDSai?ref_src=twsrc%5Etfw">@rapidsai</a>: <a href="https://t.co/gvdQI7jICq">https://t.co/gvdQI7jICq</a> <a href="https://t.co/C5aLtrdULa">pic.twitter.com/C5aLtrdULa</a></p>&mdash; NVIDIA AI (@NVIDIAAI) <a href="https://twitter.com/NVIDIAAI/status/1199108006958583808?ref_src=twsrc%5Etfw">November 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
