@@ -8,7 +8,7 @@ permalink: /contact/
 
 <img src="https://avatars1.githubusercontent.com/u/40637715?s=460&v=4" width="200">
 
-If you have any question, please do not hesitate to contact me. I am currently open for freelancing and research publication opportunities. If you want to keep updated with my latest articles and projects feel free to subscribe to my [Medium mailing list](https://pierpaoloippolito28.medium.com/subscribe). 
+If you have any question, please do not hesitate to contact me. I am currently open for freelancing and research publication opportunities. If you want to keep updated with my latest articles and projects feel free to subscribe to my [Medium mailing list](https://pierpaoloippolito28.medium.com/subscribe).
 
 
 <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>

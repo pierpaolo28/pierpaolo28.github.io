@@ -74,7 +74,7 @@ Data Scientist at SAS and MSc in Artificial Intelligence graduate with an intere
 
                         <dt class="timeline-event" id="event01"><a>SAS Institute (Data Scientist)</a></dt>
                         <dd class="timeline-event-content" id="event01EX">
-                                <p>As part of my role at SAS, I am currently working with the Data Science team in order to help our customers solving various data-driven challenges using Cloud-based technologies and DevOps processes. SAS is a leader in data analytics with more than 40 years of experience and representing about 92% of the US Fortune 100 companies.</p>
+                                <p>Effectively working in the pre-sales division in order to help SAS customers solving various data-driven challenges using Cloud-based technologies (e.g. SAS Viya, Microsoft Azure) and MLOps processes. SAS is a leader in data analytics with more than 40 years of experience and representing about 92% of the US Fortune 100 companies.</p>
                         </dd>
 
                         <dt class="timeline-event" id="event02"><a>MSc Artificial Intelligence (University of Southampton)</a></dt>
@@ -91,10 +91,10 @@ Data Scientist at SAS and MSc in Artificial Intelligence graduate with an intere
 
                  <dt class="timeline-event" id="event03"><a>Digital-Dandelion (Research Data Scientist)</a></dt>
                  <dd class="timeline-event-content" id="event03EX">
-                        <p>As a Research Data Scientist, I collaborated with a variety of business clients in sectors such as finance, retail and e-commerce.  In each business project, I worked with clients to plan and deliver specialised solutions to solve their commercial data problems. One of the most interesting projects I worked on was analysing how changes in Stock Prices can affect different company shares parameters (Level 2 Data) and how these can be predicted. To do so, different techniques such as Feature Selection/Engineering and Ensemble Learning have been employed. This role has developed my ability to work to a deadline to produce an excellent product, utilising technologies such as Google Cloud APIs, A/B testing and version control tools (e.g. Git).</p>
+                        <p>Collaborated with a variety of business clients in sectors such as finance and e-commerce. In each project, I worked with clients to plan and deliver specialized data solutions. This role has developed my ability to work to a deadline to produce an excellent product, utilizing technologies such as Google Cloud APIs, A/B testing and version control tools (e.g. Git).</p>
                   </dd>
 
-                  <dt class="timeline-event" id="event04"><a>ION Group (Service Delivery Developer Intern)</a></dt>
+                  <dt class="timeline-event" id="event04"><a>ION Group (Software Engineer Intern)</a></dt>
                   <dd class="timeline-event-content" id="event04EX">
                           <p>Improved ION’s Fidessa online framework working in the Financial Derivatives Automation Team. This role involved working on the client-side using Javascript, and on the server-side using SQL. Throughout this experience, I attended daily Scrum meetings with the rest of the team in order to ensure the best division of workloads and punctual delivery.</p>
                   </dd>
@@ -104,7 +104,7 @@ Data Scientist at SAS and MSc in Artificial Intelligence graduate with an intere
                           <p>Graduated with First-Class Honours Degree (78.68%).</p>
                   </dd>
 
-                  <dt class="timeline-event" id="event06"><a>Documation Software LTD (Software Developer Intern)</a></dt>
+                  <dt class="timeline-event" id="event06"><a>Documation Software LTD (Software Engineer Intern)</a></dt>
                   <dd class="timeline-event-content" id="event06EX">
                           <p>Created and implemented two programs using UIPath as a Robotic Process Automation tool to automate supplier’s registration and creation of invoices into financial systems (Sage 50). The two developed programs have then been successfully deployed to production and used by Documation and its customers. Their application has been proved to speed up processes up to three times.</p>
                   </dd>
@@ -147,10 +147,10 @@ technologies can be used to enhance AI powered applications.
 - Electronics and Computer Science 2016 Excellence Scholarship - monetary award for exceeding university requirements.
 
 ## Communities & Open Source
-- **AWS Community Builder (2021-Present):**
+- **AWS Community Builder (2021-Present):** Enrolled in the AWS Community Builder program as a Data Specialist, creating AWS enablement material and providing feedback on new AWS features.
 <br>
 ![](/assets/img/AWScommbuild.png)
-- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 250 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects).
+- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 300 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects).
 - **Microsoft Student Ambassador (2019-2020):** As part of my Master Degree, I have been a Microsoft ambassador at the University of Southampton. Thanks to this role, I had the opportunity to organise and present Workshops and Hackathons events using Microsoft Azure technologies.
 - **Artificial Intelligence Society (2019-2020):** I have been a founding committee member of the University of Southampton Artificial Intelligence Society for which I organised workshops covering topics such as Machine Learning deployment and Natural Language Processing.
 
