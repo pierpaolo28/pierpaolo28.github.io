@@ -4,8 +4,8 @@ permalink: blog/blog19/
 categories: [Data Science]
 ---
 
-![](https://cdn-images-1.medium.com/max/1200/1*YVL0hT1qsR8KPpkFDV2-wA.jpeg)
-(Source: <https://luminousmen.com/media/data-science-probability_1.jpg>)
+![](https://miro.medium.com/max/2000/0*MVhtzB9Bk_z3-LdQ)
+Photo by [Robert Stump](https://unsplash.com/@stumpie10?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 <!--end_excerpt-->
 
