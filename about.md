@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
 ![](/assets/img/posts/timeline.gif)
 
 ## Biography
-Data Scientist at SAS and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers).
+Data Scientist at SAS and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers). Additional information about the various services and products I provide, can be found at [this link.](/services/)
 
 <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
@@ -206,3 +206,11 @@ A more comprehensive list of the different professional certifications I achieve
 <div id="myProgress">
   <div id="myBar2">70%</div>
 </div>
+
+## License
+
+This is a personal website. Any views or opinions represented in this website are personal and belong solely to the website owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with in professional or personal capacity, unless explicitly stated. Any views or opinions are not intended to malign any religion, ethnic group, club, organization, company, or individual.
+
+All content provided on this website is for informational purposes only. The owner of this website makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site. The owner will not be liable for any errors or omissions in this information nor for the availability of this information. The owner will not be liable for any losses, injuries, or damages from the display or use of this information.
+
+This website disclaimer is subject to change at anytime.
