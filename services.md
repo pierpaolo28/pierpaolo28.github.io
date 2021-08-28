@@ -35,6 +35,13 @@ If you have any question, feel free to get in contact with me using the form on 
                         <h5><b>Jay Liu</b>, Chief Data Scientist at Digital-Dandelion</h5>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/quincy.webp" class="img-circle img-responsive" />
+                        <p>Pier has been awarded as a top technical writer in the freeCodeCamp publication for two years in a row, contributing to topics such as Python, Data Science and AI. As a Data Scientist and technical writer, Pier earns my highest recommendation.</p>
+                        <h5><b>Quincy Larson</b>, The teacher who founded freeCodeCamp.org</h5>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
