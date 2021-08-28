@@ -6,9 +6,13 @@
 
 # Personal Website
 
-This website has been created using the [Sleek Jekyll theme](https://github.com/janczizikow/sleek) as base and deployed on GitHub pages. On this website, you will find some of my favourite projects, published articles and publications. 
+This website has been created using the [Sleek Jekyll theme](https://github.com/janczizikow/sleek) as base and deployed on GitHub pages. On this website, you will find some of my favourite projects, published articles and publications.
 
 ![](homepage.PNG)
+
+## License
+
+The website is available as open source under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
 
 [contributors-shield]: https://img.shields.io/github/contributors/pierpaolo28/pierpaolo28.github.io.svg?style=flat-square
 [contributors-url]: https://github.com/pierpaolo28/pierpaolo28.github.io/graphs/contributors
