@@ -49,7 +49,7 @@ permalink: /about/
 
 </style>
 
-<link rel="stylesheet" href="/assets/css/timeliner.css" type="text/css" media="screen">
+<!-- <link rel="stylesheet" href="/assets/css/timeliner.css" type="text/css" media="screen">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="/assets/js/timeliner.js"></script>
 
@@ -57,7 +57,7 @@ permalink: /about/
 jQuery(document).ready(function($){
   $.timeliner({});
 });
-</script>
+</script> -->
 
 ## Hi, I am Pier!
 
@@ -66,7 +66,9 @@ jQuery(document).ready(function($){
 ## Biography
 Data Scientist at SAS and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers). Additional information about the various services and products I provide, can be found at [this link.](/services/)
 
-<div id="timeline" class="timeline-container">
+If you are interested in finding out more about my background and latest activities, feel free to follow me on [LinkedIn.](https://www.linkedin.com/in/pierpaolo28/)
+
+<!-- <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
                 <h2 class="timeline-time">2020</h2>
 
@@ -130,7 +132,7 @@ Data Scientist at SAS and MSc in Artificial Intelligence graduate with an intere
         </div>
 
     <br class="clear">
-</div>
+</div> -->
 
 ## Technical Writing
 - Towards Data Science Associate Editor and Writer.

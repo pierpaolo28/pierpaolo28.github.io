@@ -33,6 +33,13 @@ If you have any question, feel free to get in contact with me using the form on 
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/quincy.webp" class="img-circle img-responsive" />
+                        <p>Pier has been awarded as a top technical writer in the freeCodeCamp publication for two years in a row, contributing to topics such as Python, Data Science and AI. As a Data Scientist and technical writer, Pier earns my highest recommendation.</p>
+                        <h5><b>Quincy Larson</b>, The teacher who founded freeCodeCamp.org</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
                         <img src="../assets/testimonials/img/jay.jpg" class="img-circle img-responsive" />
                         <p>Pier has worked with us as one of our exceptional research data scientists at the cutting edge of the AI industry. He is diligent and highly capable, and he comes with my highest recommendation. <br><br> </p>
                         <h5><b>Jay Liu</b>, Chief Data Scientist at Digital-Dandelion</h5>
@@ -40,9 +47,9 @@ If you have any question, feel free to get in contact with me using the form on 
                 </div>
                 <div class="carousel-item">
                     <div class="testimonial4_slide">
-                        <img src="../assets/testimonials/img/quincy.webp" class="img-circle img-responsive" />
-                        <p>Pier has been awarded as a top technical writer in the freeCodeCamp publication for two years in a row, contributing to topics such as Python, Data Science and AI. As a Data Scientist and technical writer, Pier earns my highest recommendation.</p>
-                        <h5><b>Quincy Larson</b>, The teacher who founded freeCodeCamp.org</h5>
+                        <img src="../assets/testimonials/img/remo.png" class="img-circle img-responsive" />
+                        <p>Pier Paolo has been of great help for framing and showcasing the technical benefits of remo.ai, our data management platform for Computer Vision. <br><br><br> </p>
+                        <h5><b>Andrea La Rosa</b>, Head of Data Science at Typeform & Creator of remo.ai</h5>
                     </div>
                 </div>
             </div>
