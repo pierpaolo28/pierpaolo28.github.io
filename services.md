@@ -13,7 +13,7 @@ I am currently open to collaborate on projects regarding:
 - Research/Book publications
 - Blog Technical Writing  
 
-If you have any question, feel free to get in contact with me using the form on the [contact page](/contact/). All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28)
+If you have any question, feel free to get in contact with me using the form on the [contact page](/contact/). All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="_blank"}
 
 <script type="text/javascript" src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -67,37 +67,37 @@ If you have any question, feel free to get in contact with me using the form on 
 
 <div class="masonry">
     <div class="mItem">
-      <a href="https://pierpaoloippolito28.medium.com/">
+      <a href="https://pierpaoloippolito28.medium.com/" target="_blank">
       <img src="../assets/testimonials/img/tds.png">
       </a>
     </div>
 
     <div class="mItem">
-      <a href="https://www.freecodecamp.org/news/author/pier/">
+      <a href="https://www.freecodecamp.org/news/author/pier/" target="_blank">
       <img src="../assets/testimonials/img/fcc.jpg">
       </a>
     </div>
 
     <div class="mItem">
-    <a href="https://www.kdnuggets.com/author/pierpaolo-ippolito">
+    <a href="https://www.kdnuggets.com/author/pierpaolo-ippolito" target="_blank">
     <img src="../assets/testimonials/img/kdn.png">
     </a>
     </div>
 
     <div class="mItem">
-    <a href="https://resources.experfy.com/author/pier-paolo-ippolito/">
+    <a href="https://resources.experfy.com/author/pier-paolo-ippolito/" target="_blank">
     <img src="../assets/testimonials/img/ex.png">
     </a>
     </div>
 
     <div class="mItem">
-    <a href="https://changes.unipol.it/autore/Pier-Paolo-Ippolito">
+    <a href="https://changes.unipol.it/autore/Pier-Paolo-Ippolito" target="_blank">
     <img src="../assets/testimonials/img/changes.jpg">
     </a>
     </div>
 
     <div class="mItem">
-    <a href="https://bulldogjob.pl/blog/authors/pier-paolo-ippolito">
+    <a href="https://bulldogjob.pl/blog/authors/pier-paolo-ippolito" target="_blank">
     <img src="../assets/testimonials/img/bdg.jpg">
     </a>
     </div>
@@ -108,19 +108,19 @@ If you have any question, feel free to get in contact with me using the form on 
 
 <div class="masonry">
     <div class="mItem">
-      <a href="https://twitter.com/kaggle/status/1168922401050157060?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1168922401050157060%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F">
+      <a href="https://twitter.com/kaggle/status/1168922401050157060?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1168922401050157060%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F" target="_blank">
       <img src="../assets/testimonials/img/kaggle.png">
       </a>
     </div>
 
     <div class="mItem">
-      <a href="https://twitter.com/NVIDIAAI/status/1199108006958583808?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1199108006958583808%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F">
+      <a href="https://twitter.com/NVIDIAAI/status/1199108006958583808?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1199108006958583808%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F" target="_blank">
       <img src="../assets/testimonials/img/nvidia.jpg">
       </a>
     </div>
 
     <div class="mItem">
-    <a href="https://twitter.com/streamlit/status/1184501301578620928?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1184501301578620928%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F">
+    <a href="https://twitter.com/streamlit/status/1184501301578620928?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1184501301578620928%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F" target="_blank">
     <img src="../assets/testimonials/img/st.png">
     </a>
     </div>
@@ -140,6 +140,19 @@ If you have any question, feel free to get in contact with me using the form on 
   /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
+
+## API as a product: Towards Data Science Article to Markdown Blog converter
+
+[![](/assets/testimonials/img/APIconverter.PNG)](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="_blank"}
+
+Are you a writer for an online publication such as Towards Data Science and at the same time you run your own personal blog? If that's the case, you probably had to go through the manual process of converting your articles from one platform to another.  
+
+In order to solve this problem, I created the "Towards Data Science Article to Markdown Blog converter" API. Using this API it can in fact be possible to start an automatic conversion of articles published on Towards Data Science into a Markdown format suitable for blogging platforms such as Jekyll and GitHub pages by just giving the program 3 input parameters:
+- The full name of the writer on Medium.
+- The username of the writer on Medium.
+- A link to the Towards Data Science article you want to convert to Markdown from Medium.
+
+This Software as a Service is served over HTTP and hosted using an AWS Lambda function. If you are interested in trying the API yourself, a free tier of up to 20 requests per month is [available on RapidAPI](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="_blank"} (alternatively paid plan options are also offered).
 
 ## Pier's Data Blog newsletter
 

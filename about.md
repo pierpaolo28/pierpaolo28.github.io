@@ -66,7 +66,7 @@ jQuery(document).ready(function($){
 ## Biography
 Data Scientist at SAS and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers). Additional information about the various services and products I provide, can be found at [this link.](/services/)
 
-If you are interested in finding out more about my background and latest activities, feel free to follow me on [LinkedIn.](https://www.linkedin.com/in/pierpaolo28/)
+If you are interested in finding out more about my background and latest activities, feel free to follow me on [LinkedIn.](https://www.linkedin.com/in/pierpaolo28/){:target="_blank"}
 
 <!-- <div id="timeline" class="timeline-container">
         <div class="timeline-wrapper">
@@ -144,7 +144,7 @@ If you are interested in finding out more about my background and latest activit
 technologies can be used to enhance AI powered applications.
 
 ## Awards & Scholarships
-- Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges), [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/) and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a).
+- Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges){:target="_blank"}, [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/){:target="_blank"} and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a){:target="_blank"}.
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
 - Electronics and Computer Science 2016 Excellence Scholarship - monetary award for exceeding university requirements.
 
@@ -152,7 +152,7 @@ technologies can be used to enhance AI powered applications.
 - **AWS Community Builder (2021-Present):** Enrolled in the AWS Community Builder program as a Data Specialist, creating AWS enablement material and providing feedback on new AWS features.
 <br>
 ![](/assets/img/AWScommbuild.png)
-- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 300 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects).
+- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 300 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects){:target="_blank"}.
 - **Microsoft Student Ambassador (2019-2020):** As part of my Master Degree, I have been a Microsoft ambassador at the University of Southampton. Thanks to this role, I had the opportunity to organise and present Workshops and Hackathons events using Microsoft Azure technologies.
 - **Artificial Intelligence Society (2019-2020):** I have been a founding committee member of the University of Southampton Artificial Intelligence Society for which I organised workshops covering topics such as Machine Learning deployment and Natural Language Processing.
 
@@ -211,7 +211,7 @@ A more comprehensive list of the different professional certifications I achieve
 
 ## License
 
-This website is distributed under the [MIT license](https://choosealicense.com/licenses/mit/).
+This website is distributed under the [MIT license](https://choosealicense.com/licenses/mit/){:target="_blank"}.
 
 This is a personal website. Any views or opinions represented in this website are personal and belong solely to the website owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with in professional or personal capacity, unless explicitly stated. Any views or opinions are not intended to malign any religion, ethnic group, club, organization, company, or individual.
 

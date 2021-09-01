@@ -3,7 +3,7 @@ layout: post_book
 date: 2020-12-27
 ---
 
-[Atomic Habits](https://amzn.to/2JFUzXQ) are a series of small practices which if applied in the medium/long term can help us to achieve remarkable results (small changes adds up together creating a growth mindset). One of the main reason why we might be tempted to form bad habits instead of good habits is not in general because of a luck of motivation but because we tend to focus on goals rather then building systems.
+[Atomic Habits](https://amzn.to/2JFUzXQ){:target="_blank"} are a series of small practices which if applied in the medium/long term can help us to achieve remarkable results (small changes adds up together creating a growth mindset). One of the main reason why we might be tempted to form bad habits instead of good habits is not in general because of a luck of motivation but because we tend to focus on goals rather then building systems.
 
 <!--end_excerpt-->
 

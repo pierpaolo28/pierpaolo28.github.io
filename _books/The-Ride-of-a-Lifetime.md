@@ -3,7 +3,7 @@ layout: post_book
 date: 2021-08-14
 ---
 
-In ["The Ride of a Lifetime: Lessons in Creative Leadership from 15 Years as CEO of the Walt Disney Company"](https://www.amazon.co.uk/Ride-Lifetime-Lessons-Creative-Leadership/dp/1787630463/) Robert Iger shares his journey to becoming the CEO of Disney. As part of the book, many of Disney's acquisitions such as Pixar, Marvel and Star Wars are uncovered.
+In ["The Ride of a Lifetime: Lessons in Creative Leadership from 15 Years as CEO of the Walt Disney Company"](https://www.amazon.co.uk/Ride-Lifetime-Lessons-Creative-Leadership/dp/1787630463/){:target="_blank"} Robert Iger shares his journey to becoming the CEO of Disney. As part of the book, many of Disney's acquisitions such as Pixar, Marvel and Star Wars are uncovered.
 
 <!--end_excerpt-->
 

@@ -3,7 +3,7 @@ layout: post_book
 date: 2020-12-17
 ---
 
-In ["Good economics for hard times"](https://amzn.to/38cxnKd) Abhijit Banerjee and Esther Duflo try to approach some of the most pressing problems of economics providing different possible scenarios and solutions for issues such as immigration, income inequality, climate change, slow economic growth, globalization and technological unemployment.
+In ["Good economics for hard times"](https://amzn.to/38cxnKd){:target="_blank"} Abhijit Banerjee and Esther Duflo try to approach some of the most pressing problems of economics providing different possible scenarios and solutions for issues such as immigration, income inequality, climate change, slow economic growth, globalization and technological unemployment.
 
 <!--end_excerpt-->
 
