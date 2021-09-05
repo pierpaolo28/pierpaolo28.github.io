@@ -155,6 +155,15 @@ In order to solve this problem, I created the "Towards Data Science Article to M
 
 This Software as a Service is served over HTTP and hosted using an AWS Lambda function. If you are interested in trying the API yourself, a free tier of up to 20 requests per month is [available on RapidAPI](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="_blank"} (alternatively paid plan options are also offered).
 
+## Notion Study Review System
+
+[![](/assets/testimonials/img/notion_template.png)](https://pierpaolo28.gumroad.com/l/kpaXhZ){:target="_blank"}
+
+Notion is a free application able to provide such as notes, kanban boards, calendars, etc.. As part of this product, I created a Notion template to help you guide you through your learning path (e.g. online courses, university, etc...). Making use of this template will help you to keep track of the activities completed and review for an exam. Additionally, the template acts as a built-in database in order to quickly access notes from past courses anytime after completion.
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gumroad.com/l/kpaXhZ">Buy my product</a>
+
 ## Pier's Data Blog newsletter
 
 <div id="mc_embed_signup" style="margin : 0; padding-top:0; padding-bottom:10px;">
