@@ -32,6 +32,7 @@ Sample of mentions from publications, companies and universities:
 - [Global AI on Tour Conference Speaker](https://tour.globalai.live/speakers/pier-paolo-ippolito/)
 - [Microsoft Learn Student Ambassador](https://studentambassadors.microsoft.com/en-US/profile/3827)
 - [Microsoft Tech Community Blog](https://techcommunity.microsoft.com/t5/student-developer-blog/meet-a-recent-microsoft-learn-student-ambassador-graduate-pier/ba-p/2638369)
+- Daniel Bourke Machine Learning Monthly August 2021: [Video](https://www.youtube.com/watch?v=4zPc0Q63Tv0) and [Article](https://zerotomastery.io/blog/machine-learning-monthly-august-2021/)
 
 KDNuggets Silver and Gold posts:
 
