@@ -2,6 +2,17 @@
   "name": "Pier Paolo Ippolito Website",
   "short_name": "Pier's Website",
   "icons": [
+		{
+			"src": "assets/img/icons/maskable_icon.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "assets/img/icons/android-chrome-512x512.png?v=qA3OXqyw77",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
     {
       "src": "assets/img/icons/android-chrome-256x256.png?v=qA3OXqyw77",
       "sizes": "256x256",
@@ -13,7 +24,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://pierpaolo28.github.io/",
+  "scope": ".",
+	"start_url": "/",
   "display": "standalone",
   "background_color": "#303F9F",
   "theme_color": "#3F51B5",
