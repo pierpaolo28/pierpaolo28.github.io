@@ -22,22 +22,25 @@ layout: compress
     <div class="hero__wrap">
       <h1 class="hero__title">{{ site.title | escape }}</h1>
       <p class="hero__meta">{{ site.tagline }}</p>
-      <br>
-      <section class="subscribe" className=" inline-block">
-        <div class="container">
-          <form action="https://www.getrevue.co/profile/pier_paolo_28/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-            <div class="form-row justify-content-center">
-              <div class="col-auto">
-                <input type="email" name="member[email]" id="member_email" class="form-control" placeholder="Join the Data Blog Newsletter by entering your email">
+
+      <div id="content-desktop">
+        <br>
+        <section class="subscribe" className=" inline-block">
+          <div class="container">
+            <form action="https://www.getrevue.co/profile/pier_paolo_28/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+              <div class="form-row justify-content-center">
+                <div class="col-auto">
+                  <input type="email" name="member[email]" id="member_email" class="form-control" placeholder="Join the Data Blog Newsletter by entering your email">
+                </div>
+                <p>Powered by Revue (<a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a>, <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>)</p>
+                <div class="col-auto">
+                  <button type="submit" onClick={subscribeClick} name="member[subscribe]" id="member_submit">Subscribe</button>
+                </div>
               </div>
-              <p>Powered by Revue (<a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a>, <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>)</p>
-              <div class="col-auto">
-                <button type="submit" onClick={subscribeClick} name="member[subscribe]" id="member_submit">Subscribe</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </section>
+            </form>
+          </div>
+        </section>
+      </div>
 
     </div>
   </div>
@@ -132,6 +135,17 @@ layout: compress
   @media only screen and (min-width: 768px) {
     .subscribe input {
       min-width: 400px;
+    }
+  }
+
+  #content-desktop {
+    display: block;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    #content-desktop {
+      display: none;
     }
 
   }
