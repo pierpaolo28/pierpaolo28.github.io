@@ -22,6 +22,23 @@ layout: compress
     <div class="hero__wrap">
       <h1 class="hero__title">{{ site.title | escape }}</h1>
       <p class="hero__meta">{{ site.tagline }}</p>
+      <br>
+      <section class="subscribe" className=" inline-block">
+        <div class="container">
+          <form action="https://www.getrevue.co/profile/pier_paolo_28/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+            <div class="form-row justify-content-center">
+              <div class="col-auto">
+                <input type="email" name="member[email]" id="member_email" class="form-control" placeholder="Join the Data Blog Newsletter by entering your email">
+              </div>
+              <p>Powered by Revue (<a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a>, <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>)</p>
+              <div class="col-auto">
+                <button type="submit" onClick={subscribeClick} name="member[subscribe]" id="member_submit">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
     </div>
   </div>
 
@@ -52,5 +69,72 @@ layout: compress
     textColor: '#fff'
   })
 </script>
+
+<!-- Javascript script credits to: https://victordibia.com/blog/add-newsletter-static-site/ -->
+<script>
+  function subscribeClick(e) {
+    e.preventDefault();
+    const email = currentForm.querySelector("#member_email").value;
+    const isEmailValid = validateEmail(email);
+
+    const emailError = currentForm.querySelector("#email_error");
+    const subSuccess = currentForm.querySelector("#subscribe_success");
+    const subLoading = currentForm.querySelector("#subscribe_loading");
+    const revueForm = currentForm.querySelector("#revue-form");
+
+    if (isEmailValid) {
+      subLoading.classList.remove("hidden");
+      emailError.classList.add("hidden");
+      setTimeout(() => {
+        subLoading.classList.add("hidden");
+        subSuccess.classList.remove("hidden");
+        revueForm.submit();
+      }, loadDuration);
+    } else {
+      subLoading.classList.remove("hidden");
+      setTimeout(() => {
+        resetViews();
+        emailError.classList.remove("hidden");
+      }, loadDuration);
+    }
+  }
+</script>
+
+<!-- CSS Style credits to https://codepen.io/baahubali92/pen/OrEjQa -->
+<style>
+  .subscribe input {
+    background: #fff;
+    color: #060c22;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+  .subscribe button {
+    border: 0;
+    padding: 9px 25px;
+    cursor: pointer;
+    background: #277cea;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+
+  .subscribe button:hover {
+    background: #68a4f1;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .subscribe input {
+      min-width: 400px;
+    }
+
+  }
+</style>
 
 </html>
