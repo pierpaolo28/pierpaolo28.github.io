@@ -184,13 +184,13 @@ Notion is a free application able to provide such as notes, kanban boards, calen
         <input class="revue-form-field" type="email" name="member[email]" id="member_email">
       </div>
       <div class="mc-field-group">
-        <label for="member_first_name">First Name</label>
+        <label for="member_first_name">Name</label>
         <input class="revue-form-field" type="text" name="member[first_name]" id="member_first_name">
       </div>
-      <div class="mc-field-group">
+      <!-- <div class="mc-field-group">
         <label for="member_last_name">Last Name</label>
         <input class="revue-form-field" type="text" name="member[last_name]" id="member_last_name">
-      </div>
+      </div> -->
       <div class="clear">
         <input type="submit" value="Subscribe" name="member[subscribe]" id="mc-embedded-subscribe" class="button">
       </div>
