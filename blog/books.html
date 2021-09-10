@@ -1,5 +1,5 @@
 ---
-layout: books_header
+layout: compress
 title: Books
 ---
 
@@ -20,37 +20,60 @@ title: Books
 
   {% include header.html %}
 
+  <div class="hero--small">
+    <div class="hero__wrap">
+      <h1 class="hero__title">{{ page.title }}</h1>
+      <a href="{{ site.baseurl }}{% link blog/publications.html %}" class="btn">Publications & Talks</a>
+    </div>
+  </div>
   <main class="site__content">
+    <div class="container">
+      <article class="post-content" itemprop="articleBody">
 
-    <!-- Search Bar -->
-    <div id="search-container">
-      <input style="padding:5px;border: 4px solid #313237;" type="text" id="search-input" placeholder="Book Search...">
-      <ul style="list-style-type:none;" id="results-container"></ul>
-    </div>
+        <!-- Search Bar -->
+        <div id="search-container">
+          <input style="padding:5px;border: 4px solid #313237;" type="text" id="search-input" placeholder="Book Search...">
+          <ul style="list-style-type:none;" id="results-container"></ul>
+        </div>
 
-    <!-- Scripts -->
-    <script src="/assets/js/search-script.js" type="text/javascript"></script>
-    <script>
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/search4.json'
-      })
-    </script>
+        <!-- Scripts -->
+        <script src="/assets/js/search-script.js" type="text/javascript"></script>
+        <script>
+          SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search4.json'
+          })
+        </script>
 
-    <div class="posts">
+        <div class="posts">
 
-      {% assign sorted = site.books | reverse %}
-      {% for item in sorted %}
-      <article class="post">
-        <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
-        <p>{{ item.excerpt }}</p>
+          {% assign sorted = site.books | reverse %}
+          {% for item in sorted %}
+          <article class="post">
+            <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
+            <p>{{ item.excerpt }}</p>
+          </article>
+          {% endfor %}
+        </div>
+
       </article>
-      {% endfor %}
     </div>
+
 
   </main>
 
+  {% include footer.html %}
+  {% include mathjax.html %}
 </body>
+
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>
+  addBackToTop({
+    diameter: 56,
+    backgroundColor: '#313237',
+    textColor: '#fff'
+  })
+</script>
 
 </html>

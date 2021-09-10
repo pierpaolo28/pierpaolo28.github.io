@@ -39,7 +39,7 @@ If you have any question, please do not hesitate to contact me. I am currently o
     background-color: rgba(52, 56, 81, 0.8);
     color: white;
     padding: 12px 20px;
-    border: 3px #fff solid;
+    <!-- border: 3px #fff solid; -->
     border-radius: 4px;
     cursor: pointer;
   }
@@ -50,7 +50,7 @@ If you have any question, please do not hesitate to contact me. I am currently o
 
   .form {
     border-radius: 5px;
-    background-color: #fff;
+    <!-- background-color: #fff; -->
     padding: 20px;
   }
   </style>

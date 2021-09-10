@@ -21,9 +21,17 @@ If you have any question, feel free to get in contact with me using the form on 
 <link rel="stylesheet" href="../assets/testimonials/bootstrap.min.css">
 <link rel="stylesheet" href="../assets/testimonials/style.css">
 <link rel="stylesheet" href="../assets/testimonials/action.css">
-<link rel="stylesheet" href="../assets/css/main.css">
+<link id="style" rel="stylesheet" href="assets/css/main.css">
 <!-- <link rel="stylesheet" href="../_includes/critical.css"> -->
 <!-- <script type="text/javascript" src ="../_includes/loadCss.js"></script> -->
+
+<style>
+.testimonial4_slide p {
+  color: rgb(191, 191, 191);
+  margin-top: 0px;
+  margin-bottom: 1.25rem;
+}
+</style>
 
 <section class="testimonial text-center" style="margin : 0; padding-top:0; padding-bottom:10px;">
     <div class="container" style="margin : 0; padding-top:0; padding-bottom:0;">
@@ -133,7 +141,7 @@ If you have any question, feel free to get in contact with me using the form on 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
   #mc_embed_signup {
-    background: #fff;
+    <!-- background: #fff; -->
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
   }
