@@ -161,4 +161,5 @@ In case you are interested in learning more about Modern Portfolio Theory, “Mo
 
 \[3\] Adjusted Closing Price, Investopedia. AKHILESH GANTI. Accessed at: [https://www.investopedia.com/terms/a/adjusted\_closing\_price.asp](https://medium.com/r/?url=https%3A%2F%2Fwww.investopedia.com%2Fterms%2Fa%2Fadjusted_closing_price.asp)
 
-\[4\] Modern Portfolio Theory and Investment Analysis, WILEY. Elton, Gruber et. al. Accessed at: [https://www.wiley.com/en-us/Modern+Portfolio+Theory+and+Investment+Analysis%2C+9th+Edition-p-9781118469941](https://medium.com/r/?url=https%3A%2F%2Fwww.wiley.com%2Fen-us%2FModern%2BPortfolio%2BTheory%2Band%2BInvestment%2BAnalysis%252C%2B9th%2BEdition-p-9781118469941)
+\[4\] Modern Portfolio Theory and Investment Analysis, WILEY. Elton, Gruber et. al. Accessed at: [https://www.wiley.com/en-us/Modern+Portfolio+Theory+and+Investment
++Analysis%2C+9th+Edition-p-9781118469941](https://medium.com/r/?url=https%3A%2F%2Fwww.wiley.com%2Fen-us%2FModern%2BPortfolio%2BTheory%2Band%2BInvestment%2BAnalysis%252C%2B9th%2BEdition-p-9781118469941)
