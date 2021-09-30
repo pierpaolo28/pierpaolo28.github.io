@@ -17,4 +17,5 @@ Sample list of professional certifications achieved:
 - [Microsoft Learn Student Ambassador - Gold](/assets/certifications/MSP Certificate.pdf)
 - [UiPath - RPA Awareness Training](/assets/certifications/RPA Awareness - Completion Diploma.pdf)
 - [Kaggle - SQL Summer Camp](/assets/certifications/sql_summer_camp_certificate.pdf)
+- [Coursera - Data Engineering, Big Data, and Machine Learning on GCP](/assets/certifications/Coursera_GCP_DE_Specialization.pdf)
 - [Cloud Academy - Google Professional Machine Learning Engineer Exam Preparation](/assets/certifications/cloudacademy.pdf)

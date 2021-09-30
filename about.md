@@ -144,7 +144,7 @@ If you are interested in finding out more about my background and latest activit
 technologies can be used to enhance AI powered applications.
 
 ## Awards & Scholarships
-- Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges){:target="_blank"}, [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/){:target="_blank"} and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a){:target="_blank"}.
+- Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges){:target="_blank"}, [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/){:target="_blank"}, [Coursera](https://www.coursera.org/account/accomplishments/specialization/3LZ7B94W5C63){:target="_blank"} and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a){:target="_blank"}.
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
 - Electronics and Computer Science 2016 Excellence Scholarship - monetary award for exceeding university requirements.
 
