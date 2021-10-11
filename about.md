@@ -149,7 +149,7 @@ technologies can be used to enhance AI powered applications.
 - Electronics and Computer Science 2016 Excellence Scholarship - monetary award for exceeding university requirements.
 
 ## Communities & Open Source
-- **AWS Community Builder (2021-Present):** Enrolled in the AWS Community Builder program as a Data Specialist, creating AWS enablement material and providing feedback on new AWS features.
+- **AWS Community Builders (2021-Present):** Enrolled in the AWS Community Builders program as a Data Specialist, creating AWS enablement material and providing feedback on new AWS features.
 <br>
 ![](/assets/img/AWScommbuild.png)
 - **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 300 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects){:target="_blank"}.
