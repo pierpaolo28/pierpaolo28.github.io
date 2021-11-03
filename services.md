@@ -21,7 +21,7 @@ If you have any question, feel free to get in contact with me using the form on 
 <link rel="stylesheet" href="../assets/testimonials/bootstrap.min.css">
 <link rel="stylesheet" href="../assets/testimonials/style.css">
 <link rel="stylesheet" href="../assets/testimonials/action.css">
-<link id="style" rel="stylesheet" href="assets/css/main.css">
+<!-- <link id="style" rel="stylesheet" href="../assets/css/main.css"> -->
 <!-- <link rel="stylesheet" href="../_includes/critical.css"> -->
 <!-- <script type="text/javascript" src ="../_includes/loadCss.js"></script> -->
 

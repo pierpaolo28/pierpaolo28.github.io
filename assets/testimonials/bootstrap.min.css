@@ -79,7 +79,7 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
   -webkit-appearance: listbox
 }
 
-@media (min-width:576px) {
+/* @media (min-width:576px) {
   .container {
     max-width: 540px
   }
@@ -109,7 +109,7 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto
-}
+} */
 
 @media (min-width:576px) {
   .col-sm {
@@ -7444,9 +7444,9 @@ a.text-dark:focus, a.text-dark:hover {
     size: a3
   }
 
-  .container {
+  /* .container {
     min-width: 992px !important
-  }
+  } */
 
   .badge {
     border: 1px solid #000

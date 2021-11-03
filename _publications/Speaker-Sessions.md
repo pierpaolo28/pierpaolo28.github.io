@@ -18,6 +18,23 @@ Collection of some freely available talks in which I have been involved as a spe
 <iframe src="https://open.spotify.com/embed-podcast/episode/4ZD3EdDbP2pcheVBQ7swvc" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 <br>
+## Machine Learning Milan: Paradoxes in Data Science
+
+Paradoxes are a class of phenomena that arise when, although starting from premises known as true, we derive some sort of logically unreasonable result. As Machine Learning models create knowledge from data, this makes them susceptible to possible cognitive paradoxes between training and testing. In this talk, I walk you through some of the main paradoxes associated with Data Science and how they can be identified.
+
+<div class="wrapper" style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/9JH8y0wNVNY?rel=0"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+
+<br>
 ## 2020 SAS UK&I Forum
 
 Intro to Viya demo session at the 2020 SAS UK&I Virtual Forum. More information about this event is available at [this link.](https://pierpaolo28.github.io/blog/blog50/)
