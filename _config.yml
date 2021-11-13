@@ -17,13 +17,13 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'Projects', link: '/work.html'}
-  - {name: 'Blog', link: '/blog/index.html'}
-  - {name: 'Tips', link: '/blog/tips.html'}
-  - {name: 'Books', link: '/blog/publications.html'}
-  - {name: 'About', link: '/about/'}
-  - {name: 'Contact', link: '/contact/'}
+  - { name: "Home", link: "/" }
+  - { name: "Projects", link: "/work.html" }
+  - { name: "Blog", link: "/blog/index.html" }
+  - { name: "Tips", link: "/blog/tips.html" }
+  - { name: "Books", link: "/blog/publications.html" }
+  - { name: "About", link: "/about/" }
+  - { name: "Contact", link: "/contact/" }
 
 tagline: >
   Hi I am Pier Paolo, and this is my website! Here you can find some of my published works and blogs. If you have any question, feel free to get in touch.
@@ -32,7 +32,7 @@ hero_img: posts/intro.jpg
 excerpt_separator: <!--end_excerpt-->
 
 twitter_username: Pier_Paolo_28
-github_username:  pierpaolo28
+github_username: pierpaolo28
 medium_username: pierpaoloippolito28
 
 disqus:
@@ -57,7 +57,7 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ['_pages']
+include: ["_pages"]
 
 compress_html:
   clippings: all
@@ -68,20 +68,20 @@ collections:
     output: true
     permalink: blog/:collection/:title/
   books:
-      sort_by: date
-      output: true
-      permalink: blog/:collection/:title/
+    sort_by: date
+    output: true
+    permalink: blog/:collection/:title/
   work:
-      sort_by: date
-      output: true
-      permalink: Projects/:title.html
+    sort_by: date
+    output: true
+    permalink: Projects/:title.html
   sections:
-      sort_by: date
-      output: true
+    sort_by: date
+    output: true
   publications:
-      sort_by: date
-      output: true
-      permalink: blog/:collection/:title/
+    sort_by: date
+    output: true
+    permalink: blog/:collection/:title/
 
 plugins:
   - jekyll-sitemap

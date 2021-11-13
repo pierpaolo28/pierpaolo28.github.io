@@ -8,28 +8,24 @@ categories: [Data Science]
 
 <!--end_excerpt-->
 
-Paradoxes in Data Science
-=========================
+# Paradoxes in Data Science
 
-A look into some of the main paradoxes associate with Data Science and it’s statistical foundations
----------------------------------------------------------------------------------------------------
+## A look into some of the main paradoxes associate with Data Science and it’s statistical foundations
 
-Introduction
-============
+# Introduction
 
 Paradoxes are a class of phenomena which arise when, although starting from premises known as true, we derive some sort of logically unreasonable result.
 
- As Machine Learning models create knowledge from data, this makes them susceptible to possible cognitive paradoxes between training and testing.
+As Machine Learning models create knowledge from data, this makes them susceptible to possible cognitive paradoxes between training and testing.
 
 In this article, I will walk you through some of the main paradoxes associated with Data Science and how they can be identified:
 
-* Simpson’s Paradox
-* Accuracy Paradox
-* Learnability-Godel Paradox
-* The Law of Unintended Consequences
+- Simpson’s Paradox
+- Accuracy Paradox
+- Learnability-Godel Paradox
+- The Law of Unintended Consequences
 
-Simpson’s Paradox
-=================
+# Simpson’s Paradox
 
 One of the most common forms of paradox in Data Science is Simpson’s Paradox.
 
@@ -51,10 +47,9 @@ From these results, we can then deduce that cholesterol levels are more likely t
 
 During the course of the last century, the Simpson Paradox occurred in many statistical studies such as: UC Berkeley gender bias, Kidney stone treatment and Racial disparity in the death penalty [1].
 
-More information about Causality and Causal Reasoning in Machine Learning is available in my previous articles [Causal Reasoning in Machine Learning](/causal-reasoning-in-machine-learning-4f2a6e32fde9) and [Answering Causal Questions in AI](/answering-causal-questions-in-ai-87c9b53e3a72).
+More information about Causality and Causal Reasoning in Machine Learning is available in my previous articles [Causal Reasoning in Machine Learning](https://towardsdatascience.com/causal-reasoning-in-machine-learning-4f2a6e32fde9) and [Answering Causal Questions in AI](https://towardsdatascience.com/answering-causal-questions-in-ai-87c9b53e3a72).
 
-Accuracy Paradox
-================
+# Accuracy Paradox
 
 In our daily life, it is quite common to think that going deeper into studying a subject or learning about a topic will necessarily lead to a greater understanding of the studied phenomena. Although, this isn’t always true, as overspecialization can at times lead us to underestimate the importance of **the bigger picture**.
 
@@ -69,7 +64,6 @@ Creating a complex model (overfitting) we would be able in this case to get a go
 
 This leaves us therefore with an Accuracy Paradox. We train our Machine Learning models to improve their accuracy over time, while this might although lead to lower accuracy in production. This problem, can be perfectly summarized by Charles Goodhart quote:
 
-
 > “When a measure becomes a target, it ceases to be a good measure.”
 >
 > — Charles Goodhart
@@ -78,8 +72,7 @@ One of the most common approaches to overcome this issue, is to add **regulariza
 
 In classification problems, the Accuracy Paradox is most likely to appear when working with imbalanced training datasets (some classes appear with much greater frequency than others). In this instance, calculating the precision and recall of the model can become a much more valuable metric.
 
-Learnability-Godel Paradox
-==========================
+# Learnability-Godel Paradox
 
 Kurt Gödel is one of the most famous mathematicians of the last century. Undisputedly, one of it’s most interesting theories are the two [Gödel’s Incompleteness Theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
 
@@ -89,8 +82,7 @@ Depending on if Gödel theory is right or wrong, this would demonstrate to be ei
 
 Additional information about this paradox and its applications in Machine Learning can be found in the research publication “Learnability can be undecidable” by Shai Ben-David et. al. [2]
 
-The Law of Unintended Consequences
-==================================
+# The Law of Unintended Consequences
 
 As systems and models become more complicated, it can turn out to be for us humans more and more difficult to understand how a system might work and make its decisions. This concept is summarised in The Law of Unintended Consequences.
 
@@ -100,23 +92,20 @@ With the advent of the Big Data Regime, in recent years, there has been a growin
 
 Ultimately, this let us face the last paradox considered in this article. Day by day we thrive to create the best possible model to achieve a result, although this might never be deployed in production if too complex to be understandable (e.g. GDPR Article 5, Right for explanation).
 
-Conclusion
-==========
+# Conclusion
 
 In this article, I introduced some of the main paradoxes related to Data Science. Although, many other common paradoxes could potentially have implications in Data Science and Artificial Intelligence. Some examples are [3]:
 
-* Berkson’s Paradox
-* Braess’s Paradox
-* Moravec Paradox
-* Birthday Paradox
+- Berkson’s Paradox
+- Braess’s Paradox
+- Moravec Paradox
+- Birthday Paradox
 
 If you have any other paradox which you would like to be added to this list, just let me know leaving a comment!
 
-*I hope you enjoyed this article, thank you for reading!*
+_I hope you enjoyed this article, thank you for reading!_
 
-
-Bibliography
-============
+# Bibliography
 
 [1] Simpson’s Paradox: How to Prove Opposite Arguments with the Same Data Will Koehrsen, Towards Data Science. Accessed: <https://shorturl.at/jkyT9> August 2020.
 
