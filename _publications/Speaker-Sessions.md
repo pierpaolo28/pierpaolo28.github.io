@@ -13,6 +13,11 @@ Collection of some freely available talks in which I have been involved as a spe
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/505bc82a-6c30-471c-9793-3745578b3ec0?dark=false"></iframe>
 
 <br>
+## Adventures in Machine Learning: Data Paradoxes in Data Sets
+
+<iframe src="https://player.fireside.fm/v2/n3H0CUea+CH4k09U4?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
+
+<br>
 ## Data Driven People Interview (Italian)
 
 <iframe src="https://open.spotify.com/embed-podcast/episode/4ZD3EdDbP2pcheVBQ7swvc" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -84,6 +89,7 @@ Al giorno d’oggi le tecnologie di Machine Learning si basano solo sulle correl
 ## Towards Data Science: GPU Accelerated Data Analytics & Machine Learning
 
 GPU acceleration is nowadays becoming more and more important. The main two drivers for this shift are:
+
 1. The world’s amount of data is doubling every year.
 2. Moore’s law is now coming to an end because of limitations imposed by the quantum realm.
 

@@ -27,28 +27,28 @@ and has been recorded using different formats.
 
 Three different ways of formatting data are commonly employed:
 
-* **Unstructured** = unorganised data (eg. videos).
-* **Semi-structured** = the data is organised in a not fixed format (eg. JSON).
-* **Structured** = the data is stored in a structured format (eg. RDBMS).
+- **Unstructured** = unorganised data (eg. videos).
+- **Semi-structured** = the data is organised in a not fixed format (eg. JSON).
+- **Structured** = the data is stored in a structured format (eg. RDBMS).
 
 Big Data is defined by three properties:
 
 1.  **Volume** = because of the large amount of data, storing data on a single
-machine is impossible. How can we process data across multiple machines assuring
-fault tolerance?  
+    machine is impossible. How can we process data across multiple machines assuring
+    fault tolerance?
 1.  **Variety** = How can we deal with data coming from varied sources which have
-been formatted using different schemas?
+    been formatted using different schemas?
 1.  **Velocity** = How can we quickly store and process new data?
 
 Big Data can be analysed using two different processing techniques:
 
-* **Batch processing** = usually used if we are concerned by the volume and
-variety of our data. We first store all the needed data and then process it in
-one go (this can lead to high latency). A common application example can be
-calculating monthly payroll summaries.
-* **Stream processing** = usually employed if we are interested in fast response
-times. We process our data as soon as is received (low latency). An application
-example can be determining if a bank transaction is fraudulent or not.
+- **Batch processing** = usually used if we are concerned by the volume and
+  variety of our data. We first store all the needed data and then process it in
+  one go (this can lead to high latency). A common application example can be
+  calculating monthly payroll summaries.
+- **Stream processing** = usually employed if we are interested in fast response
+  times. We process our data as soon as is received (low latency). An application
+  example can be determining if a bank transaction is fraudulent or not.
 
 Big Data can be processed using different tools such as MapReduce, Spark,
 Hadoop, Pig, Hive, Cassandra and Kafka. Each of these different tools has its
@@ -80,7 +80,7 @@ is used for parallelization making so easier to handle Big Data.
 
 In MapReduce, we take the input data and divide it into many parts. Each part is
 then sent to a different machine to be processed and finally aggregated
-according to a specified *groupby *function.
+according to a specified _groupby_ function.
 
 ![](https://cdn-images-1.medium.com/max/800/1*MrHPIUqCywZJx5QDuFospw.jpeg) <br>
 <span class="figcaption_hack">Figure 2: MapReduce in action [3]</span>
@@ -136,14 +136,14 @@ Hadoop is a set of open source programs written in Java which can be used to
 perform operations on a large amount of data. Hadoop is a scalable, distributed
 and fault tolerant ecosystem. The main components of Hadoop are [6]:
 
-* **Hadoop YARN** = manages and schedules the resources of the system, dividing
-the workload on a cluster of machines.
-* **Hadoop Distributed File System (HDFS)** = is a clustered file storage system
-which is designed to be fault-tolerant, offer high throughput and high
-bandwidth. It is additionally able to store any type of data in any possible
-format.
-* **Hadoop MapReduce** = is used for loading the data from a database, formatting
-it and performing a quantitative analysis on it.
+- **Hadoop YARN** = manages and schedules the resources of the system, dividing
+  the workload on a cluster of machines.
+- **Hadoop Distributed File System (HDFS)** = is a clustered file storage system
+  which is designed to be fault-tolerant, offer high throughput and high
+  bandwidth. It is additionally able to store any type of data in any possible
+  format.
+- **Hadoop MapReduce** = is used for loading the data from a database, formatting
+  it and performing a quantitative analysis on it.
 
 ![](https://cdn-images-1.medium.com/max/1200/1*WV4svFnRNAPPUzIxMbsNvg.jpeg) <br>
 <span class="figcaption_hack">Figure 5: Hadoop Ecosystem [7]</span>
