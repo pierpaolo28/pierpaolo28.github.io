@@ -7,14 +7,15 @@ permalink: /services/
 # Services
 
 I am currently open to collaborate on projects regarding:
+
 - Data Science
 - Cloud Computing
 - Python Open Source libraries & frameworks development/documentation
 - Research/Book publications
 - Blog Technical Writing
-- Mentoring  
+- Mentoring
 
-If you have any question, feel free to get in contact with me using the form on the [contact page](/contact/). All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="_blank"}
+If you have any question, feel free to get in contact with me using the form on the [contact page](/contact/). All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="\_blank"}
 
 <script type="text/javascript" src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -110,8 +111,61 @@ If you have any question, feel free to get in contact with me using the form on 
     <img src="../assets/testimonials/img/bdg.jpg">
     </a>
     </div>
+
 </div>
 
+## My projects have been presented at conferences & meetups such as:
+
+<div class="masonry">
+    <div class="mItem">
+      <a href="https://www.youtube.com/watch?v=e2OX26Ps8jU" target="_blank">
+      <img src="../assets/testimonials/img/microsoft_reactor.jpg">
+      </a>
+    </div>
+
+    <div class="mItem">
+      <a href="https://www.youtube.com/watch?v=bIgGMfuctXQ" target="_blank">
+      <img src="../assets/testimonials/img/dtc.jpg">
+      </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.youtube.com/watch?v=hVCRG9wiMwY" target="_blank">
+    <img src="../assets/testimonials/img/ai_tour.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.youtube.com/watch?v=9JH8y0wNVNY" target="_blank">
+    <img src="../assets/testimonials/img/mmm.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.youtube.com/watch?v=EsNaRXvQZRc" target="_blank">
+    <img src="../assets/testimonials/img/dss.jpg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://adventuresinml.com/data-paradoxes-in-data-sets-with-pier-paolo-ippolito-ml-052" target="_blank">
+    <img src="../assets/testimonials/img/adventures_in_ml.jpg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://datacast.simplecast.com/episodes/pier-paolo-ippolito" target="_blank">
+    <img src="../assets/testimonials/img/datacast.jpg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://open.spotify.com/episode/4ZD3EdDbP2pcheVBQ7swvc?go=1&sp_cid=f59c6fc5b5515967d50fe14a88452a65&t=1&utm_source=embed_player_p&utm_medium=desktop&nd=1" target="_blank">
+    <img src="../assets/testimonials/img/data_driven_people.jpg">
+    </a>
+    </div>
+
+</div>
 
 ## My articles have been shared online by organizations such as:
 
@@ -146,30 +200,32 @@ If you have any question, feel free to get in contact with me using the form on 
     font: 14px Helvetica, Arial, sans-serif;
   }
 
-  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+/_ Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
 ## API as a product: Towards Data Science Article to Markdown Blog converter
 
-[![](/assets/testimonials/img/APIconverter.PNG)](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="_blank"}
+[![](/assets/testimonials/img/APIconverter.PNG)](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="\_blank"}
 
-Are you a writer for an online publication such as Towards Data Science and at the same time you run your own personal blog? If that's the case, you probably had to go through the manual process of converting your articles from one platform to another.  
+Are you a writer for an online publication such as Towards Data Science and at the same time you run your own personal blog? If that's the case, you probably had to go through the manual process of converting your articles from one platform to another.
 
 In order to solve this problem, I created the "Towards Data Science Article to Markdown Blog converter" API. Using this API it can in fact be possible to start an automatic conversion of articles published on Towards Data Science into a Markdown format suitable for blogging platforms such as Jekyll and GitHub pages by just giving the program 3 input parameters:
+
 - The full name of the writer on Medium.
 - The username of the writer on Medium.
 - A link to the Towards Data Science article you want to convert to Markdown from Medium.
 
-This Software as a Service is served over HTTP and hosted using an AWS Lambda function. If you are interested in trying the API yourself, a free tier of up to 20 requests per month is [available on RapidAPI](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="_blank"} (alternatively paid plan options are also offered).
+This Software as a Service is served over HTTP and hosted using an AWS Lambda function. If you are interested in trying the API yourself, a free tier of up to 20 requests per month is [available on RapidAPI](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="\_blank"} (alternatively paid plan options are also offered).
 
 ## Notion Study Review System
 
-[![](/assets/testimonials/img/notion_template.png)](https://pierpaolo28.gumroad.com/l/kpaXhZ){:target="_blank"}
+[![](/assets/testimonials/img/notion_template.png)](https://pierpaolo28.gumroad.com/l/kpaXhZ){:target="\_blank"}
 
 Notion is a free application able to provide such as notes, kanban boards, calendars, etc.. As part of this product, I created a Notion template to help you guide you through your learning path (e.g. online courses, university, etc...). Making use of this template will help you to keep track of the activities completed and review for an exam. Additionally, the template acts as a built-in database in order to quickly access notes from past courses anytime after completion.
 
 <script src="https://gumroad.com/js/gumroad.js"></script>
+
 <a class="gumroad-button" href="https://gumroad.com/l/kpaXhZ">Buy my product</a>
 
 ## Pier's Data Blog newsletter
