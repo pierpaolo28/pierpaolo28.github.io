@@ -16,6 +16,8 @@ Sample list of published articles which have then been republished in different 
 - [Changes Unipol Profile (Italian)](https://changes.unipol.it/autore/Pier-Paolo-Ippolito)
 - [La teoria dei giochi nell’intelligenza artificiale (Italian)](https://www.ai4business.it/intelligenza-artificiale/la-teoria-dei-giochi-intelligenza-artificiale/)
 - [Uczenie maszynowe online z użyciem Tensorflow.js (Polish)](https://bulldogjob.pl/news/763-uczenie-maszynowe-online-z-uzyciem-tensorflow-js)
+- [MLOps のための機械学習におけるデザインパターン (Japanese)](https://ainow.ai/2022/02/14/262548/)
+- [面向 MLOps 的机器学习设计模式 (Chinese)](https://www.51cto.com/article/703935.html)
 
 ## Publications, Companies and Universities
 
@@ -36,6 +38,8 @@ Sample of mentions from publications, companies and universities:
 - [ITWeeklyNewsletter - Paradoxes in Data Science](https://www.prometheandatasolutions.com/V4-articles.php?cat=data)
 - [Kaggle - R Learning Path Information For Beginners](https://www.kaggle.com/questions-and-answers/279884)
 - [AWS AI/ML Community attendee guides to AWS re:Invent 2021](https://aws.amazon.com/blogs/machine-learning/aws-ai-ml-community-attendee-guides-to-aws-reinvent-2021/)
+- [SAS Institute - Virtual Event for the UK Government](https://www.sas.com/en_gb/events/2021/discover-answers-to-accelerate-the-uk-forward/on-demand.html)
+- [SAS Institute - Visual Model Development Webinar](https://www.sas.com/en_gb/webinars/visual-model-development.html)
 
 KDNuggets Silver and Gold posts:
 
