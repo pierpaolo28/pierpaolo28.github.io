@@ -204,6 +204,19 @@ If you have any question, feel free to get in contact with me using the form on 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## Applied Data Science in Tourism
+
+[<img src="/assets/testimonials/img/ds_tourism.PNG"/>](http://www.datascience-in-tourism.com/){:target="\_blank"}
+
+Contributed to the publication of ["Applied Data Science in Tourism"](http://www.datascience-in-tourism.com/) comprising Springer’s series ”Tourism on the
+Verge”. As part of this project, I covered the 12th chapter of the book, in which were discussed some of the most common
+Hyperparameter Tuning techniques used in Machine Learning and how they can be applied in various tourism related data-driven applications.
+
+<a href="https://link.springer.com/book/10.1007/978-3-030-88389-8" class="btn">Springer</a>
+<br>
+<br>
+<a href="https://www.amazon.co.uk/Applied-Data-Science-Tourism-Interdisciplinary/dp/3030883884/ref=sr_1_1?crid=3EV9N4MFS7L6H&keywords=applied+data+science+in+tourism&qid=1647767830&sprefix=applied+data+science+in+tourism%2Caps%2C84&sr=8-1" class="btn">Amazon</a>
+
 ## API as a product: Towards Data Science Article to Markdown Blog converter
 
 [![](/assets/testimonials/img/APIconverter.PNG)](https://rapidapi.com/pierpaolo28/api/towards-data-science-article-to-markdown-blog-converter/){:target="\_blank"}
