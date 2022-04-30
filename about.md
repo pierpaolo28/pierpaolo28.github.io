@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
 ![](/assets/img/posts/timeline.gif)
 
 ## Biography
-Data Scientist at SAS and MSc in Artificial Intelligence graduate with an interest in research areas such as Data Analytics, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers). Additional information about the various services and products I provide, can be found at [this link.](/services/)
+Data Analytics Engineer at Swiss Re and MSc in Artificial Intelligence holder with an interest in research areas such as Data Science, Machine Learning, and Cloud Development. Aside from my work activities, I am a freelancer and technical writer for Towards Data Science (an online publication with two million annual readers). Additional information about the various services and products I provide, can be found at [this link.](/services/)
 
 If you are interested in finding out more about my background and latest activities, feel free to follow me on [LinkedIn.](https://www.linkedin.com/in/pierpaolo28/){:target="_blank"}
 

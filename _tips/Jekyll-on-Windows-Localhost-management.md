@@ -18,7 +18,7 @@ We can now install Bundle in order to manage our Jekyll project.
 gem install bundler jekyll
 ```
 
-At this point, we are ready to set up Boudle and create our Gemfile and Gemfile.lock (make sure that you are now in the local Github project repository containing the content which is later going to be push online on Github pages). To do so, we just need to type `boundle init` and then add Jekyll to the Boundle (`bundle add jekyll`). Now we just need to make sure we have installed all the plugins listed in the `_config.yml` file by adding them in the Gemfile (eg. adding `gem 'jekyll-feed'` in the Gemfile will install the feed plugin for our website). By using the following command we can procede to install the created boundle:
+At this point, we are ready to set up Boudle and create our Gemfile and Gemfile.lock (make sure that you are now in the local Github project repository containing the content which is later going to be push online on Github pages). To do so, we just need to type `bundle init` and then add Jekyll to the Boundle (`bundle add jekyll`). Now we just need to make sure we have installed all the plugins listed in the `_config.yml` file by adding them in the Gemfile (eg. adding `gem 'jekyll-feed'` in the Gemfile will install the feed plugin for our website). By using the following command we can procede to install the created boundle:
 
 ```
 bundle install
