@@ -40,6 +40,8 @@ Sample of mentions from publications, companies and universities:
 - [AWS AI/ML Community attendee guides to AWS re:Invent 2021](https://aws.amazon.com/blogs/machine-learning/aws-ai-ml-community-attendee-guides-to-aws-reinvent-2021/)
 - [SAS Institute - Virtual Event for the UK Government](https://www.sas.com/en_gb/events/2021/discover-answers-to-accelerate-the-uk-forward/on-demand.html)
 - [SAS Institute - Visual Model Development Webinar](https://www.sas.com/en_gb/webinars/visual-model-development.html)
+- [Codemotion 2022 - Paradoxes in Data Science Talk](https://talks.codemotion.com/paradoxes-in-data-science)
+- Open Data Science Articles: [Causal Reasoning in ML](https://opendatascience.com/causal-reasoning-in-machine-learning/), [Azure for ML Engineers](https://opendatascience.com/azure-for-machine-learning-engineers/), [Paradoxes in Data Science](https://opendatascience.com/paradoxes-in-data-science/)
 
 KDNuggets Silver and Gold posts:
 
