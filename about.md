@@ -136,9 +136,10 @@ If you are interested in finding out more about my background and latest activit
 
 ## Technical Writing
 - Towards Data Science Associate Editor and Writer.
-- freeCodeCamp, KDNuggets, Changes Unipol and Tech4future Contributor.
+- Open Data Science, freeCodeCamp, KDNuggets, Changes Unipol and Tech4future Contributor.
 
 ## Conferences
+- Meetups Speaker: Participated as a speaker in various online conferences and meetups such as the Microsoft Reactor of London and Global AI On Tour.
 - Open Data Science Conference 2020 (Europe): Took part at the 2020 Open Data Science Conference as a team member of the SAS UK booth, in order to showcase the latest advancements of the SAS Viya data analytics platform.
 - Mobile World Congress 2019: Attended the 2019 Mobile World Congress in Los Angeles (USA) as press member to find out how upcoming 5G
 technologies can be used to enhance AI powered applications.
@@ -152,7 +153,7 @@ technologies can be used to enhance AI powered applications.
 - **AWS Community Builders (2021-Present):** Enrolled in the AWS Community Builders program as a Data Specialist, creating AWS enablement material and providing feedback on new AWS features.
 <br>
 ![](/assets/img/AWScommbuild.png)
-- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 300 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects){:target="_blank"}.
+- **Open Source Contributions (2018-Present):** Worked on various open source projects using programming languages such as Python and R (more than 350 followers on GitHub). Some of my most interesting projects regarding topics such as Computational Finance and Reinforcement Learning are currently available in my [Artificial Intelligence Projects GitHub repository](https://github.com/pierpaolo28/Artificial-Intelligence-Projects){:target="_blank"}.
 - **Microsoft Student Ambassador (2019-2020):** As part of my Master Degree, I have been a Microsoft ambassador at the University of Southampton. Thanks to this role, I had the opportunity to organise and present Workshops and Hackathons events using Microsoft Azure technologies.
 - **Artificial Intelligence Society (2019-2020):** I have been a founding committee member of the University of Southampton Artificial Intelligence Society for which I organised workshops covering topics such as Machine Learning deployment and Natural Language Processing.
 
