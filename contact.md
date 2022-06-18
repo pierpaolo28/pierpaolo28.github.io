@@ -8,7 +8,7 @@ permalink: /contact/
 
 <img src="https://avatars1.githubusercontent.com/u/40637715?s=460&v=4" width="200">
 
-If you have any question, please do not hesitate to contact me. I am currently open for freelancing and research publication opportunities. Additional information about the various services and products I provide, can be found at [this link.](/services/). If you want to keep updated with my latest articles and projects feel free to subscribe to my [Data Blog Newsletter](https://www.getrevue.co/profile/pier_paolo_28){:target="_blank"}. All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="_blank"}
+If you have any question, please do not hesitate to contact me. I am currently open for freelancing and research publication opportunities. Additional information about the various services and products I provide, can be found at [this link](/services/). If you want to keep updated with my latest articles and projects feel free to subscribe to my [Data Blog Newsletter](https://www.getrevue.co/profile/pier_paolo_28){:target="_blank"}. All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="_blank"}
 
 
 <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
