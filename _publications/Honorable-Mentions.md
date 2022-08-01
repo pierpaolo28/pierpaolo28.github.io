@@ -27,6 +27,7 @@ Sample of mentions from publications, companies and universities:
 - [Towards Data Science Daily Picks](https://towardsdatascience.com/latest-picks-how-to-spot-a-data-charlatan-624d152c9aa)
 - [Towards Data Science The All-time Best Guides to Data Science Writing](https://towardsdatascience.com/the-all-time-best-guides-to-data-science-writing-tues-b6fec391e9d9)
 - [Towards Data Science Monthly Edition: Questions on Explainable AI](https://towardsdatascience.com/may-edition-questions-on-explainable-ai-6968e9ac1ccf)
+- [Towards Data Science Monthly Edition: Writing Better as a Data Scientist](https://towardsdatascience.com/august-edition-writing-better-as-a-data-scientist-5893196fd3cf)
 - [DeployPlace: Top 3 DevOps trends of 2020 in the eyes of real engineers](https://deployplace.com/blog/top-3-devops-trends-2020/)
 - [Cornell University Recommended Reading: Game Theory in Artificial Intelligence](http://blogs.cornell.edu/info2040/2019/09/23/game-theory-in-artificial-intelligence/)
 - [Experfy: Harvard Innovation Lab](https://www.experfy.com/blog/author/pier-paolo-ippolito/)
