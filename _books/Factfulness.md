@@ -20,6 +20,8 @@ In this book, Hans Rosling points out how a large number of people has an inaccu
 9. The Blame instinct: we tend to oversimplify why something bad has happened and what/who might have been the cause.
 10. The Urgency instinct: if we are given a sense of urgency to do something, this can more easily lead us to make wrong decisions (because we don't get enough time to make sure to avoid all of the before mentioned instincts).
 
+![](https://i0.wp.com/readingraphics.com/uploads/2018/09/Factfulness_The-10-Dramatic-Instincts.png?ssl=1)
+
 ## Quotes
 
 > “Forming your worldview by relying on the media would be like forming your view about me by looking only at a picture of my foot.”
