@@ -15,7 +15,7 @@ Collection of some freely available talks in which I have been involved as a spe
 <br>
 ## Adventures in Machine Learning: Data Paradoxes in Data Sets
 
-<iframe src="https://player.fireside.fm/v2/n3H0CUea+CH4k09U4?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3bHIKPozJ2taUezEeXTzsl?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br>
 ## Data Driven People Interview (Italian)
@@ -106,3 +106,7 @@ As a demonstration for this shift, an increasing number of online data science p
   >
   </iframe>
 </div>
+<br>
+## Swiss RE Initiatives
+
+Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7Bo&ab_channel=Palantir){:target="\_blank"} and [Hack Zurich 2022](https://www.youtube.com/watch?v=ET4mmmlss0U&ab_channel=HackZurichOfficial){:target="\_blank"}.
