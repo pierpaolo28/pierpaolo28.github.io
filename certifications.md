@@ -19,3 +19,5 @@ Sample list of professional certifications achieved:
 - [Kaggle - SQL Summer Camp](/assets/certifications/sql_summer_camp_certificate.pdf)
 - [Coursera - Data Engineering, Big Data, and Machine Learning on GCP](/assets/certifications/Coursera_GCP_DE_Specialization.pdf)
 - [Cloud Academy - Google Professional Machine Learning Engineer Exam Preparation](/assets/certifications/cloudacademy.pdf)
+- [Databricks Lakehouse Fundamentals](/assets/certifications/Databricks_Lakehouse_Fundamentals.pdf)
+- [Databricks Certified Data Engineer Associate](/assets/certifications/Databricks_DE_Associate.pdf)
