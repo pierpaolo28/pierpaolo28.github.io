@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: blog/blog10/
-categories: [Data Science]
+categories: [Data Engineering]
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*OYalBcMGoyYc5lN0ywSXiQ.png) <br>
