@@ -43,6 +43,7 @@ Sample of mentions from publications, companies and universities:
 - [SAS Institute - Visual Model Development Webinar](https://www.sas.com/en_gb/webinars/visual-model-development.html)
 - [Codemotion 2022 - Paradoxes in Data Science Talk](https://talks.codemotion.com/paradoxes-in-data-science)
 - Open Data Science Articles: [Causal Reasoning in ML](https://opendatascience.com/causal-reasoning-in-machine-learning/), [Azure for ML Engineers](https://opendatascience.com/azure-for-machine-learning-engineers/), [Paradoxes in Data Science](https://opendatascience.com/paradoxes-in-data-science/)
+- [Anaconda Cloud - Ten Techniques for Machine Learning Visualization](https://anaconda.cloud/ippolito-machine-learning-visualization)
 
 KDNuggets Silver and Gold posts:
 
