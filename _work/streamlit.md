@@ -8,4 +8,19 @@ summary: Business Insights WebApp based on Bayesian Belief Networks deployed usi
 github: https://github.com/pierpaolo28/Data-Visualization/tree/master/Streamlit
 ---
 
-<meta http-equiv="refresh" content="0; url=https://sleepy-hamlet-89494.herokuapp.com/" />
+<!-- <meta http-equiv="refresh" content="0; url=https://sleepy-hamlet-89494.herokuapp.com/" /> -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/../assets/css/app_recording.css">
+
+<video autoplay muted loop playsinline id="myVideo">
+  <source src="/../assets/img/business_insights.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <button id="myBtn" onclick="myFunction()">Pause App Recording</button>
+</div>
+
+<script src="/../assets/js/app_recording.js"></script>

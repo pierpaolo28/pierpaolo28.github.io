@@ -8,4 +8,19 @@ summary: Random Forest Classification prediction for blood donation deployed usi
 github: https://github.com/pierpaolo28/Artificial-Intelligence-Projects/tree/master/ML-Deployement
 ---
 
-<meta http-equiv="refresh" content="0; url=https://sleepy-ridge-93654.herokuapp.com/" />
+<!-- <meta http-equiv="refresh" content="0; url=https://sleepy-ridge-93654.herokuapp.com/" /> -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/../assets/css/app_recording.css">
+
+<video autoplay muted loop playsinline id="myVideo">
+  <source src="/../assets/img/flask_online_machine_learning.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <button id="myBtn" onclick="myFunction()">Pause App Recording</button>
+</div>
+
+<script src="/../assets/js/app_recording.js"></script>
