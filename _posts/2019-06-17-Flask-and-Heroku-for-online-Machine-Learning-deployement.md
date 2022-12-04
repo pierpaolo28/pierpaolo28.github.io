@@ -143,7 +143,7 @@ online. If you are looking to find out more about how to use Flask to code Web
 Apps these are some useful references [1, 2, 3].
 
 My online Machine Learning Model is available
-[here](https://sleepy-ridge-93654.herokuapp.com/) and all the code I used to
+[here](https://pierpaolo28.github.io/Projects/flask.html) and all the code I used to
 design it can be found on my [GitHub
 page](https://github.com/pierpaolo28/Artificial-Intelligence-Projects/tree/master/ML-Deployement).
 
