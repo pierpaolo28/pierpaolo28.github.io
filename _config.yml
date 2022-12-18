@@ -87,6 +87,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+  - jemoji
 
 paginate: 7
 paginate_path: "/blog/blog/page:num/"
