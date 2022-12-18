@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2021-10-05
 title: Tableau Netflix Analysis
 tags: [Data Science]

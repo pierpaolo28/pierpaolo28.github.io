@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-07-01
 title: Prezi Resumé
 tags: [Extra]

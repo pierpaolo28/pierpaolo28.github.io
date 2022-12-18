@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-07-17
 title: Spotify Data Science Podcast
 tags: [Extra]

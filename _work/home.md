@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-06-07
 title: Online Variational Autoencoder (VAE)
 tags: [Machine Learning]

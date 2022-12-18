@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-10-14
 title: Introduction to AI powered Microsoft Tools (Microsoft Student Partner programme)
 tags: [Artificial Intelligence, Data Science]

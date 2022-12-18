@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-07-15
 tags: [Machine Learning]
 title: Animated ML Models Training

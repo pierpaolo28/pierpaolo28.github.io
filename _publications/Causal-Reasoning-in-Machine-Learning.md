@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-10-17
 github: https://github.com/pierpaolo28/Epidemics-Modelling/tree/master
 ---

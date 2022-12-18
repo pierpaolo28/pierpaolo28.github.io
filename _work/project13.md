@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-09-22
 title: Plotly.js End to end online Data Visualization
 tags: [Data Science]

@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2018-04-22
 title: Jarvis Smart Lamp
 tags: [Artificial Intelligence, Electronics]

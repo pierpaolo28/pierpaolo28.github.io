@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-12-03
 sticky: true
 ---

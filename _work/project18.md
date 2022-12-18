@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-05-14
 title: Portable Image Classifier (Tkinter Machine Learning)
 tags: [Machine Learning]

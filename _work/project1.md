@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 title: Robotic Process Automation (RPA)
 date: 2019-04-22
 tags: [Artificial Intelligence]

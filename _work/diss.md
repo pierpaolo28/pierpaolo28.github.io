@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-12-27
 title: Alleviate Children's Health Issues through Games and Machine Learning
 tags: [Artificial Intelligence, Machine Learning, Data Science]

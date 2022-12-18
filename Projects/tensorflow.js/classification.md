@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-08-29
 title: TensorFlow.js Classification
 tags: [Artificial Intelligence, Machine Learning]

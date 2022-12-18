@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-08-18
 title: Data Science Online Dashboard
 tags: [Data Science]

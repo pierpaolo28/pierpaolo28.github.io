@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-06-25
 title: Augmented Reality Business Card
 tags: [Artificial Intelligence]

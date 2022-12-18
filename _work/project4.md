@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2018-08-15
 title: Micro LED Research (ECS Research Internship)
 tags: [Electronics]

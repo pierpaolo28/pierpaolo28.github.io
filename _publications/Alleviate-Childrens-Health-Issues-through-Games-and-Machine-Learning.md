@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-05-30
 github: https://github.com/pierpaolo28/Alleviate-Children-s-Health-Issues-through-Games-and-Machine-Learning
 ---

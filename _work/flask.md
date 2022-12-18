@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-07-05
 title: Flask Online Machine Learning
 tags: [Artificial Intelligence, Machine Learning, Data Science]

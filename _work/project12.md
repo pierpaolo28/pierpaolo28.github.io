@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-09-14
 title: NVIDIA RAPIDS Tutorial
 tags: [Data Science, Machine Learning]

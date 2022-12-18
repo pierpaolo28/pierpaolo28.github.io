@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2017-04-25
 title: Whiteboard chat for Raspberry Pi
 tags: [Electronics]

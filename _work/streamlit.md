@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-10-28
 title: Streamlit Business Insights WebApp
 tags: [Machine Learning]

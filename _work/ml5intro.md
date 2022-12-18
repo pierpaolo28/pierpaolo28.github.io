@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-08-24
 title: Introduction to ml5.js
 tags: [Artificial Intelligence, Machine Learning]

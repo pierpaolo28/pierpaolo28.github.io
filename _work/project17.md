@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-04-28
 title: Linear/Extended Kalman and Particle Filters
 tags: [Reinforcement Learning]

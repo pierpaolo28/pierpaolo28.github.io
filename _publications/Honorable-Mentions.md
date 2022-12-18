@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-10-20
 sticky: true
 ---
@@ -23,6 +23,7 @@ Sample list of published articles which have then been republished in different 
 
 Sample of mentions from publications, companies and universities:
 
+- [Towards Data Science: Editorial Team Bio](https://towardsdatascience.com/our-team-c2c8e712c971)
 - [Towards Data Science Monthly Edition: Art, Creativity and Data Science](https://towardsdatascience.com/april-edition-art-creativity-and-data-science-5ca9849f5da3)
 - [Towards Data Science Daily Picks](https://towardsdatascience.com/latest-picks-how-to-spot-a-data-charlatan-624d152c9aa)
 - [Towards Data Science The All-time Best Guides to Data Science Writing](https://towardsdatascience.com/the-all-time-best-guides-to-data-science-writing-tues-b6fec391e9d9)

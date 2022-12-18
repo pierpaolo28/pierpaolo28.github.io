@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-10-17
 title: Animated Deep Learning
 tags: [Data Science, Machine Learning]

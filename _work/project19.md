@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2020-05-27
 title: Mountain Car Problem
 tags: [Reinforcement Learning]

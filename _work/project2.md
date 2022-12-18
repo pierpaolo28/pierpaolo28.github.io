@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2019-02-22
 title: Hack the South 2019 (Best Hardware Design Prize Winner)
 tags: [Artificial Intelligence, Electronics]

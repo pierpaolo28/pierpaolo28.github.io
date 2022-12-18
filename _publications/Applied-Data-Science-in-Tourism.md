@@ -1,5 +1,5 @@
 ---
-layout: post_book
+layout: post_body
 date: 2022-03-20
 github: https://github.com/DataScience-in-Tourism/Chapter-12-Hyperparameter-Tuning
 ---
