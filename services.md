@@ -13,6 +13,8 @@ I am currently open to collaborate on projects regarding:
 - Python Open Source libraries & frameworks development/documentation
 - Research/Book publications
 - Blog Technical Writing
+- Start-up consultation help
+- Product test/review
 - Mentoring
 
 If you have any question, feel free to get in contact with me using the form on the [contact page](/contact/). All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="\_blank"}
