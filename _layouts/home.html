@@ -26,19 +26,21 @@ layout: compress
       <div id="content-desktop">
         <br>
         <section class="subscribe" className=" inline-block">
+          <!-- Begin Mailchimp Signup Form -->
           <div class="container">
-            <form action="https://www.getrevue.co/profile/pier_paolo_28/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-              <div class="form-row justify-content-center">
-                <div class="col-auto">
-                  <input type="email" name="member[email]" id="member_email" class="form-control" placeholder="Join 200+ engineers in the Data Blog Newsletter by entering your email">
-                </div>
-                <p>Powered by Revue (<a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a>, <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>)</p>
-                <div class="col-auto">
-                  <button type="submit" onClick={subscribeClick} name="member[subscribe]" id="member_submit">Subscribe</button>
-                </div>
-              </div>
-            </form>
+          <form action="https://github.us3.list-manage.com/subscribe/post?u=ef500ef45f8aed2f720046461&amp;id=f27cd55314&amp;f_id=00774ae2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="form-row justify-content-center">
+            <div class="col-auto">
+          	<input type="email" value="" name="EMAIL" id="mce-EMAIL" class="required email" placeholder="Join 200+ engineers in the Data Blog Newsletter by entering your email">
+            </div>
+          <div class="col-auto">
+              <button type="submit" value="Subscribe" onClick={subscribeClick} name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
           </div>
+          </div>
+          </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <!--End mc_embed_signup-->
         </section>
       </div>
 
@@ -77,13 +79,13 @@ layout: compress
 <script>
   function subscribeClick(e) {
     e.preventDefault();
-    const email = currentForm.querySelector("#member_email").value;
+    const email = currentForm.querySelector("#mce-EMAIL").value;
     const isEmailValid = validateEmail(email);
 
     const emailError = currentForm.querySelector("#email_error");
     const subSuccess = currentForm.querySelector("#subscribe_success");
     const subLoading = currentForm.querySelector("#subscribe_loading");
-    const revueForm = currentForm.querySelector("#revue-form");
+    const revueForm = currentForm.querySelector("#mc-embedded-subscribe-form");
 
     if (isEmailValid) {
       subLoading.classList.remove("hidden");

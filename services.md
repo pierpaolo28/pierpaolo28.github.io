@@ -243,30 +243,9 @@ Notion is a free application able to provide such as notes, kanban boards, calen
 
 ## Pier's Data Blog newsletter
 
-<div id="mc_embed_signup" style="margin : 0; padding-top:0; padding-bottom:10px;">
-  <form action="https://www.getrevue.co/profile/pier_paolo_28/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-    <div id="mc_embed_signup_scroll">
-      <h2>Subscribe to my Data Blog Newsletter to get news about Data, Cloud and my website!</h2>
-      <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-      <div class="mc-field-group">
-        <label for="member_email">Email Address <span class="asterisk">*</span></label>
-        <input class="revue-form-field" type="email" name="member[email]" id="member_email">
-      </div>
-      <div class="mc-field-group">
-        <label for="member_first_name">Name</label>
-        <input class="revue-form-field" type="text" name="member[first_name]" id="member_first_name">
-      </div>
-      <!-- <div class="mc-field-group">
-        <label for="member_last_name">Last Name</label>
-        <input class="revue-form-field" type="text" name="member[last_name]" id="member_last_name">
-      </div> -->
-      <div class="clear">
-        <input type="submit" value="Subscribe" name="member[subscribe]" id="mc-embedded-subscribe" class="button">
-      </div>
-      <div class="revue-form-footer">By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
-    </div>
-  </form>
-</div>
+<p align="center">
+<iframe src="https://pierpaolo28.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+</p>
 
 ## Blog Articles mailing list
 
