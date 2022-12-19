@@ -1,4 +1,18 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+#reading-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #F4D03F;
+  border-radius: 10px;
+  width: 4%;
+  height: 10px;
+  transition: all .3s ease;
+}
+#reading-bar.finished {
+  background-color: #58D68D;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;

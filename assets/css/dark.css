@@ -1,4 +1,19 @@
 /* Generated using: https://nighteye.app/dark-css-generator/ */
+#reading-bar {
+  display: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 4%;
+  height: 10px;
+  transition: all .3s ease;
+}
+#reading-bar.finished {
+  background-color: #58D68D;
+}
+
 a {
   color: rgb(140, 140, 250);
 }

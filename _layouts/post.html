@@ -17,7 +17,8 @@ layout: compress
 	{% endif %}
 
 	{% include header.html %}
-
+	<div id="reading-bar"></div>
+	<script src="/../assets/js/progressbar.js" type="text/javascript"></script>
 	{% if page.featured-img %}
 	<div class="hero lazyload" data-bg="{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.{{page.img-type}}">
 		{% else %}
