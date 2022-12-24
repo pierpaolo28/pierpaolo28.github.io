@@ -199,6 +199,8 @@ A more comprehensive list of the different professional certifications I achieve
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="51cef660-e6dc-451d-89d3-e676ab002817" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22878546-d0e8-4533-af07-ecef14497bff" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="313d54ba-11d0-4fb6-8ee6-9c89c845f6eb" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c12e434f-fc92-45eb-a161-57faf357e49c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="604ad224-6c5b-4596-9c48-9491ea2e4931" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <iframe
   src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51982842"
   width="200"
