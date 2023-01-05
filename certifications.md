@@ -22,6 +22,8 @@ Sample list of professional certifications achieved:
 - [Databricks Lakehouse Fundamentals](/assets/certifications/Databricks_Lakehouse_Fundamentals.pdf)
 - [Databricks Certified Data Engineer Associate](/assets/certifications/Databricks_DE_Associate.pdf)
 - [Palantir Foundry Application Developer](/assets/certifications/Foundry_Application_Developer.pdf)
+- [Palantir Foundry Foundations](/assets/certifications/Foundry_Foundations.pdf)
+- [Palantir Foundry Data Engineer Associate](/assets/certifications/Foundry_Data_Engineer_Associate.pdf)
 - [Google Cloud Certified - Professional Data Engineer](/assets/certifications/GCP_Data_Engineer.pdf)
 - [Snowflake - Hands On Essentials - Data Engineering](/assets/certifications/Snowflake_DataEngineering_Badge.pdf)
 - [Snowflake - Hands On Essentials - Data Warehouse](/assets/certifications/Snowflake_DataWarehouse_Badge.pdf)
