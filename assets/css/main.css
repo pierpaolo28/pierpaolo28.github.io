@@ -4,9 +4,9 @@
   position: sticky;
   top: 0;
   background: #F4D03F;
-  border-radius: 10px;
-  width: 4%;
-  height: 10px;
+  border-radius: 5px;
+  width: 2%;
+  height: 5px;
   transition: all .3s ease;
 }
 #reading-bar.finished {
