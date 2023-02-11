@@ -50,7 +50,7 @@ Cloud Run is the main serverless cloud service available on GCP to deploy pre-bu
 2. Click on Create Service.
 3. Add the Container Image URL we just created.
 4. Specifiy the name for your application and its location.
-5. Specify the amount of resources to provide for running the application (e.g. 1GB of Memory, 2VCPUs).
+5. Specify the amount of resources to provide for running the application (e.g. 1GB of Memory, 2VCPUs) and ensure the port matched the one specified in the Dockerfile.
 6. Once created the service and waited for the deployment to finish, the url of the application should then become available.
 7. If we want to apply any change in the code once the application is running, can then just build & push again the updated project in the container registry, click to edit the existing service configuration and select the new container image URL.
 
