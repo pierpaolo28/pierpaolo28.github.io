@@ -114,6 +114,12 @@ If you have any question, feel free to get in contact with me using the form on 
     </a>
     </div>
 
+    <div class="mItem">
+    <a href="https://anaconda.cloud/ippolito-machine-learning-visualization" target="_blank">
+    <img src="../assets/testimonials/img/anaconda_cloud.jpeg">
+    </a>
+    </div>
+
 </div>
 
 ## My projects have been presented at conferences & meetups such as:
