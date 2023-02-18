@@ -18,7 +18,7 @@ As more and more companies decide to move their on-premises datacenters to the c
 
 In 2020, Microsoft Azure was declared the fastest growing cloud provider [1] and therefore I decided to challenge myself to learn more about their Data Science services and complete their [Azure Data Scientist certification](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/).
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bca2f766-dca5-42b1-a6d0-15805e137065" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a91b0677-0a13-433e-a19b-cb06add00a9a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 In this article, we are going to cover some of Azure key Machine Learning services and how they compare each other in order to create complete AI solutions. If you are interested in learning more about the foundations of cloud computing and Big Data systems, additional information is available in my previous articles [“Cloud Foundations for Data Scientists”](https://towardsdatascience.com/cloud-foundations-for-data-scientists-e9d0c14fc98a) and [“Big Data Analysis: Spark and Hadoop”](https://towardsdatascience.com/big-data-analysis-spark-and-hadoop-a11ba591c057).
 
