@@ -107,6 +107,15 @@ As a demonstration for this shift, an increasing number of online data science p
   </iframe>
 </div>
 <br>
+
+## Google Developers Group (Zurich): Paradoxes in Data Science
+
+GCP deployment instructions provided during the presentation are available at [this link.](https://pierpaolo28.github.io/blog/tips/GCP-Streamlit-App-Deployment/)
+
+<img src="/assets/img/gdg_presentation.jpeg" alt="drawing" style="width:350px;"/>
+
+<img src="/assets/img/gdg_audience.jpeg" alt="drawing" style="width:350px;"/>
+
 ## Swiss RE Initiatives
 
 Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7Bo&ab_channel=Palantir){:target="\_blank"} and [Hack Zurich 2022](https://www.youtube.com/watch?v=ET4mmmlss0U&ab_channel=HackZurichOfficial){:target="\_blank"}.
