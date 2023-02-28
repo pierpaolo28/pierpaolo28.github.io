@@ -42,7 +42,7 @@ Sample of mentions from publications, companies and universities:
 - [AWS AI/ML Community attendee guides to AWS re:Invent 2021](https://aws.amazon.com/blogs/machine-learning/aws-ai-ml-community-attendee-guides-to-aws-reinvent-2021/)
 - [SAS Institute - Virtual Event for the UK Government](https://www.sas.com/en_gb/events/2021/discover-answers-to-accelerate-the-uk-forward/on-demand.html)
 - [SAS Institute - Visual Model Development Webinar](https://www.sas.com/en_gb/webinars/visual-model-development.html)
-- [Codemotion 2022 - Paradoxes in Data Science Talk](https://talks.codemotion.com/paradoxes-in-data-science)
+- [Codemotion 2022 - Paradoxes in Data Science Talk](https://talks.codemotion.com/paradoxes-in-data-science) & follow up [article.](https://ciberneticagerber.it/2022/03/25/codemotion/)
 - Open Data Science Articles: [Causal Reasoning in ML](https://opendatascience.com/causal-reasoning-in-machine-learning/), [Azure for ML Engineers](https://opendatascience.com/azure-for-machine-learning-engineers/), [Paradoxes in Data Science](https://opendatascience.com/paradoxes-in-data-science/)
 - [Anaconda Cloud - Ten Techniques for Machine Learning Visualization](https://anaconda.cloud/ippolito-machine-learning-visualization)
 - [Google Cloud Credential Holder Directory Profile](https://googlecloudcertified.credential.net/profile/e9c09ea9956ff29fa38a936f7759268235853383)
