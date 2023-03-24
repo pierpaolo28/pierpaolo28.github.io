@@ -64,6 +64,14 @@ If you have any question, feel free to get in contact with me using the form on 
                         <h5><b>Andrea La Rosa</b>, Head of Data Science at Typeform & Creator of remo.ai</h5>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/ale_datapizza.jpeg" class="img-circle img-responsive" />
+                        <p>Pier Paolo has done an outstanding job in creating a Data Engineering-themed learning path on our platform. He has demonstrated great competence and professionalism, managing to complete the project quickly and efficiently.
+                        <br><br> </p>
+                        <h5><b>Alessandro Risaro</b>, Co-Founder Datapizza</h5>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
@@ -170,6 +178,12 @@ If you have any question, feel free to get in contact with me using the form on 
     <div class="mItem">
     <a href="https://open.spotify.com/episode/4ZD3EdDbP2pcheVBQ7swvc?go=1&sp_cid=f59c6fc5b5515967d50fe14a88452a65&t=1&utm_source=embed_player_p&utm_medium=desktop&nd=1" target="_blank">
     <img src="../assets/testimonials/img/data_driven_people.jpg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://gdg.community.dev/events/details/google-gdg-cloud-zurich-presents-gdg-cloud-zurich-meetup-4-february/" target="_blank">
+    <img src="../assets/testimonials/img/gdg_zurich.jpeg">
     </a>
     </div>
 
