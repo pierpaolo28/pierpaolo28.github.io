@@ -72,6 +72,14 @@ If you have any question, feel free to get in contact with me using the form on 
                         <h5><b>Alessandro Risaro</b>, Co-Founder Datapizza</h5>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/tsd_ludovic.jpeg" class="img-circle img-responsive" />
+                        <p>I am grateful that Pier has voluntarily contributed to our publication as an Editorial Associate these past few years. His expert feedback on numerous articles we published on Towards Data Science has been valuable. 
+                        <br><br> </p>
+                        <h5><b>Ludovic Benistant</b>, Editor at Towards Data Science</h5>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>

@@ -46,6 +46,7 @@ Sample of mentions from publications, companies and universities:
 - Open Data Science Articles: [Causal Reasoning in ML](https://opendatascience.com/causal-reasoning-in-machine-learning/), [Azure for ML Engineers](https://opendatascience.com/azure-for-machine-learning-engineers/), [Paradoxes in Data Science](https://opendatascience.com/paradoxes-in-data-science/)
 - [Anaconda Cloud - Ten Techniques for Machine Learning Visualization](https://anaconda.cloud/ippolito-machine-learning-visualization)
 - [Google Cloud Credential Holder Directory Profile](https://googlecloudcertified.credential.net/profile/e9c09ea9956ff29fa38a936f7759268235853383)
+- [Kili Technology - Supercharging Your Machine Learning Models with Data Augmentation](https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide)
 
 KDNuggets Silver and Gold posts:
 

@@ -27,3 +27,4 @@ Sample list of professional certifications achieved:
 - [Google Cloud Certified - Professional Data Engineer](/assets/certifications/GCP_Data_Engineer.pdf)
 - [Snowflake - Hands On Essentials - Data Engineering](/assets/certifications/Snowflake_DataEngineering_Badge.pdf)
 - [Snowflake - Hands On Essentials - Data Warehouse](/assets/certifications/Snowflake_DataWarehouse_Badge.pdf)
+- [Nova - Membership](/assets/certifications/nova_certificate.pdf)
