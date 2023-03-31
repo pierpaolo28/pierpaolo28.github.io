@@ -136,6 +136,12 @@ If you have any question, feel free to get in contact with me using the form on 
     </a>
     </div>
 
+    <div class="mItem">
+    <a href="https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide" target="_blank">
+    <img src="../assets/testimonials/img/kili.jpeg">
+    </a>
+    </div>
+
 </div>
 
 ## My projects have been presented at conferences & meetups such as:
@@ -215,6 +221,12 @@ If you have any question, feel free to get in contact with me using the form on 
     <div class="mItem">
     <a href="https://twitter.com/streamlit/status/1184501301578620928?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1184501301578620928%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F" target="_blank">
     <img src="../assets/testimonials/img/st.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://datapizzatech.notion.site/Data-Engineer-Resources-725deafe4b6840e688bbf1e9ae8d5f5f" target="_blank">
+    <img src="../assets/testimonials/img/datapizza.jpeg">
     </a>
     </div>
 
