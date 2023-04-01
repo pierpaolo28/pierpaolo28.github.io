@@ -161,18 +161,16 @@ One of the easiest ways to visualise a classification/regression decision tree i
 
 Using this library, a Classification Decision Tree can be created by just using the following few lines of code:
 
-    from dtreeviz.trees import *
+    import dtreeviz as dtv
 
-    viz = dtreeviz(clf,
-                   X_train,
-                   y_train.values,
-                   target_name='Genre',
-                   feature_names=list(X.columns),
-                   class_names=list(labels.unique()),
-                   histtype='bar',
-                   orientation ='TD')
-
-    viz
+    viz = dtv.model(clf,
+                X_train,
+                y_train.values,
+                target_name='Genre',
+                feature_names=list(X.columns),
+                class_names=list(labels.unique()))
+                
+    viz.view()
 
 The resulting plot is available in Figure 4.
 

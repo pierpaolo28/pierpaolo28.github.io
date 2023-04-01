@@ -206,6 +206,8 @@ real-time the string (Figure 7).
 ![](https://cdn-images-1.medium.com/max/800/1*O66eeY3PjAEqnIrkTyYhdA.gif) <br>
 <span class="figcaption_hack">Figure 7: NBInteract Example</span>
 
+Moving from Python 3.9 onwards, [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/stable/index.html) might provide better support for out of the box widget consumption in Notebook based environments.
+
 ### Additional Libraries
 
 In addition to the libraries already mentioned, also

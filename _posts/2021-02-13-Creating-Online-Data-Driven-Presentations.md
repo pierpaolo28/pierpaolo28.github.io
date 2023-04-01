@@ -60,7 +60,7 @@ A simple example of ***index.html*** presentation file is available below. As we
       </body>
     </html>
 
-Additionally, it is also possible to create the slides in Markdown instead of using HTML and Javascript, by instantiating a slide using the following format.
+Additionally, it is also possible to create the slides in Markdown instead of using HTML and Javascript, by instantiating a slide using the following format and importing the plugin.
 
     <section data-markdown>
       <textarea data-template>
@@ -68,6 +68,13 @@ Additionally, it is also possible to create the slides in Markdown instead of us
         Example text.
       </textarea>
     </section>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script>
+      Reveal.initialize({
+        plugins: [ RevealMarkdown ]
+      });
+    </script>
 
 A fully working example presentation created using Reveal.js, is available at [this link (FIgure 1).](https://pierpaolo28.github.io/Epidemics-Modelling/presentation//index.html#/)
 
