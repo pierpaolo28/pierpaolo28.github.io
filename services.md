@@ -8,16 +8,16 @@ permalink: /services/
 
 I am currently open to collaborate on projects regarding:
 
-- Data Science
-- Cloud Computing
+- Data Architecthure/Science/Engineering Consulting
 - Python Open Source libraries & frameworks development/documentation
-- Research/Book publications
+- Research/Book/Course/Projects publications
 - Blog Technical Writing
-- Start-up consultation help
+- Start-up mentoring/investing
 - Product test/review
-- Mentoring
+- Conference Speaking
+- Mentoring & Interview Preparation
 
-If you have any question, feel free to get in contact with me using the form on the [contact page](/contact/). All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="\_blank"}
+If you have any question, feel free to [book a call](https://cal.com/pierpaolo28){:target="\_blank"} with me or send an email for free using the form on the [contact page](/contact/){:target="\_blank"}. All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="\_blank"}
 
 <script type="text/javascript" src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -78,6 +78,14 @@ If you have any question, feel free to get in contact with me using the form on 
                         <p>I am grateful that Pier has voluntarily contributed to our publication as an Editorial Associate these past few years. His expert feedback on numerous articles we published on Towards Data Science has been valuable. 
                         <br><br> </p>
                         <h5><b>Ludovic Benistant</b>, Editor at Towards Data Science</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/techtree.jpeg" class="img-circle img-responsive" />
+                        <p>Pier has been great at sharing his ideas and research with the data science and wider tech community and it's been a pleasure having the opportunity to work with Pier to share knowledge about our platform and how his network can use it to accelerate their careers!
+                        <br> </p>
+                        <h5><b>Samuel Jervier</b>, Head of Community and Events at TechTree</h5>
                     </div>
                 </div>
             </div>
@@ -142,6 +150,12 @@ If you have any question, feel free to get in contact with me using the form on 
     </a>
     </div>
 
+    <div class="mItem">
+    <a href="https://opendatascience.com/causal-reasoning-in-machine-learning/" target="_blank">
+    <img src="../assets/testimonials/img/odsc.jpeg">
+    </a>
+    </div>
+
 </div>
 
 ## My projects have been presented at conferences & meetups such as:
@@ -203,6 +217,31 @@ If you have any question, feel free to get in contact with me using the form on 
 
 </div>
 
+## Collaborated with companies such as:
+
+<div class="masonry">
+    <div class="mItem">
+    <a href="https://techtree.dev/" target="_blank">
+    <img src="../assets/testimonials/img/techtree.png">
+    </a>
+    </div>
+    <div class="mItem">
+      <a href="https://remo.ai/" target="_blank">
+      <img src="../assets/testimonials/img/remo_ai.png">
+      </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.nannyml.com/" target="_blank">
+    <img src="../assets/testimonials/img/nanny_ml.png">
+    </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.mightycanary.com/" target="_blank">
+    <img src="../assets/testimonials/img/mighty_canary.jpeg">
+    </a>
+    </div>
+</div>
+
 ## My articles have been shared online by organizations such as:
 
 <div class="masonry">
@@ -211,25 +250,21 @@ If you have any question, feel free to get in contact with me using the form on 
       <img src="../assets/testimonials/img/kaggle.png">
       </a>
     </div>
-
     <div class="mItem">
       <a href="https://twitter.com/NVIDIAAI/status/1199108006958583808?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1199108006958583808%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F" target="_blank">
       <img src="../assets/testimonials/img/nvidia.jpg">
       </a>
     </div>
-
     <div class="mItem">
     <a href="https://twitter.com/streamlit/status/1184501301578620928?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1184501301578620928%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpierpaolo28.github.io%2F%2Fblog%2Fpublications%2FHonorable-Mentions%2F" target="_blank">
     <img src="../assets/testimonials/img/st.png">
     </a>
     </div>
-
     <div class="mItem">
     <a href="https://datapizzatech.notion.site/Data-Engineer-Resources-725deafe4b6840e688bbf1e9ae8d5f5f" target="_blank">
     <img src="../assets/testimonials/img/datapizza.jpeg">
     </a>
     </div>
-
 </div>
 
 # Products

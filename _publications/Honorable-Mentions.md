@@ -31,7 +31,7 @@ Sample of mentions from publications, companies and universities:
 - [Towards Data Science Monthly Edition: Writing Better as a Data Scientist](https://towardsdatascience.com/august-edition-writing-better-as-a-data-scientist-5893196fd3cf)
 - [DeployPlace: Top 3 DevOps trends of 2020 in the eyes of real engineers](https://deployplace.com/blog/top-3-devops-trends-2020/)
 - [Cornell University Recommended Reading: Game Theory in Artificial Intelligence](http://blogs.cornell.edu/info2040/2019/09/23/game-theory-in-artificial-intelligence/)
-- [Experfy: Harvard Innovation Lab](https://www.experfy.com/blog/author/pier-paolo-ippolito/)
+- [Experfy: Harvard Innovation Lab](https://resources.experfy.com/author/pier-paolo-ippolito/)
 - [Datacast: Building Data Science Projects](https://medium.com/cracking-the-data-science-interview/datacast-episode-57-building-data-science-projects-with-pier-paolo-ippolito-ceb30f416baf)
 - [Global AI on Tour Conference Speaker](https://tour.globalai.live/speakers/pier-paolo-ippolito/)
 - [Microsoft Learn Student Ambassador](https://studentambassadors.microsoft.com/en-US/profile/3827)
@@ -46,7 +46,7 @@ Sample of mentions from publications, companies and universities:
 - Open Data Science Articles: [Causal Reasoning in ML](https://opendatascience.com/causal-reasoning-in-machine-learning/), [Azure for ML Engineers](https://opendatascience.com/azure-for-machine-learning-engineers/), [Paradoxes in Data Science](https://opendatascience.com/paradoxes-in-data-science/)
 - [Anaconda Cloud - Ten Techniques for Machine Learning Visualization](https://anaconda.cloud/ippolito-machine-learning-visualization)
 - [Google Cloud Credential Holder Directory Profile](https://googlecloudcertified.credential.net/profile/e9c09ea9956ff29fa38a936f7759268235853383)
-- [Kili Technology - Supercharging Your Machine Learning Models with Data Augmentation](https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide)
+- Kili Technology: [Supercharging Your Machine Learning Models with Data Augmentation](https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide), [Synthetic Data: The Ultimate Guide to Artificial Intelligence's Best Kept Secret](https://kili-technology.com/data-labeling/synthetic-data-guide)
 
 KDNuggets Silver and Gold posts:
 
