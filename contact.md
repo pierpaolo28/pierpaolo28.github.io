@@ -58,7 +58,7 @@ If you have any question, please do not hesitate to contact me. I am currently o
 <meta name="referrer" content="unsafe-url">
 <div class="form">
   <h2 class="sm-heading">If you wish to get in touch with me, just fill this form:</h2>
-  <form action="http://formspree.io/pierpaoloippolito28@gmail.com" method="POST">
+  <form action="https://formspree.io/f/mpzeovqo" method="POST">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="First Name" placeholder="Your name..">
     <label for="lname">Last Name</label>
