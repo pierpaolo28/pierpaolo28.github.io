@@ -23,6 +23,7 @@ Sample list of published articles which have then been republished in different 
 
 Sample of mentions from publications, companies and universities:
 
+- [Google Scholar Profile](https://scholar.google.com/citations?user=QgG-lgwAAAAJ&hl=en)
 - [Towards Data Science: Editorial Team Bio](https://towardsdatascience.com/our-team-c2c8e712c971)
 - [Towards Data Science Monthly Edition: Art, Creativity and Data Science](https://towardsdatascience.com/april-edition-art-creativity-and-data-science-5ca9849f5da3)
 - [Towards Data Science Daily Picks](https://towardsdatascience.com/latest-picks-how-to-spot-a-data-charlatan-624d152c9aa)
@@ -47,6 +48,7 @@ Sample of mentions from publications, companies and universities:
 - [Anaconda Cloud - Ten Techniques for Machine Learning Visualization](https://anaconda.cloud/ippolito-machine-learning-visualization)
 - [Google Cloud Credential Holder Directory Profile](https://googlecloudcertified.credential.net/profile/e9c09ea9956ff29fa38a936f7759268235853383)
 - Kili Technology: [Supercharging Your Machine Learning Models with Data Augmentation](https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide), [Synthetic Data: The Ultimate Guide to Artificial Intelligence's Best Kept Secret](https://kili-technology.com/data-labeling/synthetic-data-guide)
+- [Institut Fourier - Poster Presentation](https://www-fourier.ujf-grenoble.fr/~m1maths/fichiers/Poster_Baumier_Henneuse.pdf)
 
 KDNuggets Silver and Gold posts:
 
