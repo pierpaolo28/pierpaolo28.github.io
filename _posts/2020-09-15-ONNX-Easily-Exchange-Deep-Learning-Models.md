@@ -18,7 +18,7 @@ categories: [Deep Learning]
 
 Some example of supported frameworks are: PyTorch, TensorFlow, Keras, SAS, Matlab, and many more. In this way, ONNX can make easier to convert models from one framework to another. Additionally, using ONNX.js we can then easily deploy online any model which has been saved in an ONNX format.
 
-In Figure 1, is available a simple example of a Variational Autoencoder PyTorch model deployed online using ONNX.js in order to make inference on demand. A complete working example of this deployed model is available at [this link on my personal website](https://pierpaolo28.github.io/Projects/ONNX/home.html).
+In Figure 1, is available a simple example of a Variational Autoencoder PyTorch model deployed online using ONNX.js in order to make inference on demand. A complete working example of this deployed model is available at [this link on my personal website](https://ppiconsulting.dev/Projects/ONNX/home.html).
 
 ![Figure 1: Online VAE using ONNX.js](https://cdn-images-1.medium.com/max/2168/1*w7zv_HHG8lS5r2-U7wlzAQ.gif)Figure 1: Online VAE using ONNX.js
 

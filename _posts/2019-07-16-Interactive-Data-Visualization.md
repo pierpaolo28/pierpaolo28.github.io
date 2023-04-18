@@ -50,7 +50,7 @@ following function.
 The result obtained should be the same as the one in Figure 1. This same
 mechanism can be applied in many other applications such as: animated
 distributions, contours, and [classification machine learning
-models](https://pierpaolo28.github.io/Projects/project9.html).
+models](https://ppiconsulting.dev/Projects/project9.html).
 
 ![](https://cdn-images-1.medium.com/max/800/1*CQql1Trl3_PO8YS198lRgQ.gif) <br>
 <span class="figcaption_hack">Figure 1: PCA variance plot</span>
@@ -158,7 +158,7 @@ The resulting plot is shown in Figure 5.
 As shown in the code above, the plot has additionally been saved as an HTML
 file. This same option can be applied to Plotly graphs as well. If you are
 interested to test yourself the plots realized with Plotly and Bokeh, they are
-available [here](https://pierpaolo28.github.io/Projects/project11.html).
+available [here](https://ppiconsulting.dev/Projects/project11.html).
 
 Both Plotly and Bokeh can be additionally used as dashboard frameworks for
 Python, creating quite astonishing results [1, 2].
@@ -195,7 +195,7 @@ results of this analysis.
 nbinteract enables us to create interactive widgets in Jupiter Notebook. These
 widgets can also be exported in HTML if wanted. An example of an online
 implementation of nbinteract can be found
-[here](https://pierpaolo28.github.io/Projects/interactivewidgets.html).
+[here](https://ppiconsulting.dev/Projects/interactivewidgets.html).
 
 As a simple implementation here will be created a drop-down menu. Changing the
 selection of the number of cars or the name of the owner will update in

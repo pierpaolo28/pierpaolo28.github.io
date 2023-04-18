@@ -50,7 +50,7 @@ jupyter-lab --no-browser
 
 Our notebook is now active at the following link: [http://localhost:8888/lab](http://localhost:8888/lab).
 
-We can now manage our Anaconda environment like in any other settings, more information are available in [Anaconda Management](https://pierpaolo28.github.io/blog/tips/Anaconda-Management/).
+We can now manage our Anaconda environment like in any other settings, more information are available in [Anaconda Management](https://ppiconsulting.dev/blog/tips/Anaconda-Management/).
 
 We can now additionally set up Git on the Linux Subsystem.
 
@@ -66,7 +66,7 @@ git config --list --show-origin
 
 In some cases, it might be additionally necessary to use an SSH key instead of HTTPS. More information is available [here](https://medium.com/faun/how-to-use-git-and-other-linux-tools-in-wsl-on-windows-4c0bffb68b35) and [here](https://peteoshea.co.uk/setup-git-in-wsl/).
 
-More information on the Git Workflow are available at [this link](https://pierpaolo28.github.io/blog/tips/Basic-Git-Workflow/).
+More information on the Git Workflow are available at [this link](https://ppiconsulting.dev/blog/tips/Basic-Git-Workflow/).
 
 If additionally, we are interested to use Visual Code Studio, we can just run the following command to open it:
 

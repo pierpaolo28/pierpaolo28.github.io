@@ -18,9 +18,9 @@ Have you ever wondered how libraries commonly publish their documentation online
 
 MkDocs is a static site generator which uses just a list of Markdown files and a YAML configuration file in order to immediately generate your own website, which can then be deployed using GitHub pages for free in one line of code.
 
-If you are looking for an example of a website generated using MkDocs, you can find [here the book](https://pierpaolo28.github.io/thesis_book/) I wrote about my research project “Alleviate Children’s Health Issues through Games and Machine Learning” of which I talked about in [my previous article](https://towardsdatascience.com/disability-diagnostic-using-eeg-time-series-analysis-8035300837ac) (Figure 1).
+If you are looking for an example of a website generated using MkDocs, you can find [here the book](https://ppiconsulting.dev/thesis_book/) I wrote about my research project “Alleviate Children’s Health Issues through Games and Machine Learning” of which I talked about in [my previous article](https://towardsdatascience.com/disability-diagnostic-using-eeg-time-series-analysis-8035300837ac) (Figure 1).
 
-![Figure 1: [Example documentation project created using Mkdocs.](https://pierpaolo28.github.io/thesis_book/)](https://cdn-images-1.medium.com/max/6304/1*TO2nO48n_tOAsITEJPxjZA.png) <br> Figure 1: Example documentation project created using Mkdocs.
+![Figure 1: [Example documentation project created using Mkdocs.](https://ppiconsulting.dev/thesis_book/)](https://cdn-images-1.medium.com/max/6304/1*TO2nO48n_tOAsITEJPxjZA.png) <br> Figure 1: Example documentation project created using Mkdocs.
 
 In this article, I am going to quickly walk you through how to generate your own online project documentation.
 

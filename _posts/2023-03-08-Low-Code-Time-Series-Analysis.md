@@ -14,7 +14,7 @@ categories: [Artificial Intelligence, Machine Learning, Data Science]
 
 ## Introduction
 
-Time Series Forecasting is a unique field in Machine Learning. When working with time series in fact there is an inherent time dependency between the different points in the series and therefore the different observations are highly dependent on each other. If you are interested in learning more about the basics of time series analysis, additional details can be found in [this my previous article](https://pierpaolo28.github.io/blog/blog58/).
+Time Series Forecasting is a unique field in Machine Learning. When working with time series in fact there is an inherent time dependency between the different points in the series and therefore the different observations are highly dependent on each other. If you are interested in learning more about the basics of time series analysis, additional details can be found in [this my previous article](https://ppiconsulting.dev/blog/blog58/).
 
 In the case of classical classification and regression problems [**scikit-learn**](https://scikit-learn.org/stable/) is able to provide most of the utils we might need to get started with a good baseline (e.g. data pre-processing, low code models. evaluation metrics, etc…), although with time series the story is quite different. Many specialized libraries have become available throughout the years to cover some of the key steps in a Time Series Analysis workflow (e.g. [**statsmodels**](https://www.statsmodels.org/stable/index.html), [**Prophet**](https://facebook.github.io/prophet/), custom backtesting, etc…) but until [**Darts**](https://unit8co.github.io/darts/) was not possible to cover everything within a single solution.
 

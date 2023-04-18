@@ -5,7 +5,7 @@ categories: [Data Science, Deployment]
 ---
 
 ![](https://cdn-images-1.medium.com/max/1200/1*PnO6VgeNnVquirfLfZLdEA.gif)
-[Facebook Data Analysis Dashboard](https://pierpaolo28.github.io/Projects/flask.html)
+[Facebook Data Analysis Dashboard](https://ppiconsulting.dev/Projects/flask.html)
 
 <!--end_excerpt-->
 
@@ -38,7 +38,7 @@ Figure 1: [Titanic Data Set Dashboard made using Tableau.](https://github.com/p
 
 In this article, I will walk you through how to create and deploy online a Dashboard using Plotly Dash. All the code used in this article (and more!) is available in on my [GitHub account](https://github.com/pierpaolo28/Data-Visualization/tree/master/Dash).
 
-My final version of the Dashboard is available to be tested online at [this link.](https://pierpaolo28.github.io/Projects/flask.html)
+My final version of the Dashboard is available to be tested online at [this link.](https://ppiconsulting.dev/Projects/flask.html)
 
 ### Dash
 
@@ -144,7 +144,7 @@ This Dashboard can be further developed by adding additional features such as:
 -   Create Machine Learning models to make predictions (eg. [ARIMA](https://towardsdatascience.com/stock-market-analysis-using-arima-8731ded2447a), LSTM).
 -   Improve the Dashboard overall design.
 
-A more advanced version of this dashboard is available to be tested online at [this link.](https://pierpaolo28.github.io/Projects/flask.html)
+A more advanced version of this dashboard is available to be tested online at [this link.](https://ppiconsulting.dev/Projects/flask.html)
 
 If you need any help to add any of these additional features, the [Dash documentation](https://dash.plot.ly/) is a great place where to start.
 

@@ -99,6 +99,31 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     </div>
 </section>
 
+## Collaborated with companies such as:
+
+<div class="masonry">
+    <div class="mItem">
+    <a href="https://techtree.dev/" target="_blank">
+    <img src="../assets/testimonials/img/techtree.png">
+    </a>
+    </div>
+    <div class="mItem">
+      <a href="https://remo.ai/" target="_blank">
+      <img src="../assets/testimonials/img/remo_ai.png">
+      </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.nannyml.com/" target="_blank">
+    <img src="../assets/testimonials/img/nanny_ml.png">
+    </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.mightycanary.com/" target="_blank">
+    <img src="../assets/testimonials/img/mighty_canary.jpeg">
+    </a>
+    </div>
+</div>
+
 ## My content has been featured on publications such as:
 
 <div class="masonry">
@@ -153,6 +178,12 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <div class="mItem">
     <a href="https://opendatascience.com/causal-reasoning-in-machine-learning/" target="_blank">
     <img src="../assets/testimonials/img/odsc.jpeg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-88389-8_12" target="_blank">
+    <img src="../assets/testimonials/img/springer.jpeg">
     </a>
     </div>
 
@@ -215,31 +246,6 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     </a>
     </div>
 
-</div>
-
-## Collaborated with companies such as:
-
-<div class="masonry">
-    <div class="mItem">
-    <a href="https://techtree.dev/" target="_blank">
-    <img src="../assets/testimonials/img/techtree.png">
-    </a>
-    </div>
-    <div class="mItem">
-      <a href="https://remo.ai/" target="_blank">
-      <img src="../assets/testimonials/img/remo_ai.png">
-      </a>
-    </div>
-    <div class="mItem">
-    <a href="https://www.nannyml.com/" target="_blank">
-    <img src="../assets/testimonials/img/nanny_ml.png">
-    </a>
-    </div>
-    <div class="mItem">
-    <a href="https://www.mightycanary.com/" target="_blank">
-    <img src="../assets/testimonials/img/mighty_canary.jpeg">
-    </a>
-    </div>
 </div>
 
 ## My articles have been shared online by organizations such as:

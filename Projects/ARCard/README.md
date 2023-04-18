@@ -7,7 +7,7 @@ The marker used to activate the AR card can be found [here](https://github.com/p
 A simple demo of the AR card in action can be found [here](https://www.youtube.com/watch?v=-vswyZpXOtE). <br>
 
 To use my card in Augmented reality version, just go to this 
-[link](https://pierpaolo28.github.io/Projects/ARCard/arcard.html) and point your phone camera to the marker. <br> 
+[link](https://ppiconsulting.dev/Projects/ARCard/arcard.html) and point your phone camera to the marker. <br> 
 
 To interact with any of the menu items, just direct the pointer on them (by moving your camera) and wait for a few seconds. <br>
 

@@ -26,7 +26,7 @@ One of the key responsibilities of Data Engineers when using Spark, is to write 
 ![](https://miro.medium.com/max/720/0*H39IJedtWKQ53XEC.webp) <br>
 Figure 1: Apache Spark Architecture (Image by Author).
 
-As part of this article, you are going to be introduced some of the most common performance problems when using Spark (e.g. the 5 Ss) and how to address them. If you are completely new to Apache Spark, you can find additional information about it in [my previous article](https://pierpaolo28.github.io/blog/blog73/).
+As part of this article, you are going to be introduced some of the most common performance problems when using Spark (e.g. the 5 Ss) and how to address them. If you are completely new to Apache Spark, you can find additional information about it in [my previous article](https://ppiconsulting.dev/blog/blog73/).
 
 The 5 Ss
 ========

@@ -4,7 +4,7 @@ date: 2020-10-17
 github: https://github.com/pierpaolo28/Epidemics-Modelling/tree/master
 ---
 
-Nowadays Machine Learning technologies rely just on correlations between the different features. Although, this approach can possibly lead to wrong conclusions since correlation does not necessarily imply causation. As part of this research study, I created and deployed on Amazon Web Services (AWS) a suite of Agent-Based and Compartmental Models in order to simulate epidemic diseases developments in different types of communities. All the code used as part of this project is available on [my Github account](https://github.com/pierpaolo28/Epidemics-Modelling/tree/master) and some extras are additionally available at [this link.](https://pierpaolo28.github.io/Epidemics-Modelling/)
+Nowadays Machine Learning technologies rely just on correlations between the different features. Although, this approach can possibly lead to wrong conclusions since correlation does not necessarily imply causation. As part of this research study, I created and deployed on Amazon Web Services (AWS) a suite of Agent-Based and Compartmental Models in order to simulate epidemic diseases developments in different types of communities. All the code used as part of this project is available on [my Github account](https://github.com/pierpaolo28/Epidemics-Modelling/tree/master) and some extras are additionally available at [this link.](https://ppiconsulting.dev/Epidemics-Modelling/)
 
 <!--end_excerpt-->
 

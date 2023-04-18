@@ -72,7 +72,7 @@ Although, for more complicated projects might be a better idea to create a virtu
 
 Finally, in case our executable might require different assets (eg. images, videos, etc…) then it could be a great idea to include everything in an installation system file using [NSIS](https://nsis.sourceforge.io/Download) (making so easier to install the executable and all the required dependencies on another machine).
 
-In case you can be interested in using this application yourself, a download link is available on [my personal website.](https://pierpaolo28.github.io/Projects/project18.html)
+In case you can be interested in using this application yourself, a download link is available on [my personal website.](https://ppiconsulting.dev/Projects/project18.html)
 
 Additionally, some alternative techniques which can be used in order to deploy Machine Learning systems are using:
 

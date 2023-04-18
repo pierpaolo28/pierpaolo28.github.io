@@ -42,7 +42,7 @@ Paradoxes are a class of phenomena that arise when, although starting from premi
 <br>
 ## 2020 SAS UK&I Forum
 
-Intro to Viya demo session at the 2020 SAS UK&I Virtual Forum. More information about this event is available at [this link.](https://pierpaolo28.github.io/blog/blog50/)
+Intro to Viya demo session at the 2020 SAS UK&I Virtual Forum. More information about this event is available at [this link.](https://ppiconsulting.dev/blog/blog50/)
 
 <video class="center" controls>
   <source
@@ -110,7 +110,7 @@ As a demonstration for this shift, an increasing number of online data science p
 
 ## Google Developers Group (Zurich): Paradoxes in Data Science
 
-GCP deployment instructions provided during the presentation are available at [this link.](https://pierpaolo28.github.io/blog/tips/GCP-Streamlit-App-Deployment/)
+GCP deployment instructions provided during the presentation are available at [this link.](https://ppiconsulting.dev/blog/tips/GCP-Streamlit-App-Deployment/)
 
 <img src="/assets/img/gdg_presentation.jpeg" alt="drawing" style="width:350px;"/>
 

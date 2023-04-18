@@ -8,4 +8,4 @@ summary: Summary of my thesis research project carried out at completion of my U
 github: https://github.com/pierpaolo28/thesis_book
 ---
 
-<meta http-equiv="refresh" content="0; url=https://pierpaolo28.github.io/thesis_book/" />
+<meta http-equiv="refresh" content="0; url=https://ppiconsulting.dev/thesis_book/" />

@@ -22,7 +22,7 @@ Tensorflow.js is a Javascript library created by Google to embed Machine Learnin
 
 In order to add some in-browser visualizations, Tensorflow.js makes use of a small library called *tfjs-vis.* This library can then be used to create a side Visor on which all the content can be displayed.
 
-In addition to this, Google also developed another library called *ml5.js* which is designed to make very easy to deploy pre-trained models online. In this way, also nonspecialist can get started deploying machine learning models on the Web. A simple example of how to use a Google PoseNet pre-trained model is available [here](https://pierpaolo28.github.io/Projects/ml5.js/ml5intro.html). 
+In addition to this, Google also developed another library called *ml5.js* which is designed to make very easy to deploy pre-trained models online. In this way, also nonspecialist can get started deploying machine learning models on the Web. A simple example of how to use a Google PoseNet pre-trained model is available [here](https://ppiconsulting.dev/Projects/ml5.js/ml5intro.html). 
 
 There are 3 main types of model which can be deployed online:
 
@@ -47,7 +47,7 @@ Lastly, in this example (GIF 3), I decided to use a Pre-Trained model. I first t
 ![](https://cdn-images-1.medium.com/max/1200/1*k2u3TaJtx6VRj3ZRU6c5uQ.gif)
 <span class="figcaption_hack"> GIF 3: Making Predictions and Visualizing online using a Pre-Trained Model </span>
 
-All these 3 examples are available on my [personal website](https://pierpaolo28.github.io/Projects/tensorflow.js/tensorjs.html), in case you are interested in testing them out.
+All these 3 examples are available on my [personal website](https://ppiconsulting.dev/Projects/tensorflow.js/tensorjs.html), in case you are interested in testing them out.
 
 In this article, I will walk you through how to realize the first of these three examples.
 

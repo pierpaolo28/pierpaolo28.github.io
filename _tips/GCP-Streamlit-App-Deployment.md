@@ -20,7 +20,7 @@ COPY . .
 CMD streamlit run src/main.py
 ```
 
-In this example, the application is going to be exposed on port 8501. Additional info about Docker and the different commands can be found on [this page.](https://pierpaolo28.github.io/blog/tips/Docker-Commands/)
+In this example, the application is going to be exposed on port 8501. Additional info about Docker and the different commands can be found on [this page.](https://ppiconsulting.dev/blog/tips/Docker-Commands/)
 
 ## Setting up GCP 
 

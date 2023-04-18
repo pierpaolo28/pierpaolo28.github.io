@@ -18,7 +18,7 @@ date: 2020-06-09
 
 ## Set up environment and maintain Streamlit app
 
-We are now ready to install our Anaconda environment and required dependencies for our application. This can be easily done like in any other Linux environment. More information is available in the [Windows-Linux Subsystem](https://pierpaolo28.github.io/blog/tips/Windows-Linux-Subsystem/) and [Anaconda Management](https://pierpaolo28.github.io/blog/tips/Anaconda-Management/) guides. Additionally, if working both on the AWS EC2 (Elastic Compute Cloud) instance and a local machine, might be useful to set-up Github on both ends and use the [Basic Github Workflow](https://pierpaolo28.github.io/blog/tips/Basic-Git-Workflow/) in order to easily move the updates from one machine to the other.
+We are now ready to install our Anaconda environment and required dependencies for our application. This can be easily done like in any other Linux environment. More information is available in the [Windows-Linux Subsystem](https://ppiconsulting.dev/blog/tips/Windows-Linux-Subsystem/) and [Anaconda Management](https://ppiconsulting.dev/blog/tips/Anaconda-Management/) guides. Additionally, if working both on the AWS EC2 (Elastic Compute Cloud) instance and a local machine, might be useful to set-up Github on both ends and use the [Basic Github Workflow](https://ppiconsulting.dev/blog/tips/Basic-Git-Workflow/) in order to easily move the updates from one machine to the other.
 
 In order to keep our app running even if we close the SSH terminal connection, we need to set-up a TMUX session. TMUX can be easily installed using:
 

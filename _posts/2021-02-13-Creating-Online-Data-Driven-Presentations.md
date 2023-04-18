@@ -76,7 +76,7 @@ Additionally, it is also possible to create the slides in Markdown instead of us
       });
     </script>
 
-A fully working example presentation created using Reveal.js, is available at [this link (FIgure 1).](https://pierpaolo28.github.io/Epidemics-Modelling/presentation//index.html#/)
+A fully working example presentation created using Reveal.js, is available at [this link (FIgure 1).](https://ppiconsulting.dev/Epidemics-Modelling/presentation//index.html#/)
 
 ![Figure 1: Video Example](https://cdn-images-1.medium.com/max/3840/1*FUS1Yr2imWQ0DQvkYZdCCg.gif)
 
@@ -120,7 +120,7 @@ A simple example code to show how to setup D3.js in order to create an ellipse c
 
 ![Figure 2: D3.js example code output](https://cdn-images-1.medium.com/max/2000/1*A__p-xFllB6pB3b1muBXYg.png)
 
-D3.js charts can then be used in order to create powerful presentations by integrating them with a scroller architecture. Fortunately, multipurpose scrollers (which can be used for any type of narrative) have been developed in the past few years thanks to authors such as [Jim Vallandingham](https://vallandingham.me/scroller.html) and [Cuthbert Chow](https://towardsdatascience.com/how-i-created-an-interactive-scrolling-visualisation-with-d3-js-and-how-you-can-too-e116372e2c73). A fully working example of a data-driven narrative created by me using a D3.js based scroller is available in the animation below. This can also be tested at the [following link.](https://pierpaolo28.github.io/Epidemics-Modelling/d3_scroller//index.html)
+D3.js charts can then be used in order to create powerful presentations by integrating them with a scroller architecture. Fortunately, multipurpose scrollers (which can be used for any type of narrative) have been developed in the past few years thanks to authors such as [Jim Vallandingham](https://vallandingham.me/scroller.html) and [Cuthbert Chow](https://towardsdatascience.com/how-i-created-an-interactive-scrolling-visualisation-with-d3-js-and-how-you-can-too-e116372e2c73). A fully working example of a data-driven narrative created by me using a D3.js based scroller is available in the animation below. This can also be tested at the [following link.](https://ppiconsulting.dev/Epidemics-Modelling/d3_scroller//index.html)
 
 ![Figure 3: D3.js Scroller Presentation](https://cdn-images-1.medium.com/max/2774/1*u5jVoV2Q3UD4Y5JmlnO-3w.gif)
 

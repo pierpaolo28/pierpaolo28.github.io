@@ -221,7 +221,7 @@ Figure 6: Plotting Decision Boundaries
 
 Some possible alternatives to Mlxtend are: Yellowbrick, Plotly or a plain Sklearn and Numpy implementation. Step by step examples using all these different methods are available in this my notebook at [this link.](https://www.kaggle.com/pierpaolo28/machine-learning-visualization-5)
 
-Additionally, different animated versions of decision boundaries converging during training are available on my website at [this link.](https://pierpaolo28.github.io/Projects/project9.html)
+Additionally, different animated versions of decision boundaries converging during training are available on my website at [this link.](https://ppiconsulting.dev/Projects/project9.html)
 
 One of the main limitations of plotting decision boundaries is that they can only be easily visualised in two or three dimensions. Due to these limitations, it might be therefore necessary most of the times to reduce the dimensionality of our input features (using some form of [feature extraction techniques](https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be)) before plotting the decision boundary.
 
@@ -346,7 +346,7 @@ Finally, a similar procedure can be applied in order to visualise live also how 
 ![Figure 10: VAE improvement over time to create new digits](https://cdn-images-1.medium.com/max/7200/1*5plD-hrElRvhqn12A0Q6XA.gif)
 Figure 10: VAE improvement over time to create new digits
 
-A practical demonstration of a Variational Autoencoder deployed online using ONNX in order to make inference on the fly, is available at [this link on my personal website](https://pierpaolo28.github.io/Projects/ONNX/home.html?fbclid=IwAR13tKnQFfobSq4udV-N9FMfFZ6wUmAvU7GVn5yl0Cj4ttOw3uyl6TNNbMw).
+A practical demonstration of a Variational Autoencoder deployed online using ONNX in order to make inference on the fly, is available at [this link on my personal website](https://ppiconsulting.dev/Projects/ONNX/home.html?fbclid=IwAR13tKnQFfobSq4udV-N9FMfFZ6wUmAvU7GVn5yl0Cj4ttOw3uyl6TNNbMw).
 
 ### Word Embeddings
 

@@ -63,7 +63,7 @@ This level is designed to enable Machine Learning experts to create their models
 
 # Conclusion
 
-Overall, AWS provides an impressive suite of services that can be used in order to use data at any stage of the analytics lifecycle (e.g. Data Ingestion, Data Storage, Data Processing, Data Analytics, etc…). If you are interested in finding out more about other AI cloud providers services such as Microsoft Azure, additional information is available in my previous article [“Introduction To Ai Powered Microsoft Tools”](https://pierpaolo28.github.io/blog/blog28/).
+Overall, AWS provides an impressive suite of services that can be used in order to use data at any stage of the analytics lifecycle (e.g. Data Ingestion, Data Storage, Data Processing, Data Analytics, etc…). If you are interested in finding out more about other AI cloud providers services such as Microsoft Azure, additional information is available in my previous article [“Introduction To Ai Powered Microsoft Tools”](https://ppiconsulting.dev/blog/blog28/).
 
 # Bibliography
 

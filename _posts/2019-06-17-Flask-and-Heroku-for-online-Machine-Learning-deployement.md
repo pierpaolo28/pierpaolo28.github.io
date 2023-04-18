@@ -25,7 +25,7 @@ I have recently been working with the [Blood Transfusion Service Center
 dataset](https://www.openml.org/d/1464) by Prof. I-Cheng Yeh and I achieved a
 prediction accuracy of 91.1% using a Random Forest Classifier. I, therefore,
 decided to make this model available online on my [personal
-website](https://pierpaolo28.github.io/). To do so, I made use of Heroku and the
+website](https://ppiconsulting.dev/). To do so, I made use of Heroku and the
 Python library Flask.
 
 As a further development, I also decided to create an Android App for my
@@ -143,7 +143,7 @@ online. If you are looking to find out more about how to use Flask to code Web
 Apps these are some useful references [1, 2, 3].
 
 My online Machine Learning Model is available
-[here](https://pierpaolo28.github.io/Projects/flask.html) and all the code I used to
+[here](https://ppiconsulting.dev/Projects/flask.html) and all the code I used to
 design it can be found on my [GitHub
 page](https://github.com/pierpaolo28/Artificial-Intelligence-Projects/tree/master/ML-Deployement).
 

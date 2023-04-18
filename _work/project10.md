@@ -32,7 +32,7 @@ summary: Unity Game created as part of the "Alleviate Children's Health Issues t
 </body>
 <div class="simmer">
 Made by:
-<a href="https://pierpaolo28.github.io/" target="_blank"
+<a href="https://ppiconsulting.dev/" target="_blank"
   >Pier Paolo Ippolito</a
 >
 </div>
