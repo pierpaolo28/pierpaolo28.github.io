@@ -8,7 +8,7 @@ permalink: /services/
 
 I am currently open to collaborate on projects regarding:
 
-- Data Architecthure/Science/Engineering Consulting
+- Data Architecture/Science/Engineering Consulting
 - Python Open Source libraries & frameworks development/documentation
 - Research/Book/Course/Projects publications
 - Blog Technical Writing
