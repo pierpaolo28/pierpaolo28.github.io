@@ -33,7 +33,7 @@ Random Forest Classification prediction for blood donation deployed using Flask.
     class="vidio"
     width="650"
     height="500"
-    src="/../assets/img/flask_online_machine_learning.mp4?rel=0"
+    src="https://www.youtube.com/embed/y2kb_yubnlc?rel=0"
     frameborder="0"
     allowfullscreen
   >

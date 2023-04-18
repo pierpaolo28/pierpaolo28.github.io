@@ -33,7 +33,7 @@ Online Plotly Dash Dashboard deployed on Heroku Cloud Hosting. Additional inform
     class="vidio"
     width="650"
     height="500"
-    src="/../assets/img/facebook_data_analysis.mp4?rel=0"
+    src="https://www.youtube.com/embed/0n0X0OLO458?rel=0"
     frameborder="0"
     allowfullscreen
   >
