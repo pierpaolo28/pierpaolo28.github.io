@@ -58,6 +58,7 @@ If you have any question, please do not hesitate to contact me. If you want to k
 <meta name="referrer" content="unsafe-url">
 <div class="form">
   <h2 class="sm-heading">If you wish to get in touch with me, just fill this form:</h2>
+  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
   <form action="https://formspree.io/f/mpzeovqo" method="POST">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="First Name" placeholder="Your name..">
@@ -70,6 +71,7 @@ If you have any question, please do not hesitate to contact me. If you want to k
     <label for="msg">Your message*</label>
     <textarea name="Message" style="height:200px" required></textarea>
     <h3 class="sm-heading">*Required Fields</h3>
+    <div class="h-captcha" data-sitekey="1b21d7bd-3505-40a8-8c23-32a279c09901" data-theme="dark"></div>
     <input type="submit" value="Submit">
   </form>
 </div>
