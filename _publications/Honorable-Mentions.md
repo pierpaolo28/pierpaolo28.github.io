@@ -49,6 +49,7 @@ Sample of mentions from publications, companies and universities:
 - [Google Cloud Credential Holder Directory Profile](https://googlecloudcertified.credential.net/profile/e9c09ea9956ff29fa38a936f7759268235853383)
 - Kili Technology: [Supercharging Your Machine Learning Models with Data Augmentation](https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide), [Synthetic Data: The Ultimate Guide to Artificial Intelligence's Best Kept Secret](https://kili-technology.com/data-labeling/synthetic-data-guide)
 - [Institut Fourier - Poster Presentation](https://www-fourier.ujf-grenoble.fr/~m1maths/fichiers/Poster_Baumier_Henneuse.pdf)
+- [Data Pizza - Data Engineer Resources](https://github.com/data-pizza/data_engineer_resources)
 
 KDNuggets Silver and Gold posts:
 
