@@ -103,6 +103,11 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
 
 <div class="masonry">
     <div class="mItem">
+    <a href="https://digital-dandelion.com/" target="_blank">
+    <img src="../assets/testimonials/img/digital_dandelion.jpeg">
+    </a>
+    </div>
+    <div class="mItem">
     <a href="https://techtree.dev/" target="_blank">
     <img src="../assets/testimonials/img/techtree.png">
     </a>
