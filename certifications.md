@@ -28,3 +28,4 @@ Sample list of professional certifications achieved:
 - [Snowflake - Hands On Essentials - Data Engineering](/assets/certifications/Snowflake_DataEngineering_Badge.pdf)
 - [Snowflake - Hands On Essentials - Data Warehouse](/assets/certifications/Snowflake_DataWarehouse_Badge.pdf)
 - [Nova - Membership](/assets/certifications/nova_certificate.pdf)
+- [W&B Effective MLOps - Model Development](/assets/certifications/W&B_Effective_MLOps.pdf)
