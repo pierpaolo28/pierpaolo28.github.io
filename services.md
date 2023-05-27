@@ -88,6 +88,14 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
                         <h5><b>Samuel Jervier</b>, Head of Community and Events at TechTree</h5>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/quix.jpeg" class="img-circle img-responsive" />
+                        <p>Pier is a knowledgeable and resourceful writer who is skilled at researching complex subjects and presenting them in an accessible manner. I look forward to seeing more content from him in the future.
+                        <br><br> </p>
+                        <h5><b>Michael Rosam</b>, Founder of Quix</h5>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
