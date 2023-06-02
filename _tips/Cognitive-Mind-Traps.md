@@ -1,0 +1,32 @@
+---
+layout: post
+date: 2023-06-02
+---
+
+# Cognitive Mind Traps
+
+1. **Cognitive Dissonance**: when people can't get what they want, they often tell themselves it wasn't what they really wanted anyway and therefore generate a dissonance between their original and new belief. This dissonance can then generate distress, anxiety, etc... When trapped in these kind of situations we should then ask ourselves, I am creating this new belief as an excuse because I couldn't get what I originally wanted? And then try to bridge the gap.
+2. **The Spotlight Effect**: people tend to believe they are being observed more than they actually are. Therefore we need to stop overestimating how much people are actually interested in us.
+3. **The Anchoring Effect**: we tend to rely too heavily on first pieces of information when making decisions. For example, if we are shown first a few 100k cars, then when proposed a 50k car it would look like a good deal for us (even if the 50k car is still expensive to buy and potentially out of an our original budget, because we first got anchored to the 100k ones, then will get automatically more open to buy it). Anchors are commonly used in sales and negotiations to shape our opponents perception. It is then important to perform due diligence to estimate the real value of a good instead of relying just on pairwise comparisons.
+4. **The Halo Effect**: The sequence of information we are provided matters and first impressions can misled our judgement (e.g. if we receive a good grade at the first test, we are more likely to continue getting good grades because of the halo effect). 
+5. **Gambler's Fallacy**: we believe in some sort of balancing force in the universe (e.g. after 10 coin flips with heads, we feel like the next one must result in tails although in reality the different trials are independent and still 50%/50% likely). 
+6. **The Contrast Effect**: it's easy to find something more valuable when positioned next to much worse. We get stuck in relative comparison and misjudge the absolute value of the item in question (we lose the bigger picture). For example, people will more likely pay extra effort to save some money on something cheap compared to saving a same amount on something much more expensive.
+7. **Confirmation Bias**: we have an existing belief in something and keep looking for evidence to confirm that initial belief while unconsciously discarding any conflicting evidence. When we receive new information, we process it so that to make it compatible with our history of thoughts. In order to overcome this bias is important to follow the scientific method and test our hypothesis. Is difficult to distinguish familiarity from truth, therefore if we are frequently repeated a lie will just end up accepting it as a truth in the long term.
+8. **Baader-Meinhoff Phenomenon**: after noticing something for the first time, we tend to notice it more often. After we become aware of something, it creates in us an illusion that it happens more often.
+9. **Zeigarnik Effect**: its easy for us to remember incomplete tasks but we easily forget about all the completed tasks.
+10. **The paradox of choice**: when provided with too many choices, we become overwhelmed and tend to end up in a paralysis by analysis and either make no choice at all or be more dissatisfied with our choice than if we would have been provided with less variety to pick from (the opportunity cost of the other options subtracts from the overall satisfaction of our choice). 
+11. **Survivorship Bias**: the data we are presented might be representative of only a subset of the population which has survived as a result of some kind of filtering process. This can result in us giving more weight to all the success stories while not looking at all at all the samples that never made it pass the filtering stage, therefore biasing are perception of how likely an outcome actually is.
+12. **Self-serving Bias and Fundamental Attribution Error**: we tend to think our failures are mainly due to external forces and our successes are a direct result of our own actions. Additionally, we tend to judge others behavior on their personality but attribute our own behavior to situational factors (e.g. if someone else gets a bad test score its because he is lazy but if we get a bad result is because of the teacher/time, etc..).
+13. **Hindsight Bias**: we tend to distort our memories so that to make present outcomes look like a logical result of a clear chain of actions (even though things were in reality much less clear and we used to think the outcomes would have been different). Mistakes can look obvious now in hindsight but we couldn't have known it in advance. The important is to always make the best use possible of all the info we have at a certain point in time and give credit to good decision making processes whether they might lead to a good or bad income considering that we make predictions with just a limited amount of information.
+14. **Availability Bias**: we misjudge the likelihood of something happening giving too much weight to the most recent information in our memory (e.g. is it more likely to get attacked by a shark or get cancer?).
+15. **Availability Cascade**: overreacting to minor problems and having people adopting a belief not because true but because popular among them.
+16. **Sunk Cost Fallacy**: continuing doing something just because we already invested a lot of resources in it even if it is clear it would be just best to stop and move on to other endeavors.
+17. **The Framing Effact**: we draw different conclusions from the same information depending on how it is presented (e.g. 99% fat free or 1% fat meat).
+18. **The Clustering Illusion**: the human brain is always looking for patterns even when they might not exist and this can lead to bad decision making.
+19. **Barnum Effect**: we easily attribute our personality to vague statements even if they can apply to a large amount of people (e.g. believing horoscopes). 
+
+
+## Resources and References
+- [21 Mind Traps : The Ultimate Guide to your most common Thinking errors](https://www.youtube.com/watch?v=nYYkRaU0xh8&t=1s&ab_channel=EscapingOrdinary%28B.CMarx%29)
+- [21 Mind Traps : The Ultimate Guide to your most common Thinking errors (Part II)](https://www.youtube.com/watch?v=6G1F1KVeiNA&t=2s&ab_channel=EscapingOrdinary%28B.CMarx%29)
+- [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
