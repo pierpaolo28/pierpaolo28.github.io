@@ -25,6 +25,8 @@ date: 2023-06-02
 18. **The Clustering Illusion**: the human brain is always looking for patterns even when they might not exist and this can lead to bad decision making.
 19. **Barnum Effect**: we easily attribute our personality to vague statements even if they can apply to a large amount of people (e.g. believing horoscopes). 
 
+![](https://www.visualcapitalist.com/wp-content/uploads/2020/02/50-cognitive-biases-2.png) <br>
+[Figure 1: 50 Cognitive Biases in the Modern World](https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/)
 
 ## Resources and References
 - [21 Mind Traps : The Ultimate Guide to your most common Thinking errors](https://www.youtube.com/watch?v=nYYkRaU0xh8&t=1s&ab_channel=EscapingOrdinary%28B.CMarx%29)
