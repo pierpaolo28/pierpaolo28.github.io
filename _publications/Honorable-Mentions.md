@@ -50,6 +50,7 @@ Sample of mentions from publications, companies and universities:
 - Kili Technology: [Supercharging Your Machine Learning Models with Data Augmentation](https://kili-technology.com/data-labeling/machine-learning/data-augmentation-guide), [Synthetic Data: The Ultimate Guide to Artificial Intelligence's Best Kept Secret](https://kili-technology.com/data-labeling/synthetic-data-guide), [Foundation Models and LLMs: a Complete Guide](https://kili-technology.com/large-language-models-llms)
 - [Institut Fourier - Poster Presentation](https://www-fourier.ujf-grenoble.fr/~m1maths/fichiers/Poster_Baumier_Henneuse.pdf)
 - [Data Pizza - Data Engineer Resources](https://github.com/data-pizza/data_engineer_resources)
+- [Quix Ghostwriting - Apache Kafka vs Apache Flink: friends or rivals?](https://quix.io/blog/kafka-vs-flink-comparison/)
 
 KDNuggets Silver and Gold posts:
 

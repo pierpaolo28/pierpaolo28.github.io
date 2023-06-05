@@ -140,6 +140,16 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <img src="../assets/testimonials/img/ubiai.png">
     </a>
     </div>
+         <div class="mItem">
+    <a href="https://www.lakera.ai/" target="_blank">
+    <img src="../assets/testimonials/img/lakera.png">
+    </a>
+    </div>
+         <div class="mItem">
+    <a href="https://quix.io/" target="_blank">
+    <img src="../assets/testimonials/img/quix.png">
+    </a>
+    </div>
 </div>
 
 ## My content has been featured on publications such as:
