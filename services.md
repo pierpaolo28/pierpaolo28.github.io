@@ -96,6 +96,14 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
                         <h5><b>Michael Rosam</b>, Founder of Quix</h5>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/kili_testimonial.jpeg" class="img-circle img-responsive" />
+                        <p>Pier has successfully collaborated with Kili Technology, delivering ML articles content that fully matched our demanding quality standards, whether technically wise or writing-wise. He's a reliable and meticulous professional who communicates smoothly and proactively. I recommend working with Pier and thank him for his commitment to producing qualitative pieces.
+                        </p>
+                        <h5><b>Marianne Tavel</b>, Content Marketing Manager at Kili</h5>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
