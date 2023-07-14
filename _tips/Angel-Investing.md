@@ -3,7 +3,7 @@ layout: post
 date: 2023-07-14
 ---
 
-# Angel Investing
+# Angel Investing in Switzerland
 
 Usually Startup Founders don't have enough capital on their own in order to start the company and launch new products. When foundings are needed, they can then either try to: 
 1. Ask for help from family members/friends (which in case the business fails, could compromise relationships)
