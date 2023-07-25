@@ -21,6 +21,7 @@ Sample list of professional certifications achieved:
 - [Cloud Academy - Google Professional Machine Learning Engineer Exam Preparation](/assets/certifications/cloudacademy.pdf)
 - [Databricks Lakehouse Fundamentals](/assets/certifications/Databricks_Lakehouse_Fundamentals.pdf)
 - [Databricks Certified Data Engineer Associate](/assets/certifications/Databricks_DE_Associate.pdf)
+- [Databricks Generative AI Fundamentals](/assets/certifications/databricks_gen_ai.pdf)
 - [Palantir Foundry Application Developer](/assets/certifications/Foundry_Application_Developer.pdf)
 - [Palantir Foundry Foundations](/assets/certifications/Foundry_Foundations.pdf)
 - [Palantir Foundry Data Engineer Associate](/assets/certifications/Foundry_Data_Engineer_Associate.pdf)

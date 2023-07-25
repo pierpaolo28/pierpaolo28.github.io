@@ -214,6 +214,12 @@ A more comprehensive list of the different professional certifications I achieve
   frameborder="0">
 </iframe>
 <iframe
+  src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/78116744"
+  width="200"
+  height="270"
+  frameborder="0">
+</iframe>
+<iframe
   src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/63840866"
   width="200"
   height="270"
