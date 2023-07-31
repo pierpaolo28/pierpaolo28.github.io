@@ -1,1 +1,2 @@
 python create.py micro.png
+python mac_create.py micro.png
