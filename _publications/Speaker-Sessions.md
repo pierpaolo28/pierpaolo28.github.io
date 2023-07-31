@@ -116,6 +116,22 @@ GCP deployment instructions provided during the presentation are available at [t
 
 <img src="/assets/img/gdg_audience.jpeg" alt="drawing" style="width:350px;"/>
 
+## PyCon Italy - Florence 2023
+
+<div class="wrapper" style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/9XqzL7QtE_I?rel=0"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<br>
+
+
 ## Swiss RE Initiatives
 
 Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7Bo&ab_channel=Palantir){:target="\_blank"} and [Hack Zurich 2022](https://www.youtube.com/watch?v=ET4mmmlss0U&ab_channel=HackZurichOfficial){:target="\_blank"}.
