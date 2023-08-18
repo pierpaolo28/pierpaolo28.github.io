@@ -138,49 +138,54 @@ Once we’ve labeled our data and defined consistent pre-processing steps, the d
 ### Practical Implementation
 First of all we need to import all the necessary libraries.
 
-    from PIL import Image
-    import albumentations as A
-    import nlpaug.augmenter.word as naw
-    import numpy as np
-    import matplotlib.pyplot as plt
+```python
+from PIL import Image
+import albumentations as A
+import nlpaug.augmenter.word as naw
+import numpy as np
+import matplotlib.pyplot as plt
+```
 
 In order to show image augmentation capabilities, we can now load a starting image to augment
 
-    data  = Image.open("example.png")
-    plt.imshow(data)
-    plt.savefig('original.png')
-    plt.show()
+```python
+data  = Image.open("example.png")
+plt.imshow(data)
+plt.savefig('original.png')
+plt.show()
+```
 
 ![Figure 2: Original Image](https://a.storyblok.com/f/139616/1200x800/40cac666b1/original-image-from-the-process-of-data-augmentation.webp)<br>Figure 2: Original Image
 
 At this point, we can just convert our image into an array format and apply a series of transformations (9 in total). As shown in the code snippet below, using Albumentations, we can either apply a single transformation to an image or, like in the last example also, a combination of transformations simultaneously. Finally, each of the different transformations comes with different parameters, which can be used to provide more control over the expected output. For example, when resizing/cropping an image, we can specify the expected width and height in pixels, or with probabilistic transformations, we can decide the likelihood with which a transformation should be applied.
 
-    image = np.array(data)
-    images = [data,
-            A.Resize(width=32, height=32)(image=image)['image'],
-            A.Blur(blur_limit=(100, 100), p=1)(image=image)['image'],
-            A.GaussNoise(var_limit=650.0, p=1.0)(image=image)['image'],
-            A.Rotate()(image=image)['image'],
-            A.Flip(p=1)(image=image)['image'],
-            A.ChannelShuffle(p=1)(image=image)['image'],
-            A.RandomGridShuffle(grid=(7, 7), p=1)(image=image)['image'],
-            A.Compose([
-                A.Resize(width=64, height=64),
-                A.CenterCrop(width=45, height=45)
-            ])(image=image)['image']]
+```python
+image = np.array(data)
+images = [data,
+        A.Resize(width=32, height=32)(image=image)['image'],
+        A.Blur(blur_limit=(100, 100), p=1)(image=image)['image'],
+        A.GaussNoise(var_limit=650.0, p=1.0)(image=image)['image'],
+        A.Rotate()(image=image)['image'],
+        A.Flip(p=1)(image=image)['image'],
+        A.ChannelShuffle(p=1)(image=image)['image'],
+        A.RandomGridShuffle(grid=(7, 7), p=1)(image=image)['image'],
+        A.Compose([
+            A.Resize(width=64, height=64),
+            A.CenterCrop(width=45, height=45)
+        ])(image=image)['image']]
 
-    titles=["Original", "Resize", "Blur",
-        "Gaussian Noise", "Rotation", "Flip",
-        "Shuffling Channels", "Random Grid Shuffle",
-        "Resize + Crop"]
+titles=["Original", "Resize", "Blur",
+    "Gaussian Noise", "Rotation", "Flip",
+    "Shuffling Channels", "Random Grid Shuffle",
+    "Resize + Crop"]
 
-    plt.figure(figsize=(9, 8), dpi=200)
-    for num, (img, title) in enumerate(zip(images, titles)):
-    plt.subplot(len(images)//3, len(images)//3, num+1)
-    plt.title(title)
-    plt.imshow(img)
-    plt.savefig('augmented.png')
-
+plt.figure(figsize=(9, 8), dpi=200)
+for num, (img, title) in enumerate(zip(images, titles)):
+plt.subplot(len(images)//3, len(images)//3, num+1)
+plt.title(title)
+plt.imshow(img)
+plt.savefig('augmented.png')
+```
 
 As shown in Figure 3, we can then inspect the result of our transformations. It is important to remember that some of the transformations used are non deterministic and therefore running the same code multiple times in your own time might lead to different results.
 
@@ -190,40 +195,50 @@ We are now ready to start exploring how to perform Data Augmentation on text dat
 
 As a first attempt, we can try to replace 0.3% of the sentence with a synonym.
 
-    text = "It is prohibited to eat frozen yogurt on the way to work"
-    aug = naw.SynonymAug(aug_p=0.3)
-    aug.augment(text)
+```python
+text = "It is prohibited to eat frozen yogurt on the way to work"
+aug = naw.SynonymAug(aug_p=0.3)
+aug.augment(text)
 
-    ['Information technology is prohibited to run through frozen yoghourt on the room to work']
+['Information technology is prohibited to run through frozen yoghourt on the room to work']
+```
 
 Another approach could be to replace words at random with their antonym (opposite).
 
-    aug = naw.AntonymAug(aug_p=0.5)
-    aug.augment(text)
+```python
+aug = naw.AntonymAug(aug_p=0.5)
+aug.augment(text)
 
-    ['It differ permit to eat unfrozen yogurt on the way to idle']
+['It differ permit to eat unfrozen yogurt on the way to idle']
+```
 
 Or to randomly change the order of words.
 
-    aug = naw.random.RandomWordAug(action='swap', aug_p=0.5)
-    aug.augment(text)
+```python
+aug = naw.random.RandomWordAug(action='swap', aug_p=0.5)
+aug.augment(text)
 
-    ['Prohibited it is to frozen eat on way yogurt the to work']
+['Prohibited it is to frozen eat on way yogurt the to work']
+```
 
 Finally, it can also be quite useful to introduce spelling mistakes in our data. Spelling mistakes can in fact occur quite frequently in our daily life and therefore training our models on some of them can make it more flexible to not get confused between words just because of a spelling mistake.
 
-    aug = naw.SpellingAug(aug_p=0.5)
-    aug.augment(text)
+```python
+aug = naw.SpellingAug(aug_p=0.5)
+aug.augment(text)
 
-    ['It 1s prohobited lo eight frozen yogurt on tht wat to work']
+['It 1s prohobited lo eight frozen yogurt on tht wat to work']
+```
 
 A more advanced approach to performing Data Augmentation on a word level would then be to use pre-trained Deep Learning models able to understand the context around a word to decide how to alter a sentence best. This approach is commonly referred to as Flow Augmentation. For this example, we can use Google BERT as our model of choice, although NLPAug, too, can provide a wide range of pre-trained models for you to pick.
 
-    aug = naw.ContextualWordEmbsAug(model_path='bert-base-uncased',
-                                    action="insert")
-    aug.augment(text)
+```python
+aug = naw.ContextualWordEmbsAug(model_path='bert-base-uncased',
+                                action="insert")
+aug.augment(text)
 
-    ['additionally it specifically is prohibited only to eat strictly frozen  soy yogurt on the way to work']
+['additionally it specifically is prohibited only to eat strictly frozen  soy yogurt on the way to work']
+```
 
 To improve performance and make your augmentations look as natural as possible, there are a lot of different additional parameters which can be specified when using NLPAug. Some examples can be the language of the input data, the percentage of words to augment in a sentence, the minimum/maximum number of words to augment, listing the stopwords to not include in the augmentation process, etc.
 

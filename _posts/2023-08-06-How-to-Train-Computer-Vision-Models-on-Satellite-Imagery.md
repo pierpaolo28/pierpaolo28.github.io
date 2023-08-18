@@ -115,27 +115,29 @@ The dataset can be freely downloaded at [this link](https://www.ehu.eus/ccwintco
 ### Data Preprocessing steps
 First of all, we are going to import all the necessary libraries. For this example, we are going to use PyTorch as our framework of choice but other frameworks such as Tensorflow can also be used in order to approach this task.
 
-    from scipy.io import loadmat
-    import earthpy.spatial as es
-    import earthpy.plot as epp
-    import pandas as pd
-    import numpy as np
-    from matplotlib import pyplot as plt
-    import matplotlib.colors as mcolors
-    from sklearn.model_selection import train_test_split
-    from sklearn import preprocessing
-    from sklearn.tree import DecisionTreeClassifier
-    from sklearn.decomposition import PCA
-    from sklearn.metrics import accuracy_score
-    import torch
-    import torch.nn.functional as F
-    import torch.utils.data as data_utils
-    from torch import nn
-    from torch import optim
-    import seaborn as sns
-    import time
-    import copy
-    sns.set()
+```python
+from scipy.io import loadmat
+import earthpy.spatial as es
+import earthpy.plot as epp
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+import matplotlib.colors as mcolors
+from sklearn.model_selection import train_test_split
+from sklearn import preprocessing
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.decomposition import PCA
+from sklearn.metrics import accuracy_score
+import torch
+import torch.nn.functional as F
+import torch.utils.data as data_utils
+from torch import nn
+from torch import optim
+import seaborn as sns
+import time
+import copy
+sns.set()
+```
 
 We can now import our aerial images dataset and convert it into a tabular format in order to make it easier to perform processing operations on it.
 
@@ -143,30 +145,32 @@ In this case, each image band is converted to a column (we have more than 100 ba
 
 Elements associated with class 0 are then removed, as class 0 has been used as a catch-all category for all unclassified objects in the image.
 
-    data = loadmat('PaviaU.mat')['paviaU']
-    gt = loadmat('PaviaU_gt.mat')['paviaU_gt']
+```python
+data = loadmat('PaviaU.mat')['paviaU']
+gt = loadmat('PaviaU_gt.mat')['paviaU_gt']
 
-    df = pd.DataFrame(data.reshape(data.shape[0]*data.shape[1], -1))
-    df.columns = [f'band{i}' for i in range(1, df.shape[-1]+1)]
-    df['class'] = gt.ravel()
-    df = df[df['class']!=0]
+df = pd.DataFrame(data.reshape(data.shape[0]*data.shape[1], -1))
+df.columns = [f'band{i}' for i in range(1, df.shape[-1]+1)]
+df['class'] = gt.ravel()
+df = df[df['class']!=0]
 
-    stacked_bands = np.transpose(data, (2, 0, 1)) 
-    sampled_bands = np.array([stacked_bands[0], stacked_bands[50], stacked_bands[100]])
-    bands = [f'Band {i}' for i in range(1, 102, 50)]
-    colors = list(mcolors.BASE_COLORS)
+stacked_bands = np.transpose(data, (2, 0, 1)) 
+sampled_bands = np.array([stacked_bands[0], stacked_bands[50], stacked_bands[100]])
+bands = [f'Band {i}' for i in range(1, 102, 50)]
+colors = list(mcolors.BASE_COLORS)
 
-    epp.plot_rgb(
-        stacked_bands,
-        rgb=(60, 30, 27),
-        stretch=True,
-        figsize=(10, 10),
-    )
+epp.plot_rgb(
+    stacked_bands,
+    rgb=(60, 30, 27),
+    stretch=True,
+    figsize=(10, 10),
+)
 
-    plt.figure(figsize=(10, 10))
-    plt.imshow(gt)
-    plt.axis('off')
-    plt.show()
+plt.figure(figsize=(10, 10))
+plt.imshow(gt)
+plt.axis('off')
+plt.show()
+```
 
 Finally, the different image bands are stacked together in order to make it easier to create some visualizations. In Figure 2, we can then see our starting data and our ground truth with the image data classified into 9 different categories.
 
@@ -174,42 +178,46 @@ Finally, the different image bands are stacked together in order to make it easi
 
 We are now ready to go deeper into our own data and plot 3 sample bands in order to get an idea of what they represent and how they can be used together in order to make predictions (Figure 3).
 
-    epp.plot_bands(sampled_bands, title=bands, figsize= (14, 6))
-    epp.hist(sampled_bands, colors = colors, 
-            title=bands, cols=3, figsize = (16, 6))
-    plt.show()
+```python
+epp.plot_bands(sampled_bands, title=bands, figsize= (14, 6))
+epp.hist(sampled_bands, colors = colors, 
+        title=bands, cols=3, figsize = (16, 6))
+plt.show()
+```
 
 ![bands-visualization-and-distribution-histograms](https://a.storyblok.com/f/139616/1200x800/794ee2f66a/bands-visualization-and-distribution-histograms.webp)
 
 ### Machine learning
 At this point, we can then try to design a standard Decision Tree classifier in order to predict the different object classes in the image. Using just this simple model, an accuracy score of 88.3% is registered on our test set.
 
-    x = df.drop(['class'], axis=1)
-    y = df['class']
+```python
+x = df.drop(['class'], axis=1)
+y = df['class']
 
-    le = preprocessing.LabelEncoder()
-    x_train, x_test, y_train, y_test = train_test_split(x, y, train_size = 0.7, stratify = y)
-    y_encoder = le.fit(y_train)
-    y_train = le.transform(y_train)
-    y_test = le.transform(y_test)
+le = preprocessing.LabelEncoder()
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size = 0.7, stratify = y)
+y_encoder = le.fit(y_train)
+y_train = le.transform(y_train)
+y_test = le.transform(y_test)
 
-    clf = DecisionTreeClassifier(random_state=0)
-    model = clf.fit(x_train.values, y_train)
-    print("Accuracy Score: ", round(accuracy_score(model.predict(x_test.values), y_test), 3)*100, "%")
+clf = DecisionTreeClassifier(random_state=0)
+model = clf.fit(x_train.values, y_train)
+print("Accuracy Score: ", round(accuracy_score(model.predict(x_test.values), y_test), 3)*100, "%")
 
-    l = []
-    for i in range(data.shape[0]*data.shape[1]):
-        if i in list(df.index):
-            l.append(le.inverse_transform(model.predict([df.loc[i, :][:-1]])))
-        else:
-            l.append(0)
+l = []
+for i in range(data.shape[0]*data.shape[1]):
+    if i in list(df.index):
+        l.append(le.inverse_transform(model.predict([df.loc[i, :][:-1]])))
+    else:
+        l.append(0)
 
-    pred = np.array(l, dtype=object).reshape(gt.shape).astype('float')
+pred = np.array(l, dtype=object).reshape(gt.shape).astype('float')
 
-    plt.figure(figsize=(10, 10))
-    plt.imshow(pred)
-    plt.axis('off')
-    plt.show()
+plt.figure(figsize=(10, 10))
+plt.imshow(pred)
+plt.axis('off')
+plt.show()
+```
 
 Once trained the model, we can then use it to make predictions for the different pixels on the entire image data and plot the results to get some form of visual feedback on how useful our model can be in classifying buildings, etc. (Figure 4).
 
@@ -220,235 +228,251 @@ Now that we have created a machine learning good baseline to start from, we can 
 
 In order to take advantage of the spatial resolution of our data we then need to construct image patches and padding our edges.
 
-    def zeros_pad(x, margin):
-        padded_x = torch.zeros((x.shape[0] + 2 * margin, x.shape[1] + 2 * margin, x.shape[2]))
-        padded_x[margin:x.shape[0] + margin, margin:x.shape[1] + margin, :] = x
-        return padded_x
+```python
+def zeros_pad(x, margin):
+    padded_x = torch.zeros((x.shape[0] + 2 * margin, x.shape[1] + 2 * margin, x.shape[2]))
+    padded_x[margin:x.shape[0] + margin, margin:x.shape[1] + margin, :] = x
+    return padded_x
 
-    def create_image(x, y, window_size):
-        margin = (window_size - 1) // 2
-        padded_x = zeros_pad(x, margin=margin)
-        patched_x = torch.zeros((x.shape[0] * x.shape[1], window_size, window_size, x.shape[2]))
-        patched_y = torch.zeros((x.shape[0] * x.shape[1]))
-        patch_index = 0
-        for i in range(margin, padded_x.shape[0] - margin):
-            for j in range(margin, padded_x.shape[1] - margin):
-                patch = padded_x[i - margin:i + margin + 1, j - margin:j + margin + 1]   
-                patched_x[patch_index, :, :, :] = patch
-                patched_y[patch_index] = y[i-margin, j-margin]
-                patch_index += 1
-        patched_x = patched_x[patched_y>0,:,:,:]
-        patched_y = patched_y[patched_y>0]
-        patched_y -= 1
-        return patched_x, patched_y
+def create_image(x, y, window_size):
+    margin = (window_size - 1) // 2
+    padded_x = zeros_pad(x, margin=margin)
+    patched_x = torch.zeros((x.shape[0] * x.shape[1], window_size, window_size, x.shape[2]))
+    patched_y = torch.zeros((x.shape[0] * x.shape[1]))
+    patch_index = 0
+    for i in range(margin, padded_x.shape[0] - margin):
+        for j in range(margin, padded_x.shape[1] - margin):
+            patch = padded_x[i - margin:i + margin + 1, j - margin:j + margin + 1]   
+            patched_x[patch_index, :, :, :] = patch
+            patched_y[patch_index] = y[i-margin, j-margin]
+            patch_index += 1
+    patched_x = patched_x[patched_y>0,:,:,:]
+    patched_y = patched_y[patched_y>0]
+    patched_y -= 1
+    return patched_x, patched_y
+```
 
 In order to make the image generation process faster, we can then apply Principal Component Analysis (PCA) to reduce the dimensionality of our input data. If you are interested in learning more about PCA and other Feature Extraction techniques, you can find additional information at [this link](https://ppiconsulting.dev/blog/blog29/).
 
-    dimensions = 17
-    window_size = 25
-    pca = PCA(n_components=dimensions)
-    test_perc = 0.3
+```python
+dimensions = 17
+window_size = 25
+pca = PCA(n_components=dimensions)
+test_perc = 0.3
 
-    x = np.reshape(data, (-1, data.shape[2]))
-    x_pca = pca.fit_transform(x)
-    x_pca = np.reshape(x_pca, (data.shape[0], data.shape[1], dimensions))
-    cnn_x, cnn_y = create_image(torch.tensor(x_pca.astype(np.float32)), gt, window_size=window_size)
-    # number of items in batch, number of channels, number of images in sequence, height of image, width of image
-    cnn_x = torch.permute(cnn_x[:, None, :, :, :], (0, 1, 4, 2, 3))
-    cnn_x_train, cnn_x_test, cnn_y_train, cnn_y_test = train_test_split(cnn_x, cnn_y, test_size=test_perc, stratify=cnn_y)
+x = np.reshape(data, (-1, data.shape[2]))
+x_pca = pca.fit_transform(x)
+x_pca = np.reshape(x_pca, (data.shape[0], data.shape[1], dimensions))
+cnn_x, cnn_y = create_image(torch.tensor(x_pca.astype(np.float32)), gt, window_size=window_size)
+# number of items in batch, number of channels, number of images in sequence, height of image, width of image
+cnn_x = torch.permute(cnn_x[:, None, :, :, :], (0, 1, 4, 2, 3))
+cnn_x_train, cnn_x_test, cnn_y_train, cnn_y_test = train_test_split(cnn_x, cnn_y, test_size=test_perc, stratify=cnn_y)
 
-    train = data_utils.TensorDataset(cnn_x_train, cnn_y_train)
-    trainloader = data_utils.DataLoader(train, batch_size=10, shuffle=True)
-    test = data_utils.TensorDataset(cnn_x_test, cnn_y_test)
-    testloader = data_utils.DataLoader(test, batch_size=10, shuffle=True)
+train = data_utils.TensorDataset(cnn_x_train, cnn_y_train)
+trainloader = data_utils.DataLoader(train, batch_size=10, shuffle=True)
+test = data_utils.TensorDataset(cnn_x_test, cnn_y_test)
+testloader = data_utils.DataLoader(test, batch_size=10, shuffle=True)
+```
 
 We are now ready to define our CNN. In this case, we start with applying 3-dimensional and 2-dimensional convolutions to extract features from the input data and finally flatten it to make predictions.
 
-    class CNNModel(nn.Module):
-        def __init__(self, num_classes):
-            super(CNNModel, self).__init__()
-            self.cv1 = nn.Conv3d(1, 8, kernel_size=(3,3, 5))
-            self.cv2 = nn.Conv2d(8, 16, kernel_size=(3,3))
-            self.fc1 = nn.Linear(100048, 128)
-            self.dp = nn.Dropout(p=0.4)
-            self.fc2 = nn.Linear(128, num_classes)
-        
-        def forward(self, x):
-            out = self.cv1(x)
-            out = F.relu(out)
-            out = torch.reshape(out, (out.shape[0], out.shape[1], out.shape[2], out.shape[3]*out.shape[4])) 
-            out = self.cv2(out)
-            out = F.relu(out)
-            out = torch.flatten(out, 1)
-            out = self.fc1(out)
-            out = self.dp(out)
-            out = F.relu(out)
-            out = self.fc2(out)
-            return out
+```python
+class CNNModel(nn.Module):
+    def __init__(self, num_classes):
+        super(CNNModel, self).__init__()
+        self.cv1 = nn.Conv3d(1, 8, kernel_size=(3,3, 5))
+        self.cv2 = nn.Conv2d(8, 16, kernel_size=(3,3))
+        self.fc1 = nn.Linear(100048, 128)
+        self.dp = nn.Dropout(p=0.4)
+        self.fc2 = nn.Linear(128, num_classes)
+    
+    def forward(self, x):
+        out = self.cv1(x)
+        out = F.relu(out)
+        out = torch.reshape(out, (out.shape[0], out.shape[1], out.shape[2], out.shape[3]*out.shape[4])) 
+        out = self.cv2(out)
+        out = F.relu(out)
+        out = torch.flatten(out, 1)
+        out = self.fc1(out)
+        out = self.dp(out)
+        out = F.relu(out)
+        out = self.fc2(out)
+        return out
+```
 
 In order to better understand how our model is learning during training time, can then make a helper function to visualize the learning curves for both training and validation steps.
 
-    def train_val_plot(loss_plot, val_loss_plot, acc_plot, val_acc_plot):
-        fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(14, 5))
-        ax[0].plot(loss_plot, label="Training Loss")
-        ax[0].plot(val_loss_plot, label="Test Loss")
-        ax[0].legend(fontsize=18)
-        ax[0].grid(True)
-        ax[0].set_title("Training/Test Loss", fontsize=20);
-        ax[0].set_xlabel("Epoch", fontsize=18);
-        ax[0].set_ylabel("Loss", fontsize=18);
-        ax[1].plot(acc_plot, label="Training accuracy")
-        ax[1].plot(val_acc_plot, label="Test accuracy")
-        ax[1].legend(fontsize=18)
-        ax[1].grid(True)
-        ax[1].set_title("Training/Test Accuracy", fontsize=20);
-        ax[1].set_xlabel("Epoch", fontsize=18);
-        ax[1].set_ylabel("Accuracy (%)", fontsize=18);
-        plt.show()
+```python
+def train_val_plot(loss_plot, val_loss_plot, acc_plot, val_acc_plot):
+    fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(14, 5))
+    ax[0].plot(loss_plot, label="Training Loss")
+    ax[0].plot(val_loss_plot, label="Test Loss")
+    ax[0].legend(fontsize=18)
+    ax[0].grid(True)
+    ax[0].set_title("Training/Test Loss", fontsize=20);
+    ax[0].set_xlabel("Epoch", fontsize=18);
+    ax[0].set_ylabel("Loss", fontsize=18);
+    ax[1].plot(acc_plot, label="Training accuracy")
+    ax[1].plot(val_acc_plot, label="Test accuracy")
+    ax[1].legend(fontsize=18)
+    ax[1].grid(True)
+    ax[1].set_title("Training/Test Accuracy", fontsize=20);
+    ax[1].set_xlabel("Epoch", fontsize=18);
+    ax[1].set_ylabel("Accuracy (%)", fontsize=18);
+    plt.show()
+```
 
 At this point, we are now ready to wrap everything into our training loop function and get back the best model weights recorded as part of the process.
 
-    def train_model(model, criterion, optimizer, num_epochs=5):
-        since = time.time()
+```python
+def train_model(model, criterion, optimizer, num_epochs=5):
+    since = time.time()
 
-        best_model_wts = copy.deepcopy(model.state_dict())
-        best_acc = 0.0
+    best_model_wts = copy.deepcopy(model.state_dict())
+    best_acc = 0.0
 
-        loss_plot, acc_plot = [], []
-        val_loss_plot, val_acc_plot = [], []
-        for epoch in range(num_epochs):
+    loss_plot, acc_plot = [], []
+    val_loss_plot, val_acc_plot = [], []
+    for epoch in range(num_epochs):
 
-            # Each epoch has a training and validation phase
-            for phase in ['train', 'val']:
-                if phase == 'train':
-                    model.train()  # Set model to training mode
-                else:
-                    model.eval()   # Set model to evaluate mode
+        # Each epoch has a training and validation phase
+        for phase in ['train', 'val']:
+            if phase == 'train':
+                model.train()  # Set model to training mode
+            else:
+                model.eval()   # Set model to evaluate mode
 
-                running_loss = 0.0
-                running_corrects = 0
+            running_loss = 0.0
+            running_corrects = 0
 
-                # Iterate over data.
-                for inputs, labels in dataloaders[phase]:
+            # Iterate over data.
+            for inputs, labels in dataloaders[phase]:
 
-                    # zero the parameter gradients
-                    optimizer.zero_grad()
+                # zero the parameter gradients
+                optimizer.zero_grad()
 
-                    # forward
-                    # track history if only in train
-                    with torch.set_grad_enabled(phase == 'train'):
+                # forward
+                # track history if only in train
+                with torch.set_grad_enabled(phase == 'train'):
 
-                        outputs = model(inputs)
-                        _, preds = torch.max(outputs, 1)
+                    outputs = model(inputs)
+                    _, preds = torch.max(outputs, 1)
 
-                        loss = criterion(outputs, labels.long())
+                    loss = criterion(outputs, labels.long())
 
-                        # backward + optimize only if in training phase
-                        if phase == 'train':
-                            loss.backward()
-                            optimizer.step()
+                    # backward + optimize only if in training phase
+                    if phase == 'train':
+                        loss.backward()
+                        optimizer.step()
 
-                    # statistics
-                    running_loss += loss.item() * inputs.size(0)
-                    running_corrects += torch.sum(preds == labels.data.long())
+                # statistics
+                running_loss += loss.item() * inputs.size(0)
+                running_corrects += torch.sum(preds == labels.data.long())
 
-                epoch_loss = running_loss / dataset_sizes[phase]
-                epoch_acc = running_corrects.double() / dataset_sizes[phase]
-                
-                if phase == 'train':
-                    loss_plot.append(epoch_loss)
-                    acc_plot.append(epoch_acc)
-                else:
-                    val_loss_plot.append(epoch_loss)
-                    val_acc_plot.append(epoch_acc)
+            epoch_loss = running_loss / dataset_sizes[phase]
+            epoch_acc = running_corrects.double() / dataset_sizes[phase]
+            
+            if phase == 'train':
+                loss_plot.append(epoch_loss)
+                acc_plot.append(epoch_acc)
+            else:
+                val_loss_plot.append(epoch_loss)
+                val_acc_plot.append(epoch_acc)
 
-                # deep copy the model
-                if phase == 'val' and epoch_acc > best_acc:
-                    best_acc = epoch_acc
-                    best_loss = epoch_loss
-                    best_model_wts = copy.deepcopy(model.state_dict())
+            # deep copy the model
+            if phase == 'val' and epoch_acc > best_acc:
+                best_acc = epoch_acc
+                best_loss = epoch_loss
+                best_model_wts = copy.deepcopy(model.state_dict())
 
-        time_elapsed = time.time() - since
-        print('Training complete in {:.0f}m {:.0f}s'.format(
-            time_elapsed // 60, time_elapsed % 60))
-        print('Best val Acc: {:4f}'.format(best_acc))
-        print('Best val Loss: {:4f}'.format(best_loss))
+    time_elapsed = time.time() - since
+    print('Training complete in {:.0f}m {:.0f}s'.format(
+        time_elapsed // 60, time_elapsed % 60))
+    print('Best val Acc: {:4f}'.format(best_acc))
+    print('Best val Loss: {:4f}'.format(best_loss))
 
-        # loading best model weights
-        model.load_state_dict(best_model_wts)
-        train_val_plot(loss_plot, val_loss_plot, acc_plot, val_acc_plot)
-        return model
+    # loading best model weights
+    model.load_state_dict(best_model_wts)
+    train_val_plot(loss_plot, val_loss_plot, acc_plot, val_acc_plot)
+    return model
+```
 
 Finally, we are now ready to define our loss function, preferred optimizer and trigger our model training. Using this approach, an accuracy rate of 96.2% is registered on our validation data, outperforming therefore our baseline model (Figure 5).
 
-    dataloaders = {'train': trainloader, 'val': testloader}
-    dataset_sizes = {'train': len(trainloader.dataset), 'val': len(testloader.dataset)}
-    model = CNNModel(9)
-    criterion = nn.CrossEntropyLoss()
-    optimizer_ft = optim.Adam(model.parameters())
-    train_model(model, criterion, optimizer_ft, num_epochs=3)
+```python
+dataloaders = {'train': trainloader, 'val': testloader}
+dataset_sizes = {'train': len(trainloader.dataset), 'val': len(testloader.dataset)}
+model = CNNModel(9)
+criterion = nn.CrossEntropyLoss()
+optimizer_ft = optim.Adam(model.parameters())
+train_model(model, criterion, optimizer_ft, num_epochs=3)
+```
 
 ![convolutional-neural-network-learning-curves](https://a.storyblok.com/f/139616/1200x800/206525e751/convolutional-neural-network-learning-curves.webp)
 
 ### Validation
 Although the accuracy rate is looking really promising, is always important as part of an analysis to visualize also the accuracy rate for each individual class and the overall confusion matrix. In fact, if our class distribution is highly imbalanced we might then still be able to make a highly performant model by always betting on the majority class.
 
-    def confusion_matrix(data, nb_classes):
-        df_cm = pd.DataFrame(data, 
-                            range(nb_classes), range(nb_classes))
-        plt.figure(figsize=(10,7))
-        sns.set(font_scale=1.4) # for label size
-        sns.heatmap(df_cm, annot=True, annot_kws={"size": 16},cmap='Blues', 
-                    fmt='g')
-        plt.title("Confusion Matrix", fontsize = 20)
-        plt.xlabel("Predicted Output", fontsize = 18)
-        plt.ylabel("Expected Output", fontsize = 18)
-        plt.show()
-        
-    def acc_per_class(model, testloader, nb_classes):
-        model.eval()
-        confusion_mat = torch.zeros(nb_classes, nb_classes)
-        class_correct = torch.zeros(10)
-        class_total = torch.zeros(10)
-        total = 0
-        for inputs, labels in testloader:
-            outputs = model(inputs)
-            _, preds = torch.max(outputs, 1)
-            for t, p in zip(labels.view(-1), preds.view(-1)):
-                confusion_mat[t.long(), p.long()] += 1
+```python
+def confusion_matrix(data, nb_classes):
+    df_cm = pd.DataFrame(data, 
+                        range(nb_classes), range(nb_classes))
+    plt.figure(figsize=(10,7))
+    sns.set(font_scale=1.4) # for label size
+    sns.heatmap(df_cm, annot=True, annot_kws={"size": 16},cmap='Blues', 
+                fmt='g')
+    plt.title("Confusion Matrix", fontsize = 20)
+    plt.xlabel("Predicted Output", fontsize = 18)
+    plt.ylabel("Expected Output", fontsize = 18)
+    plt.show()
+    
+def acc_per_class(model, testloader, nb_classes):
+    model.eval()
+    confusion_mat = torch.zeros(nb_classes, nb_classes)
+    class_correct = torch.zeros(10)
+    class_total = torch.zeros(10)
+    total = 0
+    for inputs, labels in testloader:
+        outputs = model(inputs)
+        _, preds = torch.max(outputs, 1)
+        for t, p in zip(labels.view(-1), preds.view(-1)):
+            confusion_mat[t.long(), p.long()] += 1
 
-        confusion_matrix(confusion_mat.data.cpu().numpy(), nb_classes)
+    confusion_matrix(confusion_mat.data.cpu().numpy(), nb_classes)
 
-        per_class_acc = 100*confusion_mat.diag()/confusion_mat.sum(1)
-        for i, j in enumerate(per_class_acc.data.cpu().numpy()):
-            print("Class:", i, "Accuracy:", j)
-        acc = torch.mean(per_class_acc).data.cpu().numpy()
-        print("Overall Accuracy: ", acc, "%")
+    per_class_acc = 100*confusion_mat.diag()/confusion_mat.sum(1)
+    for i, j in enumerate(per_class_acc.data.cpu().numpy()):
+        print("Class:", i, "Accuracy:", j)
+    acc = torch.mean(per_class_acc).data.cpu().numpy()
+    print("Overall Accuracy: ", acc, "%")
+```
 
 Ultimately, we can now make use of our trained model to predict our full ground truth image.
 
-    x = np.reshape(data, (-1, data.shape[2]))
-    x_pca = pca.fit_transform(x)
-    x_pca = np.reshape(x_pca, (data.shape[0], data.shape[1], dimensions))
-    padded_x = zeros_pad(torch.tensor(x_pca), window_size//2)
+```python
+x = np.reshape(data, (-1, data.shape[2]))
+x_pca = pca.fit_transform(x)
+x_pca = np.reshape(x_pca, (data.shape[0], data.shape[1], dimensions))
+padded_x = zeros_pad(torch.tensor(x_pca), window_size//2)
 
-    pred = np.zeros((gt.shape[0], gt.shape[1]))
-    for h in range(gt.shape[0]):
-        for w in range(gt.shape[1]):
-            if int(gt[h, w]) == 0:
-                continue
-            else:
-                model.eval()
-                image_patch = padded_x[h:h+window_size, w:w+window_size, :]
-                image = torch.permute(image_patch[None, None, :, :, :], (0, 1, 4, 2, 3))                             
-                pred[h][w] = model(image).argmax(dim=1) + 1
+pred = np.zeros((gt.shape[0], gt.shape[1]))
+for h in range(gt.shape[0]):
+    for w in range(gt.shape[1]):
+        if int(gt[h, w]) == 0:
+            continue
+        else:
+            model.eval()
+            image_patch = padded_x[h:h+window_size, w:w+window_size, :]
+            image = torch.permute(image_patch[None, None, :, :, :], (0, 1, 4, 2, 3))                             
+            pred[h][w] = model(image).argmax(dim=1) + 1
 
-    acc_per_class(model, testloader, 9)
+acc_per_class(model, testloader, 9)
 
-    plt.figure(figsize=(10, 10))
-    plt.imshow(pred)
-    plt.axis('off')
-    plt.show()
+plt.figure(figsize=(10, 10))
+plt.imshow(pred)
+plt.axis('off')
+plt.show()
+```
 
 Inspecting Figure 6, we can then successfully validate that our model is able to perform relatively well for each different class and that the predicted image looks much closer to the original ground truth.
 
@@ -471,66 +495,72 @@ In order to perform this process at its best radiometric and geometric correctio
 
 For this example, we are going to use [Kaggle Crop Yield Prediction Dataset](https://www.kaggle.com/datasets/patelris/crop-yield-prediction-dataset?select=yield_df.csv) (Figure 7) and also in this case, all the code is freely available at [this link](https://github.com/pierpaolo28/Artificial-Intelligence-Projects/tree/master/GeoSpatial%20Analysis).
 
-    import pandas as pd
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-    from sklearn.model_selection import train_test_split
-    from sklearn.preprocessing import StandardScaler
-    from sklearn.decomposition import PCA
-    from sklearn.tree import DecisionTreeRegressor
-    from sklearn.metrics import r2_score
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import r2_score
 
-    df = pd.read_csv('yield_df.csv')
-    df = df.iloc[: , 1:]
-    df.head()
+df = pd.read_csv('yield_df.csv')
+df = df.iloc[: , 1:]
+df.head()
+```
 
 ![](https://a.storyblok.com/f/139616/1200x800/c837e65a1e/crop-yields-dataset.webp)
 
 In this example, our dataset contains crop data from a large number of countries with India covering on its own 28.3% of the available data.
 
-    def plot_pie(col):
-        fig, ax = plt.subplots(figsize=(10, 8), dpi=80)
-        plt.title("Top 10 " + col + "by Yield")
-        top_col_by_yield = df.groupby([col],sort=True)['hg/ha_yield'].sum().nlargest(10)
-        ax.pie(top_col_by_yield.values, labels=top_col_by_yield.index, autopct='%1.1f%%')
-        plt.show()
+```python
+def plot_pie(col):
+    fig, ax = plt.subplots(figsize=(10, 8), dpi=80)
+    plt.title("Top 10 " + col + "by Yield")
+    top_col_by_yield = df.groupby([col],sort=True)['hg/ha_yield'].sum().nlargest(10)
+    ax.pie(top_col_by_yield.values, labels=top_col_by_yield.index, autopct='%1.1f%%')
+    plt.show()
 
-    plot_pie('Area')
+plot_pie('Area')
+```
 
 ![top-ten-countries-representing-the-dataset](https://a.storyblok.com/f/139616/1200x800/dee61cce15/top-ten-countries-representing-the-dataset.webp)
 
 ### Model Creation
 At this point, we are ready to divide our dataset into training and test sets and train a Decision Regressor model. In this case, R^2 has been selected as our metric of choice, although other metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) can also be used.
 
-    sc = StandardScaler()
-    pca = PCA(n_components=50)
+```python
+sc = StandardScaler()
+pca = PCA(n_components=50)
 
-    df = pd.get_dummies(df, columns=['Area', "Item"])
-    x = df.drop(['hg/ha_yield', 'Year'], axis=1)
-    y = df['hg/ha_yield']
-    x.head()
+df = pd.get_dummies(df, columns=['Area', "Item"])
+x = df.drop(['hg/ha_yield', 'Year'], axis=1)
+y = df['hg/ha_yield']
+x.head()
 
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
-    scaler = sc.fit(x_train)
-    x_train = scaler.transform(x_train)
-    x_test = scaler.transform(x_test)
-    fitted_pca = pca.fit(x_train)
-    x_train = fitted_pca.transform(x_train)
-    x_test = fitted_pca.transform(x_test)
+scaler = sc.fit(x_train)
+x_train = scaler.transform(x_train)
+x_test = scaler.transform(x_test)
+fitted_pca = pca.fit(x_train)
+x_train = fitted_pca.transform(x_train)
+x_test = fitted_pca.transform(x_test)
 
-    model = DecisionTreeRegressor()
-    model.fit(x_train , y_train)
-    y_pred = model.predict(x_test)
-    print("R2 Score:", r2_score(y_test, y_pred))
+model = DecisionTreeRegressor()
+model.fit(x_train , y_train)
+y_pred = model.predict(x_test)
+print("R2 Score:", r2_score(y_test, y_pred))
 
-    fig, ax = plt.subplots() 
-    ax.scatter(y_test, y_pred)
-    ax.set_xlabel('Actual')
-    ax.set_ylabel('Predicted')
-    ax.set_title("Actual vs Predicted")
-    plt.show()
+fig, ax = plt.subplots() 
+ax.scatter(y_test, y_pred)
+ax.set_xlabel('Actual')
+ax.set_ylabel('Predicted')
+ax.set_title("Actual vs Predicted")
+plt.show()
+```
 
 Finally, a scatter plot representing the Predicted vs Actual distribution is created in order to visually asses the goodness of our model. In this case, a perfect model would return a diagonal straight line with no form of variance at all.
 

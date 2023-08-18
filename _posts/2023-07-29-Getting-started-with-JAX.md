@@ -40,69 +40,79 @@ First of all, we need to make sure to have JAX installed in our environment.
 
 At this point, we are ready to import the necessary libraries and datasets (Figure 1). In order to simplify our analysis, instead of using all the classes in our label we filter the data to use just 2 classes and subset the number of features.
 
-    import pandas as pd
-    import jax.numpy as jnp
-    from jax import grad
-    from sklearn.preprocessing import StandardScaler
-    from sklearn.model_selection import train_test_split
-    from sklearn.metrics import classification_report
-    import matplotlib.pyplot as plt
-    
-    df = pd.read_csv('/kaggle/input/mobile-price-classification/train.csv')
-    df = df.iloc[:, 10:]
-    df = df.loc[df['price_range'] <= 1]
-    df.head()
+```python
+import pandas as pd
+import jax.numpy as jnp
+from jax import grad
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('/kaggle/input/mobile-price-classification/train.csv')
+df = df.iloc[:, 10:]
+df = df.loc[df['price_range'] <= 1]
+df.head()
+```
 
 ![Figure 1: Mobile Price Classification Dataset (Image by Author).](https://cdn-images-1.medium.com/max/2756/1*qCqWc_FXHhIEwmc_E29fsg.png)<br>
 Figure 1: Mobile Price Classification Dataset (Image by Author).
 
 Once cleaned the dataset, we can now divide it into training and test subsets and standardize the input features so that to make sure they all lie within the same ranges. At this point, the input data is also converted in JAX arrays.
 
-    X = df.iloc[:, :-1]
-    y = df.iloc[:, -1]
-    
-    X_train, X_test, y_train, y_test = train_test_split(X, y, 
-                                                        test_size=0.20, 
-                                                        stratify=y)
-    
-    X_train, X_test, y_train, Y_test = jnp.array(X_train), jnp.array(X_test), \
-                                       jnp.array(y_train), jnp.array(y_test)
-    
-    scaler = StandardScaler()
-    scaler.fit(X_train)
-    X_train = scaler.transform(X_train)
-    X_test = scaler.transform(X_test)
+```python
+X = df.iloc[:, :-1]
+y = df.iloc[:, -1]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, 
+                                                    test_size=0.20, 
+                                                    stratify=y)
+
+X_train, X_test, y_train, Y_test = jnp.array(X_train), jnp.array(X_test), \
+                                    jnp.array(y_train), jnp.array(y_test)
+
+scaler = StandardScaler()
+scaler.fit(X_train)
+X_train = scaler.transform(X_train)
+X_test = scaler.transform(X_test)
+```
 
 In order to predict the price range of the phones, we are going to create a Logistic Regression model from scratch. To do so, we first need to create a couple of helper functions (one to create the Sigmoid activation function, and another for the binary loss function).
 
-    def activation(r):
-        return 1 / (1 + jnp.exp(-r))
-    
-    def loss(c, w, X, y, lmbd=0.1):
-        p = activation(jnp.dot(X, w) + c)
-        loss = jnp.sum(y * jnp.log(p) + (1 - y) * jnp.log(1 - p)) / y.size
-        reg = 0.5 * lmbd * (jnp.dot(w, w) + c * c) 
-        return - loss + reg 
+```python
+def activation(r):
+    return 1 / (1 + jnp.exp(-r))
+
+def loss(c, w, X, y, lmbd=0.1):
+    p = activation(jnp.dot(X, w) + c)
+    loss = jnp.sum(y * jnp.log(p) + (1 - y) * jnp.log(1 - p)) / y.size
+    reg = 0.5 * lmbd * (jnp.dot(w, w) + c * c) 
+    return - loss + reg 
+```
 
 We are now ready to create our training loop and plot the results (Figure 2).
 
-    n_iter, eta = 100, 1e-1
-    w = 1.0e-5 * jnp.ones(X.shape[1])
-    c = 1.0
-    history = [float(loss(c, w, X_train, y_train))]
-    for i in range(n_iter):
-        c_current = c
-        c -= eta * grad(loss, argnums=0)(c_current, w, X_train, y_train)
-        w -= eta * grad(loss, argnums=1)(c_current, w, X_train, y_train)
-        history.append(float(loss(c, w, X_train, y_train)))
+```python
+n_iter, eta = 100, 1e-1
+w = 1.0e-5 * jnp.ones(X.shape[1])
+c = 1.0
+history = [float(loss(c, w, X_train, y_train))]
+for i in range(n_iter):
+    c_current = c
+    c -= eta * grad(loss, argnums=0)(c_current, w, X_train, y_train)
+    w -= eta * grad(loss, argnums=1)(c_current, w, X_train, y_train)
+    history.append(float(loss(c, w, X_train, y_train)))
+```
 
 ![Figure 2: Logistic Regression Training History (Image by Author).](https://cdn-images-1.medium.com/max/2000/1*K2LeaCsdwvJT99jLH_QiWA.png)<br>Figure 2: Logistic Regression Training History (Image by Author).
 
 Once happy with the results, we can then test the model against our test set (Figure 3).
 
-    y_pred = jnp.array(activation(jnp.dot(X_test, w) + c))
-    y_pred = jnp.where(y_pred > 0.5, 1, 0) 
-    print(classification_report(y_test, y_pred))
+```python
+y_pred = jnp.array(activation(jnp.dot(X_test, w) + c))
+y_pred = jnp.where(y_pred > 0.5, 1, 0) 
+print(classification_report(y_test, y_pred))
+```
 
 ![Figure 3: Classification Report on Test Data (Image by Author).](https://cdn-images-1.medium.com/max/2000/1*kKNu7ode8UAqC1hXjs_-aw.png)<br>Figure 3: Classification Report on Test Data (Image by Author).
 

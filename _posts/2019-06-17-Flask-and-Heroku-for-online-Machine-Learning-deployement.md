@@ -53,34 +53,35 @@ results.
 
 A basic example of **app.py** can be:
 
-    import numpy as np
-    from flask import Flask, request, jsonify, render_template
-    import pickle
+```python
+import numpy as np
+from flask import Flask, request, jsonify, render_template
+import pickle
 
-    app = Flask(__name__)
+app = Flask(__name__)
 
-    # Code to load ML model
+# Code to load ML model
 
-    @app.route('/')
-    def home():    
-         return render_template(
-    )
+@app.route('/')
+def home():    
+        return render_template(
+)
 
-    @app.route('/ml-model', methods=['POST'])
-    def run_model():
-         # Code to use the trained model to make real time predictions
-         return render_template(
-    )
+@app.route('/ml-model', methods=['POST'])
+def run_model():
+        # Code to use the trained model to make real time predictions
+        return render_template(
+)
 
-    if __name__ == '__main__':
-         app.run()
+if __name__ == '__main__':
+        app.run()
+```
 
 If we want to add some HTML, CSS or any other type of content to improve the
 online graphics of the model, it is possible to do so by creating a *templates*
-folder in the same working directory where there are our **model.py**, **app.py** and
-**request.py** files and including these files there. These files have to
+folder in the same working directory where there are our **model.py**, **app.py** and **request.py** files and including these files there. These files have to
 be included in the *templates* folder because when calling
-*render_template(“filename.html”)* in **app.py**, Flask will by default look
+**render_template(“filename.html”)** in **app.py**, Flask will by default look
 just for files in the *templates* folder.
 
 Using just Flask we can be able to run our model on our local machine using a

@@ -34,11 +34,13 @@ The data points closest to the hyperplane are called Support Vectors. Support Ve
 
 Basic SVM classification can be easily implemented using the Scikit-Learn Python library in a few lines of code.
 
-    from sklearn import svm
-    trainedsvm = svm.SVC().fit(X_Train, Y_Train)
-    predictionsvm = trainedsvm.predict(X_Test)
-    print(confusion_matrix(Y_Test,predictionsvm))
-    print(classification_report(Y_Test,predictionsvm))
+```python
+from sklearn import svm
+trainedsvm = svm.SVC().fit(X_Train, Y_Train)
+predictionsvm = trainedsvm.predict(X_Test)
+print(confusion_matrix(Y_Test,predictionsvm))
+print(classification_report(Y_Test,predictionsvm))
+```
 
 The are two main types of classification SVM algorithms Hard Margin and Soft Margin:
 

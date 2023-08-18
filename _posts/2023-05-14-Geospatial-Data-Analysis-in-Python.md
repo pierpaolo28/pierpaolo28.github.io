@@ -47,17 +47,19 @@ First of all, we need to make sure we have all the dependencies necessary instal
 
 In this example, we are going to explore the Altstadt district in Zurich (Switzerland). Making use of ***OSMnx*** it can be as easy as using two lines of code to retrieve and visualize the data we need (Figure 1). [OSMnx](https://osmnx.readthedocs.io/en/stable/) has in fact been designed to fetch and use [OpenStreetMap](https://www.openstreetmap.org/#map=6/42.088/12.564) data in the simplest way possible. OpenStreetMap is a free worldwide geographic database maintained by a community of volunteers.
 
-    import osmnx as ox
-    import networkx as nx
-    import matplotlib.pyplot as plt
-    import folium
-    from keplergl import KeplerGl
-    
-    place_name = "Altstadt, Zurich, Switzerland"
-    
-    graph = ox.graph_from_place(place_name)
-    
-    ox.plot_graph_folium(graph)
+```python
+import osmnx as ox
+import networkx as nx
+import matplotlib.pyplot as plt
+import folium
+from keplergl import KeplerGl
+
+place_name = "Altstadt, Zurich, Switzerland"
+
+graph = ox.graph_from_place(place_name)
+
+ox.plot_graph_folium(graph)
+```
 
 ![Figure 1: Graph of the area under examination (Image by Author).](https://cdn-images-1.medium.com/max/4172/1*Cf_V2TaI4Bx8TSlpn_Gwfg.png)<br>Figure 1: Graph of the area under examination (Image by Author).
 
@@ -65,17 +67,21 @@ We are now ready to dig into the different ways we can retrieve our data. First 
 
 In order to create any visual representation, the ***geometry*** column is used as a point of reference, in each row of this column are in fact represented all the coordinates necessary to create an object on a map (e.g. Polygon, Line, Point, MultiPolygon). In this example, [***Well-known text***](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) (WKT) is used as the text markup language for representing our vector geometry objects but other formats can generally be used such as ***GeoJSON***. Additionally, each of these values in the GeoSeries is stored in a [***Shapely Object***](https://shapely.readthedocs.io/en/stable/manual.html) so that to make it as easy as possible to perform operations and transformations on it.
 
-    area = ox.geocode_to_gdf(place_name)
-    area.head()
+```python
+area = ox.geocode_to_gdf(place_name)
+area.head()
+```
 
 ![Figure 2: GeoPandas dataset example (Image by Author).](https://cdn-images-1.medium.com/max/4044/1*hMUWifXmzWEDZJ7MG5ve7w.png)<br>Figure 2: GeoPandas dataset example (Image by Author).
 
 At this point, we can just repeat the same procedure to retrieve different points of interest we want to plot on our map. In this case, let’s imagine we are in Altstadt, Zurich for a holiday and we want to examine all the options we have to go to a restaurant. In order to make our research easier we can then get all the nodes and edges that represent the streets in the districts and all the buildings and restaurants available so that we can orient ourselves on the map.
 
-    buildings = ox.geometries_from_place(place_name, tags={'building':True})
-    restaurants = ox.geometries_from_place(place_name, 
-                                           tags={"amenity": "restaurant"})
-    nodes, edges = ox.graph_to_gdfs(graph)
+```python
+buildings = ox.geometries_from_place(place_name, tags={'building':True})
+restaurants = ox.geometries_from_place(place_name, 
+                                        tags={"amenity": "restaurant"})
+nodes, edges = ox.graph_to_gdfs(graph)
+```
 
 Once we’ve loaded all the data, we can then plot each of the characteristics independently (Figure 3).
 
@@ -83,12 +89,14 @@ Once we’ve loaded all the data, we can then plot each of the characteristics i
 
 Using the code below, this can finally be nicely summarized in the single graph shown below (Figure 4).
 
-    fig, ax = plt.subplots(figsize=(10, 14))
-    area.plot(ax=ax, facecolor='white')
-    edges.plot(ax=ax, linewidth=1, edgecolor='blue')
-    buildings.plot(ax=ax, facecolor='yellow', alpha=0.7)
-    restaurants.plot(ax=ax, color='red', alpha=0.9, markersize=12)
-    plt.tight_layout()
+```python
+fig, ax = plt.subplots(figsize=(10, 14))
+area.plot(ax=ax, facecolor='white')
+edges.plot(ax=ax, linewidth=1, edgecolor='blue')
+buildings.plot(ax=ax, facecolor='yellow', alpha=0.7)
+restaurants.plot(ax=ax, color='red', alpha=0.9, markersize=12)
+plt.tight_layout()
+```
 
 ![Figure 4: Analysis Summary (Image by Author).](https://cdn-images-1.medium.com/max/2120/1*rYeaqmLucPdshEXkuDsqpw.png)<br>Figure 4: Analysis Summary (Image by Author).
 
@@ -96,12 +104,14 @@ In order to make our analysis more interactive, we could then also make use of a
 
 Using KeplerGL it can then be really easy for us to overlap our map on a real worldwide map and apply various transformations and filtering on it on the fly (Figure 5).
 
-    K_map = KeplerGl()
-    K_map.add_data(data=restaurants, name='Restaurants')
-    K_map.add_data(data=buildings, name='Buildings')
-    K_map.add_data(data=edges, name='Edges')
-    K_map.add_data(data=area, name='Area')
-    K_map.save_to_html()
+```python
+K_map = KeplerGl()
+K_map.add_data(data=restaurants, name='Restaurants')
+K_map.add_data(data=buildings, name='Buildings')
+K_map.add_data(data=edges, name='Edges')
+K_map.add_data(data=area, name='Area')
+K_map.save_to_html()
+```
 
 ![Figure 5: Interactive Analysis Summary with KaplerGL (Image by Author).](https://cdn-images-1.medium.com/max/2836/1*s0eRe7lUnV_Q5omzP8ZoJw.gif)<br>Figure 5: Interactive Analysis Summary with KaplerGL (Image by Author).
 
@@ -109,21 +119,25 @@ Now that we have constructed our map and we have an interactive tool to examine 
 
 Now, we just need to specify our initial position coordinates and place of destination to start looking for the best path to walk through (Figure 6).
 
-    it_resturants = restaurants.loc[restaurants.cuisine.str.contains('italian')
-                                      .fillna(False)].dropna(axis=1, how='all')
-    resturant_choice = it_resturants[it_resturants['name'] == 'Antica Roma']
-    orig = list(graph)[993]
-    dest = ox.nearest_nodes(graph, 
-              resturant_choice['geometry'][0].xy[0][0],
-              resturant_choice['geometry'][0].xy[1][0])
-    nodes[nodes.index == orig]
+```python
+it_resturants = restaurants.loc[restaurants.cuisine.str.contains('italian')
+                                    .fillna(False)].dropna(axis=1, how='all')
+resturant_choice = it_resturants[it_resturants['name'] == 'Antica Roma']
+orig = list(graph)[993]
+dest = ox.nearest_nodes(graph, 
+            resturant_choice['geometry'][0].xy[0][0],
+            resturant_choice['geometry'][0].xy[1][0])
+nodes[nodes.index == orig]
+```
 
 ![Figure 6: Starting Position representation (Image by Author).](https://cdn-images-1.medium.com/max/2296/1*GiQJvOaRJSbo4JrBhDp6aQ.png)<br>Figure 6: Starting Position representation (Image by Author).
 
 In order to perform this task, we can make use of [***Networkx***](https://networkx.org/) ***shortest_path function*** to automatically run the [***Dijkstra algorithm***](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) and try to optimize our path to minimize its overall length (Figure 7).
 
-    route = nx.shortest_path(graph, orig, dest, weight='length')
-    ox.plot_route_folium(graph, route, route_linewidth=6, node_size=0)
+```python
+route = nx.shortest_path(graph, orig, dest, weight='length')
+ox.plot_route_folium(graph, route, route_linewidth=6, node_size=0)
+```
 
 ![Figure 7: Shortest Path to destination (Image by Author).](https://cdn-images-1.medium.com/max/4140/1*pWO9CjN1PA4EzmDsbMj6zA.png)<br>Figure 7: Shortest Path to destination (Image by Author).
 
