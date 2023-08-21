@@ -104,20 +104,19 @@ app = App(
     ],
 )
 
+
 # Training entry point
 @app.run()
 def train_model():
     # Trained models will be saved to this path
-    beam_volume_path = "./lora-alpaca"
+    beam_volume_path = "./checkpoints"
 
-    # Load dataset -- 
-    # For this example, we'll use the vicgalle/alpaca-gpt4 dataset hosted on Huggingface:
-    # https://huggingface.co/datasets/vicgalle/alpaca-gpt4
+    # Load vicgalle/alpaca-gpt4 dataset hosted on Huggingface:
     dataset = load_dataset("vicgalle/alpaca-gpt4")
-
+    
     # Adjust the training loop based on the size of the dataset
-    num_samples = len(dataset["train"])
-    val_set_size = ceil(0.1 * num_samples)
+    samples = len(dataset["train"])
+    val_set_size = ceil(0.1 * samples)
 
     train(
         base_model=base_model,
@@ -151,17 +150,16 @@ def run_inference(**inputs):
     input = inputs["input"]
 
     # Grab the latest checkpoint
-    checkpoint_id = "checkpoint-12400" # TODO: this shouldn't be hardcoded
-    checkpoint = get_trained_model(checkpoint_id)
-
-    # Initialize models
+    checkpoint = get_newest_checkpoint()
+    
+    # Initialize models with latest fine-tuned checkpoint
     models = load_models(checkpoint=checkpoint)
 
     model = models["model"]
     tokenizer = models["tokenizer"]
     prompter = models["prompter"]
 
-    # Generate text
+    # Generate text response
     response = call_model(
         input=input, model=model, tokenizer=tokenizer, prompter=prompter
     )
