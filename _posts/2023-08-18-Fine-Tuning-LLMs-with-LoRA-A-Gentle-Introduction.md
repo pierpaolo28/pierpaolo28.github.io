@@ -11,6 +11,26 @@ categories: [Data Science, Machine Learning]
 
 # Fine-tuning LLMs with LoRA: A Gentle Introduction
 
+<table>
+    <thead>
+    <tr>
+        <td align="left">
+        :memo:   Please Note
+        </td>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>
+        <ul>
+            This is a guest post from <a href="https://www.beam.cloud/" target="_blank">Beam Cloud</a>, an on demand platform designed to train and deploy AI and LLM applications securely on serverless GPUs.
+        </ul>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
 Four million dollars. That's how much it cost to train GPT-3. Luckily, a new training technique called LoRA makes it possible to train LLMs for a very small fraction of the cost. 
 
 In this article, we're going to experiment with LoRA and fine-tune [Llama Alpaca](https://github.com/tatsu-lab/stanford_alpaca) using commercial hardware. 
