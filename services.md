@@ -143,19 +143,29 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <img src="../assets/testimonials/img/mighty_canary.jpeg">
     </a>
     </div>
-     <div class="mItem">
+    <div class="mItem">
     <a href="https://ubiai.tools/" target="_blank">
     <img src="../assets/testimonials/img/ubiai.png">
     </a>
     </div>
-         <div class="mItem">
+    <div class="mItem">
     <a href="https://www.lakera.ai/" target="_blank">
     <img src="../assets/testimonials/img/lakera.png">
     </a>
     </div>
-         <div class="mItem">
+    <div class="mItem">
     <a href="https://quix.io/" target="_blank">
     <img src="../assets/testimonials/img/quix.png">
+    </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.beam.cloud/" target="_blank">
+    <img src="../assets/testimonials/img/beam_cloud.png">
+    </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.lewagon.com/" target="_blank">
+    <img src="../assets/testimonials/img/le_wagon.png">
     </a>
     </div>
 </div>
@@ -220,6 +230,12 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <div class="mItem">
     <a href="https://link.springer.com/chapter/10.1007/978-3-030-88389-8_12" target="_blank">
     <img src="../assets/testimonials/img/springer.jpeg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://dev.to/pierpaolo28" target="_blank">
+    <img src="../assets/testimonials/img/dev_to.png">
     </a>
     </div>
 
