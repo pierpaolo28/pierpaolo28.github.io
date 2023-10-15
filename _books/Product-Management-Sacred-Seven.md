@@ -76,7 +76,7 @@ Once finished the MVP we can then move towards creating a Minimum Lovable Produc
 
 When selling products there are 3 possible approaches we can follow to create a profitable business: **cost leadership**, **product differentiation** and the **blue ocean strategy**.
 
-![](/../assets/img/pricing_methods.png)<br>Business Models Comparison (Image by author).
+![](/../assets/img/pricing_methods.png)<br>Figure 4: Business Models Comparison (Image by author).
 
 ##### Cost Leadership
 
@@ -201,5 +201,27 @@ For a product to have a good UX, it needs to follow 4 key principles: be discove
 Every product has some form of irreducible complexity that either the developers or users have to deal with. Our job is then to try to simplify and streamline processes as much as possible so that users needs to do the minimum amount of work necessary (e.g. pre-filling items in a form, make it easy for users to interact with key buttons, etc.). 
 
 At times business objectives and user experience might not always be aligned and that's when some dark (dishonest) patterns might arise. Some example are:
-- Roach motels: services that are easy to sign up for but very difficult to get out.
-- Hidden Fees: fees that appear at the last minute once the customer is already committed to make a purchase.
+- **Roach motels**: services that are easy to sign up for but very difficult to get out.
+- **Hidden Fees**: fees that appear at the last minute once the customer is already committed to make a purchase.
+
+### Data Science
+
+**90-9-1 rule**: 90% of users on social media are "lurkers" (mostly watch but don't contribute), 9% are contributors (comment, like, post sporadically something) and 1% are creators.
+
+#### Experiments
+
+##### A/B Testing
+
+With A/B Testing we can compare 2 variants of our product on a set of metrics we care about (a random subset of users gets variant A and another variant B). If we want to compare more than 2 product versions, then we can use multivariate testing. 
+
+In this case, version A would represent our control group (which shows the original version of the feature in the product) and version B our experimental version (showing the potential new feature embedded in the product). At this point we can then track this experiment for some time and see if it results in some improvement in our desired metrics or not. Depending on the type of feature we launch, we might also suffer of the **novelty effect** or **learning effect**. With the novelty effect we get an initial spike up in the usage and then a steep decline (people are surprised of the change and interact more, then once the surprise is over they don't interact anymore). Instead with the learning effect users struggle initially to interact with the feature since they need some adaptation time and eventually the performance improves over time.
+
+Once gathered some data we can then run a statistical significance test to validate if we can trust our results or not. Statistical significance test work by having some null hypothesis we are trying to reject (the null hypothesis represent the scenario in which the new feature didn't bring any actual value). To check if our results (from a sample) can generalize or not to the entire population, we can construct a confidence interval (a range where the actual value might fall in).
+
+To make the confidence interval we then need to specify a confidence level (how cautious we want to be). The higher the confidence level requested and the wider is going to be our interval. 95% or 99% are two values commonly used. To get the confidence interval for the difference of means we can then use the Student's two-tailed test. The exact chance that the real difference in means is zero or less is also known as the p-value. When the confidence interval includes zero, we fail to reject the null hypothesis (our new feature might cause more damage than good!). If the results, were not too negative we could then try to repeat the experiment with a bigger sample size or a slightly lower confidence level to see if we would get this time a completely positive interval. If the interval is all above 0 the new feature would then be accepted! (in this case the p-value should be less than 0.0X). At this point, we are ready to perform a staged rollout and making our feature available to beta users first and eventually to the whole audience. During the rollout it is also important to not check just the metrics we wanted to improve but also **countermetrics** to see if our new feature is causing any problem with the other features that compose the product (**cannibalization**).
+
+Making a new feature available to a random sample of users can work particularly well if the feature doesn't need interaction between different users but if not then we need to sample our users differently. One possible way is to use the New Zealand Strategy. With the New Zealand Strategy, we roll out a new feature that require interaction between users, to every user in a small country that has likely lots of similarities with our original target country. Users are in fact much more likely to interact with people within the same country rather than from outside and therefore there shouldn't be disruption for them to use the product.
+
+One caveat to pay attention to is to avoid getting people into an A/B test through some opt-in features. This might in fact skew our results since people joining the study are by default more eager to experiment with new things compared to an average user.
+
+Ultimately, is important to avoid any form of cherry-picking (HARKing), if the outcome is negative we should accept our idea was not the best one and move on instead of trying to consider just a subset of metrics that gives us hope to keep pushing for this feature.
