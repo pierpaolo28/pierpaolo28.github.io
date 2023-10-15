@@ -225,3 +225,13 @@ Making a new feature available to a random sample of users can work particularly
 One caveat to pay attention to is to avoid getting people into an A/B test through some opt-in features. This might in fact skew our results since people joining the study are by default more eager to experiment with new things compared to an average user.
 
 Ultimately, is important to avoid any form of cherry-picking (HARKing), if the outcome is negative we should accept our idea was not the best one and move on instead of trying to consider just a subset of metrics that gives us hope to keep pushing for this feature.
+
+##### Startup Metrics for Pirates
+
+1. **Acquisition**: getting people to know you and visit your website (number of views, SEO ranking, click through rate)
+2. **Activation**: getting people to sign up for our products and become users (conversion rate from visitor to user)
+3. **Retention**: making people coming back regularly (monthly/daily active users, retention rate, churn)
+4. **Referral**: getting users friends on board (net promoter score, viral coefficient, viral cycle time)
+5. **Revenue**: making money from your users
+
+Finally, when looking for a metric to use is important to look out for **vanity metrics** (metrics that look positive but don't really represent the bottom line we are trying to achieve) and strictly avoid them. 
