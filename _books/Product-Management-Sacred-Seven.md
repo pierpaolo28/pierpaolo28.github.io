@@ -226,7 +226,7 @@ One caveat to pay attention to is to avoid getting people into an A/B test throu
 
 Ultimately, is important to avoid any form of cherry-picking (HARKing), if the outcome is negative we should accept our idea was not the best one and move on instead of trying to consider just a subset of metrics that gives us hope to keep pushing for this feature.
 
-##### Startup Metrics for Pirates
+#### Startup Metrics for Pirates
 
 1. **Acquisition**: getting people to know you and visit your website (number of views, SEO ranking, click through rate)
 2. **Activation**: getting people to sign up for our products and become users (conversion rate from visitor to user)
@@ -235,3 +235,59 @@ Ultimately, is important to avoid any form of cherry-picking (HARKing), if the o
 5. **Revenue**: making money from your users
 
 Finally, when looking for a metric to use is important to look out for **vanity metrics** (metrics that look positive but don't really represent the bottom line we are trying to achieve) and strictly avoid them. 
+
+#### Metric Models
+
+Depending on your company business model, different sets of metrics (e.g. revenue, user metrics) might be available for you. Software companies usually fall into 5 key categories: software as a service with subscriptions, freemium apps, user-generated content with ads, two sided marketplaces, and ecommerce.
+
+**Software as a service (SaaS)**: vastly used for enterprise software or B2B (business-to-business) software sold as a subscription model (e.g. monthly, yearly). Some advantages of this approach is that companies can pay small recurrent installment instead of big upfront fees and get constant updates for the software they use. In this kind of model, the percentage of users that upgrade from free to paying and the number of monthly/yearly active users are some of the key metrics to follow.
+
+![](/../assets/img/saas.png)<br>Figure 5: SaaS lifecycle (Image by author).
+
+**Freeemium apps**: consumer software that its free to use but provides paid upgrades like in-app purchases or subscriptions (same as SaaS but targeted to individuals instead of companies).
+
+![](/../assets/img/freemium.png)<br>Figure 6: Freemium Lifecycle (Image by author).
+
+![](/../assets/img/freemium_revenue.png)<br>Figure 7: Freemium Revenue (Image by author).
+
+**User generated content with ads**: this type of category includes social networks, review sites and microblogging sites where users create posts and ads are shown between them. In this case the main goal for the company is to increase the time users spend on their platform (e.g. using infinite scrolling, autoplaying, etc.) and made them watch as many ads as possible. In this scenario Time on Site and montly/yearly active users are some of the key metrics to keep into account.
+
+![](/../assets/img/user_generated_content.png)<br>Figure 8: User Generated Content with Ads Lifecycle (Image by author).
+
+![](/../assets/img/user_generated_content_revenue.png)<br>Figure 9: User Generated Content with Ads Revenue (Image by author).
+
+**Two sided marketplaces**: this category includes websites that match buyers with sellers and take a commission from each transaction. In these kind of products keeping a good balance between supply and demand plays a vital role (if there are not enough buyers then the platform is not good for sellers and viceversa). Statistically speaking, when starting these kind of products is better to focus on building supply first and demand will hopefully follow up (demand can grow through word of mouth but supply not so likely!). Our key **north metric** in this case will be to find a good balance between the number of buyers and sellers to maximize the number of transactions happening.
+
+![](/../assets/img/two_sided_marketplace_revenue.png)<br>Figure 10: Two Sided Marketplace Revenue (Image by author).
+
+**Ecommerce**: is a online version of a physical store and focuses therefore much more on selling physical goods (people buy goods online and we ship them). In this scenario the key metric we should be interested in is to increase the **Average Order Value (AOV)** (alongside the overall conversion rate). 
+
+![](/../assets/img/ecommerce.png)<br>Figure 11: Ecommerce Lifecycle (Image by author).
+
+![](/../assets/img/ecommerce_revenue.png)<br>Figure 12: Ecommerce Revenue (Image by author).
+
+### Marketing & Growth
+
+#### What are you hunting?
+According to the **hunting model** we can categorize companies based on the average amount of money we can make from them in a year (annual revenue per account).
+
+![](/../assets/img/hunting_model.png)<br>Figure 13: Hunting Model (Image by author).
+
+#### Advertising
+
+There are 2 key types of advertising: direct response (get users to take action immediately) and brand (increase user awareness of the company/product). Direct response therefore is closely connected with metrics like cost per click (CPC), while brand advertising is related more to cost per mille impressions (CPM).
+
+The advertising process is tightly connected with the **purchase funnel**:
+- Awareness: getting people to know your product exist
+- Familiarity: making them form an opinion about it
+- Consideration: making them considering about buying it
+- Purchase: buying the product
+- Loyalty: becoming a recurrent buyer
+
+In addition to loyalty growth hacking incentivize users to become also advocates of the product, actively reaching out to friends and family to increase adoption (or embed viral features in the product to make it market itself).
+
+As part of the process though we might leak some people out of the funnel and it is then important to use retargeting (e.g. using third party cookies and Google/Facebook ads to remind them of the product) and remarketing (e.g. using mailing lists) to try to win them back.
+
+![](/../assets/img/advertising_funnel.png)<br>Figure 14: Purchase Funnel (Image by author).
+
+Book Authors: Aditya Agashe, Neel Mehta, and Parth Detroja
