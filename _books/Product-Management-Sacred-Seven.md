@@ -27,7 +27,7 @@ There are two types of products can possibly be created: creating something enti
 
 While working on 1-N products it is then always important to lookout for potential 0-1 innovations since competition might take advantage of radical changes in the tech landscape to take your product out of business. On the other hand, having 1-N products in your company portfolio is as important since these are the products that can provide you with a steady revenue that you can then use to finance your experiments building 0-1 products. This principle perfectly aligns with the BCG growth-share matrix. 
 
-![](/../assets/img/BCG_Matrix.png)<br>Figure 2: BCG Growth-Share Matrix (Image by author).
+![](/../assets/img/bcg_matrix.png)<br>Figure 2: BCG Growth-Share Matrix (Image by author).
 
 In this case our 1-N products can be represented by the Cash Cows (low growth but strong market dominance) and 0-1 products by question marks (which have high growth potential and can potentially turn into stars one day).
 
