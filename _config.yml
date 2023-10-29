@@ -3,7 +3,7 @@ title: Pier Paolo Ippolito
 name: Pier Paolo Ippolito
 author: pierpaolo28
 description: >
-  Welcome to my website! Here you can find some of my published works and blogs (1M+ views). If you have any questions, feel free to get in touch.
+  Welcome to my website! Here you can find some of my published works and blogs (1.5M+ views). If you have any questions, feel free to get in touch.
 url: "https://ppiconsulting.dev/"
 
 # SEO PLUGIN
@@ -26,7 +26,7 @@ navigation: # Navigation links
   - { name: "About", link: "/about/" }
 
 tagline: >
-  Welcome to my website! Here you can find some of my published works and blogs (1M+ views). If you have any questions, feel free to get in touch.
+  Welcome to my website! Here you can find some of my published works and blogs (1.5M+ views). If you have any questions, feel free to get in touch.
 
 hero_img: posts/intro.jpg
 excerpt_separator: <!--end_excerpt-->
