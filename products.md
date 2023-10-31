@@ -20,6 +20,14 @@ If you are interested in developing a product with me, feel free to explore the 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## Population Modeling and Simulations in Python
+
+One of the main limitations of the current state of machine learning and deep learning is the constant need for new data. How can we make predictions when we don’t have any data available? This lack of data is more common than we would normally think.
+
+In [this project](https://www.educative.io/projects/population-modeling-and-simulations-in-python), we’ll learn about modeling and simulations and how they can be applied in various population analysis scenarios, such as understanding how diseases can spread within a community, prey/predator dynamics, and Conway’s Game of Life. Throughout the project, we will make sure that everything is interactive and shareable on the web. To do so, we will learn to use libraries such as SciPy, Matplotlib, Plotly, Streamlit, Datapane, and others.
+
+[<img src="/assets/testimonials/img/population_modeling.png"/>](https://www.educative.io/projects/population-modeling-and-simulations-in-python){:target="\_blank"}
+
 ## Applied Data Science in Tourism
 
 [<img src="/assets/testimonials/img/ds_tourism.PNG"/>](http://www.datascience-in-tourism.com/){:target="\_blank"}
