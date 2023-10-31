@@ -168,6 +168,16 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <img src="../assets/testimonials/img/le_wagon.png">
     </a>
     </div>
+    <div class="mItem">
+    <a href="https://www.oreilly.com/" target="_blank">
+    <img src="../assets/testimonials/img/oreally.png">
+    </a>
+    </div>
+    <div class="mItem">
+    <a href="https://www.mentoring-club.com/homepage" target="_blank">
+    <img src="../assets/testimonials/img/mentoring_club.png">
+    </a>
+    </div>
 </div>
 
 ## My content has been featured on publications such as:
@@ -236,6 +246,12 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <div class="mItem">
     <a href="https://dev.to/pierpaolo28" target="_blank">
     <img src="../assets/testimonials/img/dev_to.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.educative.io/projects/population-modeling-and-simulations-in-python" target="_blank">
+    <img src="../assets/testimonials/img/educativeio.png">
     </a>
     </div>
 
