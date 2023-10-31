@@ -170,7 +170,7 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     </div>
     <div class="mItem">
     <a href="https://www.oreilly.com/" target="_blank">
-    <img src="../assets/testimonials/img/oreally.png">
+    <img src="../assets/testimonials/img/oreilly.png">
     </a>
     </div>
     <div class="mItem">
