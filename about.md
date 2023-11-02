@@ -159,7 +159,7 @@ If you are interested in finding out more about my background and latest activit
 - Open Data Science, freeCodeCamp, KDNuggets, Changes Unipol and Tech4future Contributor.
 
 ## Conferences
-- Meetups Speaker: Participated as a speaker in various online conferences and meetups such as the Microsoft Reactor of London and Global AI On Tour.
+- Meetups Speaker: Participated as a speaker in various online conferences and meetups such as the Microsoft Reactor of London and Google Developers Group (Zurich).
 - Open Data Science Conference 2020 (Europe): Took part at the 2020 Open Data Science Conference as a team member of the SAS UK booth, in order to showcase the latest advancements of the SAS Viya data analytics platform.
 - Mobile World Congress 2019: Attended the 2019 Mobile World Congress in Los Angeles (USA) as press member to find out how upcoming 5G
 technologies can be used to enhance AI powered applications.
