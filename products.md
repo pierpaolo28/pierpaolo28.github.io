@@ -20,6 +20,14 @@ If you are interested in developing a product with me, feel free to explore the 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## Machine Learning Visualization
+
+As part of any data science project, data visualization plays an important part in order to learn more about the available data and to identify any main pattern. Wouldn't it be great to also make as visually intuitive as possible the machine learning part of the analysis?
+
+[In this course](https://learning.anaconda.cloud/machine-learning-visualization), we are going to explore some techniques that could help us to face this challenge, such as summarizing Hyperparameter Tuning searches, drawing ANNs graphs, creating visual interfaces for ML models and many more.
+
+[<img src="/assets/testimonials/img/ML_Visualization_Anaconda.png"/>](https://learning.anaconda.cloud/machine-learning-visualization){:target="\_blank"}
+
 ## Population Modeling and Simulations in Python
 
 One of the main limitations of the current state of machine learning and deep learning is the constant need for new data. How can we make predictions when we don’t have any data available? This lack of data is more common than we would normally think.
