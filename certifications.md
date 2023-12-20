@@ -31,3 +31,4 @@ Sample list of professional certifications achieved:
 - [Nova - Membership](/assets/certifications/nova_certificate.pdf)
 - [W&B Effective MLOps - Model Development](/assets/certifications/W&B_Effective_MLOps.pdf)
 - [Coursera - Private Equity and Venture Capital](/assets/certifications/private_equity_bocconi.pdf)
+- [STARTUP CAMPUS - Innosuisse Business Concept Course](/assets/certifications/certificate_business concept.pdf)
