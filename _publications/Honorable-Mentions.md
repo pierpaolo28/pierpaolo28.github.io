@@ -51,6 +51,7 @@ Sample of mentions from publications, companies and universities:
 - [Institut Fourier - Poster Presentation](https://www-fourier.ujf-grenoble.fr/~m1maths/fichiers/Poster_Baumier_Henneuse.pdf)
 - [Data Pizza - Data Engineer Resources](https://github.com/data-pizza/data_engineer_resources)
 - [Quix Ghostwriting - Apache Kafka vs Apache Flink: friends or rivals?](https://quix.io/blog/kafka-vs-flink-comparison/)
+- [Datacamp - Introduction to Autoencoders: From The Basics to Advanced Applications in PyTorch](https://www.datacamp.com/tutorial/introduction-to-autoencoders)
 
 KDNuggets Silver and Gold posts:
 

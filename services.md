@@ -104,6 +104,14 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
                         <h5><b>Marianne Tavel</b>, Content Marketing Manager at Kili</h5>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="../assets/testimonials/img/daisy_anaconda.jpeg" class="img-circle img-responsive" />
+                        <p>Working with Pier was a delight! Pier consistently delivered on time, making the collaboration seamless. Our learners are sure to gain immense value from Pier's deep knowledge and commitment to excellence.
+                        <br><br> </p>
+                        <h5><b>Daisy Wizda</b>, Learning Solutions Manager at Anaconda</h5>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
@@ -252,6 +260,12 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <div class="mItem">
     <a href="https://www.educative.io/projects/population-modeling-and-simulations-in-python" target="_blank">
     <img src="../assets/testimonials/img/educativeio.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.datacamp.com/tutorial/introduction-to-autoencoders" target="_blank">
+    <img src="../assets/testimonials/img/datacamp.png">
     </a>
     </div>
 
