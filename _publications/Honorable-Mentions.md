@@ -52,6 +52,7 @@ Sample of mentions from publications, companies and universities:
 - [Data Pizza - Data Engineer Resources](https://github.com/data-pizza/data_engineer_resources)
 - [Quix Ghostwriting - Apache Kafka vs Apache Flink: friends or rivals?](https://quix.io/blog/kafka-vs-flink-comparison/)
 - [Datacamp - Introduction to Autoencoders: From The Basics to Advanced Applications in PyTorch](https://www.datacamp.com/tutorial/introduction-to-autoencoders)
+- [O’Reilly - Automating Data Quality Monitoring at Scale Book Review](https://www.oreilly.com/library/view/automating-data-quality/9781098145927/)
 
 KDNuggets Silver and Gold posts:
 
