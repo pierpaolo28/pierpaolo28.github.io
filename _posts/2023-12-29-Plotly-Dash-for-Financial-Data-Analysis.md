@@ -23,7 +23,7 @@ categories: [Data Science]
     <tr>
         <td>
         <ul>
-            This is a guest post from <a href="https://intelligence.financialmodelingprep.com/" target="_blank">Financial Modeling Prep</a>, one of the most accurate financial data API available on the market. Providing: historical prices, fundamental data, insider transactions, and much more.
+            This is a guest post from <a href="https://utm.guru/ugg3j" target="_blank">Financial Modeling Prep</a>, one of the most accurate financial data API available on the market. Providing: historical prices, fundamental data, insider transactions, and much more.
         </ul>
         </td>
     </tr>
@@ -69,7 +69,7 @@ from sklearn.metrics import mean_absolute_error
 from itertools import count
 ````
 
-Now you need to make sure to create an API key for Financial Modeling Prep, this can be easily done by creating an account on [their website](https://intelligence.financialmodelingprep.com/). With their free plan, we can then get up to 250 calls per day. Once the API is setup, we can then proceed to initialise the Dash app and over useful variables (e.g. unique id generator and start/end dates for date picker widget).
+Now you need to make sure to create an API key for Financial Modeling Prep, this can be easily done by creating an account on [their website](https://utm.guru/ugg3j). With their free plan, we can then get up to 250 calls per day. Once the API is setup, we can then proceed to initialise the Dash app and over useful variables (e.g. unique id generator and start/end dates for date picker widget).
 
 ````python
 api_key = 'YOUR_API_KEY'
