@@ -182,8 +182,13 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     </a>
     </div>
     <div class="mItem">
-    <a href="https://www.mentoring-club.com/homepage" target="_blank">
-    <img src="../assets/testimonials/img/mentoring_club.png">
+    <a href="https://www.manning.com/" target="_blank">
+    <img src="../assets/testimonials/img/manning.svg">
+    </a>
+    </div>
+    <div class="mItem">
+    <a href="https://intelligence.financialmodelingprep.com/" target="_blank">
+    <img src="../assets/testimonials/img/fmp.svg">
     </a>
     </div>
 </div>
