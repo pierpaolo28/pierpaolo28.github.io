@@ -20,6 +20,16 @@ If you are interested in developing a product with me, feel free to explore the 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## SapiensLink
+
+[SapiensLink](https://sapienslink.com/) was created by a team of highly interdisciplinary individuals who are passionate about learning and sharing knowledge.
+
+The main objective is to make complex educational content accessible and to empower individual creators to make their creations accessible to wider audiences without losing their ownership. In order to unlock this vision, we are planning to create a space where information can consumed in different possible ways and Sapionauts can be provided with automatically generated tests to validate and prove newly acquired expertise. 
+
+If you are interested in joining our team, supporting us or have any feedback, please reach out to us at [sapienslink@gmail.com](mailto:sapienslink@gmail.com).
+
+[<img src="/assets/testimonials/img/sapienslink.png"/>](https://sapienslink.com/){:target="\_blank"}
+
 ## Machine Learning Visualization
 
 As part of any data science project, data visualization plays an important part in order to learn more about the available data and to identify any main pattern. Wouldn't it be great to also make as visually intuitive as possible the machine learning part of the analysis?
