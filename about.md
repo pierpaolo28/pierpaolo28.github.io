@@ -192,15 +192,24 @@ technologies can be used to enhance AI powered applications.
 ## Key Badges
 A more comprehensive list of the different professional certifications I achieved is available at [this link.](/certifications/)
 
+<div style="display: inline-block;">
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e0b35d11-71d6-4bc5-8817-5c06b3ebbda5" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ccd5a2ab-cbdd-4d08-ba9d-8c8d87baf7e2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1bcee38a-ead5-4160-aa20-0e8d38fdc6d6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c9ff65ff-eb03-42f6-8f92-472677a1e331" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="51cef660-e6dc-451d-89d3-e676ab002817" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22878546-d0e8-4533-af07-ecef14497bff" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="313d54ba-11d0-4fb6-8ee6-9c89c845f6eb" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c12e434f-fc92-45eb-a161-57faf357e49c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="604ad224-6c5b-4596-9c48-9491ea2e4931" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<img 
+  src="/assets/img/microsoft-certified-azure-data-scientist-associate.png" 
+  style="max-width: 100%; max-height: 100%; width: 200px; height: 270px; object-fit: contain;">
+<img 
+  src="/assets/img/microsoft-certified-azure-data-fundamentals.png" 
+  style="max-width: 100%; max-height: 100%; width: 200px; height: 270px; object-fit: contain;">
+<img 
+  src="/assets/img/microsoft-certified-azure-fundamentals.png" 
+  style="max-width: 100%; max-height: 100%; width: 200px; height: 270px; object-fit: contain;">
+<img 
+  src="/assets/img/microsoft-certified-power-platform-fundamentals.png" 
+  style="max-width: 100%; max-height: 100%; width: 200px; height: 270px; object-fit: contain;">
 <iframe
   src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51982842"
   width="200"
@@ -231,6 +240,7 @@ A more comprehensive list of the different professional certifications I achieve
   height="270"
   frameborder="0">
 </iframe>
+</div>
 
 ## Skills
 - Python
