@@ -134,4 +134,6 @@ GCP deployment instructions provided during the presentation are available at [t
 
 ## Swiss RE Initiatives
 
-Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7Bo&ab_channel=Palantir){:target="\_blank"} and [Hack Zurich 2022](https://www.youtube.com/watch?v=ET4mmmlss0U&ab_channel=HackZurichOfficial){:target="\_blank"}.
+Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7Bo&ab_channel=Palantir){:target="\_blank"}, [Hack Zurich 2022](https://www.youtube.com/watch?v=ET4mmmlss0U&ab_channel=HackZurichOfficial){:target="\_blank"} and [Insurance Data Science Conference 2024](https://insurancedatascience.org/).
+
+<img src="/assets/img/Insurance_Data_Science_Conference.png" alt="drawing" style="width:350px;"/>
