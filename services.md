@@ -191,6 +191,11 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <img src="../assets/testimonials/img/fmp.svg">
     </a>
     </div>
+    <div class="mItem">
+    <a href="https://www.tenity.com/" target="_blank">
+    <img src="../assets/testimonials/img/tenity.png">
+    </a>
+    </div>
 </div>
 
 ## My content has been featured on publications such as:
