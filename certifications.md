@@ -32,3 +32,4 @@ Sample list of professional certifications achieved:
 - [W&B Effective MLOps - Model Development](/assets/certifications/W&B_Effective_MLOps.pdf)
 - [Coursera - Private Equity and Venture Capital](/assets/certifications/private_equity_bocconi.pdf)
 - [STARTUP CAMPUS - Innosuisse Business Concept Course](/assets/certifications/certificate_business concept.pdf)
+- [INSEAD Executive Education - Management Acceleration Programme (MAP)](/assets/certifications/MAP_Certificate.pdf)
