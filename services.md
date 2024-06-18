@@ -8,14 +8,11 @@ permalink: /services/
 
 I am currently open to collaborate on projects regarding:
 
-- Data Architecture/Science/Engineering Consulting
 - Python Open Source libraries & frameworks development/documentation
 - Research/Book/Course/Projects publications
 - Blog Technical Writing
-- Start-up mentoring/investing
-- Product test/review
+- Start-up mentoring
 - Conference Speaking
-- Mentoring & Interview Preparation
 
 If you have any question, feel free to [book a call](https://cal.com/pierpaolo28){:target="\_blank"} with me or send an email for free using the form on the [contact page](/contact/){:target="\_blank"}. All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="\_blank"}
 
