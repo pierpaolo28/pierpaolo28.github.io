@@ -10,7 +10,7 @@ Collection of some freely available talks in which I have been involved as a spe
 
 ## Datacast Interview: Building Data Science Projects
 
-<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/505bc82a-6c30-471c-9793-3745578b3ec0?dark=false"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6dEJaK8FUxJNSgfT6OWEHK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br>
 ## Adventures in Machine Learning: Data Paradoxes in Data Sets
