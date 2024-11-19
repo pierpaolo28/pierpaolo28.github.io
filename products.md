@@ -26,7 +26,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
 
 The main objective is to make complex educational content accessible and to empower individual creators to make their creations accessible to wider audiences without losing their ownership. In order to unlock this vision, we are planning to create a space where information can be consumed in different possible ways and Sapionauts can be provided with automatically generated tests to validate and prove newly acquired expertise. 
 
-If you are interested in joining our team, supporting us or have any feedback, please reach out to us at [sapienslink@gmail.com](mailto:sapienslink@gmail.com).
+SapiensLink is an open source project, any contribution is welcome on GitHub at [this link.](https://github.com/pierpaolo28/sapiensLink)
 
 [<img src="/assets/testimonials/img/sapienslink.png"/>](/assets/testimonials/img/sapienslink_demo.mp4){:target="\_blank"}
 
