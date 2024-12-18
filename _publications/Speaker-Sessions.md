@@ -131,6 +131,20 @@ GCP deployment instructions provided during the presentation are available at [t
 </div>
 <br>
 
+## Unfold Data Science - AI Podcast
+
+<div class="wrapper" style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/nKMPRxzH3Ck?si=Z7ekYyarAE01T4J6?rel=0"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<br>
 
 ## Swiss RE Initiatives
 
