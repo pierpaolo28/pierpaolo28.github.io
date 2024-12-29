@@ -1,4 +1,5 @@
 ---
+title: The Diary of a CEO
 layout: post_book
 date: 2024-12-29
 ---
