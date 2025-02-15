@@ -20,6 +20,20 @@ If you are interested in developing a product with me, feel free to explore the 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## Linkaout
+
+Want to go out but don’t know what’s happening in your city? Linkaout helps you find events on a map, join to make new friends, and share events with a link so your friends can join too!
+
+Features:
+- Find Events on a Map - Explore what’s happening nearby!
+- Join & Make Friends - Meet new people by attending events together.
+- Easy Event Sharing - Send a link and invite friends instantly.
+- Stay Updated - Never miss an event with real-time notifications.
+
+Now available for [web](https://linkaout.com/){:target="\_blank"} and [iOS](https://apps.apple.com/gb/app/linkaout/id6740182553){:target="\_blank"}!
+
+[<img src="/assets/testimonials/img/linkaout.png"/>](https://linkaout.com/){:target="\_blank"}
+
 ## SapiensLink
 
 [SapiensLink](/assets/testimonials/img/sapienslink_demo.mp4) was created by a team of highly interdisciplinary individuals who are passionate about learning and sharing knowledge.
