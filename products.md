@@ -32,6 +32,8 @@ Features:
 
 Now available for [web](https://linkaout.com/){:target="\_blank"} and [iOS](https://apps.apple.com/gb/app/linkaout/id6740182553){:target="\_blank"}!
 
+<a href="https://www.producthunt.com/products/linkaout?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-linkaout" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1002599&theme=light" alt="Linkaout - Find&#0032;Events&#0032;Nearby | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 [<img src="/assets/testimonials/img/linkaout.png"/>](https://linkaout.com/){:target="\_blank"}
 
 ## SapiensLink
