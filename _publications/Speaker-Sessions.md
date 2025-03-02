@@ -151,3 +151,9 @@ GCP deployment instructions provided during the presentation are available at [t
 Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7Bo&ab_channel=Palantir){:target="\_blank"}, [Hack Zurich 2022](https://www.youtube.com/watch?v=ET4mmmlss0U&ab_channel=HackZurichOfficial){:target="\_blank"} and [Insurance Data Science Conference 2024](https://insurancedatascience.org/).
 
 <img src="/assets/img/Insurance_Data_Science_Conference.png" alt="drawing" style="width:350px;"/>
+
+## MLOps Community - London
+
+[Linkaout](https://www.producthunt.com/posts/linkaout){:target="\_blank"} Building in the Open presentation and successive [newsletter mention](https://news.mlops.community/deliveries/dgTGyQkDAKxoq2gBlUcChobvkjQjCPqN5QKq){:target="\_blank"}.
+
+<img src="/assets/testimonials/img/ml_ops_community.jpeg" alt="drawing" style="width:350px;"/>
