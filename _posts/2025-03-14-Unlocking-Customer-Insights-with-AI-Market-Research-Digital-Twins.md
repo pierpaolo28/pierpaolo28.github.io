@@ -59,7 +59,7 @@ A digital twin in this context is an AI representation of an ideal customer, bui
 
 Let’s dive into the practical steps of creating the application. In this example we will be assuming to be working in a [Cloud Workstations](https://cloud.google.com/workstations/docs) environment.
 
-### **Step 1: Setting up the Environment**
+### Step 1: Setting up the Environment
 
  1. **Google Cloud Project:** You’ll need a Google Cloud Project with the Vertex AI API enabled.
  2. **Installing Dependencies:** Install the necessary Python libraries:
@@ -68,9 +68,11 @@ Let’s dive into the practical steps of creating the application. In this examp
 pip install streamlit google-cloud-aiplatform
 ````
 
-**3. Authentication:** Set up your Google Cloud authentication so your application can access the Vertex AI API. You can use Application Default Credentials (ADC) for this. For example, by using the Google Cloud SDK:
+ 3. **Authentication:** Set up your Google Cloud authentication so your application can access the Vertex AI API. You can use Application Default Credentials (ADC) for this. For example, by using the Google Cloud SDK:
 
-    gcloud auth application-default login
+````
+gcloud auth application-default login
+````
 
 ### Step 2: Importing Libraries and Initializing the Model
 
@@ -90,7 +92,7 @@ vertexai.init(project=project_id, location="us-central1")
 model = GenerativeModel("gemini-pro")
 ````
 
-### **Step 3: **Defining Helper Functions **Streamlit App Structure**
+### Step 3: Defining Helper Functions Streamlit App Structure
 
 Setting up:
 
@@ -119,7 +121,7 @@ persona_desc = st.text_input("Enter your persona description:")
 user_prompt = st.text_input("Enter your survey questions:")
 ````
 
-### **Step 4: Defining Prompts and Instructions**
+### Step 4: Defining Prompts and Instructions
 
 At this point we are ready to define the two main prompts to first answer survey questions based on the provided profile and then specify the system prompt to follow in order to impersonate the Digital Twin during the chat interaction.
 
@@ -138,7 +140,7 @@ Here are some information about the persona you are trying to impersonate:
 """
 ````
 
-### **Step 5: Main App Loop**
+### Step 5: Main App Loop
 
 Once the user has provided the survey questions and persona description, the main Streamlit loop can be initiated. After the survey questions have been answered by Gemini, the results are then displayed on screen and the main chat session with the newly generated digital twin is created.
 
@@ -197,7 +199,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 ````
 
-### **Step 6: Running the Application**
+### Step 6: Running the Application
 
 At this point we just need to save the code as a Python file (e.g., app.py) and run it from the terminal:
 
