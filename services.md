@@ -194,11 +194,6 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     </a>
     </div>
     <div class="mItem">
-    <a href="https://www.tenity.com/" target="_blank">
-    <img src="../assets/testimonials/img/tenity.png">
-    </a>
-    </div>
-    <div class="mItem">
     <a href="https://www.startglobal.org/start-hack/home/" target="_blank">
     <img src="../assets/testimonials/img/start_hack.png">
     </a>
