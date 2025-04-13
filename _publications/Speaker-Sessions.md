@@ -157,3 +157,16 @@ Partnership with [Palantir (Foundry)](https://www.youtube.com/watch?v=ITwz--MM7B
 [Linkaout](https://www.producthunt.com/posts/linkaout){:target="\_blank"} Building in the Open presentation and successive [newsletter mention](https://news.mlops.community/deliveries/dgTGyQkDAKxoq2gBlUcChobvkjQjCPqN5QKq){:target="\_blank"}.
 
 <img src="/assets/testimonials/img/ml_ops_community.jpeg" alt="drawing" style="width:350px;"/>
+
+<br>
+## Google Cloud NEXT 2025
+
+What happens when Gemini analyzes your golf swing? Supported the "AI Golf Swing Coach" demo booth at Google Cloud NEXT 2025!
+
+<video class="center" controls>
+  <source
+    src="/assets/img/posts/GolfDemoTrailer.mp4"
+    type="video/mp4"
+  />
+  Your browser does not support the video tag.
+</video>
