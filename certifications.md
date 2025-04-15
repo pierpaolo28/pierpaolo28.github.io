@@ -33,3 +33,5 @@ Sample list of professional certifications achieved:
 - [Coursera - Private Equity and Venture Capital](/assets/certifications/private_equity_bocconi.pdf)
 - [STARTUP CAMPUS - Innosuisse Business Concept Course](/assets/certifications/certificate_business concept.pdf)
 - [INSEAD Executive Education - Management Acceleration Programme (MAP)](/assets/certifications/MAP_Certificate.pdf)
+- [Certified Mentor at The Mentoring Club](/assets/certifications/Mentoring_Club_Letter.pdf)
+
