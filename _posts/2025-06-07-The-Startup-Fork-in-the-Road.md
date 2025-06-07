@@ -1,5 +1,4 @@
 ---
-title: The Startup Fork in the Road: VC Funding vs. The Bootstrapper's Journey
 layout: post
 permalink: blog/blog92/
 categories: [Startups]
