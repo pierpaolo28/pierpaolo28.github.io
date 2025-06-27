@@ -170,3 +170,20 @@ What happens when Gemini analyzes your golf swing? Supported the "AI Golf Swing 
   />
   Your browser does not support the video tag.
 </video>
+<br>
+
+## Google Startup School: Agentic AI
+[This session](https://cloudonair.withgoogle.com/events/startup-school-ai-q2-2025) is your practical guide to bringing your agent ideas to life! Dive into building your very own intelligent agent! Get a deep dive into the Agent Development Kit (ADK) and see its core components in action. Join our step-by-step hands-on lab and create a simple yet powerful research assistant. 
+
+<div class="wrapper" style="text-align:center">
+  <iframe
+    class="vidio"
+    width="650"
+    height="500"
+    src="https://www.youtube.com/embed/ux3MVI8Td60?si=-fPoiBhEIv71LoIH?rel=0"
+    frameborder="0"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<br>
