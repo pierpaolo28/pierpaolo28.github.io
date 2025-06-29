@@ -60,6 +60,68 @@ jekyll:
 
 In this example, we are using the files in our working directory and making the website live on port [http://localhost:4000/](http://localhost:4000/).
 
+For Silicon Mac instead, use **Dockerfile**:
+
+```
+# Dockerfile for Jekyll on Apple Silicon
+FROM --platform=linux/arm64 ruby:3.3-alpine
+
+# Install system dependencies first
+RUN apk add --no-cache \
+    build-base \
+    libffi-dev \
+    openssl-dev \
+    git \
+    nodejs \
+    npm \
+    gcompat
+
+# Set working directory
+WORKDIR /site
+
+# Explicitly update RubyGems and Bundler with verbose output
+RUN echo "Current RubyGems version: $(gem --version)" && \
+    gem update --system 3.5.3 --no-document && \
+    echo "Updated RubyGems version: $(gem --version)" && \
+    gem install bundler --no-document
+
+# Copy Gemfile first for better caching
+COPY Gemfile* ./
+
+# Configure bundle and install gems
+RUN bundle config set --local force_ruby_platform true && \
+    bundle config set --local deployment false && \
+    BUNDLE_FORCE_RUBY_PLATFORM=1 bundle install --verbose
+
+# Copy the rest of the site
+COPY . .
+
+# Expose port
+EXPOSE 4000
+
+# Default command
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--livereload", "--force_polling"]
+```
+
+And **docker-compose.yml**:
+
+```
+version: '3.8'
+services:
+  jekyll:
+    build: .
+    platform: linux/arm64
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/site
+    environment:
+      - BUNDLE_FORCE_RUBY_PLATFORM=1
+
+```
+
+In this example, we are again using the files in our working directory and making the website live on port [http://localhost:4000/](http://localhost:4000/) using `docker compose up`.
+
 ## Jekyll on Windows through _site folder
 
 Lastly, it could be possible to run the website locally by making use of the content inside the _site folder which is automatically created once built the website. We can then use the files in the _site folder in a simple nginx container.
