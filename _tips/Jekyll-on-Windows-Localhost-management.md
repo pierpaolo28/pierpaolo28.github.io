@@ -122,6 +122,8 @@ services:
 
 In this example, we are again using the files in our working directory and making the website live on port [http://localhost:4000/](http://localhost:4000/) using `docker compose up`.
 
+To update the sitemap make sure to use [this site](https://www.xml-sitemaps.com/).
+
 ## Jekyll on Windows through _site folder
 
 Lastly, it could be possible to run the website locally by making use of the content inside the _site folder which is automatically created once built the website. We can then use the files in the _site folder in a simple nginx container.
