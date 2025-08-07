@@ -187,3 +187,9 @@ What happens when Gemini analyzes your golf swing? Supported the "AI Golf Swing 
   </iframe>
 </div>
 <br>
+
+## MCPconference - London
+
+Panel Discussion with Peter Gostev, Stefania Chaplin and Gleb Lukicov.
+
+<img src="/assets/testimonials/img/mcp_conference.jpeg" alt="drawing" style="width:350px;"/>
