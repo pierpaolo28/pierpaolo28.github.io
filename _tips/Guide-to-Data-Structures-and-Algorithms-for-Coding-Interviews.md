@@ -13,11 +13,11 @@ The secret isn't about memorizing solutions. **It's about recognizing patterns.*
 
 This guide will walk you through the essential data structures and algorithmic patterns that form the backbone of most interview questions. By understanding these core concepts, you'll develop the mental toolkit to deconstruct any new problem and build a solution from the ground up.
 
-## **Part 1: The Building Blocks \- Core Data Structures**
+## Part 1: The Building Blocks \- Core Data Structures
 
 Think of data structures as the "nouns" of programming. They are the containers that hold and organize data in specific ways, making them efficient for certain operations. Choosing the right one is the first and most critical step in solving any problem.
 
-### **HashTable (aka Hash Map or Dictionary)**
+### HashTable (aka Hash Map or Dictionary)
 
 A HashTable stores data in **key-value pairs**. It uses a hash function to compute an index from a key, allowing it to rapidly locate the data.
 
@@ -37,7 +37,7 @@ for char in word:
 print(char_counts['e']) # Output: 2
 ````
 
-### **Linked List**
+### Linked List
 
 A Linked List is a sequence of **nodes**, where each node contains data and a **pointer** to the next node. Unlike arrays, elements are not stored in contiguous memory, meaning they can be scattered all over in memory.
 
@@ -69,7 +69,7 @@ while current:
 # Output: 1 -> 2 -> 3 -> 
 ````
 
-### **Stacks & Queues**
+### Stacks & Queues
 
 These are abstract data types defined by their access rules. They can be implemented using arrays or linked lists.
 
@@ -110,7 +110,7 @@ print(queue.popleft())
 # Dequeue: 'b'
 ````
 
-### **Trees**
+### Trees
 
 Trees are hierarchical structures with a root node and child nodes, representing parent-child relationships.
 
@@ -154,7 +154,7 @@ print(heapq.heappop(data))
 # Pop smallest: 2
 ````
 
-### **Graph**
+### Graph
 
 A Graph consists of **nodes (vertices)** connected by **edges**. They are the ultimate structure for modeling networks and relationships.
 
@@ -174,11 +174,11 @@ graph = {
 print(graph['A']) # Output: ['B', 'C']
 ````
 
-## **Part 2: The Playbook \- Common Algorithmic Patterns**
+## Part 2: The Playbook \- Common Algorithmic Patterns
 
 If data structures are the nouns, algorithms are the verbs. These are the repeatable strategies you'll apply to solve problems.
 
-### **🧩 Sliding Window**
+### 🧩 Sliding Window
 
 This pattern is for problems involving a **contiguous subarray or substring**. You create a "window" with start and end pointers. This window expands by moving the end pointer and shrinks by moving the start pointer, efficiently scanning the data to find a segment that meets a certain criteria without re-evaluating the entire segment each time.
 
@@ -203,7 +203,7 @@ def max_sum_subarray(arr, k):
 # Example: max_sum_subarray([2, 1, 5, 1, 3, 2], 3) -> 9
 ````
 
-### **👉 Two Pointers**
+### 👉 Two Pointers
 
 This technique uses two pointers that move through a data structure, often in relation to each other, to solve a problem in a single pass.
 
@@ -230,7 +230,7 @@ def two_sum_sorted(arr, target):
 # Example: two_sum_sorted([2, 7, 11, 15], 9) -> [1, 2]
 ````
 
-### **🌳 Tree & Graph Traversal (BFS & DFS)**
+### 🌳 Tree & Graph Traversal (BFS & DFS)
 
 These are the two fundamental ways to explore every node in a tree or graph.
 
@@ -295,7 +295,7 @@ def num_islands(grid):
     return island_count
 ````
 
-### **🔄 Backtracking**
+### 🔄 Backtracking
 
 Backtracking is a refined brute-force technique for exploring all potential solutions to a problem and discarding those that don't satisfy the constraints. It incrementally builds candidates and abandons a candidate ("backtracks") as soon as it determines it cannot possibly lead to a valid solution.
 
@@ -319,7 +319,7 @@ def subsets(nums):
 # Example: subsets([1, 2, 3]) -> [[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
 ````
 
-### **📈 Dynamic Programming (DP)**
+### 📈 Dynamic Programming (DP)
 
 DP is a powerful technique for solving complex problems by breaking them down into simpler, **overlapping subproblems**. The core idea is to solve each subproblem only once and store its result (memoization or tabulation), avoiding redundant work.
 
@@ -341,7 +341,7 @@ def climb_stairs(n):
 # Example: climb_stairs(5) -> 8
 ````
 
-### **⏳ Merge Intervals**
+### ⏳ Merge Intervals
 
 This pattern deals with problems involving overlapping intervals. The strategy is almost always the same: **sort the intervals by their start time**. This crucial first step makes it simple to iterate through and check for overlaps with the preceding interval.
 
@@ -365,9 +365,9 @@ def merge(intervals):
             merged.append(current)
     return merged
 # Example: merge([[1,3],[2,6],[8,10],[15,18]]) -> [[1,6],[8,10],[15,18]]
-```
+````
 
-## **Final Thoughts**
+## Final Thoughts
 
 Mastering these patterns won't happen overnight. It takes consistent, deliberate practice. The next time you're stuck on a problem on LeetCode or HackerRank, don't just jump to the solution. Take a step back and engage in a mental checklist:
 
