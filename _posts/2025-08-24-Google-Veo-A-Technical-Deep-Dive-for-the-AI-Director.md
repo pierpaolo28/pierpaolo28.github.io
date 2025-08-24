@@ -232,7 +232,7 @@ STYLE: Cinematic film noir. Moody, high-contrast lighting with deep shadows. The
 
 Now, we storyboard our sequence, one beat per prompt.
 
-**Shot 1: The Establishing Shot**
+Shot 1: The Establishing Shot
 ---------------------------------
 
 **Goal:** Introduce the character and setting.
