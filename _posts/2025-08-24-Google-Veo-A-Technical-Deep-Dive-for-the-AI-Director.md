@@ -1,5 +1,5 @@
 ---
-title: Google Veo: A Technical Deep Dive for the AI Director
+title: Google Veo A Technical Deep Dive for the AI Director
 layout: post
 permalink: blog/blog93/
 categories: [Generative AI]
@@ -261,7 +261,7 @@ Shot 3: The Clue
 
 By pasting the verbatim bibles into each prompt and breaking the narrative into distinct, connected beats, we create a coherent sequence where the character, location, and aesthetic remain consistent.
 
-![Video 4: Storyboarding a Multi-Shot Scene (Image by Author).](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_gfxsxNUVYIxBLz1Dy-FWw.gif)
+![Video 4: Storyboarding a Multi-Shot Scene (Image by Author).](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_gfxsxNUVYIxBLz1Dy-FWw.gif)<br>Video 4: Storyboarding a Multi-Shot Scene (Image by Author).
 
 The Hybrid Workflow — Generation Meets Editing
 ==============================================
