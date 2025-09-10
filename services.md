@@ -203,6 +203,11 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <img src="../assets/testimonials/img/INSEAD.png">
     </a>
     </div>
+    <div class="mItem">
+    <a href="https://www.venture-lab.ai/" target="_blank">
+    <img src="../assets/testimonials/img/eth.jpg">
+    </a>
+    </div>
 </div>
 
 ## My content has been featured on publications such as:
