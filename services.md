@@ -204,7 +204,7 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     </a>
     </div>
     <div class="mItem">
-    <a href="https://www.venture-lab.ai/" target="_blank">
+    <a href="https://sce.ethz.ch/en/programmes-and-courses/search-current-courses/cas/cas-eth-ml-fin-ins.html" target="_blank">
     <img src="../assets/testimonials/img/eth.jpg">
     </a>
     </div>
@@ -347,6 +347,24 @@ If you have any question, feel free to [book a call](https://cal.com/pierpaolo28
     <div class="mItem">
     <a href="https://gdg.community.dev/events/details/google-gdg-cloud-zurich-presents-gdg-cloud-zurich-meetup-4-february/" target="_blank">
     <img src="../assets/testimonials/img/gdg_zurich.jpeg">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7355858754048872448/" target="_blank">
+    <img src="../assets/testimonials/img/mcp.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://www.youtube.com/watch?v=9XqzL7QtE_I&ab_channel=PythonItalia" target="_blank">
+    <img src="../assets/testimonials/img/pycon.png">
+    </a>
+    </div>
+
+    <div class="mItem">
+    <a href="https://news.mlops.community/deliveries/dgTGyQkDAKxoq2gBlUcChobvkjQjCPqN5QKq" target="_blank">
+    <img src="../assets/testimonials/img/MLOps.jpg">
     </a>
     </div>
 
