@@ -57,7 +57,7 @@ Sample of mentions from publications, companies and universities:
 - [MSV Incognito Presentation](https://www.linkedin.com/posts/msv-incognito_industry-spotlight-summary-incognito-activity-7170374808143130624-8s0w/?utm_source=share&utm_medium=member_desktop)
 - [Google Cloud Medium Blog - Human in the loop and Google Search with Langgraph](https://medium.com/google-cloud/human-in-the-loop-and-google-search-with-langgraph-1af5ff2d4e89)
 - [Who are the Google Cloud Generative AI Field Solution Architects (FSAs)?](https://medium.com/google-cloud/who-are-the-google-cloud-generative-ai-field-solution-architects-fsas-7541c425c35d)
-- [Google FSAs - Virgin Media O2, "Agentic" Assist Project](https://www.linkedin.com/pulse/agentic-assist-virgin-media-o2-gilles-comeau-n374e/)
+- [Google FSAs - Virgin Media O2, "Agentic" Assist Project](https://www.linkedin.com/pulse/agentic-assist-virgin-media-o2-gilles-comeau-n374e/) and [London Google Cloud Summit Presentation](https://www.youtube.com/watch?v=GtSCLilSP5Q).
 - [Conversation with an Expert: A Practical Guide to Building an Incremental Multi-Agent AI System for Business Process Automation](https://medium.com/google-cloud/conversation-with-an-expert-a-practical-guide-to-building-an-incremental-multi-agent-ai-system-for-0a75e4a8b3ed)
 
 KDNuggets Silver and Gold posts:
