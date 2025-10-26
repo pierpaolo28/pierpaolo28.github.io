@@ -1,4 +1,5 @@
 ---
+title: Reusable AI Patterns Transforming Every Industry
 layout: post
 permalink: blog/blog94/
 categories: [Strategy]
