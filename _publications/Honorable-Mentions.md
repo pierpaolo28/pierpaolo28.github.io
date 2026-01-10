@@ -62,6 +62,7 @@ Sample of mentions from publications, companies and universities:
 - [Conversation with an Expert: A Practical Guide to Building an Incremental Multi-Agent AI System for Business Process Automation](https://medium.com/google-cloud/conversation-with-an-expert-a-practical-guide-to-building-an-incremental-multi-agent-ai-system-for-0a75e4a8b3ed)
 - Google Open Source Contributions: [Agent Development Kit Samples - Blog Writer](https://github.com/google/adk-samples/tree/main/python/agents/blog-writer), [Agentic School - Google Startup School](https://github.com/inardini/agentic_school/tree/main)
 - [La Cultura Del Dato - Stefano Gatti Interview (Italian)](https://stefanogatti.substack.com/p/laculturadeldato-189)
+- [Grokipedia personal biography page](https://grokipedia.com/page/Pier_Paolo_Ippolito)
 
 KDNuggets Silver and Gold posts:
 
