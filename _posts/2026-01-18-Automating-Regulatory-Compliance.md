@@ -1,5 +1,5 @@
 ---
-title: Automating Regulatory Compliance using AI Agents Streamline Document Audits
+title: Automating Regulatory Compliance using AI Agents to Streamline Document Audits
 layout: post
 permalink: blog/blog95/
 categories: [Finance]
