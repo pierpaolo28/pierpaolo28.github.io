@@ -268,7 +268,7 @@ Execution Output
 
 When you run the compliance_audit.py script, you will see the agent pipeline execute in real-time. The final output will be a structured JSON report detailing the compliance failures:
 
-```
+````
 INFO: Using Vertex AI for generative models.
 Starting Compliance Audit Pipeline...
 [IngestionAgent]: Policy document ingested.
@@ -294,7 +294,7 @@ Guideline [GEN-001] FAIL. Citation: "We reserve the right to cancel this policy 
   "overall_risk_score": 75
 }
 Overall Risk Score: 75
-```
+````
 
 Adapting for the ADK Web Interface
 ----------------------------------
