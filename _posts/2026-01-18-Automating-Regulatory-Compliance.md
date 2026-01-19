@@ -275,11 +275,19 @@ Starting Compliance Audit Pipeline...
 [IngestionAgent]: Policy document ingested.
 [ComplianceAuditor]: Guideline [NY-204-B] FAIL. Citation: "This policy is valid for 30 days from the date of issue."
 Guideline [GEN-001] FAIL. Citation: "We reserve the right to cancel this policy at any time by providing a 15-day written notice to the policyholder."
-[ReportGenerator]: {"policy_id": "POLICY-XYZ", "violations": [{"rule_id": "NY-204-B", "status": "FAIL", "quoted_text": "This policy is valid for 30 days from the date of issue.", "remediation_suggestion": "Review and revise the policy text to comply with the regulation NY-204-B."}, {"rule_id": "GEN-001", "status": "FAIL", "quoted_text": "We reserve the right to cancel this policy at any time by providing a 15-day written notice to the policyholder.", "remediation_suggestion": "Review and revise the policy text to comply with the regulation GEN-001."}], "overall_risk_score": 75}
+[ReportGenerator]: {
+  "policy_id": "POLICY-XYZ", 
+  "violations": [
+    {"rule_id": "NY-204-B", "status": "FAIL", "quoted_text": "text..."}, 
+    {"rule_id": "GEN-001", "status": "FAIL", "quoted_text": "text..."}
+  ], 
+  "overall_risk_score": 75
+}
 --- AUDIT COMPLETE ---
 {
   "policy_id": "POLICY-XYZ",
-  "violations": [    {
+  "violations": [
+    {
       "rule_id": "NY-204-B",
       "status": "FAIL",
       "quoted_text": "This policy is valid for 30 days from the date of issue.",
