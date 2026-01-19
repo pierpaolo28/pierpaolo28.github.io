@@ -9,8 +9,7 @@ categories: [Finance]
 
 <!--end_excerpt-->
 
-Automating Regulatory Compliance: How AI Agents Streamline Document Audits
-==========================================================================
+## Automating Regulatory Compliance: How AI Agents Streamline Document Audits
 
 <table>
     <thead>
