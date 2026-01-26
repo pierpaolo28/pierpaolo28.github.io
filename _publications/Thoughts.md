@@ -171,6 +171,38 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
     }
   }
 
+  /* Year divider */
+  .year-divider {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    margin: 1rem 0;
+  }
+
+  .year-divider::before,
+  .year-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  }
+
+  .year-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--thought-text-sub);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+
+  @media (max-width: 900px) {
+    .year-divider {
+      grid-column: span 1;
+    }
+  }
+
 </style>
 
 <div class="thoughts-container">
@@ -211,7 +243,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
   <!-- Post 2: The End of Tool Mastery (Jan 2026) -->
   <div class="thought-card">
     <div class="thought-image-container">
-      <img src="https://media.licdn.com/dms/image/v2/D4E22AQETQ7ULueXtIg/feedshare-shrink_2048_1536/B4EZuLKapnIoAw-/0/1767566323536?e=2147483647&amp;v=beta&amp;t=WaNoOMJoFPFM-mHXvwCXwwXcrQPuqBFPQYQz_8fRePU" alt="The End of Tool Mastery" class="thought-image" onerror="this.style.display='none'">
+      <img src="/assets/img/first_principles.png" alt="The End of Tool Mastery" class="thought-image" onerror="this.style.display='none'">
     </div>
     <div class="thought-body">
       <div class="thought-header">
@@ -241,6 +273,11 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
       </div>
       <a href="https://www.linkedin.com/posts/pierpaolo28_for-the-last-century-we-lived-in-the-shadow-activity-7415079091990724608-SD0u" target="_blank" class="thought-cta">View on LinkedIn</a>
     </div>
+  </div>
+
+  <!-- Year Divider -->
+  <div class="year-divider">
+    <span class="year-label">2025</span>
   </div>
 
   <!-- Post 6: The Artisan Model Returns (Dec 2025) -->
@@ -438,49 +475,3 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
   </div>
 
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('Thoughts filtering initialized');
-  
-  const filterContainer = document.getElementById('categorySelection');
-  if (!filterContainer) {
-    console.error('Filter container not found');
-    return;
-  }
-
-  filterContainer.addEventListener('click', function(e) {
-    const chip = e.target.closest('.filter-chip');
-    if (!chip) return;
-
-    const category = chip.getAttribute('data-filter');
-    console.log('Filtering by:', category);
-    
-    // Update active state on chips
-    document.querySelectorAll('.filter-chip').forEach(c => {
-      c.classList.remove('active');
-    });
-    chip.classList.add('active');
-
-    // Filter cards
-    const cards = document.querySelectorAll('.thought-card');
-    cards.forEach(card => {
-      const cardCategories = (card.getAttribute('data-category') || '').toLowerCase();
-      const matches = category === 'all' || cardCategories.includes(category.toLowerCase());
-      
-      if (matches) {
-        card.style.display = 'flex';
-        card.style.opacity = '1';
-      } else {
-        card.style.opacity = '0';
-        setTimeout(() => {
-          card.style.display = 'none';
-        }, 300);
-      }
-    });
-  });
-});
-</script>
-
-
-
