@@ -171,56 +171,12 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
     }
   }
 
-  /* Filter Chips */
-  .filter-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 3rem;
-    flex-wrap: wrap;
-  }
-  
-  .filter-chip {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--thought-border);
-    color: var(--thought-text-sub);
-    padding: 0.6rem 1.4rem;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-size: 0.95rem;
-    font-weight: 500;
-    backdrop-filter: blur(10px);
-  }
-  
-  .filter-chip:hover {
-    background: rgba(255, 255, 255, 0.15);
-    color: #fff;
-    transform: translateY(-2px);
-  }
-
-  .filter-chip.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
-    border-color: #667eea;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-    transform: translateY(-2px);
-  }
-
 </style>
-
-<div class="filter-container" id="categorySelection">
-  <button class="filter-chip active" data-filter="all">All</button>
-  <button class="filter-chip" data-filter="AI">AI</button>
-  <button class="filter-chip" data-filter="Startups">Startups</button>
-  <button class="filter-chip" data-filter="Philosophy">Philosophy</button>
-  <button class="filter-chip" data-filter="Design">Design</button>
-</div>
 
 <div class="thoughts-container">
 
   <!-- Post 3: Companies as a Service (Jan 2026) -->
-  <div class="thought-card hero-card" data-category="AI Startups">
+  <div class="thought-card hero-card">
     <div class="thought-body">
       <div class="thought-header">
         <span class="thought-date">Jan 2026</span>
@@ -263,7 +219,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
         <h3 class="thought-title">The End of Tool Mastery</h3>
       </div>
       <div class="thought-content">
-        <p>For the last twenty years, professional value was often calculated by one’s ability to navigate a static interface. If you spent a decade memorizing the intricacies of Photoshop or the complex syntax of early coding frameworks, you possessed a moat. You held the keys to the castle because the castle walls rarely moved.</p>
+        <p>For the last twenty years, professional value was often calculated by one's ability to navigate a static interface. If you spent a decade memorizing the intricacies of Photoshop or the complex syntax of early coding frameworks, you possessed a moat. You held the keys to the castle because the castle walls rarely moved.</p>
         <p>We are entering a period where the interface is fluid, but the underlying logic remains constant. To remain relevant, we must decouple our identity from the tools we employ and anchor it in the concepts they represent.</p>
         <p>Tools will inevitably simplify until they become invisible. When the mechanism of creation is democratized, understanding first principles becomes the only differentiator.</p>
       </div>
@@ -297,7 +253,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
       <div class="thought-content">
         <p>I feel like we are running the Industrial Revolution in reverse. Software development has spent 30 years perfecting the 𝗠𝗮𝗻𝘂𝗳𝗮𝗰𝘁𝘂𝗿𝗶𝗻𝗴 𝗠𝗼𝗱𝗲𝗹: One codebase. One standard UI. Distributed to 10M users. Optimized for scale and deterministic outcomes.</p>
         <p>With Vibecoding and Generative UI, we are flipping back to the 𝗔𝗿𝘁𝗶𝘀𝗮𝗻 𝗠𝗼𝗱𝗲𝗹: One user. One bespoke interface. Generated on demand. Optimized for relevance and probabilistic outcomes. We moved from Artisan → Manufacturing to solve distribution. Now we are moving back to Artisan to solve fit.</p>
-        <p>We are trading consistency for utility. The question isn't if we can build it. It’s how we support a product where every user is on a different version.</p>
+        <p>We are trading consistency for utility. The question isn't if we can build it. It's how we support a product where every user is on a different version.</p>
       </div>
       <a href="https://www.linkedin.com/posts/pierpaolo28_i-feel-like-we-are-running-the-industrial-activity-7401614369563942912-P04z" target="_blank" class="thought-cta">View on LinkedIn</a>
     </div>
@@ -331,7 +287,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
       </div>
       <div class="thought-content">
         <p>In software, progress has always been a story of abstraction. We moved from machine code to high-level languages, and then to APIs. We are now on the cusp of the next, and perhaps final, layer: abstracting away the UI itself.</p>
-        <p>It’s a full-circle moment. The first computer interface was the terminal—a direct, conversational layer. We spent 40 years building GUIs to hide its complexity. Now, with Generative AI, we are returning to a terminal-like experience, but one where the "command line" is natural language and the response is a fully-formed, dynamic UI.</p>
+        <p>It's a full-circle moment. The first computer interface was the terminal—a direct, conversational layer. We spent 40 years building GUIs to hide its complexity. Now, with Generative AI, we are returning to a terminal-like experience, but one where the "command line" is natural language and the response is a fully-formed, dynamic UI.</p>
         <p>This inverts the traditional model. The interface is no longer the static contract the user must learn, the user's intent is the contract. We are moving from designing interfaces to designing interface generators.</p>
       </div>
       <a href="https://www.linkedin.com/posts/pierpaolo28_in-software-progress-has-always-been-a-story-activity-7388905628418781184-GVVL" target="_blank" class="thought-cta">View on LinkedIn</a>
@@ -366,7 +322,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
       </div>
       <div class="thought-content">
         <p>Have you heard of Wabi-Sabi? It's the Japanese art of finding beauty in imperfection. With AI we can now generate flawless sentences, pixel-perfect designs, or code infrastructures. Perfection is becoming easy, accessible, and cheap.</p>
-        <p>But this doesn't make us obsolete. It liberates us. Our flaws aren't bugs to be fixed; they are the features of our humanity. We don’t connect with polished facades; we connect with authenticity.</p>
+        <p>But this doesn't make us obsolete. It liberates us. Our flaws aren't bugs to be fixed; they are the features of our humanity. We don't connect with polished facades; we connect with authenticity.</p>
         <p>Perfection is static, imperfection is dynamic. While AI is designed to follow the rules and minimize deviation, true innovation comes from breaking them. Let's leave the commodity of perfection to the machines and get back to the business of pushing boundaries.</p>
       </div>
       <a href="https://www.linkedin.com/posts/pierpaolo28_have-you-heard-of-wabi-sabi-its-the-japanese-activity-7379468857599684608-L7Yi" target="_blank" class="thought-cta">View on LinkedIn</a>
@@ -397,7 +353,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
         <h3 class="thought-title">Taste as a Differentiator</h3>
       </div>
       <div class="thought-content">
-        <p>I’ve been thinking about a mantra once famously championed by Y Combinator: "Ideas are cheap, execution is everything." The ability to build, ship, and iterate was the ultimate moat. Although, the pace of innovation with generative AI is fundamentally challenging this dogma.</p>
+        <p>I've been thinking about a mantra once famously championed by Y Combinator: "Ideas are cheap, execution is everything." The ability to build, ship, and iterate was the ultimate moat. Although, the pace of innovation with generative AI is fundamentally challenging this dogma.</p>
         <p>We're entering a new phase where AI is becoming a powerful execution engine. If execution is becoming a commodity, where does the value lie now? I believe it lies in "Taste".</p>
         <p>When a machine can build almost anything you ask, the quality of your ask becomes the critical factor. Vision, deep user empathy, and a strong point of view are becoming the scarcest and most valuable resources. Execution isn't dead, it's evolving into the skill of collaborating with AI.</p>
       </div>
@@ -437,7 +393,7 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
       <div class="thought-content">
         <p>The way we direct AI video models like Google Veo is evolving from a technical instruction into a true creative art. Interestingly, the best way to understand this new art form is by looking at one of the oldest: the novel.</p>
         <p>The way we craft prompts is strikingly similar to how history's greatest novelists chose their words. Your prompt is your prose, and your style dictates the entire visual narrative. Are you a minimalist like Hemingway, or do you follow the García Márquez approach?</p>
-        <p>There is no "better" style. The most effective creators will be those who can move between both. It’s the difference between giving an instruction and telling a story.</p>
+        <p>There is no "better" style. The most effective creators will be those who can move between both. It's the difference between giving an instruction and telling a story.</p>
       </div>
       <a href="https://www.linkedin.com/posts/pierpaolo28_ai-artificialintelligence-googleveo-activity-7368541953703043072-_XId" target="_blank" class="thought-cta">View on LinkedIn</a>
     </div>
@@ -473,15 +429,58 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
         <h3 class="thought-title">Self-Improvement Books vs. Fiction</h3>
       </div>
       <div class="thought-content">
-        <p>Self-improvement books such as Atomic Habits are booming. But lately, I’ve found myself returning to fiction—not just for leisure, but for learning. Books like The Brothers Karamazov offer something deeper: pattern recognition, moral nuance, and emotional context.</p>
+        <p>Self-improvement books such as Atomic Habits are booming. But lately, I've found myself returning to fiction—not just for leisure, but for learning. Books like The Brothers Karamazov offer something deeper: pattern recognition, moral nuance, and emotional context.</p>
         <p>Unlike rule-based learning, fiction teaches us through experience. We internalize values not because someone spelled them out, but because we felt them unfold.</p>
-        <p>Interestingly, this mirrors how today’s most advanced AI systems learn. They don’t just memorize rules. They learn through patterns, through exposure, through billions of examples. Storytelling has always been humanity’s most powerful operating system. With AI, we’re about to upgrade it.</p>
+        <p>Interestingly, this mirrors how today's most advanced AI systems learn. They don't just memorize rules. They learn through patterns, through exposure, through billions of examples. Storytelling has always been humanity's most powerful operating system. With AI, we're about to upgrade it.</p>
       </div>
       <a href="https://www.linkedin.com/posts/pierpaolo28_self-improvement-books-such-as-atomic-habits-activity-7338101392722616320-slhz" target="_blank" class="thought-cta">View on LinkedIn</a>
     </div>
   </div>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('Thoughts filtering initialized');
+  
+  const filterContainer = document.getElementById('categorySelection');
+  if (!filterContainer) {
+    console.error('Filter container not found');
+    return;
+  }
+
+  filterContainer.addEventListener('click', function(e) {
+    const chip = e.target.closest('.filter-chip');
+    if (!chip) return;
+
+    const category = chip.getAttribute('data-filter');
+    console.log('Filtering by:', category);
+    
+    // Update active state on chips
+    document.querySelectorAll('.filter-chip').forEach(c => {
+      c.classList.remove('active');
+    });
+    chip.classList.add('active');
+
+    // Filter cards
+    const cards = document.querySelectorAll('.thought-card');
+    cards.forEach(card => {
+      const cardCategories = (card.getAttribute('data-category') || '').toLowerCase();
+      const matches = category === 'all' || cardCategories.includes(category.toLowerCase());
+      
+      if (matches) {
+        card.style.display = 'flex';
+        card.style.opacity = '1';
+      } else {
+        card.style.opacity = '0';
+        setTimeout(() => {
+          card.style.display = 'none';
+        }, 300);
+      }
+    });
+  });
+});
+</script>
 
 
 
