@@ -144,12 +144,83 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
     transition: transform 0.2s ease;
   }
 
+  /* Hero Card - Featured/Latest Post */
+  @media (min-width: 900px) {
+    .thought-card.hero-card {
+      grid-column: span 2;
+    }
+    
+    .thought-card.hero-card .thought-body {
+      padding: 3.5rem 4rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .thought-card.hero-card .thought-title {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      max-width: 900px;
+    }
+    
+    .thought-card.hero-card .thought-content {
+      font-size: 1.2rem;
+      max-width: 900px;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  /* Filter Chips */
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .filter-chip {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--thought-border);
+    color: var(--thought-text-sub);
+    padding: 0.6rem 1.4rem;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+  }
+  
+  .filter-chip:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  .filter-chip.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border-color: #667eea;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transform: translateY(-2px);
+  }
+
 </style>
+
+<div class="filter-container" id="categorySelection">
+  <button class="filter-chip active" data-filter="all">All</button>
+  <button class="filter-chip" data-filter="AI">AI</button>
+  <button class="filter-chip" data-filter="Startups">Startups</button>
+  <button class="filter-chip" data-filter="Philosophy">Philosophy</button>
+  <button class="filter-chip" data-filter="Design">Design</button>
+</div>
 
 <div class="thoughts-container">
 
   <!-- Post 3: Companies as a Service (Jan 2026) -->
-  <div class="thought-card">
+  <div class="thought-card hero-card" data-category="AI Startups">
     <div class="thought-body">
       <div class="thought-header">
         <span class="thought-date">Jan 2026</span>
