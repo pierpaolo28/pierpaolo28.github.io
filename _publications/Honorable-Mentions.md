@@ -63,6 +63,7 @@ Sample of mentions from publications, companies and universities:
 - Google Open Source Contributions: [Agent Development Kit Samples - Blog Writer](https://github.com/google/adk-samples/tree/main/python/agents/blog-writer), [Agentic School - Google Startup School](https://github.com/inardini/agentic_school/tree/main)
 - [La Cultura Del Dato - Stefano Gatti Interview (Italian)](https://stefanogatti.substack.com/p/laculturadeldato-189)
 - [Grokipedia personal biography page](https://grokipedia.com/page/Pier_Paolo_Ippolito)
+- [GenAI in Financial Services Medium Series](https://medium.com/tag/gen-ai-fsi)
 
 KDNuggets Silver and Gold posts:
 
