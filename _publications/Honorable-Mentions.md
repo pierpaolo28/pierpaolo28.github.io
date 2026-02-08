@@ -64,6 +64,7 @@ Sample of mentions from publications, companies and universities:
 - [La Cultura Del Dato - Stefano Gatti Interview (Italian)](https://stefanogatti.substack.com/p/laculturadeldato-189)
 - [Grokipedia personal biography page](https://grokipedia.com/page/Pier_Paolo_Ippolito)
 - [GenAI in Financial Services Medium Series](https://medium.com/tag/gen-ai-fsi)
+- [Alexandre Zajac - Hungry Minds Newsletter (FDE Roadmap)](https://hungrymindsdev.substack.com/p/how-openai-scaled-postgresql-to-800m)
 
 KDNuggets Silver and Gold posts:
 
