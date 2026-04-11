@@ -11,7 +11,7 @@ I am currently open to collaborate on projects regarding:
 - Python Open Source libraries & frameworks development/documentation
 - Research/Book/Course/Projects publications
 - Blog Technical Writing
-- Start-up mentoring
+- Angel Investment & Start-up mentoring
 - Conference Speaking
 
 If you have any question, feel free to [book a call](https://cal.com/pierpaolo28){:target="\_blank"} with me or send an email for free using the form on the [contact page](/contact/){:target="\_blank"}. All my key web contacts are available at [this link.](https://linktr.ee/pierpaolo28){:target="\_blank"}
