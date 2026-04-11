@@ -154,6 +154,9 @@ If you are interested in finding out more about my background and latest activit
     <br class="clear">
 </div> -->
 
+## Product Management
+- **Google ADK Dev Skills:** Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". ADK provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. Browse the [ADK Dev Skills on GitHub](https://github.com/google/adk-docs/tree/main/skills).
+
 ## Technical Writing
 - Towards Data Science Associate Editor and Writer.
 - Open Data Science, freeCodeCamp, KDNuggets, Changes Unipol and Tech4future Contributor.

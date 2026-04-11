@@ -20,6 +20,27 @@ If you are interested in developing a product with me, feel free to explore the 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## Google ADK Dev Skills
+
+I was the Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". Google Agent Development Kit (ADK) provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. The skills work with any compatible tool, including Gemini CLI, Antigravity, Claude Code, and Cursor.
+
+To install the ADK development skills, run the following in your project directory:
+
+```bash
+npx skills add google/adk-docs/skills -y -g
+```
+
+Browse the [ADK Dev Skills on GitHub](https://github.com/google/adk-docs/tree/main/skills), which include:
+
+| Skill | Description |
+| :--- | :--- |
+| **adk-cheatsheet** | Python API quick reference and docs index |
+| **adk-deploy-guide** | Agent Engine and Cloud Run deployment |
+| **adk-dev-guide** | Development lifecycle and coding guidelines |
+| **adk-eval-guide** | Evaluation methodology and scoring |
+| **adk-observability-guide** | Tracing, logging, and integrations |
+| **adk-scaffold** | Project scaffolding |
+
 ## Linkaout
 
 Want to go out but don’t know what’s happening in your city? Linkaout helps you find events on a map, join to make new friends, and share events with a link so your friends can join too!

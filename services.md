@@ -11,6 +11,7 @@ I am currently open to collaborate on projects regarding:
 - Python Open Source libraries & frameworks development/documentation
 - Research/Book/Course/Projects publications
 - Blog Technical Writing
+- Product Management & Strategy
 - Angel Investment & Start-up mentoring
 - Conference Speaking
 
