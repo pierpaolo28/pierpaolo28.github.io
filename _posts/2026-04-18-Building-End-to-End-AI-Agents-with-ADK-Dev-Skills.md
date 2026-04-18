@@ -30,7 +30,7 @@ categories: [Generative AI]
 </table>
 
 
-**Putting a “Principal ADK Engineer” in every developer’s laptop**
+Putting a “Principal ADK Engineer” in every developer’s laptop
 ------------------------------------------------------------------
 
 Introduction
