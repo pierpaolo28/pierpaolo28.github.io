@@ -155,7 +155,7 @@ If you are interested in finding out more about my background and latest activit
 </div> -->
 
 ## Product Management
-- **Google ADK Dev Skills:** Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". ADK provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. Browse the [ADK Dev Skills on GitHub](https://github.com/google/adk-docs/tree/main/skills).
+- Google ADK Dev Skills: Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". ADK provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. Browse the [ADK Dev Skills on GitHub](https://github.com/google/adk-docs/tree/main/skills).
 
 ## Technical Writing
 - Towards Data Science Associate Editor and Writer.
@@ -168,7 +168,7 @@ If you are interested in finding out more about my background and latest activit
 technologies can be used to enhance AI powered applications.
 
 ## Awards & Scholarships
-- **Nova111 List (2025):** Selected as one of the [top 111 young talents in the UK](https://www.novatalent.com/111-list/the-nova-111-list-uk-2026){:target="_blank"} by Nova Talent.
+- Nova111 List (2025): Selected as one of the [top 111 young talents in the UK](https://www.novatalent.com/111-list/the-nova-111-list-uk-2026){:target="_blank"} by Nova Talent.
 - Awarded various technical cloud certifications on platforms such as [Credly](https://www.credly.com/users/pier-paolo-ippolito/badges){:target="_blank"}, [Microsoft Learn](https://docs.microsoft.com/en-us/users/pier-paolo-ippolito/){:target="_blank"}, [Coursera](https://www.coursera.org/account/accomplishments/specialization/3LZ7B94W5C63){:target="_blank"} and [Google Cloud Training](https://google.qwiklabs.com/public_profiles/e1c7f8ed-a728-4b46-a297-ad490469373a){:target="_blank"}.
 - Hursley Prize for Outstanding Computer Science Project 2018/19 (Dissertation: 89%).
 - Electronics and Computer Science 2016 Excellence Scholarship - monetary award for exceeding university requirements.
