@@ -22,7 +22,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
 
 ## Google ADK Dev Skills
 
-I was the Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". Google Agent Development Kit (ADK) provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. The skills work with any compatible tool, including Gemini CLI, Antigravity, Claude Code, and Cursor.
+Was the Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". Google Agent Development Kit (ADK) provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. The skills work with any compatible tool, including Gemini CLI, Antigravity, Claude Code, and Cursor. More details about the technical implementation are available [at this link.](/blog/blog98/)
 
 To install the ADK development skills, run the following in your project directory:
 

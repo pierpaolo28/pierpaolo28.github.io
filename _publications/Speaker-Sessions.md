@@ -193,3 +193,12 @@ What happens when Gemini analyzes your golf swing? Supported the "AI Golf Swing 
 Panel Discussion with Peter Gostev, Stefania Chaplin and Gleb Lukicov.
 
 <img src="/assets/testimonials/img/mcp_conference.jpeg" alt="drawing" style="width:350px;"/>
+
+## "Building AI Agents That Actually Remember" - MLOps Community NYC
+
+Presented "ADK Dev Skills" at the MLOps Community NYC Event ["Building AI Agents That Actually Remember"](https://luma.com/uk9vvgal){:target="\_blank"}. More details about the technical implementation are available [at this link.](/blog/blog98/)
+
+<div class="wrapper" style="text-align:center">
+  <img src="/assets/testimonials/img/MLOpsCommunityNYC.jpeg" alt="drawing" style="width:350px;"/>
+  <img src="/assets/testimonials/img/MLOpsCommunityNYC2.jpeg" alt="drawing" style="width:350px;"/>
+</div>
