@@ -20,6 +20,32 @@ If you are interested in developing a product with me, feel free to explore the 
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. _/
 </style>
 
+## Agents CLI in Agent Platform (Google)
+
+At Google Cloud Next 2026, we announced the launch of **Agents CLI in Agent Platform**. Agents CLI provides the essential command-line tools and skills required for building, testing, and deploying agents on the Gemini Enterprise Agent Platform. It truly offers an end-to-end workflow from creation to production in a single CLI. The community response was overwhelming, with the open-source repository reaching over 1K stars on GitHub in just 48 hours of launch!
+
+You can find the project repository at [GitHub - google/agents-cli](https://github.com/google/agents-cli) and the complete documentation at [Google Agents CLI Docs](https://google.github.io/agents-cli/). 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ECYKo70pPNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Google Cloud NEXT Coverage
+
+*   [A closer look at Agents CLI](https://www.youtube.com/watch?v=X-5C_LZK_Js)
+*   [What is Agent Platform explainer](https://www.youtube.com/watch?v=j8qW5poBkEU&t=178s)
+
+### Resources & Documentation
+
+*   **Launch Blogpost:** [Create to production in one CLI](https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/)
+*   **Gemini Enterprise Agent Platform Docs:**
+    *   [Quickstart](https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk)
+    *   [Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/runtime)
+    *   [Deploy an Agent](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/deploy-an-agent)
+    *   [Agent Garden](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/agent-garden)
+*   **Gemini Enterprise Docs:** [Register and manage an ADK agent](https://docs.cloud.google.com/gemini/enterprise/docs/register-and-manage-an-adk-agent)
+*   **ADK Docs:**
+    *   [Agents CLI](https://adk.dev/deploy/agent-runtime/agents-cli/)
+    *   [Coding with AI](https://adk.dev/tutorials/coding-with-ai/#agents-cli)
+
 ## Google ADK Dev Skills
 
 Was the Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". Google Agent Development Kit (ADK) provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. The skills work with any compatible tool, including Gemini CLI, Antigravity, Claude Code, and Cursor. More details about the technical implementation are available [at this link.](/blog/blog98/)
