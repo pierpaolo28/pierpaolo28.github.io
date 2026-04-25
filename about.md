@@ -155,6 +155,7 @@ If you are interested in finding out more about my background and latest activit
 </div> -->
 
 ## Product Management
+- Agents CLI in Agent Platform: Spearheaded the product strategy and announcement of the Agents CLI at Google Cloud Next 2026. This tool provides an end-to-end workflow from creation to production in a single CLI for building agents on the Gemini Enterprise Agent Platform. Browse the [Agents CLI on GitHub](https://github.com/google/agents-cli).
 - Google ADK Dev Skills: Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". ADK provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. Browse the [ADK Dev Skills on GitHub](https://github.com/google/adk-docs/tree/main/skills).
 
 ## Technical Writing
