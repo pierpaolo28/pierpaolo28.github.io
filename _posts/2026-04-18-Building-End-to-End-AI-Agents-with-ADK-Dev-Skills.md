@@ -71,7 +71,7 @@ This solves some real problems:
 Available Skills
 ----------------
 
-![Figure 1: Available ADK Dev Skills (Image by Author).](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*LHkVuJOSdwYptLbJKl3Tsg.png)
+![Figure 1: Available ADK Dev Skills (Image by Author).](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*LHkVuJOSdwYptLbJKl3Tsg.png)<br>Figure 1: Available ADK Dev Skills (Image by Author).
 
 Compatibility
 -------------
