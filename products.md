@@ -28,6 +28,11 @@ You can find the project repository at [GitHub - google/agents-cli](https://gith
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ECYKo70pPNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Google I/O 2026 Coverage
+
+*   [Agent-first workflows from prompt to production](https://io.google/2026/explore/technical-session-46)
+*   [What Google I/O '26 means for developing agents on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/io26-news-for-agent-developers-on-google-cloud?e=48754805)
+
 ### Google Cloud NEXT Coverage
 
 *   [A closer look at Agents CLI](https://www.youtube.com/watch?v=X-5C_LZK_Js)
