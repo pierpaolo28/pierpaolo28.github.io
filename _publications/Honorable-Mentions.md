@@ -65,6 +65,7 @@ Sample of mentions from publications, companies and universities:
 - [Grokipedia personal biography page](https://grokipedia.com/page/Pier_Paolo_Ippolito)
 - [GenAI in Financial Services Medium Series](https://medium.com/tag/gen-ai-fsi)
 - [Alexandre Zajac - Hungry Minds Newsletter (FDE Roadmap)](https://hungrymindsdev.substack.com/p/how-openai-scaled-postgresql-to-800m)
+- 5-Day AI Agents: Intensive Vibe Coding Course With Google Day 2 - [Whitepaper](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability) and [Livestream](https://www.youtube.com/live/PGI_S59EoRA)
 
 KDNuggets Silver and Gold posts:
 
@@ -90,7 +91,9 @@ Python Open Source Contributions and mentions:
 - [NVIDIA RAPIDS: GPU Accelerated Data Analytics & Machine Learning Tutorial](https://github.com/rapidsai-community/notebooks-contrib/blob/branch-0.12/multimedia_links.md)
 - [Awesome Streamlit: Kaggle Mushrooms Dashboard](https://github.com/MarcSkovMadsen/awesome-streamlit)
 
-## Tweets
+## Tweets / LinkedIn
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7452843079482667008" height="600" width="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">SQL is one of the most requested skills in Data Science. @Pier_Paolo_28 walks us through how it can be used in Data processing and Machine Learning using BigQuery. READ 👉 <a href="https://t.co/QzH9eYzu8r">https://t.co/QzH9eYzu8r</a> via Towards Data Science</p>&mdash; Kaggle (@kaggle) <a href="https://twitter.com/kaggle/status/1168922401050157060?ref_src=twsrc%5Etfw">September 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
