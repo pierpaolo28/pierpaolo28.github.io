@@ -66,6 +66,8 @@ Sample of mentions from publications, companies and universities:
 - [GenAI in Financial Services Medium Series](https://medium.com/tag/gen-ai-fsi)
 - [Alexandre Zajac - Hungry Minds Newsletter (FDE Roadmap)](https://hungrymindsdev.substack.com/p/how-openai-scaled-postgresql-to-800m)
 - 5-Day AI Agents: Intensive Vibe Coding Course With Google Day 2 - [Whitepaper](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability) and [Livestream](https://www.youtube.com/live/PGI_S59EoRA)
+- [Enrico Tartarotti -
+The Weird Future Of User Interfaces (min 4:11 Google Agents CLI)](https://youtu.be/f32W5BEzWN0?si=XlIjvoO0BmVexjlp&t=251)
 
 KDNuggets Silver and Gold posts:
 
