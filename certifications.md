@@ -29,6 +29,7 @@ Sample list of professional certifications achieved:
 - [Snowflake - Hands On Essentials - Data Engineering](/assets/certifications/Snowflake_DataEngineering_Badge.pdf)
 - [Snowflake - Hands On Essentials - Data Warehouse](/assets/certifications/Snowflake_DataWarehouse_Badge.pdf)
 - [Nova - Membership](/assets/certifications/nova_certificate.pdf)
+- [Nova - The Nova 111 List 2026 (Software, Cloud & IT)](/assets/certifications/nova_111_list_2026.png)
 - [W&B Effective MLOps - Model Development](/assets/certifications/W&B_Effective_MLOps.pdf)
 - [Coursera - Private Equity and Venture Capital](/assets/certifications/private_equity_bocconi.pdf)
 - [STARTUP CAMPUS - Innosuisse Business Concept Course](/assets/certifications/certificate_business concept.pdf)
