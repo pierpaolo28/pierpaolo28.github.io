@@ -22,7 +22,7 @@ categories: [Generative AI]
     <tr>
         <td>
         <ul>
-            This is a guest post originally published on <a href="https://medium.com/google-cloud/dynamic-tool-orchestration-writing-b962383842c6" target="_blank">Google Cloud - Community</a>.
+            This is a guest post originally published on <a href="https://medium.com/google-cloud/dynamic-tool-orchestration-writing-25c91c0646c5" target="_blank">Google Cloud - Community</a>.
         </ul>
         </td>
     </tr>
