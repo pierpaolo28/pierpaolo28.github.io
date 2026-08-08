@@ -72,6 +72,20 @@ Browse the [ADK Dev Skills on GitHub](https://github.com/google/adk-docs/tree/ma
 | **adk-observability-guide** | Tracing, logging, and integrations |
 | **adk-scaffold** | Project scaffolding |
 
+## Awesome Forward Deployment Engineering (FDE)
+
+The definitive guide and "Special Ops" field manual to becoming a Forward Deployed Engineer in the AI and enterprise space. Inspired by field-engineering roles at high-growth companies like Palantir, OpenAI, and Scale AI, this open-source curriculum bridges the gap between software engineering, data architecture, and client-facing strategic consulting.
+
+It provides a structured learning path covering:
+- **Technical Foundations:** Data engineering (SQL, modeling, distributed systems) and Cloud Architecture (GCP, Kubernetes, Terraform).
+- **Applied AI:** Deep dives into AI agent orchestration, LLM evaluation, and enterprise RAG implementation.
+- **Consultative Strategy:** Scoping, communication frameworks (e.g. Pyramid Principle), and managing complex client engagements.
+- **Resources & Interview Prep:** Scoping templates, case studies, and interview guides.
+
+Find the repository on [GitHub - pierpaolo28/Awesome-FDE-Roadmap](https://github.com/pierpaolo28/Awesome-FDE-Roadmap?ref=producthunt).
+
+<a href="https://www.producthunt.com/products/awesome-forward-deployment-engineering?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-awesome-forward-deployment-engineering" target="_blank" rel="noopener noreferrer"><img alt="Awesome Forward Deployment Engineering - The definitive guide to becoming an AI FDE | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1217698&amp;theme=light&amp;t=1786196088947"></a>
+
 ## Linkaout
 
 Want to go out but don’t know what’s happening in your city? Linkaout helps you find events on a map, join to make new friends, and share events with a link so your friends can join too!
