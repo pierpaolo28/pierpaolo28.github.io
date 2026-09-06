@@ -207,8 +207,24 @@ Exploring the intersection of human creativity, philosophy, and Artificial Intel
 
 <div class="thoughts-container">
 
-  <!-- Post 3: Companies as a Service (Jan 2026) -->
+  <!-- Post 9: The Sportification of Work (Sep 2026) -->
   <div class="thought-card hero-card">
+    <div class="thought-body">
+      <div class="thought-header">
+        <span class="thought-date">Sep 2026</span>
+        <h3 class="thought-title">The Sportification of Work</h3>
+      </div>
+      <div class="thought-content">
+        <p>In 1900, the streets of Manhattan hummed to the rhythm of 130k horses. They delivered the coal, hauled the streetcars, and moved the food. By 1920, the internal combustion engine had rendered them obsolete. But horses didn't vanish. Their relationship to the economy simply underwent a structural shift: they were stripped from commercial balance sheets, ceasing to be a labor requirement, and became a high-status discipline.</p>
+        <p>We saw this same pattern with archery after the firearm, and sailing after the steam turbine. Activities that once determined the survival of empires were preserved not for their economic utility, but for their cultural and psychological value. They became sports.</p>
+        <p>When AGI makes cognitive labor free, human work might undergo this exact "Sportification". Having a "job" might soon carry the same cultural status as being a competitive football player. We will still write code, build companies, and analyze markets—not for economic efficiency, but because it is difficult, it offers community, and it proves something about our humanity. The era of working to survive might be drawing to a close; working to play might just be about to begin.</p>
+      </div>
+      <a href="https://www.linkedin.com/posts/pierpaolo28_in-1900-the-streets-of-manhattan-hummed-share-7501267497346547713-sK3S/" target="_blank" class="thought-cta">View on LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Post 3: Companies as a Service (Jan 2026) -->
+  <div class="thought-card">
     <div class="thought-body">
       <div class="thought-header">
         <span class="thought-date">Jan 2026</span>
