@@ -70,6 +70,7 @@ Sample of mentions from publications, companies and universities:
 The Weird Future Of User Interfaces (min 4:11 Google Agents CLI)](https://youtu.be/f32W5BEzWN0?si=XlIjvoO0BmVexjlp&t=251)
 - [Linda Vivah - Google engineer explains Agent Evaluation vs Model Evaluation in 30 seconds](https://www.youtube.com/shorts/hApXgipVRgg)
 - [Google Careers - Day in the life of a forward deployed engineer](https://www.google.com/about/careers/applications/stories/insidegoogle/drew/?e=72477625)
+- [The AI Engineer - What is a Forward Deployed Engineer?](https://theaiengineer.substack.com/p/what-is-a-forward-deployed-engineer)
 
 KDNuggets Silver and Gold posts:
 
