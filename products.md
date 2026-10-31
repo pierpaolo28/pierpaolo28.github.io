@@ -51,6 +51,20 @@ You can find the project repository at [GitHub - google/agents-cli](https://gith
     *   [Agents CLI](https://adk.dev/deploy/agent-runtime/agents-cli/)
     *   [Coding with AI](https://adk.dev/tutorials/coding-with-ai/#agents-cli)
 
+## Google ADK Recipes (Google)
+
+Product Manager for [google/adk-recipes](https://github.com/google/adk-recipes), an open-source repository that serves as the single source of truth for building and shipping production AI agents with the Agent Development Kit (ADK).
+
+The repo is structured into three layers:
+
+| Layer | Description |
+| :--- | :--- |
+| **core/** | Reference patterns and canonical agent examples |
+| **plugins/** | Installable vertical skills (e.g. retail product search, virtual try-on) for coding assistants |
+| **contrib/** | Deployable, production-ready agent services across multiple languages |
+
+The repository streamlines the entire agent development workflow — from initial scaffolding to full deployment on Google Cloud infrastructure. The restructuring and launch was announced on the [Google Developers Blog](https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/).
+
 ## Google ADK Dev Skills
 
 Was the Product Manager behind the Google launch of "[ADK Dev Skills](https://adk.dev/tutorials/coding-with-ai/#adk-dev-skills)". Google Agent Development Kit (ADK) provides a set of development skills that cover APIs, coding patterns, deployment, and evaluation. The skills work with any compatible tool, including Gemini CLI, Antigravity, Claude Code, and Cursor. More details about the technical implementation are available [at this link.](/blog/blog98/)

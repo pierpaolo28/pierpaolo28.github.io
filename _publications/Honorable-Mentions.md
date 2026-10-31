@@ -71,6 +71,7 @@ The Weird Future Of User Interfaces (min 4:11 Google Agents CLI)](https://youtu.
 - [Linda Vivah - Google engineer explains Agent Evaluation vs Model Evaluation in 30 seconds](https://www.youtube.com/shorts/hApXgipVRgg)
 - [Google Careers - Day in the life of a forward deployed engineer](https://www.google.com/about/careers/applications/stories/insidegoogle/drew/?e=72477625)
 - [The AI Engineer - What is a Forward Deployed Engineer?](https://theaiengineer.substack.com/p/what-is-a-forward-deployed-engineer)
+- Google Developers Blog Articles: [Hill-Climbing Agent Quality with Agents CLI Evaluation](https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/), [Three layers, one repo: a tour of google/adk-recipes](https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/), [Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond](https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/)
 
 KDNuggets Silver and Gold posts:
 
